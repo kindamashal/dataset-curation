@@ -8,10 +8,10 @@ from openai import OpenAI
 
 
 data_size=500
-target_concept="where a human intentionally performs an action."
-target_constraints ="Use varied sentence openings (names, pronouns, plural forms). And avoid repeating professions."
-control_concept="describing events or processes that do NOT involve intentional human action."
-control_constraints="No humans or human decision-making. And include animals, objects, or natural phenomena."
+target_concept="a living being"
+target_constraints ="Use varied sentence openings (names, pronouns, plural forms). avoid repeating the same living beings many times"
+control_concept="anything that is non-living"
+control_constraints="Use varied sentence openings "
 
 client = Groq(    
     api_key=key

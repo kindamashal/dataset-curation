@@ -39,14 +39,7 @@ def copy_images(img_ids, target_folder):
             shutil.copy(src, dst)
 
 
-
-
 coco = COCO(annotated_file)
-# the commented code below is to check the category available in the coco dataset:
-# categories = coco.loadCats(coco.getCatIds())
-# category_names = [c["name"] for c in categories]
-# print(category_names)
-
 
 category_ids = coco.getCatIds(catNms=[target_concept])
 target_category_id = category_ids[0]
@@ -64,7 +57,6 @@ control_sample = random.sample(non_concept_imgs, control_size)
 
 copy_images(concept_sample, concept_dir)
 copy_images(control_sample, control_dir)
-
 
 
 

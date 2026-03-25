@@ -7,3 +7,6 @@ activation_extraction.py
 data
 concept_dataset
 __pycache__
+.env 
+testing_coco.py
+testing_visual_genome.py
