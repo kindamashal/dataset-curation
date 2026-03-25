@@ -1,0 +1,16 @@
+openai
+groq
+python-dotenv
+ipykernel
+ipywidgets
+instructor
+opencv-python
+pillow
+google-genai
+pycocotools
+numpy
+pydantic
+transformers
+torch
+torchvision
+jsonref
