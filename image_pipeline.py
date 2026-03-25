@@ -16,12 +16,13 @@ client = genai.Client()
 im = Image.open("Lab_Test.jpg")
 im_array = np.asarray(im.resize((896,896)))
 
+concept="person"
 token_patches={}
 
-def llm_call(img):
+def llm_call(img,concept):
     response = client.models.generate_content(
     model="gemini-3-flash-preview",
-    contents=[img,"Does the green box include human. Answer only with a yes or no, dont include other texts"])
+    contents=[img,f"Does the green box include {concept}. Answer only with a yes or no, dont include other texts"])
     return response.text
 
 def patch_classification(im_array):
@@ -45,6 +46,6 @@ def retrieve_patch_from_index(image, i,j, patch_dim=56):
     return image[i:i+56, j:j+56, :]
 
 
-patch_classification(im_array)
+patch_classification(im_array,concept)
 i,j = list(token_patches.keys())[150].split(",")
 pil_patch = Image.fromarray(retrieve_patch_from_index(im_array, int(i), int(j)))
