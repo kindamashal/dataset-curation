@@ -9,9 +9,9 @@ import urllib.request, zipfile
 target_concept = "person"
 target_concept2 = "car"
 target_concept3= ["person","car"]
-target_size = 30 
-target_size2 = 30
-target_size3 = 30
+target_size = 20 
+target_size2 = 100
+target_size3 = 100
 
 # instead of having to download the annotated file manually, you can run this commented code below:
 # url = "http://images.cocodataset.org/annotations/annotations_trainval2017.zip"
@@ -70,8 +70,8 @@ def non_concept_images(concept, size):
 
 
 copy_images(getting_concept_images(target_concept,size=target_size), folder_dataset_creation(target_concept))
-copy_images(getting_concept_images(target_concept2,size=target_size2), folder_dataset_creation(target_concept2))
-copy_images(getting_concept_images(target_concept3[0],target_concept3[1],size=target_size3), folder_dataset_creation("-".join(target_concept3)))
+# copy_images(getting_concept_images(target_concept2,size=target_size2), folder_dataset_creation(target_concept2))
+# copy_images(getting_concept_images(target_concept3[0],target_concept3[1],size=target_size3), folder_dataset_creation("-".join(target_concept3)))
 
 
 

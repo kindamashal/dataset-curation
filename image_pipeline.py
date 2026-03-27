@@ -12,7 +12,6 @@ load_dotenv()
 api_key = os.environ.get("GEMINI_API_KEY")
 client = genai.Client()
 
-
 im = Image.open("Lab_Test.jpg")
 im_array = np.asarray(im.resize((896,896)))
 
@@ -24,6 +23,7 @@ def llm_call(img,concept):
     model="gemini-3-flash-preview",
     contents=[img,f"Does the green box include {concept}. Answer only with a yes or no, dont include other texts"])
     return response.text
+
 
 def patch_classification(im_array):
     for i in range(0,896,56):
