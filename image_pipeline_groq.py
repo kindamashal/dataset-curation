@@ -12,6 +12,7 @@ import argparse
 from io import BytesIO
 import glob
 from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 load_dotenv()
 client = Groq(api_key=os.environ['GROQ_API_KEY'])
@@ -56,28 +57,35 @@ def llm_call(image,concept):
     return int(response.choices[0].message.content.strip())
 
 
+def patch_process(i,j,concept,im_array):
+
+    cv_image = im_array.copy()
+    drawing = cv2.rectangle(cv_image, (i,j), (i+56,j+56), (0,255,0),2)
+    input_img = Image.fromarray(drawing)
+
+    try:
+        answer=llm_call(input_img,concept)
+   
+    except Exception as e:
+        time.sleep(1.5)
+        answer=llm_call(input_img,concept)
+        
+    coordinates=f"{i},{j}"
+    return coordinates, answer
+
+
 
 
 def patch_classification(im_array, concept):
 
     token_patches={}
+    patches = [(i, j) for i in range(0, 896, 56) for j in range(0, 896, 56)]
 
-    for i in range(0,896,56):
-        for j in range(0,896,56):
-            
-            try:
-                cv_image = im_array.copy()
-                drawing = cv2.rectangle(cv_image, (i,j), (i+56,j+56), (0,255,0),2)
-                input = Image.fromarray(drawing)
-                answer=llm_call(input,concept)
-                coordinates=f"{i},{j}"
-                token_patches[coordinates]=answer 
-
-            except Exception as e:
-                time.sleep(1)
-                answer=llm_call(input,concept)
-                coordinates=f"{i},{j}"
-                token_patches[coordinates]=answer 
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {executor.submit(patch_process, i, j,concept,im_array): (i, j) for i, j in patches}
+        for future in tqdm(as_completed(futures), total=len(patches), desc="patches"):
+            key, answer = future.result()
+            token_patches[key] = answer
 
     return token_patches
 
@@ -85,12 +93,15 @@ def patch_classification(im_array, concept):
 
 def process_image(image_path, concept, output_dir):
 
+    image_name = os.path.splitext(os.path.basename(image_path))[0]
+    output_path = os.path.join(output_dir, f"{image_name}_patches.json")
+    if os.path.exists(output_path):
+        return
+
     im = Image.open(image_path)
     im_array = np.asarray(im.resize((896, 896)))
     token_patches = patch_classification(im_array, concept)
 
-    image_name = os.path.splitext(os.path.basename(image_path))[0]
-    output_path = os.path.join(output_dir, f"{image_name}_patches.json")
     with open(output_path, "w") as f:
         json.dump(token_patches, f, indent=2)
 
