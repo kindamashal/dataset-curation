@@ -4,14 +4,11 @@ import os
 import shutil
 import urllib.request, zipfile
 
-# note: this does exact keyword matching, later on it might be a problem when we have more specific concepts 
 
-target_concept = "person"
+target_concept1 = "person"
 target_concept2 = "car"
-target_concept3= ["person","car"]
-target_size = 20 
-target_size2 = 100
-target_size3 = 100
+target_size = 100 
+
 
 # instead of having to download the annotated file manually, you can run this commented code below:
 # url = "http://images.cocodataset.org/annotations/annotations_trainval2017.zip"
@@ -22,14 +19,14 @@ target_size3 = 100
 
 annotated_file= r"C:\Users\kinda\Documents\.1Psut\season finale\GP\dataset curation\annotations_trainval2017\annotations\instances_val2017.json"
 image_directory= r"C:\Users\kinda\Documents\.1Psut\season finale\GP\dataset curation\val2017\val2017"
-output_directory= "experimental_dataset"
+output_directory= "clean_dataset"
 coco = COCO(annotated_file)
 
 
 def folder_dataset_creation(name):
-    dir = os.path.join(output_directory, name)
-    os.makedirs(dir, exist_ok=True)
-    return dir
+    dir_ = os.path.join(output_directory, name)
+    os.makedirs(dir_, exist_ok=True)
+    return dir_
 
 
 def copy_images(img_ids, target_folder):
@@ -43,21 +40,31 @@ def copy_images(img_ids, target_folder):
             shutil.copy(src, dst)
 
 
-def getting_concept_images(concept1, concept2="",size=30):
+def getting_concept_images(main_concept, removed_concept, both_present=False,size=30):
 
-    if concept2 == "":
-        category_ids = coco.getCatIds(catNms=[concept1])
-        concept_img_ids = coco.getImgIds(catIds=category_ids)
-        print("total of the concept images found: ", len(concept_img_ids))
-    
-    else:
-        category_ids = coco.getCatIds(catNms=[concept1,concept2])
-        ids1 = set(coco.getImgIds(catIds=[category_ids[0]]))
-        ids2 = set(coco.getImgIds(catIds=[category_ids[1]]))
+    if both_present:
+        main_cat_id = coco.getCatIds(catNms=[main_concept])
+        removed_cat_id = coco.getCatIds(catNms=[removed_concept])
+
+        ids1 = set(coco.getImgIds(catIds=main_cat_id))
+        ids2 = set(coco.getImgIds(catIds=removed_cat_id))
+
         concept_img_ids = list(ids1 & ids2)
-        print("total of the concept images found: ", len(concept_img_ids))
+        print(f"total of both {main_concept} & {removed_concept} concepts images found: ", len(concept_img_ids))
 
-    return random.sample(concept_img_ids, size)
+    else:
+        main_cat_id = coco.getCatIds(catNms=[main_concept])
+        removed_cat_id = coco.getCatIds(catNms=[removed_concept])
+
+        main_ids = set(coco.getImgIds(catIds=main_cat_id))
+        removed_ids = set(coco.getImgIds(catIds=removed_cat_id))
+
+        concept_img_ids = list(main_ids - removed_ids)
+        print(f"total of the {main_concept} concept images found: ", len(concept_img_ids))
+
+    return random.sample(concept_img_ids, min(size, len(concept_img_ids)))
+
+
 
 def non_concept_images(concept, size):
     all_imgs = set(coco.getImgIds())
@@ -69,9 +76,9 @@ def non_concept_images(concept, size):
 
 
 
-copy_images(getting_concept_images(target_concept,size=target_size), folder_dataset_creation(target_concept))
-# copy_images(getting_concept_images(target_concept2,size=target_size2), folder_dataset_creation(target_concept2))
-# copy_images(getting_concept_images(target_concept3[0],target_concept3[1],size=target_size3), folder_dataset_creation("-".join(target_concept3)))
+copy_images(getting_concept_images(target_concept1,target_concept2,size=target_size), folder_dataset_creation(target_concept1))
+copy_images(getting_concept_images(target_concept2,target_concept1,size=target_size), folder_dataset_creation(target_concept2))
+copy_images(getting_concept_images(target_concept1,target_concept2,both_present=True,size=target_size), folder_dataset_creation(target_concept1+'_&_'+target_concept2))
 
 
 
