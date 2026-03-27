@@ -49,3 +49,4 @@ def retrieve_patch_from_index(image, i,j, patch_dim=56):
 patch_classification(im_array,concept)
 i,j = list(token_patches.keys())[150].split(",")
 pil_patch = Image.fromarray(retrieve_patch_from_index(im_array, int(i), int(j)))
+
