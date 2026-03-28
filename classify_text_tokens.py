@@ -6,10 +6,15 @@ from transformers import AutoProcessor
 from dotenv import load_dotenv
 import json
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from tqdm import tqdm
 
 load_dotenv()
 
 processor = AutoProcessor.from_pretrained("google/gemma-3-27b-it")
+TEXT_DIR = "text_dataset"
+OUT_DIR = "text_dataset_classified"
+CONCEPT = "a person"
 
 prompt = """
 You are given:
@@ -25,8 +30,8 @@ DEFINITION OF "BELONGING TO CONCEPT"
 -------------------------------------
 A token should be labeled:
 
-- 1 → if it clearly falls under, represents, or is strongly associated with the concept
-- 0 → otherwise
+- "1" → if it clearly falls under, represents, or is strongly associated with the concept
+- "0" → otherwise
 
 This includes:
 - Direct matches (e.g., "red" for the concept "color")
@@ -52,27 +57,27 @@ OUTPUT FORMAT (STRICT)
 Return a valid JSON object:
 
 - Keys: EXACT tokens from the input list (unchanged)
-- Values: 1 or 0 only
+- Values: "1" or "0" only
 
 Example format:
 {{
-    "token1": 1,
-    "token2": 0
+    "token1": "1",
+    "token2": "0",
 }}
 
 -------------------------------------
 EXAMPLES
 -------------------------------------
 Concept: "color"
-- "red" → 1
-- "blue" → 1
-- "table" → 0
+- "red" → "1"
+- "blue" → "1"
+- "table" → "0"
 
 Concept: "person"
-- "John" → 1
-- "she" → 1
-- "teacher" → 1
-- "car" → 0
+- "John" → "1"
+- "she" → "1"
+- "teacher" → "1"
+- "car" → "0"
 
 -------------------------------------
 NOW PERFORM THE TASK
@@ -83,25 +88,11 @@ Tokens: {tokens}
 Return ONLY the JSON object. No explanation, no extra text.
 """
 
-vlm_prompt = """
-The old philosopher used to say that thought itself has color, though most people move through their days in a gray fog and never notice it. When he spoke, he would point to the hills at dusk and say that understanding begins in the moment when the pale blue of the sky meets the slow red of the descending sun. That red, he said, is not merely a color but a condition of awareness. A mind that burns red with attention can see what a mind lost in dull brown habits cannot.
-
-On certain evenings the valley would fill with color so intensely that it seemed like an argument being made by the world itself. The roofs turned rust red, the olive trees held a quiet green, and the long shadows stretched in soft black across the dusty yellow road. Each color stood beside another color as if the world were arranging a palette: green against red, black against yellow, violet clouds behind the orange horizon. The philosopher insisted that ideas arise the same way. One thought stands bright white beside a darker black doubt, and between the white certainty and the black hesitation a new shade appears—perhaps a thoughtful gray, perhaps a dangerous crimson.
-
-He wrote once that every moral struggle could be described as a contest of colors. The impatient man burns with sharp red impulses, while the cautious man retreats into blue reflection. Envy carries a sickly green tint, not the lively green of spring leaves but the green of stagnant water. Hope, by contrast, moves like light yellow across a morning wall, touching brown wood and gray stone until even the black corners begin to soften. The philosopher warned that when too many colors are ignored, the mind becomes colorless. A colorless mind, he said, is the most dangerous of all, because it mistakes its pale gray neutrality for wisdom.
-
-Walking through the town market one afternoon, he tried to illustrate the point to a skeptical student. They passed baskets of red tomatoes, dark purple figs, bright orange carrots, and glossy green peppers. Cloth merchants hung deep blue fabrics beside strips of black velvet and pale white linen. "Look carefully," he said. "This market is a map of consciousness." The student laughed at first, but the philosopher continued patiently. "When you think, you do not move in empty space. Your thoughts are like these colors. A sharp black judgment placed beside a gentle green patience changes both. A red anger beside a cool blue memory becomes something else entirely."
-
-Later, as the evening spread a long violet band across the sky, the student began to understand what the old man meant. The world itself seemed to be thinking. The green hills faded into dark blue distance, the red roofs softened into brown shadows, and the bright white moon appeared quietly above the black outline of the cypress trees. In that slow exchange of colors—red to brown, blue to black, green to gray—the student sensed a philosophy that could not be written in simple propositions.
-
-The philosopher himself concluded the passage in his notebook with a curious line: that wisdom is not the absence of color but the ability to hold many colors at once. The mind must allow the calm blue of reflection, the urgent red of action, the patient green of growth, and even the severe black of doubt. Only when these colors remain visible—red beside blue, green beside yellow, black beside white—does thought become deep enough to resemble the living world.
-"""
-
 # JSON schema matching TokenClassification model
 TOKEN_CLASSIFICATION_SCHEMA = {
     "type": "object",
     "properties": {
-        "labels": {"type": "object", "additionalProperties": {"type": "integer"}}
+        "labels": {"type": "object", "additionalProperties": {"type": "string"}}
     },
     "required": ["labels"],
     "additionalProperties": False,
@@ -109,10 +100,11 @@ TOKEN_CLASSIFICATION_SCHEMA = {
 
 
 class TokenClassification(BaseModel):
-    labels: Dict[str, int]
+    labels: Dict[str, str]
 
 
 groq_client = Groq()
+gemini_client = genai.Client(api_key=os.getenv("GEMINI_API_KEY_PAID"))
 
 
 def classify_tokens(tokens: List[str], concept: str) -> TokenClassification:
@@ -133,7 +125,6 @@ def classify_tokens(tokens: List[str], concept: str) -> TokenClassification:
     return TokenClassification(labels=raw)
 
 
-gemini_client = genai.Client()
 
 
 def classify_tokens_gemini(tokens: List[str], concept: str) -> TokenClassification:
@@ -150,15 +141,39 @@ def classify_tokens_gemini(tokens: List[str], concept: str) -> TokenClassificati
 
     return TokenClassification.model_validate_json(response.text)
 
+def batch_classify(dataset_path: str) -> Dict[int, TokenClassification]:
+    concept = CONCEPT
+    tokenized = []
+    for i,vlm_prompt in enumerate(json.load(open(dataset_path))):
+        tokens = []
+        for token in processor.tokenizer(vlm_prompt)["input_ids"]:
+            decoded = processor.decode(token, skip_special_tokens=True)
+            if decoded.strip():
+                tokens.append(decoded)
+        tokenized.append((i,tokens))
+    final_ret = {}
+    with ThreadPoolExecutor(max_workers=50) as executor:
+        futures = {executor.submit(classify_tokens_gemini, tokens, concept): i for i, tokens in tokenized}
+        for future in tqdm(as_completed(futures), total=len(tokenized), desc="paragraphs"):
+            i = futures[future]
+            try:
+                classified = future.result()
+                final_ret[i] = classified
+            except Exception as e:
+                final_ret[i] = TokenClassification(labels={"error": f"{type(e).__name__}: {e}"})
 
-tokens = []
-for token in processor.tokenizer(vlm_prompt)["input_ids"]:
-    decoded = processor.decode(token, skip_special_tokens=True)
-    if decoded.strip():
-        tokens.append(decoded)
+    
+    return final_ret
 
-print("=== Groq (Llama 3.3 70B) ===")
-print(classify_tokens(tokens, "color"))
+if __name__=="__main__":
+    #TODO: Add argparse
+    os.makedirs(OUT_DIR, exist_ok=True)
+    for file in os.listdir(TEXT_DIR):
+        if file.endswith("json"):
+            classification = batch_classify(os.path.join(TEXT_DIR, file))
+            classification = {i:j.model_dump() for i,j in classification.items()}
+            json.dump(classification, open(f"{OUT_DIR}/{file.split('.')[0]}_classified.json", "w"))
 
-print("\n=== Gemini 2.5 Flash ===")
-print(classify_tokens_gemini(tokens, "color"))
+
+
+
