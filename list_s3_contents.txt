@@ -1,0 +1,1 @@
+aws s3 ls --profile runpod --endpoint-url https://s3api-eu-cz-1.runpod.io  s3://ukl6ief5oy/
