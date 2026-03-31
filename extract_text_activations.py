@@ -23,8 +23,8 @@ for layer in layers_of_interest:
 
 
 
-def prepare_text_activation(prompts, classes, layers_of_interest=[10,30,50], batch_size=32, top_k=20, concept=True, ret_full_feats=False):
-    if ret_full_feats:
+def prepare_text_activation(prompts, classes, layers_of_interest=[10,30,50], batch_size=32, top_k=20, concept=True, features_of_interest=None):
+    if features_of_interest:
         full_feats = {layer:[] for layer in layers_of_interest}
     top_activation_dict = {layer:{"top_values":[],"top_indices":[]} for layer in layers_of_interest}
     layer_SAEs = {}
@@ -82,17 +82,20 @@ def prepare_text_activation(prompts, classes, layers_of_interest=[10,30,50], bat
         for layer in layers_of_interest:
             with torch.no_grad():
                 feats = layer_SAEs[layer](activations[layer].to(dtype=torch.float32), output_features=True)[1]
-                if ret_full_feats:
-                    full_feats[layer].append(feats.detach().float().cpu().tolist())
+                if features_of_interest:
+                    full_feats[layer].append((feats[:,:features_of_interest[layer]].detach().cpu()).tolist())
                 feats = feats.flatten(end_dim=1)[concept_token_indices]
                 top_feature_values, top_feature_indices = feats.abs().sum(dim=0).topk(top_k)
                 top_activation_dict[layer]["top_values"].append(top_feature_values.detach().float().cpu().tolist())
                 top_activation_dict[layer]["top_indices"].append(top_feature_indices.detach().float().cpu().tolist())
+    if features_of_interest:
+        return full_feats
     return top_activation_dict
 
 if __name__=="__main__":
     prompts = json.load(open(f"{TEXT_DIR}/text_concept_a_person.json"))
     classes = json.load(open(f"{TEXT_DIR}_classified/text_concept_a_person_classified.json"))
-    top_activations_dict = prepare_text_activation(prompts=prompts, classes=classes, layers_of_interest=layers_of_interest, batch_size=2)
-    with open("text_feature_discovery.json","w") as f:
+    features_of_interest = {10:[34824, 44870, 15559, 50078],30:[28532, 23389, 6189, 50004, 43399, 37971, 50367, 1074, 71976, 19441], 59:[45436, 35999, 50771, 48678, 65885, 63081, 5405]}
+    top_activations_dict = prepare_text_activation(prompts=prompts, classes=classes, layers_of_interest=layers_of_interest, batch_size=2, features_of_interest=features_of_interest)
+    with open("text_feature_discovery_full.json","w") as f:
         json.dump(top_activations_dict, f)
