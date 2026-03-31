@@ -23,7 +23,9 @@ for layer in layers_of_interest:
 
 
 
-def prepare_text_activation(prompts, classes, layers_of_interest=[10,30,50], batch_size=32, top_k=20, concept=True):
+def prepare_text_activation(prompts, classes, layers_of_interest=[10,30,50], batch_size=32, top_k=20, concept=True, ret_full_feats=False):
+    if ret_full_feats:
+        full_feats = {layer:[] for layer in layers_of_interest}
     top_activation_dict = {layer:{"top_values":[],"top_indices":[]} for layer in layers_of_interest}
     layer_SAEs = {}
     for layer in layers_of_interest:
@@ -80,6 +82,8 @@ def prepare_text_activation(prompts, classes, layers_of_interest=[10,30,50], bat
         for layer in layers_of_interest:
             with torch.no_grad():
                 feats = layer_SAEs[layer](activations[layer].to(dtype=torch.float32), output_features=True)[1]
+                if ret_full_feats:
+                    full_feats[layer].append(feats.detach().float().cpu().tolist())
                 feats = feats.flatten(end_dim=1)[concept_token_indices]
                 top_feature_values, top_feature_indices = feats.abs().sum(dim=0).topk(top_k)
                 top_activation_dict[layer]["top_values"].append(top_feature_values.detach().float().cpu().tolist())
