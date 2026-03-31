@@ -83,7 +83,7 @@ def prepare_text_activation(prompts, classes, layers_of_interest=[10,30,50], bat
             with torch.no_grad():
                 feats = layer_SAEs[layer](activations[layer].to(dtype=torch.float32), output_features=True)[1]
                 if features_of_interest:
-                    full_feats[layer].append((feats[:,:features_of_interest[layer]].detach().cpu()).tolist())
+                    full_feats[layer].append((feats[:,:,features_of_interest[layer]].detach().cpu()).tolist())
                 feats = feats.flatten(end_dim=1)[concept_token_indices]
                 top_feature_values, top_feature_indices = feats.abs().sum(dim=0).topk(top_k)
                 top_activation_dict[layer]["top_values"].append(top_feature_values.detach().float().cpu().tolist())
@@ -95,6 +95,7 @@ def prepare_text_activation(prompts, classes, layers_of_interest=[10,30,50], bat
 if __name__=="__main__":
     prompts = json.load(open(f"{TEXT_DIR}/text_concept_a_person.json"))
     classes = json.load(open(f"{TEXT_DIR}_classified/text_concept_a_person_classified.json"))
+    #TODO: Add keys for which features the activation belongs to when saving them for visualization
     features_of_interest = {10:[34824, 44870, 15559, 50078],30:[28532, 23389, 6189, 50004, 43399, 37971, 50367, 1074, 71976, 19441], 59:[45436, 35999, 50771, 48678, 65885, 63081, 5405]}
     top_activations_dict = prepare_text_activation(prompts=prompts, classes=classes, layers_of_interest=layers_of_interest, batch_size=2, features_of_interest=features_of_interest)
     with open("text_feature_discovery_full.json","w") as f:
