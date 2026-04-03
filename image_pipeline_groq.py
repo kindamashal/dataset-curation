@@ -1,4 +1,3 @@
-# a demo 
 from PIL import Image
 import os
 from dotenv import load_dotenv
@@ -67,7 +66,7 @@ def patch_process(i,j,concept,im_array):
         answer=llm_call(input_img,concept)
    
     except Exception as e:
-        time.sleep(1.5)
+        time.sleep(3)
         answer=llm_call(input_img,concept)
         
     coordinates=f"{i},{j}"

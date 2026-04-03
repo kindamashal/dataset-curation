@@ -17,6 +17,9 @@ target_size = 100
 #     z.extractall(".")
 
 
+
+
+
 annotated_file= r"C:\Users\kinda\Documents\.1Psut\season finale\GP\dataset curation\annotations_trainval2017\annotations\instances_val2017.json"
 image_directory= r"C:\Users\kinda\Documents\.1Psut\season finale\GP\dataset curation\val2017\val2017"
 output_directory= "clean_dataset"
@@ -40,27 +43,34 @@ def copy_images(img_ids, target_folder):
             shutil.copy(src, dst)
 
 
-def getting_concept_images(main_concept, removed_concept, both_present=False,size=30):
 
-    if both_present:
-        main_cat_id = coco.getCatIds(catNms=[main_concept])
-        removed_cat_id = coco.getCatIds(catNms=[removed_concept])
+def getting_both_concept_images(first_concept, second_concept,size=30):
 
-        ids1 = set(coco.getImgIds(catIds=main_cat_id))
-        ids2 = set(coco.getImgIds(catIds=removed_cat_id))
+    concept1_cat_id = coco.getCatIds(catNms=[first_concept])
+    concept2_cat_id = coco.getCatIds(catNms=[second_concept])
 
-        concept_img_ids = list(ids1 & ids2)
-        print(f"total of both {main_concept} & {removed_concept} concepts images found: ", len(concept_img_ids))
+    ids1 = set(coco.getImgIds(catIds=concept1_cat_id))
+    ids2 = set(coco.getImgIds(catIds=concept2_cat_id))
 
-    else:
-        main_cat_id = coco.getCatIds(catNms=[main_concept])
-        removed_cat_id = coco.getCatIds(catNms=[removed_concept])
+    concept_img_ids = list(ids1 & ids2)
+    print(f"total of both {first_concept} & {second_concept} concepts images found: ", len(concept_img_ids))
 
-        main_ids = set(coco.getImgIds(catIds=main_cat_id))
-        removed_ids = set(coco.getImgIds(catIds=removed_cat_id))
+    return random.sample(concept_img_ids, min(size, len(concept_img_ids)))
 
-        concept_img_ids = list(main_ids - removed_ids)
-        print(f"total of the {main_concept} concept images found: ", len(concept_img_ids))
+
+
+
+
+def getting_one_concept_images(main_concept, remove_concept, both_present=False,concept_present="",size=30):
+
+    main_cat_id = coco.getCatIds(catNms=[main_concept])
+    removed_cat_id = coco.getCatIds(catNms=[remove_concept])
+
+    main_ids = set(coco.getImgIds(catIds=main_cat_id))
+    removed_ids = set(coco.getImgIds(catIds=removed_cat_id))
+
+    concept_img_ids = list(main_ids - removed_ids)
+    print(f"total of the {main_concept} concept images found: ", len(concept_img_ids))
 
     return random.sample(concept_img_ids, min(size, len(concept_img_ids)))
 
@@ -76,9 +86,12 @@ def non_concept_images(concept, size):
 
 
 
-copy_images(getting_concept_images(target_concept1,target_concept2,size=target_size), folder_dataset_creation(target_concept1))
-copy_images(getting_concept_images(target_concept2,target_concept1,size=target_size), folder_dataset_creation(target_concept2))
-copy_images(getting_concept_images(target_concept1,target_concept2,both_present=True,size=target_size), folder_dataset_creation(target_concept1+'_&_'+target_concept2))
+
+
+
+# copy_images(getting_concept_images(target_concept1,target_concept2,size=target_size), folder_dataset_creation(target_concept1))
+# copy_images(getting_concept_images(target_concept2,target_concept1,size=target_size), folder_dataset_creation(target_concept2))
+# copy_images(getting_concept_images(target_concept1,target_concept2,both_present=True,size=target_size), folder_dataset_creation(target_concept1+'_&_'+target_concept2))
 
 
 
