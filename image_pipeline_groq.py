@@ -28,32 +28,42 @@ def encode_image(pil_img):
 
 
 
-def llm_call(image,concept):
-
+def llm_call(image, concept, retries=5):
     base64_image = encode_image(image)
 
-    response = client.chat.completions.create(
-        model="meta-llama/llama-4-scout-17b-16e-instruct",
-        messages=[
-            {
-                "role": "user",
-                "content": [
+    for attempt in range(retries):
+        try:
+            response = client.chat.completions.create(
+                model="meta-llama/llama-4-scout-17b-16e-instruct",
+                messages=[
                     {
-                        "type": "text",
-                        "text": f"Does the green box include {concept}? Answer only with 1 for yes or 0 for no, no other text."
-                    },
-                    {
-                        "type": "image_url",
-                        "image_url": {
-                            "url": f"data:image/jpeg;base64,{base64_image}"
-                        }
+                        "role": "user",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": f"Does the green box include {concept}? Answer only with 1 for yes or 0 for no, no other text."
+                            },
+                            {
+                                "type": "image_url",
+                                "image_url": {
+                                    "url": f"data:image/jpeg;base64,{base64_image}"
+                                }
+                            }
+                        ]
                     }
-                ]
-            }
-        ],
-    )
+                ],
+            )
+            return int(response.choices[0].message.content.strip())
 
-    return int(response.choices[0].message.content.strip())
+        except Exception as e:
+            if "429" in str(e) or "rate_limit" in str(e).lower():
+                wait = min(60, 5 * (2 ** attempt))  
+                print(f"\nRate limited. Waiting {wait}s before retry {attempt+1}/{retries}...")
+                time.sleep(wait)
+            else:
+                raise e  
+
+    raise Exception("Max retries exceeded due to rate limiting.")
 
 
 def patch_process(i,j,concept,im_array):
@@ -61,15 +71,9 @@ def patch_process(i,j,concept,im_array):
     cv_image = im_array.copy()
     drawing = cv2.rectangle(cv_image, (i,j), (i+56,j+56), (0,255,0),2)
     input_img = Image.fromarray(drawing)
-
-    try:
-        answer=llm_call(input_img,concept)
-   
-    except Exception as e:
-        time.sleep(3)
-        answer=llm_call(input_img,concept)
-        
+    answer=llm_call(input_img,concept)
     coordinates=f"{i},{j}"
+
     return coordinates, answer
 
 
@@ -80,7 +84,7 @@ def patch_classification(im_array, concept):
     token_patches={}
     patches = [(i, j) for i in range(0, 896, 56) for j in range(0, 896, 56)]
 
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=3) as executor:
         futures = {executor.submit(patch_process, i, j,concept,im_array): (i, j) for i, j in patches}
         for future in tqdm(as_completed(futures), total=len(patches), desc="patches"):
             key, answer = future.result()

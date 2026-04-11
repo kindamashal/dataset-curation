@@ -8,7 +8,7 @@ from ultralytics import YOLO
 
 target_concept1 = "person"
 target_concept2 = "car"
-target_size = 100 
+target_size = 150 
 
 
 # instead of having to download the annotated file manually, you can run this commented code below:
@@ -23,7 +23,7 @@ target_size = 100
 
 annotated_file= r"C:\Users\kinda\Documents\.1Psut\season finale\GP\dataset curation\annotations_trainval2017\annotations\instances_val2017.json"
 image_directory= r"C:\Users\kinda\Documents\.1Psut\season finale\GP\dataset curation\val2017\val2017"
-output_directory= "clean_dataset"
+output_directory= "testing_area_image"
 coco = COCO(annotated_file)
 model = YOLO("yolo26n.pt")
 
@@ -46,11 +46,14 @@ def copy_images(img_ids, target_folder):
 
 
 
-def visible_concepts(image,concept,box_size):
+def visible_concepts(image_id,image,concept,percentage=0.3):
 
     results = model(image)
+
+    img_info = coco.loadImgs(image_id)[0]
+    total_image_area = img_info["width"] * img_info["height"]
     
-    area_concept=[]
+  
     for result in results:
         boxes = result.boxes 
 
@@ -66,12 +69,13 @@ def visible_concepts(image,concept,box_size):
                 width = x2 - x1
                 height = y2 - y1
                 area= width*height
-                area_concept.append(area)
+            
+
+                if (area / total_image_area) > percentage:
+                    return True
  
     
-    for area in area_concept:
-        if area>box_size:
-            return True
+    return False
 
 
 
@@ -93,8 +97,8 @@ def getting_both_concept_images(first_concept, second_concept,size=30,diversity=
         for id in image_ids:
             img = coco.loadImgs(id)[0]
             src = os.path.join(image_directory, img["file_name"])
-            area1=visible_concepts(src,first_concept,10000)
-            area2=visible_concepts(src,second_concept,10000)
+            area1=visible_concepts(id,src,first_concept,0.2)
+            area2=visible_concepts(id,src,second_concept,0.2)
             if area1 and area2:
                 final_list.append(id)
         
@@ -122,8 +126,8 @@ def getting_one_concept_images(main_concept, remove_concept,size=30, diversity=F
         for id in image_ids:
             img = coco.loadImgs(id)[0]
             src = os.path.join(image_directory, img["file_name"])
-            area=visible_concepts(src,main_concept,30000)
-            if area:
+            visible=visible_concepts(id,src,main_concept)
+            if visible:
                 final_list.append(id)
         
         return final_list
