@@ -80,7 +80,7 @@ def patch_classification(im_array, concept):
     token_patches={}
     patches = [(i, j) for i in range(0, 896, 56) for j in range(0, 896, 56)]
 
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         futures = {executor.submit(patch_process, i, j,concept,im_array): (i, j) for i, j in patches}
         for future in tqdm(as_completed(futures), total=len(patches), desc="patches"):
             key, answer = future.result()
