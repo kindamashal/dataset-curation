@@ -7,7 +7,7 @@ from tqdm import tqdm
 import glob
 import os 
 
-image_dir=r"/workspace/Dataset-Curation/experimental_dataset/person"
+image_dir=r"/workspace/Dataset-Curation/clean_dataset/person"
 patches_dir=r"/workspace/Dataset-Curation/images_patches/all_image_patches.json"
 device = "cuda:0"
 model_id = "google/gemma-3-27b-it"
@@ -121,7 +121,7 @@ if __name__=="__main__":
     #TODO: Add keys for which features the activation belongs to when saving them for visualization
     #features_of_interest = {10:[34824, 44870, 15559, 50078],30:[28532, 23389, 6189, 50004, 43399, 37971, 50367, 1074, 71976, 19441], 59:[45436, 35999, 50771, 48678, 65885, 63081, 5405]}
     top_activations_dict = prepare_text_activation(images=images, patches=patches, layers_of_interest=layers_of_interest,concept=False)
-    with open("non_concept_image_feature_discovery_full.json","w") as f:
+    with open("non_concept_image_feature_discovery_2nd.json","w") as f:
         json.dump(top_activations_dict, f)
 
 
