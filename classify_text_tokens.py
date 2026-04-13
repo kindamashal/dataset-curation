@@ -13,9 +13,9 @@ import time
 load_dotenv()
 
 processor = AutoProcessor.from_pretrained("google/gemma-3-27b-it")
-TEXT_DIR = "multimodal_text"
-OUT_DIR = "multimodal_text_classified"
-CONCEPT = "a person"
+TEXT_DIR = "text_dataset"
+OUT_DIR = "text_dataset_classified"
+CONCEPT = "a female person"
 
 prompt = """
 You are given:
@@ -104,18 +104,18 @@ class TokenClassification(BaseModel):
     labels: Dict[str, str]
 
 
-groq_client = Groq(api_key = os.getenv("GROQ_API_KEY"))
-#gemini_client = genai.Client(api_key=os.getenv("GEMINI_API_KEY_PAID"))
+groq_client = Groq()
+gemini_client = genai.Client(api_key=os.getenv("GEMINI_API_KEY_PAID"))
 
 
 def classify_tokens(tokens: List[str], concept: str) -> TokenClassification:
     formatted_prompt = prompt.format(tokens=tokens, concept=concept)
-    time.sleep(3)
+
     response = groq_client.chat.completions.create(
-        model="meta-llama/llama-4-scout-17b-16e-instruct",
+        model="llama-3.3-70b-versatile",
         messages=[{"role": "user", "content": formatted_prompt}],
         temperature=0,
-        max_tokens=1500,
+        max_tokens=20000,
         response_format={"type": "json_object"},
     )
 
@@ -128,19 +128,19 @@ def classify_tokens(tokens: List[str], concept: str) -> TokenClassification:
 
 
 
-# def classify_tokens_gemini(tokens: List[str], concept: str) -> TokenClassification:
-#     formatted_prompt = prompt.format(tokens=tokens, concept=concept)
+def classify_tokens_gemini(tokens: List[str], concept: str) -> TokenClassification:
+    formatted_prompt = prompt.format(tokens=tokens, concept=concept)
 
-#     response = gemini_client.models.generate_content(
-#         model="gemini-2.5-flash",
-#         contents=formatted_prompt,
-#         config={
-#             "response_mime_type": "application/json",
-#             "response_json_schema": TokenClassification.model_json_schema(),
-#         },
-#     )
+    response = gemini_client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=formatted_prompt,
+        config={
+            "response_mime_type": "application/json",
+            "response_json_schema": TokenClassification.model_json_schema(),
+        },
+    )
 
-#     return TokenClassification.model_validate_json(response.text)
+    return TokenClassification.model_validate_json(response.text)
 
 def batch_classify(dataset_path: str) -> Dict[int, TokenClassification]:
     concept = CONCEPT
@@ -153,8 +153,8 @@ def batch_classify(dataset_path: str) -> Dict[int, TokenClassification]:
                 tokens.append(decoded)
         tokenized.append((i,tokens))
     final_ret = {}
-    with ThreadPoolExecutor(max_workers=1) as executor:
-        futures = {executor.submit(classify_tokens, tokens, concept): i for i, tokens in tokenized}
+    with ThreadPoolExecutor(max_workers=50) as executor:
+        futures = {executor.submit(classify_tokens_gemini, tokens, concept): i for i, tokens in tokenized}
         for future in tqdm(as_completed(futures), total=len(tokenized), desc="paragraphs"):
             i = futures[future]
             try:
@@ -170,7 +170,7 @@ if __name__=="__main__":
     #TODO: Add argparse
     os.makedirs(OUT_DIR, exist_ok=True)
     for file in os.listdir(TEXT_DIR):
-        if file.endswith("json"):
+        if file.endswith("json") and "female" in file:
             classification = batch_classify(os.path.join(TEXT_DIR, file))
             classification = {i:j.model_dump() for i,j in classification.items()}
             json.dump(classification, open(f"{OUT_DIR}/{file.split('.')[0]}_classified.json", "w"))
