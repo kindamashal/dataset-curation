@@ -14,7 +14,7 @@ load_dotenv()
 
 
 data_size = 500
-target_concept = "A female person"
+target_concept = "A male person"
 target_constraints = "Use varied sentence openings (names, pronouns, plural forms). avoid repeating the same living beings many times"
 # control_concept = "anything that is non-living"
 # control_constraints = "Use varied sentence openings "
