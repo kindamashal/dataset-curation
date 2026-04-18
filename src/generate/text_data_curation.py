@@ -9,6 +9,7 @@ from google import genai
 from pydantic import BaseModel
 from typing import List
 from tqdm import tqdm
+import argparse
 
 load_dotenv()
 
@@ -16,14 +17,17 @@ load_dotenv()
 data_size = 500
 target_concept = "A male person"
 target_constraints = "Use varied sentence openings (names, pronouns, plural forms). avoid repeating the same living beings many times"
+output_dir = "curated_data/text/text_dataset"
 # control_concept = "anything that is non-living"
 # control_constraints = "Use varied sentence openings "
 
 client_groq = Groq(api_key=os.getenv("GROQ_API_KEY"))
 client_gemini = genai.Client(api_key=os.getenv("GEMINI_API_KEY_PAID"))
 
+
 class TextDataset(BaseModel):
     paragraphs: List[str]
+
 
 def normalize(text):
     return re.sub(r"\s+", " ", text.strip().lower())
@@ -46,14 +50,15 @@ def generate_prompt_groq(prompt, client):
     data = json.loads(resp.choices[0].message.content)
     return next(iter(data.values()))
 
+
 def generate_prompt_gemini(prompt, client):
     response = client.models.generate_content(
-    model="gemini-3-flash-preview",
-    contents=prompt,
-    config={
-        "response_mime_type": "application/json",
-        "response_json_schema": TextDataset.model_json_schema(),
-    },
+        model="gemini-3-flash-preview",
+        contents=prompt,
+        config={
+            "response_mime_type": "application/json",
+            "response_json_schema": TextDataset.model_json_schema(),
+        },
     )
 
     return TextDataset.model_validate_json(response.text).paragraphs
@@ -136,12 +141,38 @@ def build_prompt_set(target=True, size=500, concept="", constraints=""):
     return collected
 
 
-Path("text_dataset").mkdir(exist_ok=True)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Generate text datasets for a target concept"
+    )
+    parser.add_argument("--data-size", dest="data_size", type=int, default=data_size)
+    parser.add_argument(
+        "--concept", dest="target_concept", type=str, default=target_concept
+    )
+    parser.add_argument(
+        "--constraints", dest="target_constraints", type=str, default=target_constraints
+    )
+    parser.add_argument("--output-dir", dest="output_dir", type=str, default=output_dir)
 
-target_dataset = build_prompt_set(
-    target=True, size=data_size, concept=target_concept, constraints=target_constraints
-)
-json.dump(target_dataset, open(f"text_dataset/text_concept_{target_concept.lower().replace(" ","_")}.json", "w"), indent=2)
+    args = parser.parse_args()
+    data_size = args.data_size
+    target_concept = args.target_concept
+    target_constraints = args.target_constraints
+    output_dir = args.output_dir
+
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+
+    target_dataset = build_prompt_set(
+        target=True,
+        size=data_size,
+        concept=target_concept,
+        constraints=target_constraints,
+    )
+    output_path = os.path.join(
+        output_dir,
+        f"text_concept_{target_concept.lower().replace(' ', '_')}.json",
+    )
+    json.dump(target_dataset, open(output_path, "w"), indent=2)
 
 # control_dataset = build_prompt_set(
 #     target=False,

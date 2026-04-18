@@ -1,4 +1,4 @@
-import os 
+import os
 from groq import Groq
 import json
 import base64
@@ -8,14 +8,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = Groq(api_key=os.environ['GROQ_API_KEY'])
+client = Groq(api_key=os.environ["GROQ_API_KEY"])
+
 
 def encode_image(image_path):
-  with open(image_path, "rb") as image_file:
-    return base64.b64encode(image_file.read()).decode('utf-8')
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode("utf-8")
+
 
 def produce_text(image_path, concept_dictionary, mention):
-
     base64_image = encode_image(image_path)
 
     prompt = f"""
@@ -33,10 +34,10 @@ def produce_text(image_path, concept_dictionary, mention):
         If the concept itself isn't present in the image don't bring it up, don't make all questions revolve about the concept itself,
         make it the primary topic but not the only one.
         """
-    
+
     if mention:
-        prompt += "\nIf the concepts are not shown in the image , still mention them lightly in the prompt" 
-    else: 
+        prompt += "\nIf the concepts are not shown in the image , still mention them lightly in the prompt"
+    else:
         prompt += "\nIf the concepts are not shown in the image, DO NOT MENTION THEM IN THE PROMPT"
 
     completion = client.chat.completions.create(
@@ -45,17 +46,12 @@ def produce_text(image_path, concept_dictionary, mention):
             {
                 "role": "user",
                 "content": [
-                    {
-                        "type": "text",
-                        "text": prompt
-                    },
+                    {"type": "text", "text": prompt},
                     {
                         "type": "image_url",
-                        "image_url": {
-                            "url": f"data:image/jpeg;base64,{base64_image}"
-                        }
-                    }
-                ]
+                        "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"},
+                    },
+                ],
             }
         ],
     )
@@ -63,30 +59,42 @@ def produce_text(image_path, concept_dictionary, mention):
     return completion.choices[0].message.content
 
 
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Generate multimodal prompts for images"
+    )
 
-if __name__ == '__main__': 
-    parser = argparse.ArgumentParser()
-
-    parser.add_argument("--image_folder", required=True, type=str)
-    parser.add_argument("--concepts_path", required=True, type=str)
-    parser.add_argument("-i", help="Include concept even if not in image", required=True, type=bool)
-    parser.add_argument("--save_path", required=False, type=str, default="multimodal_data.json")
+    parser.add_argument("--image-dir", dest="image_folder", required=True, type=str)
+    parser.add_argument(
+        "--concepts-path", dest="concepts_path", required=True, type=str
+    )
+    parser.add_argument(
+        "--include-missing",
+        dest="include_missing",
+        action="store_true",
+        help="Include concepts even if not in image",
+    )
+    parser.add_argument(
+        "--save-path",
+        dest="save_path",
+        required=False,
+        type=str,
+        default="curated_data/multimodal/multimodal_text/multimodal_data.json",
+    )
 
     args = parser.parse_args()
-    
-    
+
     concepts_path = args.concepts_path
     image_folder = args.image_folder
-    mention = args.i
+    mention = args.include_missing
     save_path = args.save_path
 
-    extensions = ['png', 'jpg', 'jpeg']
+    extensions = ["png", "jpg", "jpeg"]
     files = []
 
     for ext in extensions:
-        files.extend(glob.glob(os.path.join(image_folder, '*.' + ext)))
- 
-    
+        files.extend(glob.glob(os.path.join(image_folder, "*." + ext)))
+
     with open(concepts_path) as f:
         concepts_dict = json.load(f)
 
@@ -94,7 +102,10 @@ if __name__ == '__main__':
     for image_path in files:
         results[image_path] = produce_text(image_path, concepts_dict, mention)
 
-    with open(save_path, 'w') as json_file:
-        json.dump(results, json_file, indent=4) 
+    save_dir = os.path.dirname(save_path)
+    if save_dir:
+        os.makedirs(save_dir, exist_ok=True)
+    with open(save_path, "w") as json_file:
+        json.dump(results, json_file, indent=4)
 
     print(f"Data saved at {save_path}")
