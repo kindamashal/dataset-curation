@@ -47,4 +47,6 @@ if __name__ == "__main__":
     for layer in layers_of_interest:
         features_by_layer[layer].update(top20_stats(outs, outs2, layer, return_feats=True))
         features_by_layer = specificity_feats(layer=layer, features_by_layer=features_by_layer)
+    for item in features_by_layer:
+        features_by_layer[item] = list(features_by_layer[item])
     print(features_by_layer)
