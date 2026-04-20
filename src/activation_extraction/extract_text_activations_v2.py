@@ -147,12 +147,20 @@ def prepare_text_activation(
                             feats[:, :, features_of_interest[layer]].detach().cpu()
                         ).tolist()
                     )
+                # save a copy of features for future analysis using a sample
+                if not os.path.exists("activation_sample.json"):
+                    feat_save = {}
+                    feat_save[f"Layer {layer}, Prompt: {json.dumps(messages)}"] = feats.detach().cpu().tolist()
+                    with open("activation_sample.json", "w") as f:
+                        json.dump(feat_save, f)
+                
                 feats = feats.flatten(end_dim=1)[concept_token_indices]
                 if precision_filtering:
-                    anti_feats = feats.flatten(end_dim=1)[[i not in concept_token_indices for i in range(len(feats.flatten(end_dim=1)))]]
-                top_feature_values, top_feature_indices = (
-                    (feats.abs().sum(dim=0)/anti_feats.abs().sum(dim=0)).topk(top_k)
-                )
+                    top_feature_values, top_feature_indices = (
+                        ((feats.abs().sum(dim=0)+feats.abs().flatten().mean()*(feats>1e3).sum(dim=0))/feats.flatten(end_dim=1).abs().sum(dim=0)).topk(top_k)
+                    )
+                else:
+                    top_feature_values, top_feature_indices = feats.abs().sum(dim=0).topk(top_k)
                 top_activation_dict[layer]["top_values"].append(
                     top_feature_values.detach().float().cpu().tolist()
                 )

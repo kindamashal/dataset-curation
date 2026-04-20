@@ -22,7 +22,7 @@ def specificity_feats(layer, concept_dict, non_concept_dict):
     freq, freq2 = freq_dicts(concept_dict, non_concept_dict, layer)
     l = sorted(
         [(int(i), freq[i], precision[i]) for i in precision if i in freq],
-        key=lambda x: (x[2], x[1]),
+        key=lambda x: (x[2][1]*x[2][0], x[1]),
         reverse=True,
     )
     print(l)
@@ -51,9 +51,10 @@ if __name__ == "__main__":
     outs = json.load(open(concept_path))
     outs2 = json.load(open(non_concept_path))
     for layer in layers_of_interest:
-        print("Top 20 stats for layer",layer)
+        print("\n\nTop 20 stats for layer",layer)
         print("="*100)
         print(top20_stats(outs, outs2, layer, return_feats=False))
-        print("\nPrecision + count stats for all the features:")
+        print(f"\nPrecision + count stats for all the features of layer {layer}:")
         print("="*100)
+        print("\n")
         specificity_feats(layer, outs, outs2)
