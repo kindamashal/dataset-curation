@@ -14,4 +14,6 @@ testing_visual_genome.py
 GithubSAE.ipynb
 image_pipeline_groq_test.py
 .venv
+person
+person/
 

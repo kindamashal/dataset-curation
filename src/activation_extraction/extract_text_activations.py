@@ -15,7 +15,6 @@ device = "cuda:0"
 model_id = "google/gemma-3-27b-it"
 model = None
 processor = None
-
 layers_of_interest = [10, 30, 59]
 batch_size = 2
 features_of_interest = {10: [42622, 18075, 41517, 44870], 30: [30365, 43399, 23272, 71976, 42156, 6189, 19441, 28532, 50004, 36153, 24026, 29532, 23389, 72702], 59: [21833, 50317, 79922, 83827, 65885, 5405]}
@@ -39,6 +38,7 @@ def register_hooks(layers):
 def prepare_text_activation(
     prompts,
     classes,
+    chosen_concept,
     layers_of_interest=[10, 30, 50],
     batch_size=32,
     top_k=20,
@@ -67,9 +67,7 @@ def prepare_text_activation(
                 [
                     {
                         "role": "system",
-                        "content": [
-                            {"type": "text", "text": "You are a helpful assistant."}
-                        ],
+                        "content": [{"type": "text", "text": f"You are a linguistics expert, your task is to identify all words that fall under the linguistic umbrella of {chosen_concept}, whether that manifests in direct words, nouns, pronouns, etc"}]
                     },
                     {"role": "user", "content": [{"type": "text", "text": prompts[k]}]},
                 ]
@@ -161,6 +159,7 @@ def prepare_text_activation(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract text activations for prompts")
+    parser.add_argument("--concept", dest="chosen_concept", type=str, required=True)
     parser.add_argument("--text-dir", dest="text_dir", type=str, default=TEXT_DIR)
     parser.add_argument(
         "--classified-dir", dest="classified_dir", type=str, default=CLASSIFIED_DIR
@@ -200,6 +199,7 @@ if __name__ == "__main__":
     parser.add_argument("--model-id", dest="model_id", type=str, default=model_id)
 
     args = parser.parse_args()
+    chosen_concept = args.chosen_concept
     TEXT_DIR = args.text_dir
     CLASSIFIED_DIR = args.classified_dir
     OUTPUT_PATH = args.output_path
@@ -223,6 +223,7 @@ if __name__ == "__main__":
     top_activations_dict = prepare_text_activation(
         prompts=prompts,
         classes=classes,
+        chosen_concept=chosen_concept,
         layers_of_interest=layers_of_interest,
         batch_size=batch_size,
         features_of_interest=features_of_interest,
@@ -232,3 +233,7 @@ if __name__ == "__main__":
         os.makedirs(output_dir, exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
         json.dump(top_activations_dict, f)
+
+
+# Sample Vis run:
+# python src/activation_extraction/extract_text_activations.py --concept "a male person" --input-name "text_concept_a_male_person.json" --classified-name "text_concept_a_male_person_classified.json" --output-path "activations/text/male_vis_direct_prompt.json"

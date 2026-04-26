@@ -10,7 +10,7 @@ import os
 TEXT_DIR = "curated_data/text/text_dataset"
 CLASSIFIED_DIR = "curated_data/text/text_dataset_classified"
 OUTPUT_PATH = "activations/text/text_feature_discovery_full.json"
-ACTIVATIONS_ROOT = "activations"
+SAES_ROOT = "/workspace/Github-SAE/"
 device = "cuda:0"
 model_id = "google/gemma-3-27b-it"
 
@@ -41,6 +41,7 @@ def register_hooks(layers):
 def prepare_text_activation(
     prompts,
     classes,
+    chosen_concept,
     layers_of_interest=[10, 30, 50],
     batch_size=32,
     top_k=20,
@@ -56,7 +57,7 @@ def prepare_text_activation(
     layer_SAEs = {}
     for layer in layers_of_interest:
         trained_sae, _ = utils.load_dictionary(
-            os.path.join(ACTIVATIONS_ROOT, f"activations_{layer}", "trainer_0"),
+            os.path.join(SAES_ROOT, f"activations_{layer}", "trainer_0"),
             device=device,
         )
         trained_sae.eval()
@@ -70,9 +71,7 @@ def prepare_text_activation(
                 [
                     {
                         "role": "system",
-                        "content": [
-                            {"type": "text", "text": "You are a helpful assistant."}
-                        ],
+                        "content": [{"type": "text", "text": f"You are a linguistics expert, your task is to identify all words that fall under the linguistic umbrella of {chosen_concept}, whether that manifests in direct words, nouns, pronouns, etc"}]
                     },
                     {"role": "user", "content": [{"type": "text", "text": prompts[k]}]},
                 ]
@@ -174,6 +173,7 @@ def prepare_text_activation(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract text activations for prompts")
+    parser.add_argument("--concept", dest="chosen_concept", type=str, required=True)
     parser.add_argument("--text-dir", dest="text_dir", type=str, default=TEXT_DIR)
     parser.add_argument(
         "--classified-dir", dest="classified_dir", type=str, default=CLASSIFIED_DIR
@@ -194,10 +194,10 @@ if __name__ == "__main__":
         "--output-path", dest="output_path", type=str, default=OUTPUT_PATH
     )
     parser.add_argument(
-        "--activations-root",
-        dest="activations_root",
+        "--saes-root",
+        dest="saes_root",
         type=str,
-        default=ACTIVATIONS_ROOT,
+        default=SAES_ROOT,
     )
     parser.add_argument(
         "--layers", dest="layers", type=int, nargs="+", default=layers_of_interest
@@ -213,10 +213,11 @@ if __name__ == "__main__":
     parser.add_argument("--model-id", dest="model_id", type=str, default=model_id)
 
     args = parser.parse_args()
+    chosen_concept = args.chosen_concept
     TEXT_DIR = args.text_dir
     CLASSIFIED_DIR = args.classified_dir
     OUTPUT_PATH = args.output_path
-    ACTIVATIONS_ROOT = args.activations_root
+    SAES_ROOT = args.saes_root
     layers_of_interest = args.layers
     batch_size = args.batch_size
     device = args.device
@@ -236,6 +237,7 @@ if __name__ == "__main__":
     top_activations_dict = prepare_text_activation(
         prompts=prompts,
         classes=classes,
+        chosen_concept=chosen_concept,
         layers_of_interest=layers_of_interest,
         batch_size=batch_size,
         features_of_interest=features_of_interest,
