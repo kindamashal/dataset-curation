@@ -16,11 +16,11 @@ model_id = "google/gemma-3-27b-it"
 
 layers_of_interest = [10, 30, 59]
 batch_size = 2
-features_of_interest = {
-    10: [34824, 44870, 15559, 50078],
-    30: [28532, 23389, 6189, 50004, 43399, 37971, 50367, 1074, 71976, 19441],
-    59: [45436, 35999, 50771, 48678, 65885, 63081, 5405],
-}
+# features_of_interest = None#{
+#     10: [34824, 44870, 15559, 50078],
+#     30: [28532, 23389, 6189, 50004, 43399, 37971, 50367, 1074, 71976, 19441],
+#     59: [45436, 35999, 50771, 48678, 65885, 63081, 5405],
+# }
 activations = {}
 
 
@@ -166,8 +166,11 @@ def prepare_text_activation(
                 top_activation_dict[layer]["top_indices"].append(
                     top_feature_indices.detach().float().cpu().tolist()
                 )
+    
     if features_of_interest:
+        # print("\n\nfeats here somehow\n\n")
         return full_feats
+    # print("\n\nHERE\n\n")
     return top_activation_dict
 
 
@@ -203,12 +206,12 @@ if __name__ == "__main__":
         "--layers", dest="layers", type=int, nargs="+", default=layers_of_interest
     )
     parser.add_argument("--batch-size", dest="batch_size", type=int, default=batch_size)
-    parser.add_argument(
-        "--features-of-interest",
-        dest="features_of_interest",
-        type=str,
-        default=json.dumps(features_of_interest),
-    )
+    # parser.add_argument(
+    #     "--features-of-interest",
+    #     dest="features_of_interest",
+    #     type=str,
+    #     default=json.dumps(features_of_interest),
+    # )
     parser.add_argument("--device", dest="device", type=str, default=device)
     parser.add_argument("--model-id", dest="model_id", type=str, default=model_id)
 
@@ -222,9 +225,9 @@ if __name__ == "__main__":
     batch_size = args.batch_size
     device = args.device
     model_id = args.model_id
-    features_of_interest = {
-        int(k): v for k, v in json.loads(args.features_of_interest).items()
-    }
+    # features_of_interest = {
+    #     int(k): v for k, v in json.loads(args.features_of_interest).items()
+    # }
 
     model = Gemma3ForConditionalGeneration.from_pretrained(model_id, device_map=device)
     model.eval()
@@ -240,10 +243,15 @@ if __name__ == "__main__":
         chosen_concept=chosen_concept,
         layers_of_interest=layers_of_interest,
         batch_size=batch_size,
-        features_of_interest=features_of_interest,
+        concept=True
+        # features_of_interest=features_of_interest,
     )
     output_dir = os.path.dirname(OUTPUT_PATH)
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
         json.dump(top_activations_dict, f)
+
+
+# Sample run 
+# python src/activation_extraction/extract_text_activations_v2.py --concept "a female person" --input-name "text_concept_a_female_person.json" --classified-name "text_concept_a_female_person_classified.json" --output-path "activations/text/female_concept_direct_prompt_v2.json" 
