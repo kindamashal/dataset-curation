@@ -10,7 +10,7 @@ import os
 TEXT_DIR = "curated_data/text/text_dataset"
 CLASSIFIED_DIR = "curated_data/text/text_dataset_classified"
 OUTPUT_PATH = "activations/text/text_feature_discovery_full.json"
-ACTIVATIONS_ROOT = "activations"
+SAES_ROOT = "/workspace/Github-SAE/"
 device = "cuda:0"
 model_id = "google/gemma-3-27b-it"
 model = None
@@ -18,11 +18,7 @@ processor = None
 
 layers_of_interest = [10, 30, 59]
 batch_size = 2
-features_of_interest = {
-    10: [34824, 44870, 15559, 50078],
-    30: [28532, 23389, 6189, 50004, 43399, 37971, 50367, 1074, 71976, 19441],
-    59: [45436, 35999, 50771, 48678, 65885, 63081, 5405],
-}
+features_of_interest = {10: [42622, 18075, 41517, 44870], 30: [30365, 43399, 23272, 71976, 42156, 6189, 19441, 28532, 50004, 36153, 24026, 29532, 23389, 72702], 59: [21833, 50317, 79922, 83827, 65885, 5405]}
 activations = {}
 
 
@@ -57,7 +53,7 @@ def prepare_text_activation(
     layer_SAEs = {}
     for layer in layers_of_interest:
         trained_sae, _ = utils.load_dictionary(
-            os.path.join(ACTIVATIONS_ROOT, f"activations_{layer}", "trainer_0"),
+            os.path.join(SAES_ROOT, f"activations_{layer}", "trainer_0"),
             device=device,
         )
         trained_sae.eval()
@@ -185,10 +181,10 @@ if __name__ == "__main__":
         "--output-path", dest="output_path", type=str, default=OUTPUT_PATH
     )
     parser.add_argument(
-        "--activations-root",
-        dest="activations_root",
+        "--saes-root",
+        dest="saes_root",
         type=str,
-        default=ACTIVATIONS_ROOT,
+        default=SAES_ROOT,
     )
     parser.add_argument(
         "--layers", dest="layers", type=int, nargs="+", default=layers_of_interest
@@ -207,7 +203,7 @@ if __name__ == "__main__":
     TEXT_DIR = args.text_dir
     CLASSIFIED_DIR = args.classified_dir
     OUTPUT_PATH = args.output_path
-    ACTIVATIONS_ROOT = args.activations_root
+    SAES_ROOT = args.saes_root
     layers_of_interest = args.layers
     batch_size = args.batch_size
     device = args.device
