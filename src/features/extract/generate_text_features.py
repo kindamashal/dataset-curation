@@ -13,7 +13,7 @@ def specificity_feats(layer, features_by_layer):
     all_feats = full_feature_set(outs, outs2, layer)
     precision = {}
     for feat in all_feats:
-        precision[feat] = calculate_precision(feat, outs, outs2, layer)
+        precision[feat] = calculate_precision(feat, outs, outs2, layer)[0]
     freq, freq2 = freq_dicts(outs, outs2, layer)
     l = sorted([(int(i),freq[i], precision[i]) for i in precision if i in freq],key=lambda x:(x[2],x[1]), reverse=True)
     for feat in l:
