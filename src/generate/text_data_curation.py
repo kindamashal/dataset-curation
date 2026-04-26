@@ -15,7 +15,7 @@ load_dotenv()
 
 
 data_size = 500
-target_concept = "A male person"
+target_concept = "A diverse mix of male and female persons"
 target_constraints = "Use varied sentence openings (names, pronouns, plural forms). avoid repeating the same living beings many times"
 output_dir = "curated_data/text/text_dataset"
 # control_concept = "anything that is non-living"
