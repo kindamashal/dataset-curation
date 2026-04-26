@@ -12,6 +12,14 @@ from io import BytesIO
 import glob
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from transformers import Qwen3VLMoeForConditionalGeneration, AutoProcessor
+import torch
+
+# model = Qwen3VLMoeForConditionalGeneration.from_pretrained(
+#     "Qwen/Qwen3-VL-30B-A3B-Instruct", dtype="auto", device_map="auto"
+# )
+
+# processor = AutoProcessor.from_pretrained("Qwen/Qwen3-VL-30B-A3B-Instruct")
 
 load_dotenv()
 client = Groq(api_key=os.environ["GROQ_API_KEY"])
@@ -62,6 +70,46 @@ def llm_call(image, concept, retries=5):
                 raise e
 
     raise Exception("Max retries exceeded due to rate limiting.")
+
+def qwen_call(image, concept):
+    base64_image = encode_image(image)
+
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "image",
+                    "image": f"data:image/jpeg;base64,{base64_image}",
+                },
+                {"type": "text", 
+                "text": f"Does the green box include {concept}? Answer only with 1 for yes or 0 for no, no other text."},
+            ],
+        }
+    ]
+
+    inputs = processor.apply_chat_template(
+        messages,
+        tokenize=True,
+        add_generation_prompt=True,
+        return_dict=True,
+        return_tensors="pt"
+    )
+
+    inputs = inputs.to(model.device)
+
+    with torch.no_grad():
+        generated_ids = model.generate(**inputs, max_new_tokens=128)
+
+    generated_ids_trimmed = [
+        out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+    ]
+    output_text = processor.batch_decode(
+        generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+    )
+
+    return output_text[0]
+
 
 
 def patch_process(i, j, concept, im_array):
