@@ -153,11 +153,13 @@ def prepare_text_activation(
                     with open("activation_sample.json", "w") as f:
                         json.dump(feat_save, f)
                 
+                all_feats = feats.clone()
                 feats = feats.flatten(end_dim=1)[concept_token_indices]
                 if precision_filtering:
                     top_feature_values, top_feature_indices = (
-                        ((feats.abs().sum(dim=0)+feats.abs().flatten().mean()*(feats>1e3).sum(dim=0))/feats.flatten(end_dim=1).abs().sum(dim=0)).topk(top_k)
+                        ((feats.abs().sum(dim=0)+feats.abs().flatten().mean()*(feats>1e-3).sum(dim=0))/all_feats.flatten(end_dim=1).abs().sum(dim=0)).topk(top_k)
                     )
+                    del all_feats
                 else:
                     top_feature_values, top_feature_indices = feats.abs().sum(dim=0).topk(top_k)
                 top_activation_dict[layer]["top_values"].append(
