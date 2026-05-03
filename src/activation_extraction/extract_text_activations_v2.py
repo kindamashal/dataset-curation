@@ -6,6 +6,9 @@ import json
 from tqdm import tqdm
 import argparse
 import os
+import warnings
+
+warnings.filterwarnings("ignore")
 
 TEXT_DIR = "curated_data/text/text_dataset"
 CLASSIFIED_DIR = "curated_data/text/text_dataset_classified"
@@ -216,6 +219,8 @@ if __name__ == "__main__":
     # )
     parser.add_argument("--device", dest="device", type=str, default=device)
     parser.add_argument("--model-id", dest="model_id", type=str, default=model_id)
+    parser.add_argument("--precision-filtering", action="store_true")
+    parser.add_argument("--no-concept", dest="concept", action="store_false")
 
     args = parser.parse_args()
     chosen_concept = args.chosen_concept
@@ -245,7 +250,8 @@ if __name__ == "__main__":
         chosen_concept=chosen_concept,
         layers_of_interest=layers_of_interest,
         batch_size=batch_size,
-        concept=True
+        concept=args.concept,
+        precision_filtering=args.precision_filtering,
         # features_of_interest=features_of_interest,
     )
     output_dir = os.path.dirname(OUTPUT_PATH)
