@@ -149,6 +149,7 @@ def prepare_text_activation(
                 top_activation_dict[layer]["top_indices"].append(
                     top_feature_indices.detach().float().cpu().tolist()
                 )
+                
     if features_of_interest:
         return full_feats
     return top_activation_dict

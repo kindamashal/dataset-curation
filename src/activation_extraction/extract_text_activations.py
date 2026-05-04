@@ -47,9 +47,11 @@ def prepare_text_activation(
 ):
     if features_of_interest:
         full_feats = {layer: [] for layer in layers_of_interest}
+
     top_activation_dict = {
         layer: {"top_values": [], "top_indices": []} for layer in layers_of_interest
     }
+
     layer_SAEs = {}
     for layer in layers_of_interest:
         trained_sae, _ = utils.load_dictionary(
@@ -59,9 +61,7 @@ def prepare_text_activation(
         trained_sae.eval()
         layer_SAEs[layer] = trained_sae
 
-    for i in tqdm(
-        range(0, len(prompts), batch_size), desc=f"prompts with batch size {batch_size}"
-    ):
+    for i in tqdm(range(0, len(prompts), batch_size), desc=f"prompts with batch size {batch_size}"):
         if i + batch_size + 1 < len(prompts):
             messages = [
                 [
@@ -73,6 +73,7 @@ def prepare_text_activation(
                 ]
                 for k in range(i, i + batch_size)
             ]
+
             inputs = processor.apply_chat_template(
                 messages,
                 add_generation_prompt=True,
@@ -81,10 +82,13 @@ def prepare_text_activation(
                 return_tensors="pt",
                 padding=True,
             ).to(model.device, dtype=torch.bfloat16)
+
+
             tokenized = [
                 [processor.decode(id) for id in inputs["input_ids"][b]]
                 for b in range(len(inputs["input_ids"]))
             ]
+
         else:
             messages = [
                 [
@@ -122,6 +126,7 @@ def prepare_text_activation(
                 if token not in classes[f"{i + k}"]["labels"]
                 or classes[f"{i + k}"]["labels"][token] == "0"
             ]
+            
         else:
             concept_token_indices = [
                 j
