@@ -12,8 +12,8 @@ from io import BytesIO
 import glob
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from transformers import Qwen3VLMoeForConditionalGeneration, AutoProcessor
-import torch
+# from transformers import Qwen3VLMoeForConditionalGeneration, AutoProcessor
+# import torch
 
 # model = Qwen3VLMoeForConditionalGeneration.from_pretrained(
 #     "Qwen/Qwen3-VL-30B-A3B-Instruct", dtype="auto", device_map="auto"
