@@ -11,11 +11,12 @@ TEXT_DIR = "curated_data/text/text_dataset"
 CLASSIFIED_DIR = "curated_data/text/text_dataset_classified"
 OUTPUT_PATH = "activations/text/text_feature_discovery_full.json"
 SAES_ROOT = "/workspace/Github-SAE/"
+ARCHETICTURE = "TopKTrainer"
 device = "cuda:0"
 model_id = "google/gemma-3-27b-it"
 model = None
 processor = None
-layers_of_interest = [10, 30, 59]
+layers_of_interest = [35, 40, 50]
 batch_size = 2
 features_of_interest = {10: [50976, 44870, 15559, 41517, 18075, 15580], 30: [77186, 30468, 43399, 30365, 22175, 71976, 42156, 6189, 36153, 50367, 50004, 24026, 29532, 23389, 80994, 23272, 19441, 28532, 72702], 59: [40936, 21833, 50317, 83827, 33434, 65885, 5405, 35999]}
 activations = {}
@@ -42,7 +43,7 @@ def prepare_text_activation(
     layers_of_interest=[10, 30, 50],
     batch_size=32,
     top_k=20,
-    concept=True,
+    concept=False,
     features_of_interest=None,
 ):
     if features_of_interest:
@@ -55,7 +56,7 @@ def prepare_text_activation(
     layer_SAEs = {}
     for layer in layers_of_interest:
         trained_sae, _ = utils.load_dictionary(
-            os.path.join(SAES_ROOT, f"activations_{layer}", "trainer_0"),
+            os.path.join(SAES_ROOT, f"activations_{layer}_{ARCHETICTURE}", "trainer_0"),
             device=device,
         )
         trained_sae.eval()
@@ -231,7 +232,7 @@ if __name__ == "__main__":
         chosen_concept=chosen_concept,
         layers_of_interest=layers_of_interest,
         batch_size=batch_size,
-        features_of_interest=features_of_interest,
+        # features_of_interest=features_of_interest,
     )
     output_dir = os.path.dirname(OUTPUT_PATH)
     if output_dir:
