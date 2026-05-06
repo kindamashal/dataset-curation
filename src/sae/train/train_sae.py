@@ -99,35 +99,36 @@ def live_multimodal_buffer(dataset, model, processor, sae_batch_size=8192, vlm_b
         yield current_buffer_tensor
 
 
-
-dataloader = live_multimodal_buffer(
-    dataset=dataset, 
-    model=model, 
-    processor=processor, 
-    sae_batch_size=sae_batch_size,
-    layer=LAYER
-)
-
-
-trainer_cfg = {
-    "trainer": ARCHITECTURE,
-    "dict_class": DICT_CLASS,
-    "activation_dim": activation_dim,
-    "dict_size": dictionary_size,
-    "lr": 1e-3,
-    "device": device,
-    "steps": training_steps,
-    "layer": LAYER,
-    "lm_name": model_id,
-    "warmup_steps": 1,
-    "k": 100,
-}
-
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--layer", dest="layer",help="layer to train on", type=int)
     args = parser.parse_args()
     LAYER = args.layer
+    
+    dataloader = live_multimodal_buffer(
+        dataset=dataset, 
+        model=model, 
+        processor=processor, 
+        sae_batch_size=sae_batch_size,
+        layer=LAYER
+    )
+
+
+    trainer_cfg = {
+        "trainer": ARCHITECTURE,
+        "dict_class": DICT_CLASS,
+        "activation_dim": activation_dim,
+        "dict_size": dictionary_size,
+        "lr": 1e-3,
+        "device": device,
+        "steps": training_steps,
+        "layer": LAYER,
+        "lm_name": model_id,
+        "warmup_steps": 1,
+        "k": 1075,
+    }
+    print("using k = 1057")
+
 
     model.model.language_model.layers[LAYER].mlp.register_forward_hook(make_hook(LAYER))
     trainSAE(
