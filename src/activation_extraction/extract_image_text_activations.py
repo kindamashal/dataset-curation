@@ -23,6 +23,7 @@ processor = None
 
 
 layers_of_interest = [10, 30, 59]
+features_of_interest = {10: [50976, 44870, 15559, 41517, 18075, 15580], 30: [77186, 30468, 43399, 30365, 22175, 71976, 42156, 6189, 36153, 50367, 50004, 24026, 29532, 23389, 80994, 23272, 19441, 28532, 72702], 59: [40936, 21833, 50317, 83827, 33434, 65885, 5405, 35999]}
 activations = {}
 
 
@@ -59,8 +60,12 @@ def prepare_multimodal_activation(
 ):
     if features_of_interest:
         full_feats = {layer: [] for layer in layers_of_interest}
+    
+    val_ind = {"top_values": [], "top_indices": []}
     top_activation_dict = {
-        layer: {"top_values": [], "top_indices": []} for layer in layers_of_interest
+        layer: {"image": val_ind.copy(),
+                "text": val_ind.copy(),
+                "fused": val_ind.copy()} for layer in layers_of_interest
     }
 
     layer_SAEs = {}
@@ -89,7 +94,7 @@ def prepare_multimodal_activation(
             padding=True,
         ).to(model.device, dtype=torch.bfloat16)
 
-        # tokenized = [[processor.decode(id) for id in inputs["input_ids"][b]] for b in range(len(inputs["input_ids"]))]
+        tokenized = [[processor.decode(id) for id in inputs["input_ids"][b]] for b in range(len(inputs["input_ids"]))]
         tokens = inputs["input_ids"][0]
 
         activations.clear()
@@ -99,21 +104,37 @@ def prepare_multimodal_activation(
             image_id = os.path.splitext(os.path.basename(images[i]))[0]
             image_id = str(image_id)
             offset = list(tokens).index(262144)
-            concept_token_indices = [
+            image_concept_token_indices = [
                 j
                 for j in range(len(tokens))
                 if tokens[j] == 262144
                 and patches[image_id][index_to_coords(j - offset)] == 0
             ]
+
+            text_concept_token_indices = [
+                j
+                for k in range(len(tokenized))
+                for j, token in enumerate(tokenized[k])
+                if token not in classes[f"{i + k}"]["labels"]
+                or classes[f"{i + k}"]["labels"][token] == "0"
+            ]
         else:
             image_id = os.path.splitext(os.path.basename(images[i]))[0]
             image_id = str(image_id)
             offset = list(tokens).index(262144)
-            concept_token_indices = [
+            image_concept_token_indices = [
                 j
                 for j in range(len(tokens))
                 if tokens[j] == 262144
                 and patches[image_id][index_to_coords(j - offset)] == 1
+            ]
+
+            text_concept_token_indices = [
+                j
+                for k in range(len(tokenized))
+                for j, token in enumerate(tokenized[k])
+                if token in classes[f"{i + k}"]["labels"]
+                and classes[f"{i + k}"]["labels"][token] == "1"
             ]
 
         for layer in layers_of_interest:
@@ -127,16 +148,27 @@ def prepare_multimodal_activation(
                             feats[:, :, features_of_interest[layer]].detach().cpu()
                         ).tolist()
                     )
-                feats = feats.flatten(end_dim=1)[concept_token_indices]
-                top_feature_values, top_feature_indices = (
-                    feats.abs().sum(dim=0).topk(top_k)
-                )
-                top_activation_dict[layer]["top_values"].append(
-                    top_feature_values.detach().float().cpu().tolist()
-                )
-                top_activation_dict[layer]["top_indices"].append(
-                    top_feature_indices.detach().float().cpu().tolist()
-                )
+
+                features = {"image": None, "text": None, "fused": None}
+
+                features["image"] = feats.flatten(end_dim=1)[image_concept_token_indices] 
+                features["text"] = feats.flatten(end_dim=1)[text_concept_token_indices]
+                features["fused"] = feats.flatten(end_dim=1)[list(set(image_concept_token_indices.extend(text_concept_token_indices)))]
+
+                top_feature_values = {"image": None, "text": None, "fused": None}
+                top_feature_indices = {"image": None, "text": None, "fused": None}
+
+                for type in ["image", "text", "fused"]:
+
+                    top_feature_values[type], top_feature_indices[type] = (
+                        features[type].abs().sum(dim=0).topk(top_k)
+                    )
+                    top_activation_dict[layer]["top_values"].append(
+                        top_feature_values[type].detach().float().cpu().tolist()
+                    )
+                    top_activation_dict[layer]["top_indices"].append(
+                        top_feature_indices[type].detach().float().cpu().tolist()
+                    )
                 
     if features_of_interest:
         return full_feats
@@ -145,33 +177,102 @@ def prepare_multimodal_activation(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Extract image activations for patches"
-    )
-    parser.add_argument("--image-dir", dest="image_dir", type=str, default=image_dir)
-    parser.add_argument(
-        "--patches-path", dest="patches_path", type=str, default=patches_dir
+        description="Extract image and text activations for multimodal inputs."
     )
     parser.add_argument(
-        "--output-path", dest="output_path", type=str, default=output_path
+        "--image-dir", 
+        dest="image_dir", 
+        type=str, 
+        default=image_dir
     )
     parser.add_argument(
-        "--activations-root",
-        dest="activations_root",
+        "--patches-path", 
+        dest="patches_path", 
+        type=str, 
+        default=patches_dir
+    )
+    
+    parser.add_argument(
+        "--text-dir", 
+        dest="text_dir", 
         type=str,
-        default=activations_root,
+        default=TEXT_DIR
     )
     parser.add_argument(
-        "--layers", dest="layers", type=int, nargs="+", default=layers_of_interest
+        "--input-name",
+        dest="input_name",
+        type=str,
+        default="text_concept_a_person.json",
     )
-    parser.add_argument("--concept", dest="concept", action="store_true")
-    parser.add_argument("--device", dest="device", type=str, default=device)
-    parser.add_argument("--model-id", dest="model_id", type=str, default=model_id)
+    parser.add_argument(
+        "--classified-name",
+        dest="classified_name",
+        type=str,
+        default="text_concept_a_person_classified.json",
+    )
+    parser.add_argument(
+        "--features-of-interest",
+        dest="features_of_interest",
+        type=str,
+        default=json.dumps(features_of_interest),
+    )
+
+
+    parser.add_argument(
+        "--saes-root", 
+        dest="saes_root", 
+        type=str, 
+        default=SAES_ROOT
+    )
+    parser.add_argument(
+        "--layers", 
+        dest="layers", 
+        type=int, 
+        nargs="+", 
+        default=layers_of_interest
+    )
+    parser.add_argument(
+        "--concept", 
+        dest="concept", 
+        action="store_true"
+    )
+    parser.add_argument(
+        "--device", 
+        dest="device", 
+        type=str, 
+        default=device
+    )
+    parser.add_argument(
+        "--model-id",
+        dest="model_id", 
+        type=str, 
+        default=model_id
+    )
+    parser.add_argument(
+        "--output-path", 
+        dest="output_path", 
+        type=str, 
+        default=output_path
+    )
+    parser.add_argument(
+        "--no-concept", 
+        dest="concept", 
+        action="store_false"
+    )
 
     args = parser.parse_args()
     image_dir = args.image_dir
     patches_dir = args.patches_path
+    
+    chosen_concept = args.chosen_concept
+    TEXT_DIR = args.text_dir
+    CLASSIFIED_DIR = args.classified_dir
+    SAES_ROOT = args.saes_root
+    features_of_interest = {
+        int(k): v for k, v in json.loads(args.features_of_interest).items()
+    }
+        
     output_path = args.output_path
-    activations_root = args.activations_root
     layers_of_interest = args.layers
     device = args.device
     model_id = args.model_id
@@ -183,12 +284,20 @@ if __name__ == "__main__":
 
     images = glob.glob(os.path.join(image_dir, "*.jpg"))
     patches = json.load(open(patches_dir))
+
+    prompts = json.load(open(os.path.join(TEXT_DIR, args.input_name)))
+    classes = json.load(open(os.path.join(CLASSIFIED_DIR, args.classified_name)))
+
     top_activations_dict = prepare_multimodal_activation(
+        prompts=prompts,
+        classes=classes,
+        chosen_concept=chosen_concept,
         images=images,
         patches=patches,
         layers_of_interest=layers_of_interest,
         concept=args.concept,
     )
+
     output_dir = os.path.dirname(output_path)
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
