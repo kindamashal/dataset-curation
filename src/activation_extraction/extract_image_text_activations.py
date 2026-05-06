@@ -112,7 +112,7 @@ def prepare_multimodal_activation(
             ]
 
             text_concept_token_indices = [
-                j
+                j + len(tokenized[0])*k
                 for k in range(len(tokenized))
                 for j, token in enumerate(tokenized[k])
                 if token not in classes[f"{i + k}"]["labels"]
@@ -130,7 +130,7 @@ def prepare_multimodal_activation(
             ]
 
             text_concept_token_indices = [
-                j
+                j + len(tokenized[0])*k
                 for k in range(len(tokenized))
                 for j, token in enumerate(tokenized[k])
                 if token in classes[f"{i + k}"]["labels"]

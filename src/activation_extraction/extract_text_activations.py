@@ -43,7 +43,7 @@ def prepare_text_activation(
     layers_of_interest=[10, 30, 50],
     batch_size=32,
     top_k=20,
-    concept=False,
+    concept=True,
     features_of_interest=None,
 ):
     if features_of_interest:
@@ -121,7 +121,7 @@ def prepare_text_activation(
             model(**inputs)
         if not concept:
             concept_token_indices = [
-                j
+                j + len(tokenized[0])*k
                 for k in range(len(tokenized))
                 for j, token in enumerate(tokenized[k])
                 if token not in classes[f"{i + k}"]["labels"]
@@ -130,7 +130,7 @@ def prepare_text_activation(
             
         else:
             concept_token_indices = [
-                j
+                j + len(tokenized[0])*k
                 for k in range(len(tokenized))
                 for j, token in enumerate(tokenized[k])
                 if token in classes[f"{i + k}"]["labels"]
