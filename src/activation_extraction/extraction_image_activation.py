@@ -11,7 +11,7 @@ import argparse
 image_dir = "curated_data/image/clean_dataset/person"
 patches_dir = "curated_data/image/image_patches/all_image_patches.json"
 output_path = "activations/image/non_concept_image_feature_discovery_2nd.json"
-activations_root = "activations"
+activations_root = "/workspace/Github-SAE"
 device = "cuda:0"
 model_id = "google/gemma-3-27b-it"
 model = None
