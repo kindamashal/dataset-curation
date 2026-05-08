@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image 
 import os
 from dotenv import load_dotenv
 import cv2
