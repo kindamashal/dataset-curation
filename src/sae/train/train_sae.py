@@ -126,8 +126,9 @@ if __name__=="__main__":
         "lm_name": model_id,
         "warmup_steps": 1,
         "k": 1075,
+        "wandb": f"SAE_{ARCHITECTURE.__name__}_{LAYER}"
     }
-    print("using k = 1057")
+    print("using k = 1075")
 
 
     model.model.language_model.layers[LAYER].mlp.register_forward_hook(make_hook(LAYER))
@@ -135,7 +136,9 @@ if __name__=="__main__":
         data=dataloader,
         trainer_configs=[trainer_cfg],
         steps=training_steps,
-        save_dir=f"../Github-SAE/activations_{LAYER}_{ARCHITECTURE.__name__}"
+        save_dir=f"../Github-SAE/activations_{LAYER}_{ARCHITECTURE.__name__}",
+        wandb_project="sae-training",
+        log_steps=10
     )
 
 
