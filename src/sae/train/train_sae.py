@@ -1,3 +1,4 @@
+import os
 import torch
 from transformers import AutoProcessor 
 from datasets import load_dataset
@@ -135,11 +136,41 @@ if __name__=="__main__":
     model.model.language_model.layers[LAYER].mlp.register_forward_hook(make_hook(LAYER))
     wandb.init(project="sae-training", name=f"Layer_{LAYER}_TopK")
 
-    trainSAE(
-        data=dataloader,
-        trainer_configs=[trainer_cfg],
-        steps=training_steps,
-        save_dir=f"../Github-SAE/activations_{LAYER}_{ARCHITECTURE.__name__}_wandb",
-        wandb_project="sae-training",
-        log_steps=10
-    )
+    trainer = ARCHITECTURE(**trainer_cfg)
+
+    for step, batch in enumerate(dataloader):
+        if step >= training_steps:
+            break
+        
+        batch = batch.to(device)
+
+        loss = trainer.update(step, batch)
+
+        if step % 10 == 0:
+
+            with torch.no_grad():
+                loss_log = trainer.loss(batch, step=step, logging=True)
+                losses = loss_log.losses
+            
+        wandb.log({
+                "loss/total": loss,
+                "loss/l2": losses["l2_loss"],
+                "loss/auxk": losses["auxk_loss"],
+                "metrics/l0_sparsity": trainer.effective_l0,
+                "metrics/dead_features": trainer.dead_features,
+            }, step=step)
+        
+        print(f"Step {step:04d} | Loss: {loss:.4f} | L0: {trainer.effective_l0:.1f} | Dead: {trainer.dead_features}")
+
+    save_path = os.path.join(f"../Github-SAE/activations_{LAYER}_{ARCHITECTURE.__name__}_wandb", "ae.pt")
+    torch.save(trainer.ae.state_dict(), save_path)
+    wandb.finish()
+    
+    # trainSAE(
+    #     data=dataloader,
+    #     trainer_configs=[trainer_cfg],
+    #     steps=training_steps,
+    #     save_dir=f"../Github-SAE/activations_{LAYER}_{ARCHITECTURE.__name__}_wandb",
+    #     wandb_project="sae-training",
+    #     log_steps=10
+    # )
