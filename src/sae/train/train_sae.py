@@ -7,7 +7,8 @@ from dictionary_learning.training import trainSAE
 from transformers import Gemma3ForConditionalGeneration
 import argparse
 import sys
-
+import wandb
+    
 
 
 LAYER=10
@@ -126,23 +127,19 @@ if __name__=="__main__":
         "lm_name": model_id,
         "warmup_steps": 1,
         "k": 1075,
-        "wandb": f"SAE_{ARCHITECTURE.__name__}_{LAYER}"
+        "wandb_name": f"SAE_{ARCHITECTURE.__name__}_{LAYER}"
     }
     print("using k = 1075")
 
 
     model.model.language_model.layers[LAYER].mlp.register_forward_hook(make_hook(LAYER))
+    wandb.init(project="sae-training", name=f"Layer_{LAYER}_TopK")
+
     trainSAE(
         data=dataloader,
         trainer_configs=[trainer_cfg],
         steps=training_steps,
-        save_dir=f"../Github-SAE/activations_{LAYER}_{ARCHITECTURE.__name__}",
+        save_dir=f"../Github-SAE/activations_{LAYER}_{ARCHITECTURE.__name__}_wandb",
         wandb_project="sae-training",
         log_steps=10
     )
-
-
-
-
-
-

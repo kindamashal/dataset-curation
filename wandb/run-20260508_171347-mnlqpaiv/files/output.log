@@ -1,0 +1,10 @@
+ 12%|████████████▎                                                                                      | 179/1441 [10:11<1:11:51,  3.42s/it]
+Traceback (most recent call last):
+  File "/workspace/Dataset-Curation/./src/sae/train/train_sae.py", line 138, in <module>
+    trainSAE(
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/dictionary_learning/training.py", line 238, in trainSAE
+    trainer.update(step, act)
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/dictionary_learning/trainers/top_k.py", line 343, in update
+    return loss.item()
+           ^^^^^^^^^^^
+KeyboardInterrupt
