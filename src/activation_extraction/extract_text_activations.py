@@ -9,7 +9,7 @@ import os
 
 TEXT_DIR = "curated_data/text/text_dataset"
 CLASSIFIED_DIR = "curated_data/text/text_dataset_classified"
-OUTPUT_PATH = "activations/text/text_feature_discovery_full.json"
+OUTPUT_PATH = "activations/text/TESTING.json"
 SAES_ROOT = "/workspace/Github-SAE/"
 ARCHETICTURE = "TopKTrainer"
 device = "cuda:0"
@@ -111,11 +111,14 @@ def prepare_text_activation(
                 return_tensors="pt",
                 padding=True,
             ).to(model.device, dtype=torch.bfloat16)
-
+            print("Length of tokens:"inputs["input_ids"].shape)
             tokenized = [
                 [processor.decode(id) for id in inputs["input_ids"][b]]
                 for b in range(len(inputs["input_ids"]))
             ]
+            print("tokenized:")
+            for entity in tokenized:
+                print(len(entity))
         activations.clear()
         with torch.inference_mode():
             model(**inputs)
@@ -138,10 +141,14 @@ def prepare_text_activation(
             ]
 
         for layer in layers_of_interest:
+            print("Activations shape at layer:",layer,": ")
+            print(activations[layer].shape)
             with torch.no_grad():
                 feats = layer_SAEs[layer](
                     activations[layer].to(dtype=torch.float32), output_features=True
                 )[1]
+                print("After SAE: ")
+                print(feats.shape)
                 if features_of_interest:
                     full_feats[layer].append(
                         (

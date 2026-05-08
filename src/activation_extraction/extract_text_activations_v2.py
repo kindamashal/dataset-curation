@@ -143,6 +143,7 @@ def prepare_text_activation(
                 feats = layer_SAEs[layer](
                     activations[layer].to(dtype=torch.float32), output_features=True
                 )[1]
+                
                 if features_of_interest:
                     full_feats[layer].append(
                         (
