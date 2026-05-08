@@ -49,4 +49,5 @@ if __name__ == "__main__":
         features_by_layer = specificity_feats(layer=layer, features_by_layer=features_by_layer)
     for item in features_by_layer:
         features_by_layer[item] = list(features_by_layer[item])
+    
     print(features_by_layer)

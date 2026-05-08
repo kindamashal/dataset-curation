@@ -18,7 +18,7 @@ model = None
 processor = None
 layers_of_interest = [35, 40, 50]
 batch_size = 2
-features_of_interest = {10: [50976, 44870, 15559, 41517, 18075, 15580], 30: [77186, 30468, 43399, 30365, 22175, 71976, 42156, 6189, 36153, 50367, 50004, 24026, 29532, 23389, 80994, 23272, 19441, 28532, 72702], 59: [40936, 21833, 50317, 83827, 33434, 65885, 5405, 35999]}
+features_of_interest = None
 activations = {}
 
 
@@ -46,6 +46,7 @@ def prepare_text_activation(
     concept=True,
     features_of_interest=None,
 ):
+    # assert features_of_interest is None
     if features_of_interest:
         full_feats = {layer: [] for layer in layers_of_interest}
 
@@ -89,7 +90,9 @@ def prepare_text_activation(
                 [processor.decode(id) for id in inputs["input_ids"][b]]
                 for b in range(len(inputs["input_ids"]))
             ]
-
+            # print("tokenized:")
+            # for entity in tokenized:
+            #     print(len(entity))
         else:
             messages = [
                 [
@@ -111,14 +114,11 @@ def prepare_text_activation(
                 return_tensors="pt",
                 padding=True,
             ).to(model.device, dtype=torch.bfloat16)
-            print("Length of tokens:"inputs["input_ids"].shape)
+            # print("Length of tokens:",inputs["input_ids"].shape)
             tokenized = [
                 [processor.decode(id) for id in inputs["input_ids"][b]]
                 for b in range(len(inputs["input_ids"]))
             ]
-            print("tokenized:")
-            for entity in tokenized:
-                print(len(entity))
         activations.clear()
         with torch.inference_mode():
             model(**inputs)
@@ -139,16 +139,18 @@ def prepare_text_activation(
                 if token in classes[f"{i + k}"]["labels"]
                 and classes[f"{i + k}"]["labels"][token] == "1"
             ]
+            # print("Concept token indices: ")
+            # print(concept_token_indices)
 
         for layer in layers_of_interest:
-            print("Activations shape at layer:",layer,": ")
-            print(activations[layer].shape)
+            # print("Activations shape at layer:",layer,": ")
+            # print(activations[layer].shape)
             with torch.no_grad():
                 feats = layer_SAEs[layer](
                     activations[layer].to(dtype=torch.float32), output_features=True
                 )[1]
-                print("After SAE: ")
-                print(feats.shape)
+                # print("After SAE: ")
+                # print(feats.shape)
                 if features_of_interest:
                     full_feats[layer].append(
                         (
@@ -239,7 +241,8 @@ if __name__ == "__main__":
         chosen_concept=chosen_concept,
         layers_of_interest=layers_of_interest,
         batch_size=batch_size,
-        # features_of_interest=features_of_interest,
+        concept=False,
+        features_of_interest=features_of_interest,
     )
     output_dir = os.path.dirname(OUTPUT_PATH)
     if output_dir:
@@ -248,5 +251,8 @@ if __name__ == "__main__":
         json.dump(top_activations_dict, f)
 
 
+# Sample non concept run:
+# python src/activation_extraction/extract_text_activations.py --concept "a male person" --input-name "text_concept_a_male_person.json" --classified-name "text_concept_a_male_person_classified.json" --output-path "activations/text/male_non_concept_direct_prompt.json"
+
 # Sample Vis run:
-# python src/activation_extraction/extract_text_activations.py --concept "a male person" --input-name "text_concept_a_male_person.json" --classified-name "text_concept_a_male_person_classified.json" --output-path "activations/text/male_vis_direct_prompt.json"
+# python src/activation_extraction/extract_text_activations.py --concept "a male person" --input-name "text_concept_a_male_person.json" --classified-name "text_concept_a_male_person_classified.json" --output-path "activations/text/male_vis_direct_prompt.json" --features-of-interest '{"35": [6568, 42, 58158, 73007, 83782, 54986, 31565, 30038, 81242, 8546, 49127, 52201, 13675, 33007, 66544, 44529, 3570, 12790, 48118], "40": [22529, 43843, 29924, 19365, 2021, 13084, 63114, 63310, 33170, 58515, 20182, 40216, 71292, 84191], "50": [10144, 65475, 9829, 77639, 36462, 68724, 60150, 35734, 75902, 55451, 78780, 63870, 45439]}'
