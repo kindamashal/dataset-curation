@@ -159,7 +159,7 @@ def prepare_text_activation(
                 feats = feats.flatten(end_dim=1)[concept_token_indices]
                 if precision_filtering:
                     top_feature_values, top_feature_indices = (
-                        ((feats.abs().sum(dim=0)+feats.abs().flatten().mean()*(feats>1e-3).sum(dim=0))/all_feats.flatten(end_dim=1).abs().sum(dim=0)).topk(top_k)
+                        ((feats.abs().sum(dim=0)+feats.abs().flatten().mean()*(feats>1e-3).sum(dim=0))/(all_feats.flatten(end_dim=1).abs().sum(dim=0)+1e-5)).topk(20)
                     )
                     del all_feats
                 else:
@@ -210,12 +210,12 @@ if __name__ == "__main__":
         "--layers", dest="layers", type=int, nargs="+", default=layers_of_interest
     )
     parser.add_argument("--batch-size", dest="batch_size", type=int, default=batch_size)
-    # parser.add_argument(
-    #     "--features-of-interest",
-    #     dest="features_of_interest",
-    #     type=str,
-    #     default=json.dumps(features_of_interest),
-    # )
+    parser.add_argument(
+        "--features-of-interest",
+        dest="features_of_interest",
+        type=str,
+        default=features_of_interest,
+    )
     parser.add_argument("--device", dest="device", type=str, default=device)
     parser.add_argument("--model-id", dest="model_id", type=str, default=model_id)
     parser.add_argument("--precision-filtering", action="store_true")
@@ -231,9 +231,10 @@ if __name__ == "__main__":
     batch_size = args.batch_size
     device = args.device
     model_id = args.model_id
-    # features_of_interest = {
-    #     int(k): v for k, v in json.loads(args.features_of_interest).items()
-    # }
+    if args.features_of_interest:
+        features_of_interest = {
+            int(k): v for k, v in json.loads(args.features_of_interest).items()
+        }
 
     model = Gemma3ForConditionalGeneration.from_pretrained(model_id, device_map=device)
     model.eval()

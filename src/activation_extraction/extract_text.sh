@@ -2,8 +2,8 @@
 
 set -euo pipefail
 
-CONCEPT="a female person"
-LAYERS=(35 40 50)
+CONCEPT="a dataset with diverse colors, with some bias towards green, some traditionally green things like trees perhaps"
+LAYERS=(10 35 40 50 59)
 
 CONCEPT_SAFE="${CONCEPT// /_}"
 
