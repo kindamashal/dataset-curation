@@ -16,8 +16,8 @@ load_dotenv()
 processor = AutoProcessor.from_pretrained("google/gemma-3-27b-it")
 TEXT_DIR = "curated_data/text/text_dataset"
 OUT_DIR = "curated_data/text/text_dataset_classified"
-CONCEPT = "a male person"
-FILE_CONTAINS = "_male_"
+CONCEPT = "green the color, or green reminicent concepts, such as trees"
+FILE_CONTAINS = "_green_"
 MAX_WORKERS = 50
 
 prompt = """
@@ -199,6 +199,7 @@ if __name__ == "__main__":
     os.makedirs(OUT_DIR, exist_ok=True)
     for file in os.listdir(TEXT_DIR):
         if file.endswith("json") and (FILE_CONTAINS in file if FILE_CONTAINS else True):
+            print(file)
             classification = batch_classify(os.path.join(TEXT_DIR, file))
             classification = {i: j.model_dump() for i, j in classification.items()}
             json.dump(

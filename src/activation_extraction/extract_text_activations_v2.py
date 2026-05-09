@@ -14,16 +14,13 @@ TEXT_DIR = "curated_data/text/text_dataset"
 CLASSIFIED_DIR = "curated_data/text/text_dataset_classified"
 OUTPUT_PATH = "activations/text/text_feature_discovery_full.json"
 SAES_ROOT = "/workspace/Github-SAE/"
+ARCHETICTURE = "TopKTrainer"
 device = "cuda:0"
 model_id = "google/gemma-3-27b-it"
 
 layers_of_interest = [10, 30, 59]
 batch_size = 2
-# features_of_interest = None#{
-#     10: [34824, 44870, 15559, 50078],
-#     30: [28532, 23389, 6189, 50004, 43399, 37971, 50367, 1074, 71976, 19441],
-#     59: [45436, 35999, 50771, 48678, 65885, 63081, 5405],
-# }
+features_of_interest = None
 activations = {}
 
 
@@ -60,7 +57,7 @@ def prepare_text_activation(
     layer_SAEs = {}
     for layer in layers_of_interest:
         trained_sae, _ = utils.load_dictionary(
-            os.path.join(SAES_ROOT, f"activations_{layer}", "trainer_0"),
+            os.path.join(SAES_ROOT, f"activations_{layer}_{ARCHETICTURE}", "trainer_0"),
             device=device,
         )
         trained_sae.eval()
@@ -123,15 +120,16 @@ def prepare_text_activation(
             model(**inputs)
         if not concept:
             concept_token_indices = [
-                j
+                j + len(tokenized[0])*k
                 for k in range(len(tokenized))
                 for j, token in enumerate(tokenized[k])
                 if token not in classes[f"{i + k}"]["labels"]
                 or classes[f"{i + k}"]["labels"][token] == "0"
             ]
+            
         else:
             concept_token_indices = [
-                j
+                j + len(tokenized[0])*k
                 for k in range(len(tokenized))
                 for j, token in enumerate(tokenized[k])
                 if token in classes[f"{i + k}"]["labels"]

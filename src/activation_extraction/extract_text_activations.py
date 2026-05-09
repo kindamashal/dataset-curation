@@ -212,6 +212,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("--device", dest="device", type=str, default=device)
     parser.add_argument("--model-id", dest="model_id", type=str, default=model_id)
+    parser.add_argument("--no-concept", dest="concept", action="store_false")
 
     args = parser.parse_args()
     chosen_concept = args.chosen_concept
@@ -241,7 +242,7 @@ if __name__ == "__main__":
         chosen_concept=chosen_concept,
         layers_of_interest=layers_of_interest,
         batch_size=batch_size,
-        concept=False,
+        concept=args.concept,
         features_of_interest=features_of_interest,
     )
     output_dir = os.path.dirname(OUTPUT_PATH)
