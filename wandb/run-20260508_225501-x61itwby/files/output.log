@@ -1,0 +1,293 @@
+Step 0000 | Loss: 12547.4561 | L0: 1075.0 | Dead: 0
+Step 0001 | Loss: 12390.3574 | L0: 1075.0 | Dead: 0
+Step 0002 | Loss: 11872.1396 | L0: 1075.0 | Dead: 0
+Step 0003 | Loss: 13190.3154 | L0: 1075.0 | Dead: 0
+Step 0004 | Loss: 12348.2910 | L0: 1075.0 | Dead: 0
+Step 0005 | Loss: 11646.7051 | L0: 1075.0 | Dead: 0
+Step 0006 | Loss: 10191.8564 | L0: 1075.0 | Dead: 0
+Step 0007 | Loss: 9206.4629 | L0: 1075.0 | Dead: 0
+Step 0008 | Loss: 8650.8135 | L0: 1075.0 | Dead: 0
+Step 0009 | Loss: 8228.7266 | L0: 1075.0 | Dead: 0
+Step 0010 | Loss: 7121.4111 | L0: 1075.0 | Dead: 0
+Step 0011 | Loss: 6211.9316 | L0: 1075.0 | Dead: 0
+Step 0012 | Loss: 5697.3438 | L0: 1075.0 | Dead: 0
+Step 0013 | Loss: 5329.2178 | L0: 1075.0 | Dead: 0
+Step 0014 | Loss: 5068.2842 | L0: 1075.0 | Dead: 0
+Step 0015 | Loss: 4660.3511 | L0: 1075.0 | Dead: 0
+Step 0016 | Loss: 4310.2266 | L0: 1075.0 | Dead: 0
+Step 0017 | Loss: 4020.8496 | L0: 1075.0 | Dead: 0
+Step 0018 | Loss: 4171.2036 | L0: 1075.0 | Dead: 0
+Step 0019 | Loss: 3824.2993 | L0: 1075.0 | Dead: 0
+Step 0020 | Loss: 3778.6592 | L0: 1075.0 | Dead: 0
+Step 0021 | Loss: 3508.2876 | L0: 1075.0 | Dead: 0
+Step 0022 | Loss: 3490.8604 | L0: 1075.0 | Dead: 0
+Step 0023 | Loss: 3125.6584 | L0: 1075.0 | Dead: 0
+Step 0024 | Loss: 3265.6650 | L0: 1075.0 | Dead: 0
+Step 0025 | Loss: 2887.4746 | L0: 1075.0 | Dead: 0
+Step 0026 | Loss: 3080.7961 | L0: 1075.0 | Dead: 0
+Step 0027 | Loss: 2859.3257 | L0: 1075.0 | Dead: 0
+Step 0028 | Loss: 2888.9512 | L0: 1075.0 | Dead: 0
+Step 0029 | Loss: 2732.4866 | L0: 1075.0 | Dead: 0
+Step 0030 | Loss: 2951.1914 | L0: 1075.0 | Dead: 0
+Step 0031 | Loss: 2443.9968 | L0: 1075.0 | Dead: 0
+Step 0032 | Loss: 2499.5693 | L0: 1075.0 | Dead: 0
+Step 0033 | Loss: 2265.1787 | L0: 1075.0 | Dead: 0
+Step 0034 | Loss: 2139.5984 | L0: 1075.0 | Dead: 0
+Step 0035 | Loss: 2248.6775 | L0: 1075.0 | Dead: 0
+Step 0036 | Loss: 2293.5078 | L0: 1075.0 | Dead: 0
+Step 0037 | Loss: 2090.4590 | L0: 1075.0 | Dead: 0
+Step 0038 | Loss: 2062.2793 | L0: 1075.0 | Dead: 0
+Step 0039 | Loss: 1857.7783 | L0: 1075.0 | Dead: 0
+Step 0040 | Loss: 2018.0413 | L0: 1075.0 | Dead: 0
+Step 0041 | Loss: 1898.4971 | L0: 1075.0 | Dead: 0
+Step 0042 | Loss: 1891.1980 | L0: 1075.0 | Dead: 0
+Step 0043 | Loss: 1735.2990 | L0: 1075.0 | Dead: 0
+Step 0044 | Loss: 1956.5408 | L0: 1075.0 | Dead: 0
+Step 0045 | Loss: 1736.1110 | L0: 1075.0 | Dead: 0
+Step 0046 | Loss: 1724.3025 | L0: 1075.0 | Dead: 0
+Step 0047 | Loss: 1797.8306 | L0: 1075.0 | Dead: 0
+Step 0048 | Loss: 1634.6011 | L0: 1075.0 | Dead: 0
+Step 0049 | Loss: 1574.5128 | L0: 1075.0 | Dead: 0
+Step 0050 | Loss: 1587.6045 | L0: 1075.0 | Dead: 0
+Step 0051 | Loss: 1542.4678 | L0: 1075.0 | Dead: 0
+Step 0052 | Loss: 1500.2426 | L0: 1075.0 | Dead: 0
+Step 0053 | Loss: 1502.3953 | L0: 1075.0 | Dead: 0
+Step 0054 | Loss: 1472.6826 | L0: 1075.0 | Dead: 0
+Step 0055 | Loss: 1475.4519 | L0: 1075.0 | Dead: 0
+Step 0056 | Loss: 1394.1846 | L0: 1075.0 | Dead: 0
+Step 0057 | Loss: 1416.5303 | L0: 1075.0 | Dead: 0
+Step 0058 | Loss: 1384.7747 | L0: 1075.0 | Dead: 0
+Step 0059 | Loss: 1392.6644 | L0: 1075.0 | Dead: 0
+Step 0060 | Loss: 1403.1736 | L0: 1075.0 | Dead: 0
+Step 0061 | Loss: 1356.7922 | L0: 1075.0 | Dead: 0
+Step 0062 | Loss: 1324.6598 | L0: 1075.0 | Dead: 0
+Step 0063 | Loss: 1263.2323 | L0: 1075.0 | Dead: 0
+Step 0064 | Loss: 1306.6592 | L0: 1075.0 | Dead: 0
+Step 0065 | Loss: 1308.9857 | L0: 1075.0 | Dead: 0
+Step 0066 | Loss: 1327.4799 | L0: 1075.0 | Dead: 0
+Step 0067 | Loss: 1292.6206 | L0: 1075.0 | Dead: 0
+Step 0068 | Loss: 1239.5692 | L0: 1075.0 | Dead: 0
+Step 0069 | Loss: 1255.8022 | L0: 1075.0 | Dead: 0
+Step 0070 | Loss: 1206.0386 | L0: 1075.0 | Dead: 0
+Step 0071 | Loss: 1184.3473 | L0: 1075.0 | Dead: 0
+Step 0072 | Loss: 1265.9651 | L0: 1075.0 | Dead: 0
+Step 0073 | Loss: 1185.1176 | L0: 1075.0 | Dead: 0
+Step 0074 | Loss: 1228.8347 | L0: 1075.0 | Dead: 0
+Step 0075 | Loss: 1167.7119 | L0: 1075.0 | Dead: 0
+Step 0076 | Loss: 1113.5901 | L0: 1075.0 | Dead: 0
+Step 0077 | Loss: 1117.1326 | L0: 1075.0 | Dead: 0
+Step 0078 | Loss: 1150.9858 | L0: 1075.0 | Dead: 0
+Step 0079 | Loss: 1145.5518 | L0: 1075.0 | Dead: 0
+Step 0080 | Loss: 1132.2605 | L0: 1075.0 | Dead: 0
+Step 0081 | Loss: 1119.8584 | L0: 1075.0 | Dead: 0
+Step 0082 | Loss: 1104.7864 | L0: 1075.0 | Dead: 0
+Step 0083 | Loss: 1128.1396 | L0: 1075.0 | Dead: 0
+Step 0084 | Loss: 1124.3789 | L0: 1075.0 | Dead: 0
+Step 0085 | Loss: 1071.5576 | L0: 1075.0 | Dead: 0
+Step 0086 | Loss: 1021.3350 | L0: 1075.0 | Dead: 0
+Step 0087 | Loss: 1095.8824 | L0: 1075.0 | Dead: 0
+Step 0088 | Loss: 1025.2974 | L0: 1075.0 | Dead: 0
+Step 0089 | Loss: 1040.1050 | L0: 1075.0 | Dead: 0
+Step 0090 | Loss: 1138.2258 | L0: 1075.0 | Dead: 0
+Step 0091 | Loss: 1043.8951 | L0: 1075.0 | Dead: 0
+Step 0092 | Loss: 1035.6184 | L0: 1075.0 | Dead: 0
+Step 0093 | Loss: 1014.5829 | L0: 1075.0 | Dead: 0
+Step 0094 | Loss: 1041.9875 | L0: 1075.0 | Dead: 0
+Step 0095 | Loss: 1016.9641 | L0: 1075.0 | Dead: 0
+Step 0096 | Loss: 995.7726 | L0: 1075.0 | Dead: 0
+Step 0097 | Loss: 1006.1273 | L0: 1075.0 | Dead: 0
+Step 0098 | Loss: 1056.3733 | L0: 1075.0 | Dead: 0
+Step 0099 | Loss: 1019.8705 | L0: 1075.0 | Dead: 0
+Step 0100 | Loss: 959.9911 | L0: 1075.0 | Dead: 0
+Step 0101 | Loss: 946.9982 | L0: 1075.0 | Dead: 0
+Step 0102 | Loss: 950.7197 | L0: 1075.0 | Dead: 0
+Step 0103 | Loss: 1019.6097 | L0: 1075.0 | Dead: 0
+Step 0104 | Loss: 945.5175 | L0: 1075.0 | Dead: 0
+Step 0105 | Loss: 954.2249 | L0: 1075.0 | Dead: 0
+Step 0106 | Loss: 1000.3442 | L0: 1075.0 | Dead: 0
+Step 0107 | Loss: 986.9392 | L0: 1075.0 | Dead: 0
+Step 0108 | Loss: 964.0627 | L0: 1075.0 | Dead: 0
+Step 0109 | Loss: 966.4108 | L0: 1075.0 | Dead: 0
+Step 0110 | Loss: 963.4920 | L0: 1075.0 | Dead: 0
+Step 0111 | Loss: 916.7241 | L0: 1075.0 | Dead: 0
+Step 0112 | Loss: 938.8665 | L0: 1075.0 | Dead: 0
+Step 0113 | Loss: 941.0545 | L0: 1075.0 | Dead: 0
+Step 0114 | Loss: 912.9670 | L0: 1075.0 | Dead: 0
+Step 0115 | Loss: 937.2589 | L0: 1075.0 | Dead: 0
+Step 0116 | Loss: 906.2542 | L0: 1075.0 | Dead: 0
+Step 0117 | Loss: 942.2859 | L0: 1075.0 | Dead: 0
+Step 0118 | Loss: 924.8794 | L0: 1075.0 | Dead: 0
+Step 0119 | Loss: 891.7432 | L0: 1075.0 | Dead: 0
+Step 0120 | Loss: 866.8763 | L0: 1075.0 | Dead: 0
+Step 0121 | Loss: 845.9968 | L0: 1075.0 | Dead: 0
+Step 0122 | Loss: 846.6575 | L0: 1075.0 | Dead: 0
+Step 0123 | Loss: 886.8015 | L0: 1075.0 | Dead: 0
+Step 0124 | Loss: 949.1585 | L0: 1075.0 | Dead: 0
+Step 0125 | Loss: 942.3925 | L0: 1075.0 | Dead: 0
+Step 0126 | Loss: 947.9288 | L0: 1075.0 | Dead: 0
+Step 0127 | Loss: 897.6612 | L0: 1075.0 | Dead: 0
+Step 0128 | Loss: 886.1975 | L0: 1075.0 | Dead: 0
+Step 0129 | Loss: 897.3053 | L0: 1075.0 | Dead: 0
+Step 0130 | Loss: 843.5656 | L0: 1075.0 | Dead: 0
+Step 0131 | Loss: 847.8112 | L0: 1075.0 | Dead: 0
+Step 0132 | Loss: 840.1771 | L0: 1075.0 | Dead: 0
+Step 0133 | Loss: 870.9471 | L0: 1075.0 | Dead: 0
+Step 0134 | Loss: 925.6437 | L0: 1075.0 | Dead: 0
+Step 0135 | Loss: 856.3147 | L0: 1075.0 | Dead: 0
+Step 0136 | Loss: 881.5107 | L0: 1075.0 | Dead: 0
+Step 0137 | Loss: 879.9956 | L0: 1075.0 | Dead: 0
+Step 0138 | Loss: 833.2424 | L0: 1075.0 | Dead: 0
+Step 0139 | Loss: 847.7119 | L0: 1075.0 | Dead: 0
+Step 0140 | Loss: 828.5326 | L0: 1075.0 | Dead: 0
+Step 0141 | Loss: 858.4919 | L0: 1075.0 | Dead: 0
+Step 0142 | Loss: 852.2869 | L0: 1075.0 | Dead: 0
+Step 0143 | Loss: 805.6412 | L0: 1075.0 | Dead: 0
+Step 0144 | Loss: 812.8440 | L0: 1075.0 | Dead: 0
+Step 0145 | Loss: 819.5945 | L0: 1075.0 | Dead: 0
+Step 0146 | Loss: 832.9120 | L0: 1075.0 | Dead: 0
+Step 0147 | Loss: 824.1285 | L0: 1075.0 | Dead: 0
+Step 0148 | Loss: 813.8568 | L0: 1075.0 | Dead: 0
+Step 0149 | Loss: 781.6166 | L0: 1075.0 | Dead: 0
+Step 0150 | Loss: 836.5946 | L0: 1075.0 | Dead: 0
+Step 0151 | Loss: 796.6372 | L0: 1075.0 | Dead: 0
+Step 0152 | Loss: 817.9108 | L0: 1075.0 | Dead: 0
+Step 0153 | Loss: 802.3187 | L0: 1075.0 | Dead: 0
+Step 0154 | Loss: 823.9404 | L0: 1075.0 | Dead: 0
+Step 0155 | Loss: 786.5195 | L0: 1075.0 | Dead: 0
+Step 0156 | Loss: 798.6559 | L0: 1075.0 | Dead: 0
+Step 0157 | Loss: 800.6064 | L0: 1075.0 | Dead: 0
+Step 0158 | Loss: 804.9060 | L0: 1075.0 | Dead: 0
+Step 0159 | Loss: 771.8218 | L0: 1075.0 | Dead: 0
+Step 0160 | Loss: 776.4043 | L0: 1075.0 | Dead: 0
+Step 0161 | Loss: 765.3749 | L0: 1075.0 | Dead: 0
+Step 0162 | Loss: 737.3174 | L0: 1075.0 | Dead: 0
+Step 0163 | Loss: 743.2474 | L0: 1075.0 | Dead: 0
+Step 0164 | Loss: 817.2699 | L0: 1075.0 | Dead: 0
+Step 0165 | Loss: 788.2538 | L0: 1075.0 | Dead: 0
+Step 0166 | Loss: 763.5231 | L0: 1075.0 | Dead: 0
+Step 0167 | Loss: 776.7189 | L0: 1075.0 | Dead: 0
+Step 0168 | Loss: 766.1206 | L0: 1075.0 | Dead: 0
+Step 0169 | Loss: 827.1271 | L0: 1075.0 | Dead: 0
+Step 0170 | Loss: 767.3054 | L0: 1075.0 | Dead: 0
+Step 0171 | Loss: 753.4570 | L0: 1075.0 | Dead: 0
+Step 0172 | Loss: 748.3687 | L0: 1075.0 | Dead: 0
+Step 0173 | Loss: 744.4328 | L0: 1075.0 | Dead: 0
+Step 0174 | Loss: 722.0638 | L0: 1075.0 | Dead: 0
+Step 0175 | Loss: 779.8282 | L0: 1075.0 | Dead: 0
+Step 0176 | Loss: 798.4275 | L0: 1075.0 | Dead: 0
+Step 0177 | Loss: 762.2742 | L0: 1075.0 | Dead: 0
+Step 0178 | Loss: 768.3688 | L0: 1075.0 | Dead: 0
+Step 0179 | Loss: 759.8920 | L0: 1075.0 | Dead: 0
+Step 0180 | Loss: 769.2377 | L0: 1075.0 | Dead: 0
+Step 0181 | Loss: 772.9495 | L0: 1075.0 | Dead: 0
+Step 0182 | Loss: 739.0702 | L0: 1075.0 | Dead: 0
+Step 0183 | Loss: 738.9796 | L0: 1075.0 | Dead: 0
+Step 0184 | Loss: 742.8770 | L0: 1075.0 | Dead: 0
+Step 0185 | Loss: 753.6337 | L0: 1075.0 | Dead: 0
+Step 0186 | Loss: 721.1669 | L0: 1075.0 | Dead: 0
+Step 0187 | Loss: 749.8664 | L0: 1075.0 | Dead: 0
+Step 0188 | Loss: 802.6658 | L0: 1075.0 | Dead: 0
+Step 0189 | Loss: 751.6107 | L0: 1075.0 | Dead: 0
+Step 0190 | Loss: 757.4447 | L0: 1075.0 | Dead: 0
+Step 0191 | Loss: 689.4604 | L0: 1075.0 | Dead: 0
+Step 0192 | Loss: 764.8051 | L0: 1075.0 | Dead: 0
+Step 0193 | Loss: 782.6368 | L0: 1075.0 | Dead: 0
+Step 0194 | Loss: 706.1687 | L0: 1075.0 | Dead: 0
+Step 0195 | Loss: 747.4121 | L0: 1075.0 | Dead: 0
+Step 0196 | Loss: 715.1230 | L0: 1075.0 | Dead: 0
+Step 0197 | Loss: 766.9549 | L0: 1075.0 | Dead: 0
+Step 0198 | Loss: 720.7140 | L0: 1075.0 | Dead: 0
+Step 0199 | Loss: 702.2853 | L0: 1075.0 | Dead: 0
+Step 0200 | Loss: 741.7479 | L0: 1075.0 | Dead: 0
+Step 0201 | Loss: 712.2775 | L0: 1075.0 | Dead: 0
+Step 0202 | Loss: 753.9706 | L0: 1075.0 | Dead: 0
+Step 0203 | Loss: 685.4882 | L0: 1075.0 | Dead: 0
+Step 0204 | Loss: 707.2660 | L0: 1075.0 | Dead: 0
+Step 0205 | Loss: 711.4639 | L0: 1075.0 | Dead: 0
+Step 0206 | Loss: 731.8719 | L0: 1075.0 | Dead: 0
+Step 0207 | Loss: 722.5516 | L0: 1075.0 | Dead: 0
+Step 0208 | Loss: 716.6972 | L0: 1075.0 | Dead: 0
+Step 0209 | Loss: 768.4132 | L0: 1075.0 | Dead: 0
+Step 0210 | Loss: 691.8826 | L0: 1075.0 | Dead: 0
+Step 0211 | Loss: 717.5039 | L0: 1075.0 | Dead: 0
+Step 0212 | Loss: 703.6797 | L0: 1075.0 | Dead: 0
+Step 0213 | Loss: 706.1533 | L0: 1075.0 | Dead: 0
+Step 0214 | Loss: 742.8207 | L0: 1075.0 | Dead: 0
+Step 0215 | Loss: 671.5375 | L0: 1075.0 | Dead: 0
+Step 0216 | Loss: 691.0560 | L0: 1075.0 | Dead: 0
+Step 0217 | Loss: 679.7836 | L0: 1075.0 | Dead: 0
+Step 0218 | Loss: 695.9398 | L0: 1075.0 | Dead: 0
+Traceback (most recent call last):
+  File "/workspace/Dataset-Curation/./src/sae/train/train_sae.py", line 141, in <module>
+    for step, batch in enumerate(dataloader):
+  File "/workspace/Dataset-Curation/./src/sae/train/train_sae.py", line 75, in live_multimodal_buffer
+    model(**inputs)
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 1034, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 927, in forward
+    outputs = self.language_model(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 952, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/utils/output_capturing.py", line 248, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 574, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 417, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 368, in forward
+    key_states, value_states = past_key_values.update(key_states, value_states, self.layer_idx)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/cache_utils.py", line 937, in update
+    keys, values = self.layers[layer_idx].update(key_states, value_states, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/cache_utils.py", line 199, in update
+    self.lazy_initialization(key_states, value_states)
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/transformers/cache_utils.py", line 182, in lazy_initialization
+    self._sliding_window_tensor = self._sliding_window_tensor.to(self.device)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

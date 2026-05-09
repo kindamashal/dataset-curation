@@ -1,0 +1,67 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            05qmz6bwgx9tun2aumkr7y1pttith1t4:
+                args:
+                    - --layer
+                    - "10"
+                codePath: src/sae/train/train_sae.py
+                codePathLocal: src/sae/train/train_sae.py
+                cpu_count: 128
+                cpu_count_logical: 256
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "32212254720"
+                        used: "439095296"
+                email: abuqutishkhaled@gmail.com
+                executable: /workspace/Dataset-Curation/.venv/bin/python3
+                git:
+                    commit: 0f15718cf529f546b09c2bdf6b83099ceb2fc284
+                    remote: https://github.com/kindaMashal/Dataset-Curation.git
+                gpu: NVIDIA RTX PRO 6000 Blackwell Server Edition
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 24064
+                      memoryTotal: "102641958912"
+                      name: NVIDIA RTX PRO 6000 Blackwell Server Edition
+                      uuid: GPU-26c090e6-8cef-1a01-2f25-d0677b0c8772
+                host: f38109d338e9
+                memory:
+                    total: "1622818250752"
+                os: Linux-6.8.0-111-generic-x86_64-with-glibc2.39
+                program: /workspace/Dataset-Curation/./src/sae/train/train_sae.py
+                python: CPython 3.11.13
+                root: /workspace/Dataset-Curation
+                startedAt: "2026-05-08T22:48:04.934649Z"
+                writerId: 05qmz6bwgx9tun2aumkr7y1pttith1t4
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 51
+                - 53
+                - 71
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 51
+                - 53
+                - 71
+            "3":
+                - 13
+            "4": 3.11.13
+            "5": 0.25.1
+            "6": 5.5.0
+            "12": 0.25.1
+            "13": linux-x86_64
