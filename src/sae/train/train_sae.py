@@ -118,11 +118,10 @@ if __name__=="__main__":
 
 
     trainer_cfg = {
-        "trainer": ARCHITECTURE,
         "dict_class": DICT_CLASS,
         "activation_dim": activation_dim,
         "dict_size": dictionary_size,
-        "lr": 1e-3,
+        "lr": 1e-4,
         "device": device,
         "steps": training_steps,
         "layer": LAYER,
@@ -143,15 +142,12 @@ if __name__=="__main__":
     save_dirs = [
             os.path.join(save_dir, f"trainer_{i}") for i in range(len(trainer_configs))
         ]
-    trainers = []
+    trainers = ["bread"]
     for i, config in enumerate(trainer_configs):
         if "wandb_name" in config:
             config["wandb_name"] = f"{config['wandb_name']}_trainer_{i}"
-        trainer_class = config["trainer"]
-        del config["trainer"]
-        trainers.append(trainer_class(**config))
 
-    for trainer, dir in zip(trainers, save_dirs):
+    for _, dir in zip(trainers, save_dirs):
         os.makedirs(dir, exist_ok=True)
         # save config
         config = {"trainer": trainer.config}

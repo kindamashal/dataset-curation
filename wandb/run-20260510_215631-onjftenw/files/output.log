@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/Dataset-Curation/./src/sae/train/train_sae.py", line 149, in <module>
+    trainer_class = config["trainer"]
+                    ~~~~~~^^^^^^^^^^^
+KeyError: 'trainer'

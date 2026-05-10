@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/Dataset-Curation/./src/sae/train/train_sae.py", line 140, in <module>
+    trainer = ARCHITECTURE(**trainer_cfg)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: TopKTrainer.__init__() got an unexpected keyword argument 'trainer'
