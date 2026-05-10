@@ -59,11 +59,12 @@ def prepare_multimodal_activation(
     if features_of_interest:
         full_feats = {layer: [] for layer in layers_of_interest}
     
-    val_ind = {"top_values": [], "top_indices": []}
     top_activation_dict = {
-        layer: {"image": val_ind.copy(),
-                "text": val_ind.copy(),
-                "fused": val_ind.copy()} for layer in layers_of_interest
+    layer: {
+        "image":  {"top_values": [], "top_indices": []},
+        "text":   {"top_values": [], "top_indices": []},
+        "fused":  {"top_values": [], "top_indices": []},
+    } for layer in layers_of_interest
     }
 
     layer_SAEs = {}
@@ -161,10 +162,10 @@ def prepare_multimodal_activation(
                     top_feature_values[type], top_feature_indices[type] = (
                         features[type].abs().sum(dim=0).topk(top_k)
                     )
-                    top_activation_dict[layer]["top_values"].append(
+                    top_activation_dict[layer][type]["top_values"].append(
                         top_feature_values[type].detach().float().cpu().tolist()
                     )
-                    top_activation_dict[layer]["top_indices"].append(
+                    top_activation_dict[layer][type]["top_indices"].append(
                         top_feature_indices[type].detach().float().cpu().tolist()
                     )
                 
@@ -183,6 +184,10 @@ if __name__ == "__main__":
         type=str, 
         default=image_dir
     )
+    parser.add_argument(
+        "--classified-dir", dest="classified_dir", type=str, default=CLASSIFIED_DIR
+    )
+
     parser.add_argument(
         "--patches-path", 
         dest="patches_path", 
@@ -229,8 +234,8 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--concept", 
-        dest="concept", 
-        action="store_true"
+        dest="chosen_concept", 
+        type=str
     )
     parser.add_argument(
         "--device", 
@@ -264,9 +269,9 @@ if __name__ == "__main__":
     TEXT_DIR = args.text_dir
     CLASSIFIED_DIR = args.classified_dir
     SAES_ROOT = args.saes_root
-    features_of_interest = {
-        int(k): v for k, v in json.loads(args.features_of_interest).items()
-    }
+    # features_of_interest = {
+    #     int(k): v for k, v in json.loads(args.features_of_interest).items()
+    # }
         
     output_path = args.output_path
     layers_of_interest = args.layers

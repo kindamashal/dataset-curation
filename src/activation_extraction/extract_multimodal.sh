@@ -13,8 +13,8 @@ NON_CONCEPT_ACTIVATIONS="activations/multimodal/${CONCEPT_SAFE}_non_concept_dire
 IMAGE_DIRECTORY="person"
 PATCHES_PATH="curated_data/multimodal/multimodal_classified/all_multimodal_patches_classified.json"
 
-INPUT_NAME="curated_data/multimodal/multimodal_text/text_data.json"
-CLASSIFIED_NAME="curated_data/multimodal/multimodal_classified/multimodal_data_classified.json"
+INPUT_NAME="text_data.json"
+CLASSIFIED_NAME="text_data_classified.json"
 
 python src/activation_extraction/extract_image_text_activations.py \
     --image-dir "$IMAGE_DIRECTORY" \
