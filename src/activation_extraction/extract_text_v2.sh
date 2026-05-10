@@ -50,4 +50,5 @@ python src/activation_extraction/extract_text_activations.py \
     --input-name "$INPUT_NAME" \
     --classified-name "$CLASSIFIED_NAME" \
     --output-path "activations/text/${CONCEPT_SAFE}_vis_direct_prompt_v2.json" \
-    --features-of-interest "$FEATURES_OF_INTEREST"
+    --features-of-interest "$FEATURES_OF_INTEREST" \
+    --layers "${LAYERS[@]}"

@@ -9,6 +9,7 @@ from transformers import Gemma3ForConditionalGeneration
 import argparse
 import sys
 import wandb
+import json
     
 
 
@@ -31,7 +32,7 @@ activation_dim = 5376
 dictionary_size = 16 * activation_dim
 llm_batch_size = 16
 sae_batch_size = 8192
-training_steps = 1441 #500
+training_steps = 900 #1441 #500
 
  
 
@@ -137,6 +138,29 @@ if __name__=="__main__":
     wandb.init(project="sae-training", name=f"Layer_{LAYER}_TopK")
 
     trainer = ARCHITECTURE(**trainer_cfg)
+    trainer_configs = [trainer_cfg]
+    save_dir = f"../Github-SAE/activations_{LAYER}_{ARCHITECTURE.__name__}_wandb"
+    save_dirs = [
+            os.path.join(save_dir, f"trainer_{i}") for i in range(len(trainer_configs))
+        ]
+    trainers = []
+    for i, config in enumerate(trainer_configs):
+        if "wandb_name" in config:
+            config["wandb_name"] = f"{config['wandb_name']}_trainer_{i}"
+        trainer_class = config["trainer"]
+        del config["trainer"]
+        trainers.append(trainer_class(**config))
+
+    for trainer, dir in zip(trainers, save_dirs):
+        os.makedirs(dir, exist_ok=True)
+        # save config
+        config = {"trainer": trainer.config}
+        with open(os.path.join(dir, "config.json"), "w") as f:
+            json.dump(config, f, indent=4)
+    
+
+
+    
 
     for step, batch in enumerate(dataloader):
         if step >= training_steps:
@@ -161,9 +185,12 @@ if __name__=="__main__":
             }, step=step)
         
         print(f"Step {step:04d} | Loss: {loss:.4f} | L0: {trainer.effective_l0:.1f} | Dead: {trainer.dead_features}")
+    with open("num_tokens_since_fired.json", "w") as f:
+        json.dump(trainer.num_tokens_since_fired_dict, f)
 
-    save_path = os.path.join(f"../Github-SAE/activations_{LAYER}_{ARCHITECTURE.__name__}_wandb", "ae.pt")
-    torch.save(trainer.ae.state_dict(), save_path)
+    for save_dir, trainer in zip(save_dirs, trainers):
+            final = {k: v.cpu() for k, v in trainer.ae.state_dict().items()}
+            torch.save(final, os.path.join(save_dir, "ae.pt"))
     wandb.finish()
     
     # trainSAE(
