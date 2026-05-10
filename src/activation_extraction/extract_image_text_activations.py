@@ -9,7 +9,7 @@ import os
 import argparse
 
 image_dir = "person"
-TEXT_DIR = "curated_data/multimodal/multimodal_text/text_data.json"
+TEXT_DIR = "curated_data/multimodal/multimodal_text"
 patches_dir = "curated_data/multimodal/multimodal_classified/all_multimodal_patches_classified.json"
 CLASSIFIED_DIR = "curated_data/multimodal/multimodal_text"
 output_path = "activations/multimodal/concept_multimodal_feature_discovery.json"
@@ -21,11 +21,9 @@ model_id = "google/gemma-3-27b-it"
 model = None
 processor = None
 
-
 layers_of_interest = [10, 30, 59]
-features_of_interest = {10: [50976, 44870, 15559, 41517, 18075, 15580], 30: [77186, 30468, 43399, 30365, 22175, 71976, 42156, 6189, 36153, 50367, 50004, 24026, 29532, 23389, 80994, 23272, 19441, 28532, 72702], 59: [40936, 21833, 50317, 83827, 33434, 65885, 5405, 35999]}
+#features_of_interest = {10: [50976, 44870, 15559, 41517, 18075, 15580], 30: [77186, 30468, 43399, 30365, 22175, 71976, 42156, 6189, 36153, 50367, 50004, 24026, 29532, 23389, 80994, 23272, 19441, 28532, 72702], 59: [40936, 21833, 50317, 83827, 33434, 65885, 5405, 35999]}
 activations = {}
-
 
 def make_hook(layer_id):
     def hook(module, input, output):
@@ -153,7 +151,7 @@ def prepare_multimodal_activation(
 
                 features["image"] = feats.flatten(end_dim=1)[image_concept_token_indices] 
                 features["text"] = feats.flatten(end_dim=1)[text_concept_token_indices]
-                features["fused"] = feats.flatten(end_dim=1)[list(set(image_concept_token_indices.extend(text_concept_token_indices)))]
+                features["fused"] = feats.flatten(end_dim=1)[image_concept_token_indices + text_concept_token_indices]
 
                 top_feature_values = {"image": None, "text": None, "fused": None}
                 top_feature_indices = {"image": None, "text": None, "fused": None}
@@ -191,7 +189,6 @@ if __name__ == "__main__":
         type=str, 
         default=patches_dir
     )
-    
     parser.add_argument(
         "--text-dir", 
         dest="text_dir", 
@@ -202,21 +199,20 @@ if __name__ == "__main__":
         "--input-name",
         dest="input_name",
         type=str,
-        default="text_concept_a_person.json",
+        default="text_data.json",
     )
     parser.add_argument(
         "--classified-name",
         dest="classified_name",
         type=str,
-        default="text_concept_a_person_classified.json",
+        default="multimodal_data_classified.json",
     )
-    parser.add_argument(
-        "--features-of-interest",
-        dest="features_of_interest",
-        type=str,
-        default=json.dumps(features_of_interest),
-    )
-
+    # parser.add_argument(
+    #     "--features-of-interest",
+    #     dest="features_of_interest",
+    #     type=str,
+    #     default=json.dumps(features_of_interest),
+    # )
 
     parser.add_argument(
         "--saes-root", 
