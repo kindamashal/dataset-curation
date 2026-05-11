@@ -152,7 +152,9 @@ def prepare_multimodal_activation(
 
                 features["image"] = feats.flatten(end_dim=1)[image_concept_token_indices] 
                 features["text"] = feats.flatten(end_dim=1)[text_concept_token_indices]
-                features["fused"] = feats.flatten(end_dim=1)[image_concept_token_indices + text_concept_token_indices]
+                image_concept_token_indices.extend(text_concept_token_indices)
+                fused_indices = set(image_concept_token_indices)
+                features["fused"] = feats.flatten(end_dim=1)[list(fused_indices)]
 
                 top_feature_values = {"image": None, "text": None, "fused": None}
                 top_feature_indices = {"image": None, "text": None, "fused": None}
