@@ -1,0 +1,201 @@
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: tensor([[  144,   320,   334,  ..., 85912, 85972, 26937],
+        [  300,   320,   362,  ..., 85821, 85912, 30375],
+        [   70,   119,   155,  ..., 86007, 86014,  3545],
+        ...,
+        [  155,   235,   263,  ..., 85890, 85957, 47156],
+        [   20,    24,    72,  ..., 85882, 85885, 76672],
+        [   88,   144,   262,  ..., 85850, 85964, 56143]], device='cuda:0')
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: <built-in method size of Tensor object at 0x780d66995b30>
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: tensor([[  144,   320,   334,  ..., 85912, 85972, 26937],
+        [  300,   320,   362,  ..., 85821, 85912, 30375],
+        [   70,   119,   155,  ..., 86007, 86014,  3545],
+        ...,
+        [  155,   235,   263,  ..., 85890, 85957, 47156],
+        [   20,    24,    72,  ..., 85882, 85885, 76672],
+        [   88,   144,   262,  ..., 85850, 85964, 56143]], device='cuda:0')
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: <built-in method size of Tensor object at 0x780d66995b30>
+Step 0000 | Loss: 12870.0361 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: tensor([[   32,   144,   334,  ..., 85964, 85972, 45048],
+        [  144,   320,   334,  ..., 85858, 85972, 85964],
+        [  104,   128,   149,  ..., 85766, 85936, 32155],
+        ...,
+        [   70,   133,   199,  ..., 85837, 85859, 22298],
+        [  106,   144,   320,  ..., 85858, 85972, 28415],
+        [  155,   273,   443,  ..., 85902, 85953, 60832]], device='cuda:0')
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: <built-in method size of Tensor object at 0x780b2c70f7a0>
+Step 0001 | Loss: 12457.7822 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: tensor([[   26,    86,   126,  ..., 85822, 85856, 14394],
+        [  119,   133,   267,  ..., 85560, 85885, 54022],
+        [   55,   155,   293,  ..., 85624, 85746, 69759],
+        ...,
+        [   53,   106,   144,  ..., 85964, 85972, 27180],
+        [    5,    61,   119,  ..., 85830, 86014, 64001],
+        [  144,   149,   188,  ..., 85738, 85821, 17268]], device='cuda:0')
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: <built-in method size of Tensor object at 0x780b2060d1d0>
+Step 0002 | Loss: 9746.8584 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: tensor([[   38,   280,   464,  ..., 85859, 85890,  5374],
+        [  120,   274,   328,  ..., 85869, 86008,  1442],
+        [  155,   199,   263,  ..., 85337, 85616, 21952],
+        ...,
+        [    5,    42,   149,  ..., 85918, 85931,  9418],
+        [  392,   439,   450,  ..., 85878, 85972,  4249],
+        [   29,    61,   133,  ..., 85890, 85957, 57727]], device='cuda:0')
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: <built-in method size of Tensor object at 0x780b2c164640>
+Step 0003 | Loss: 8130.7754 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: tensor([[    6,    57,   105,  ..., 85773, 85856, 21217],
+        [  148,   149,   270,  ..., 85981, 86013, 31104],
+        [  144,   334,   338,  ..., 85912, 85972, 83626],
+        ...,
+        [    6,    57,   133,  ..., 85859, 85915, 43686],
+        [   70,   105,   133,  ..., 85750, 85859, 82066],
+        [  144,   320,   334,  ..., 85912, 85972, 33559]], device='cuda:0')
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: <built-in method size of Tensor object at 0x780b2c3be940>
+Step 0004 | Loss: 7296.5513 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: tensor([[  320,   334,   338,  ..., 85912, 85972, 53033],
+        [   79,   105,   133,  ..., 85616, 85626, 74003],
+        [    9,    70,   105,  ..., 85729, 85750, 74741],
+        ...,
+        [  248,   296,   320,  ..., 85972, 85998, 70894],
+        [   12,   238,   296,  ..., 85458, 85924, 60413],
+        [   30,   156,   292,  ..., 85980, 85988,  4144]], device='cuda:0')
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: <built-in method size of Tensor object at 0x780b2c10f660>
+Step 0005 | Loss: 6976.0596 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: tensor([[   55,   113,   133,  ..., 85915, 86007, 36401],
+        [   10,   406,   437,  ..., 85857, 85884, 73274],
+        [    5,    93,   160,  ..., 85906, 85955, 58341],
+        ...,
+        [  144,   334,   338,  ..., 85912, 85972, 65362],
+        [  144,   149,   185,  ..., 85880, 85972, 66078],
+        [   34,    88,   250,  ..., 85772, 85938,  6886]], device='cuda:0')
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: <built-in method size of Tensor object at 0x780b2c1d3f20>
+Step 0006 | Loss: 6379.4199 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: tensor([[  100,   144,   246,  ..., 85836, 85972,  3968],
+        [   50,   142,   158,  ..., 85937, 85947, 55742],
+        [  106,   159,   171,  ..., 85880, 85972,  8101],
+        ...,
+        [   43,   110,   119,  ..., 85925, 85970, 85595],
+        [  116,   180,   199,  ..., 85911, 85933, 12199],
+        [  228,   329,   336,  ..., 85821, 85981, 71382]], device='cuda:0')
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: <built-in method size of Tensor object at 0x780b2c2499a0>
+Step 0007 | Loss: 5804.8135 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: tensor([[   70,   133,   154,  ..., 85859, 85890, 35554],
+        [    9,    66,    98,  ..., 85943, 85953, 14204],
+        [  119,   133,   155,  ..., 85856, 85953, 15069],
+        ...,
+        [   63,   144,   334,  ..., 85728, 85774, 62140],
+        [  162,   185,   320,  ..., 85921, 85972,  4921],
+        [   21,   134,   300,  ..., 85912, 85927, 75067]], device='cuda:0')
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: <built-in method size of Tensor object at 0x780b2c10eb20>
+Step 0008 | Loss: 5592.2666 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: tensor([[   18,    41,   237,  ..., 85829, 85832,  2738],
+        [   81,   119,   133,  ..., 85856, 85968, 77017],
+        [   90,   113,   208,  ..., 85972, 85973, 45141],
+        ...,
+        [  144,   185,   320,  ..., 85821, 85972, 80529],
+        [   66,   131,   133,  ..., 85929, 85950, 70494],
+        [  117,   348,   536,  ..., 85837, 86002,  8188]], device='cuda:0')
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: <built-in method size of Tensor object at 0x780b24857930>
+Step 0009 | Loss: 5710.2275 | L0: 1075.0 | Dead: 0
+Traceback (most recent call last):
+  File "/workspace/Dataset-Curation/./src/sae/train/train_sae.py", line 187, in <module>
+    json.dump(trainer.top_indices_BK_flattened, fi)
+  File "/usr/lib/python3.11/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.11/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Tensor is not JSON serializable
