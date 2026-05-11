@@ -107,8 +107,7 @@ def llm_call(image, concept, retries=5):
 #     output_text = processor.batch_decode(
 #         generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
 #     )
-
-#     return output_text[0]
+#     return int(output_text[0])
 
 
 
