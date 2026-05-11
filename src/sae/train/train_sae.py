@@ -183,10 +183,11 @@ if __name__=="__main__":
         print(f"Step {step:04d} | Loss: {loss:.4f} | L0: {trainer.effective_l0:.1f} | Dead: {trainer.dead_features}")
     with open("num_tokens_since_fired.json", "w") as f:
         json.dump(trainer.num_tokens_since_fired_dict, f)
+    with open("top_indices_BK_flattened.json","w") as fi:
+        json.dump(trainer.top_indices_BK_flattened, fi)
 
-    for save_dir, trainer in zip(save_dirs, trainers):
-            final = {k: v.cpu() for k, v in trainer.ae.state_dict().items()}
-            torch.save(final, os.path.join(save_dir, "ae.pt"))
+    final = {k: v.cpu() for k, v in trainer.ae.state_dict().items()}
+    torch.save(final, os.path.join(save_dir, "ae.pt"))
     wandb.finish()
     
     # trainSAE(
