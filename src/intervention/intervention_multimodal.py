@@ -12,6 +12,7 @@ image_dir = "person"
 TEXT_DIR = "curated_data/multimodal/multimodal_text"
 CLASSIFIED_DIR = "curated_data/multimodal/multimodal_text"
 output_path = "model_outputs/intervened/"
+ARCHITECTURE = "TopKTrainer"
 device = "cuda:0"
 model_id = "google/gemma-3-27b-it"
 model = None
@@ -109,12 +110,6 @@ if __name__ == "__main__":
         default=image_dir
     )
     parser.add_argument(
-        "--patches-path", 
-        dest="patches_path", 
-        type=str, 
-        default=patches_dir
-    )
-    parser.add_argument(
         "--text-dir", 
         dest="text_dir", 
         type=str,
@@ -131,13 +126,6 @@ if __name__ == "__main__":
         dest="classified_name",
         type=str,
         default="text_concept_a_person_classified.json",
-    )
-
-    parser.add_argument(
-        "--saes-root", 
-        dest="saes_root", 
-        type=str, 
-        default=SAES_ROOT
     )
     parser.add_argument(
         "--layers", 
