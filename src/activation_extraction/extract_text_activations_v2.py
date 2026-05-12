@@ -57,7 +57,7 @@ def prepare_text_activation(
     layer_SAEs = {}
     for layer in layers_of_interest:
         trained_sae, _ = utils.load_dictionary(
-            os.path.join(SAES_ROOT, f"activations_{layer}_{ARCHETICTURE}", "trainer_0"),
+            os.path.join(SAES_ROOT, f"activations_{layer}_{ARCHETICTURE}_wandb", "trainer_0"),
             device=device,
         )
         trained_sae.eval()

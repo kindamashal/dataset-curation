@@ -2,10 +2,11 @@
 
 set -euo pipefail
 
-CONCEPT="a dataset with diverse colors, with some bias towards green, some traditionally green things like trees perhaps"
-LAYERS=(10 35 40 50 59)
+CONCEPT="a dataset with diverse colors, with some bias towards red, some traditionally red things like blood perhaps"
+LAYERS=(5 10 15 20 30 35 40 50 59)
 
-CONCEPT_SAFE="${CONCEPT// /_}"
+#CONCEPT_SAFE="${CONCEPT// /_}"
+CONCEPT_SAFE="red"
 
 CONCEPT_ACTIVATIONS="activations/text/${CONCEPT_SAFE}_concept_direct_prompt_v2.json"
 NON_CONCEPT_ACTIVATIONS="activations/text/${CONCEPT_SAFE}_non_concept_direct_prompt_v2.json"

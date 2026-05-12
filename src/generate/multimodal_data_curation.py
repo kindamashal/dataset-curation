@@ -5,6 +5,8 @@ import base64
 import argparse
 import glob
 from dotenv import load_dotenv
+from tqdm import tqdm
+import time
 
 load_dotenv()
 
@@ -99,8 +101,9 @@ if __name__ == "__main__":
         concepts_dict = json.load(f)
 
     results = {}
-    for image_path in files:
+    for image_path in tqdm(files):
         results[image_path] = produce_text(image_path, concepts_dict, mention)
+        time.sleep(2)
 
     save_dir = os.path.dirname(save_path)
     if save_dir:

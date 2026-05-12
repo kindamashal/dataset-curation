@@ -16,9 +16,10 @@ device = "cuda:0"
 model_id = "google/gemma-3-27b-it"
 model = None
 processor = None
+ARCHETICTURE = "TopKTrainer"
 
 
-layers_of_interest = [10, 30, 59]
+layers_of_interest = [5, 10, 15, 20, 30, 35, 40, 50, 59]
 activations = {}
 
 
@@ -59,7 +60,7 @@ def prepare_text_activation(
     layer_SAEs = {}
     for layer in layers_of_interest:
         trained_sae, _ = utils.load_dictionary(
-            os.path.join(activations_root, f"activations_{layer}", "trainer_0"),
+            os.path.join(activations_root, f"activations_{layer}_{ARCHETICTURE}_wandb", "trainer_0"),
             device=device,
         )
         trained_sae.eval()
