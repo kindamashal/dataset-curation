@@ -16,8 +16,8 @@ load_dotenv()
 processor = AutoProcessor.from_pretrained("google/gemma-3-27b-it")
 TEXT_DIR = "curated_data/text/text_dataset"
 OUT_DIR = "curated_data/text/text_dataset_classified"
-CONCEPT = "green the color, or green reminicent concepts, such as trees"
-FILE_CONTAINS = "_green_"
+CONCEPT = "red the color, or red reminicent concepts, such as blood"
+FILE_CONTAINS = "_red"
 MAX_WORKERS = 50
 
 prompt = """

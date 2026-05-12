@@ -15,7 +15,7 @@ load_dotenv()
 
 
 data_size = 500
-target_concept = "a random concept." #"A dataset with diverse colors, with some bias towards green, some traditionally green things like trees perhaps"
+target_concept = "A dataset with diverse colors, with some bias towards red, some traditionally red things like blood perhaps"
 target_constraints = "Use varied sentence openings (names, pronouns, plural forms)(if applicable). avoid repeating the same living beings many times"
 output_dir = "curated_data/text/text_dataset"
 # control_concept = "anything that is non-living"
@@ -40,7 +40,7 @@ def generate_prompt_groq(prompt, client):
         messages=[
             {
                 "role": "system",
-                "content": "You are a dataset curator. Generate diverse, long, natural English paragraphs.",
+                "content": "You are a dataset curator. Generate diverse, short, natural English sentences.",
             },
             {"role": "user", "content": prompt},
         ],
@@ -70,7 +70,7 @@ def build_prompt_set(target=True, size=500, concept="", constraints=""):
     pbar = tqdm(total=size, desc=f"Total propmts for {concept}")
     while len(collected) < size:
         prompt = (
-            f"Task: Generate 10 unique, natural English paragraphs.\n\n"
+            f"Task: Generate 50 unique, natural English paragraphs.\n\n"
             f"Target concept: {concept}\n"
             f"Additional constraints: {constraints}\n\n"
             "-------------------------------------\n"
@@ -85,7 +85,7 @@ def build_prompt_set(target=True, size=500, concept="", constraints=""):
             "-------------------------------------\n"
             "PARAGRAPH STRUCTURE\n"
             "-------------------------------------\n"
-            "- Each paragraph should be 10-15 sentences long.\n"
+            "- Each paragraph should be 3–6 sentences long.\n"
             "- Maintain internal coherence within each paragraph.\n"
             "- Vary paragraph styles: narrative, descriptive, reflective, expository.\n\n"
             "-------------------------------------\n"
@@ -117,7 +117,7 @@ def build_prompt_set(target=True, size=500, concept="", constraints=""):
             "OUTPUT FORMAT (STRICT)\n"
             "-------------------------------------\n"
             "- Return ONLY a valid JSON object.\n"
-            "- The JSON must contain a single key with a list of 10 paragraphs.\n"
+            "- The JSON must contain a single key with a list of 50 paragraphs.\n"
             "- No explanations, no metadata, no extra text.\n\n"
             "Example format:\n"
             "{\n"
@@ -125,7 +125,7 @@ def build_prompt_set(target=True, size=500, concept="", constraints=""):
             "}\n"
         )
 
-        generated = generate_prompt_groq(prompt, client_groq)
+        generated = generate_prompt_gemini(prompt, client_gemini)
         for sentence in generated:
             norm = normalize(sentence)
 
@@ -170,7 +170,7 @@ if __name__ == "__main__":
     )
     output_path = os.path.join(
         output_dir,
-        f"text_concept_{target_concept.lower().replace(' ', '_')}.json",
+        f"text_concept_{'red'.lower().replace(' ', '_')}.json",
     )
     json.dump(target_dataset, open(output_path, "w"), indent=2)
 
