@@ -32,7 +32,7 @@ activation_dim = 5376
 dictionary_size = 16 * activation_dim
 llm_batch_size = 16
 sae_batch_size = 8192
-training_steps = 900 #1441 #500
+training_steps = 10 #900 #1441 #500
 
  
 
@@ -162,7 +162,7 @@ if __name__=="__main__":
         if step >= training_steps:
             break
         
-        batch = batch.to(device)
+        batch = batch.unsqueeze(0).to(device)
 
         loss = trainer.update(step, batch)
 
