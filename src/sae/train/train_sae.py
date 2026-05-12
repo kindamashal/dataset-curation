@@ -10,6 +10,7 @@ import argparse
 import sys
 import wandb
 import json
+import shutil
     
 
 
@@ -32,13 +33,16 @@ activation_dim = 5376
 dictionary_size = 16 * activation_dim
 llm_batch_size = 16
 sae_batch_size = 8192
-training_steps = 10 #900 #1441 #500
+training_steps = 1441 #500
+with open("curated_data/text/text_dataset/train_text.json", "r") as f:
+    text_data = json.load(f)
 
  
 
 def live_multimodal_buffer(dataset, model, processor, sae_batch_size=8192, vlm_batch_size=16, layer=10):
 
     data_iter = iter(dataset)
+    text_iter = iter(text_data)
     token_waiting_room = []
     
     while True:
@@ -46,6 +50,11 @@ def live_multimodal_buffer(dataset, model, processor, sae_batch_size=8192, vlm_b
         try:
             for _ in range(vlm_batch_size):
                 item = next(data_iter)
+                try:
+                    text = next(text_iter)
+                except StopIteration:
+                    text = item["question"]
+
                 messages.append(
                     [
                     {
@@ -56,7 +65,7 @@ def live_multimodal_buffer(dataset, model, processor, sae_batch_size=8192, vlm_b
                         "role": "user",
                         "content": [
                             {"type": "image", "image": item["image"]},
-                            {"type": "text", "text": item["question"]}
+                            {"type": "text", "text": text}
                         ]
                     }
                 ]
@@ -67,7 +76,7 @@ def live_multimodal_buffer(dataset, model, processor, sae_batch_size=8192, vlm_b
 
         inputs = processor.apply_chat_template(
             messages, add_generation_prompt=True, tokenize=True,
-            return_dict=True, return_tensors="pt"
+            return_dict=True, return_tensors="pt", padding=True,
         ).to(model.device, dtype=torch.float32)
 
         activations.clear()
@@ -121,7 +130,7 @@ if __name__=="__main__":
         "dict_class": DICT_CLASS,
         "activation_dim": activation_dim,
         "dict_size": dictionary_size,
-        "lr": 1e-4,
+        "lr": 1e-5,
         "device": device,
         "steps": training_steps,
         "layer": LAYER,
@@ -157,7 +166,6 @@ if __name__=="__main__":
 
 
     
-
     for step, batch in enumerate(dataloader):
         if step >= training_steps:
             break
@@ -180,14 +188,39 @@ if __name__=="__main__":
                 "metrics/dead_features": trainer.dead_features,
             }, step=step)
         
+        
         print(f"Step {step:04d} | Loss: {loss:.4f} | L0: {trainer.effective_l0:.1f} | Dead: {trainer.dead_features}")
-    with open("num_tokens_since_fired.json", "w") as f:
-        json.dump(trainer.num_tokens_since_fired_dict, f)
-    with open("top_indices_BK_flattened.json","w") as fi:
-        json.dump(trainer.top_indices_BK_flattened, fi)
+        
+        if step % 100 == 0 and step!=0:
+            final = {k: v.cpu() for k, v in trainer.ae.state_dict().items()}
+            if step > 100:
+                os.remove(os.path.join(save_dir, "trainer_0", "ae.pt"))
 
+            torch.save(final, os.path.join(os.path.join(save_dir, f"trainer_0"), "ae.pt"))
+
+    # print("\nbefore save:\n")
+    # print(trainer.ae.encoder.weight)
     final = {k: v.cpu() for k, v in trainer.ae.state_dict().items()}
-    torch.save(final, os.path.join(save_dir, "ae.pt"))
+    if os.path.exists(save_dir):
+        os.remove(os.path.join(save_dir, "trainer_0", "ae.pt"))
+
+    torch.save(final, os.path.join(os.path.join(save_dir, f"trainer_0"), "ae.pt"))
+
+
+    # from dictionary_learning import utils
+    # import os
+    # device = "cuda:0"
+    # SAES_ROOT = "/workspace/Github-SAE/"
+    # layer = 10
+    # ARCHETICTURE = "TopKTrainer"
+
+    # loaded_ae, _ = utils.load_dictionary(
+    #             os.path.join(save_dir, "trainer_0"),
+    #             device=device,
+    #         )
+    
+    # print("\nafter save:\n")
+    # print(loaded_ae.encoder.weight)
     wandb.finish()
     
     # trainSAE(

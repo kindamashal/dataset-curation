@@ -1,0 +1,44 @@
+{
+  "os":  "Linux-6.8.0-111-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.11.13",
+  "startedAt":  "2026-05-12T14:02:00.111145Z",
+  "args":  [
+    "--layer",
+    "10"
+  ],
+  "program":  "/workspace/Dataset-Curation/./src/sae/train/train_sae.py",
+  "codePath":  "src/sae/train/train_sae.py",
+  "codePathLocal":  "src/sae/train/train_sae.py",
+  "git":  {
+    "remote":  "https://github.com/kindaMashal/Dataset-Curation.git",
+    "commit":  "8599b7d1e743132c1ed604e2d4a6dc282066f810"
+  },
+  "email":  "abuqutishkhaled@gmail.com",
+  "root":  "/workspace/Dataset-Curation",
+  "host":  "137002d06bf5",
+  "executable":  "/workspace/Dataset-Curation/.venv/bin/python3",
+  "cpu_count":  128,
+  "cpu_count_logical":  256,
+  "gpu":  "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "32212254720",
+      "used":  "942125056"
+    }
+  },
+  "memory":  {
+    "total":  "1622817189888"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+      "memoryTotal":  "102641958912",
+      "cudaCores":  24064,
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-97920117-6912-ffa4-4cf8-95ac06abdda8"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "iayh9v8nefviq0toblldyrsce8czj8eg"
+}

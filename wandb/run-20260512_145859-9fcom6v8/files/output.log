@@ -1,0 +1,33 @@
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0000 | Loss: 9698.4229 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0001 | Loss: 9092.7119 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0002 | Loss: 6831.7676 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0003 | Loss: 6576.3945 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0004 | Loss: 5655.2803 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0005 | Loss: 5153.5586 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0006 | Loss: 4636.2930 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0007 | Loss: 4503.3379 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0008 | Loss: 4328.4800 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0009 | Loss: 4385.7817 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Traceback (most recent call last):
+  File "/workspace/Dataset-Curation/./src/sae/train/train_sae.py", line 207, in <module>
+    torch.save(final, os.path.join(os.path.join(save_dir, f"trainer_0"), "ae.pt"))
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/serialization.py", line 1003, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/serialization.py", line 865, in _open_zipfile_writer
+    return container(name_or_buffer)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/serialization.py", line 829, in __init__
+    torch._C.PyTorchFileWriter(
+RuntimeError: Parent directory ../Github-SAE/activations_10_TopKTrainer_wandb/trainer_0 does not exist.

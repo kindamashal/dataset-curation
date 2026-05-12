@@ -1,0 +1,14 @@
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0000 | Loss: 9757.3076 | L0: 1075.0 | Dead: 0
+Traceback (most recent call last):
+  File "/workspace/Dataset-Curation/./src/sae/train/train_sae.py", line 199, in <module>
+    torch.save(final, os.path.join(os.path.join(save_dir, f"trainer_0"), "ae.pt"))
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/serialization.py", line 1003, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/serialization.py", line 865, in _open_zipfile_writer
+    return container(name_or_buffer)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Dataset-Curation/.venv/lib/python3.11/site-packages/torch/serialization.py", line 829, in __init__
+    torch._C.PyTorchFileWriter(
+RuntimeError: Parent directory ../Github-SAE/activations_10_TopKTrainer_wandb/trainer_0 does not exist.

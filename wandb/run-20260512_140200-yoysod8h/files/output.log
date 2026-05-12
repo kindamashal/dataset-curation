@@ -1,0 +1,21 @@
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0000 | Loss: 9661.4004 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0001 | Loss: 9081.6895 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0002 | Loss: 6821.7998 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0003 | Loss: 6570.5513 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0004 | Loss: 5720.5801 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0005 | Loss: 5092.6309 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0006 | Loss: 4669.8936 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0007 | Loss: 4513.6606 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0008 | Loss: 4436.8662 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0009 | Loss: 4484.8916 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`

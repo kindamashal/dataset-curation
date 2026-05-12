@@ -42,6 +42,12 @@ def intervene(
 
             encoded = layer_SAEs[layer_id].encode(input, return_features=True)
             # Keep in mind the case that the feature value in the indices might be 0, so if we're strengthening them we'll add the mean*alpha 
+            if alpha > 1:
+                x = encoded[:, :, [feature_indices[layer_id]]]
+                mean = x.mean()
+                x = torch.where(x == 0, mean*alpha, x)
+                encoded[:, :, [feature_indices[layer_id]]] = x
+                    
             encoded[:, :, [feature_indices[layer_id]]] *= alpha
         
 

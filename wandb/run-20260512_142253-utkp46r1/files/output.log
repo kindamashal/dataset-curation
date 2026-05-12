@@ -1,0 +1,45 @@
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0000 | Loss: 9645.0439 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0001 | Loss: 9102.5977 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0002 | Loss: 6922.3579 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0003 | Loss: 6568.5996 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0004 | Loss: 5750.4678 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0005 | Loss: 5079.6787 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0006 | Loss: 4712.2173 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0007 | Loss: 4536.5674 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0008 | Loss: 4443.8306 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Step 0009 | Loss: 4468.9268 | L0: 1075.0 | Dead: 0
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+before save:
+
+Parameter containing:
+tensor([[ 0.0128,  0.0002,  0.0092,  ..., -0.0136, -0.0146, -0.0199],
+        [-0.0179,  0.0114,  0.0060,  ..., -0.0209, -0.0110,  0.0205],
+        [-0.0145,  0.0158, -0.0166,  ..., -0.0083,  0.0067,  0.0003],
+        ...,
+        [-0.0166, -0.0032,  0.0215,  ..., -0.0231,  0.0130, -0.0034],
+        [ 0.0158,  0.0101, -0.0126,  ...,  0.0015, -0.0133,  0.0232],
+        [ 0.0150, -0.0173, -0.0132,  ...,  0.0094,  0.0225,  0.0034]],
+       device='cuda:0', requires_grad=True)
+
+after save:
+
+Parameter containing:
+tensor([[ 0.0128,  0.0002,  0.0092,  ..., -0.0136, -0.0146, -0.0199],
+        [-0.0179,  0.0114,  0.0060,  ..., -0.0209, -0.0110,  0.0205],
+        [-0.0145,  0.0158, -0.0166,  ..., -0.0083,  0.0067,  0.0003],
+        ...,
+        [-0.0166, -0.0032,  0.0215,  ..., -0.0231,  0.0130, -0.0034],
+        [ 0.0158,  0.0101, -0.0126,  ...,  0.0015, -0.0133,  0.0232],
+        [ 0.0150, -0.0173, -0.0132,  ...,  0.0094,  0.0225,  0.0034]],
+       device='cuda:0', requires_grad=True)
