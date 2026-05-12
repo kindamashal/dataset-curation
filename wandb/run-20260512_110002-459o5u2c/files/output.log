@@ -1,0 +1,120 @@
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: torch.Size([8192, 1075])
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: torch.Size([8192, 5376])
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: torch.Size([8192, 1075])
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: torch.Size([8192, 5376])
+Step 0000 | Loss: 12600.3594 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: torch.Size([8192, 1075])
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: torch.Size([8192, 5376])
+Step 0001 | Loss: 12386.0566 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: torch.Size([8192, 1075])
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: torch.Size([8192, 5376])
+Step 0002 | Loss: 9606.5342 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: torch.Size([8192, 1075])
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: torch.Size([8192, 5376])
+Step 0003 | Loss: 8017.0439 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: torch.Size([8192, 1075])
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: torch.Size([8192, 5376])
+Step 0004 | Loss: 7333.7080 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: torch.Size([8192, 1075])
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: torch.Size([8192, 5376])
+Step 0005 | Loss: 6952.8081 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: torch.Size([8192, 1075])
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: torch.Size([8192, 5376])
+Step 0006 | Loss: 6423.2842 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: torch.Size([8192, 1075])
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: torch.Size([8192, 5376])
+Step 0007 | Loss: 5768.6890 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: torch.Size([8192, 1075])
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: torch.Size([8192, 5376])
+Step 0008 | Loss: 5607.5137 | L0: 1075.0 | Dead: 0
+
+input shape: torch.Size([8192, 5376])
+post_relu_feat_acts_BF shape: torch.Size([8192, 86016])
+post topk values shape: torch.Size([8192, 1075])
+post topk indices shape: torch.Size([8192, 1075])
+encoded_acts_BF shape: torch.Size([8192, 86016])
+features shape: torch.Size([8192, 86016])
+e shape: torch.Size([8192, 5376])
+num_tokens_in_step!!: 8192
+x.shape when num_tokens!!: torch.Size([8192, 5376])  x.size()->used: torch.Size([8192, 5376])
+Step 0009 | Loss: 5708.7500 | L0: 1075.0 | Dead: 0

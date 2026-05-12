@@ -162,7 +162,7 @@ if __name__=="__main__":
         if step >= training_steps:
             break
         
-        batch = batch.unsqueeze(0).to(device)
+        batch = batch.to(device)
 
         loss = trainer.update(step, batch)
 

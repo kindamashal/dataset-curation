@@ -12,14 +12,14 @@ from io import BytesIO
 import glob
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
-# from transformers import Qwen3VLMoeForConditionalGeneration, AutoProcessor
-# import torch
+from transformers import Qwen3VLMoeForConditionalGeneration, AutoProcessor
+import torch
 
-# model = Qwen3VLMoeForConditionalGeneration.from_pretrained(
-#     "Qwen/Qwen3-VL-30B-A3B-Instruct", dtype="auto", device_map="auto"
-# )
+model = Qwen3VLMoeForConditionalGeneration.from_pretrained(
+    "Qwen/Qwen3-VL-30B-A3B-Instruct", dtype="auto", device_map="auto"
+)
 
-# processor = AutoProcessor.from_pretrained("Qwen/Qwen3-VL-30B-A3B-Instruct")
+processor = AutoProcessor.from_pretrained("Qwen/Qwen3-VL-30B-A3B-Instruct")
 
 load_dotenv()
 client = Groq(api_key=os.environ["GROQ_API_KEY"])
@@ -71,43 +71,43 @@ def llm_call(image, concept, retries=5):
 
     raise Exception("Max retries exceeded due to rate limiting.")
 
-# def qwen_call(image, concept):
-#     base64_image = encode_image(image)
+def qwen_call(image, concept):
+    base64_image = encode_image(image)
 
-#     messages = [
-#         {
-#             "role": "user",
-#             "content": [
-#                 {
-#                     "type": "image",
-#                     "image": f"data:image/jpeg;base64,{base64_image}",
-#                 },
-#                 {"type": "text", 
-#                 "text": f"Does the green box include {concept}? Answer only with 1 for yes or 0 for no, no other text."},
-#             ],
-#         }
-#     ]
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "image",
+                    "image": f"data:image/jpeg;base64,{base64_image}",
+                },
+                {"type": "text", 
+                "text": f"Does the green box include {concept}? Answer only with 1 for yes or 0 for no, no other text."},
+            ],
+        }
+    ]
 
-#     inputs = processor.apply_chat_template(
-#         messages,
-#         tokenize=True,
-#         add_generation_prompt=True,
-#         return_dict=True,
-#         return_tensors="pt"
-#     )
+    inputs = processor.apply_chat_template(
+        messages,
+        tokenize=True,
+        add_generation_prompt=True,
+        return_dict=True,
+        return_tensors="pt"
+    )
 
-#     inputs = inputs.to(model.device)
+    inputs = inputs.to(model.device)
 
-#     with torch.no_grad():
-#         generated_ids = model.generate(**inputs, max_new_tokens=128)
+    with torch.no_grad():
+        generated_ids = model.generate(**inputs, max_new_tokens=128)
 
-#     generated_ids_trimmed = [
-#         out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
-#     ]
-#     output_text = processor.batch_decode(
-#         generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-#     )
-#     return int(output_text[0])
+    generated_ids_trimmed = [
+        out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+    ]
+    output_text = processor.batch_decode(
+        generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+    )
+    return int(output_text[0])
 
 
 
@@ -115,7 +115,7 @@ def patch_process(i, j, concept, im_array):
     cv_image = im_array.copy()
     drawing = cv2.rectangle(cv_image, (i, j), (i + 56, j + 56), (0, 255, 0), 2)
     input_img = Image.fromarray(drawing)
-    answer = llm_call(input_img, concept)
+    answer = qwen_call(input_img, concept)
     coordinates = f"{i},{j}"
 
     return coordinates, answer
@@ -125,7 +125,7 @@ def patch_classification(im_array, concept):
     token_patches = {}
     patches = [(i, j) for i in range(0, 896, 56) for j in range(0, 896, 56)]
 
-    with ThreadPoolExecutor(max_workers=3) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         futures = {
             executor.submit(patch_process, i, j, concept, im_array): (i, j)
             for i, j in patches
