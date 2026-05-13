@@ -2,20 +2,21 @@
 
 set -euo pipefail
 
-CONCEPT="a dataset with diverse colors, with some bias towards blue, some traditionally blue things like the sky perhaps"
+CONCEPT="a dataset with diverse colors, with some bias towards red, some traditionally red things like blood perhaps"
 
 LAYERS=(5 10 15 20 30 35 40 50 59)
 
-CONCEPT_SAFE="${CONCEPT// /_}"
+# CONCEPT_SAFE="${CONCEPT// /_}"
+CONCEPT_SAFE="red"
 
 CONCEPT_ACTIVATIONS="activations/multimodal/${CONCEPT_SAFE}_concept_direct_prompt.json"
 NON_CONCEPT_ACTIVATIONS="activations/multimodal/${CONCEPT_SAFE}_non_concept_direct_prompt.json"
 
-IMAGE_DIRECTORY="person"
-PATCHES_PATH="curated_data/multimodal/multimodal_classified/all_multimodal_patches_classified.json"
+IMAGE_DIRECTORY="/workspace/Dataset-Curation/curated_data/image/red_concept"
+PATCHES_PATH="/workspace/Dataset-Curation/curated_data/image/red_patches/all_red_image_patches.json"
 
-INPUT_NAME="text_data.json"
-CLASSIFIED_NAME="text_data_classified.json"
+INPUT_NAME="/workspace/Dataset-Curation/curated_data/text/text_dataset/text_concept_red.json"
+CLASSIFIED_NAME="/workspace/Dataset-Curation/curated_data/text/text_dataset_classified/text_concept_red_classified.json"
 
 python src/activation_extraction/extract_image_text_activations.py \
     --image-dir "$IMAGE_DIRECTORY" \
@@ -32,7 +33,7 @@ python src/activation_extraction/extract_image_text_activations.py \
     --concept "$CONCEPT" \
     --input-name "$INPUT_NAME" \
     --classified-name "$CLASSIFIED_NAME" \
-    --output-path "$CONCEPT_ACTIVATIONS" \
+    --output-path "$NON_CONCEPT_ACTIVATIONS" \
     --no-concept \
     --layers "${LAYERS[@]}"
 
