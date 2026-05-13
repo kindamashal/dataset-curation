@@ -405,7 +405,7 @@ if __name__ == "__main__":
     results = intervene(
         questions=questions,
         chosen_concept=args.chosen_concept,
-        feature_indices=green_features_of_interest,
+        feature_indices=red_features_of_interest,
         alpha=args.alpha,
         layers_of_interest=layers_of_interest,
     )
