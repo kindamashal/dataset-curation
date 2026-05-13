@@ -1,0 +1,352 @@
+[
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In the biological process where plants convert sunlight into chemical energy, what is the resulting dominant hue of the specialized light-absorbing pigments?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "Green",
+    "question": "When observing a standard three-lens traffic signal, which position indicates that a driver is authorized to proceed through the intersection?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "If an individual is said to possess a 'thumb' for gardening, implying they have an extraordinary ability to make plants flourish, what color is used in that idiom?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In the professional sport of snooker, players aim to pot balls of varying point values. What color is the ball that is worth exactly three points?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Orange",
+    "correct_answer": "Green",
+    "question": "When mixing subtractive primary colors in painting, such as a bright lemon yellow and a deep cyan blue, what is the resulting secondary color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Golden",
+    "correct_answer": "Green",
+    "question": "The 'Emerald Isle' is a poetic nickname for Ireland. To which specific gemstone-inspired hue does this moniker refer?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Golden",
+    "correct_answer": "Green",
+    "question": "Shakespeare famously described jealousy as a 'monster' with eyes of a specific color. What is that color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "On the national flag of Saudi Arabia, which color serves as the background for the white Arabic script and the sword?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "When oxygen atoms at lower altitudes (about 60 miles up) are struck by solar particles, they produce the most common color seen in the Aurora Borealis. What is it?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In the context of the 'Matrix' film franchise, what is the iconic color of the scrolling digital rain that represents the simulated reality's code?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "A variety of apple known as the 'Granny Smith' is characterized by its firm texture, tart flavor, and a skin of which solid color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In a standard game of Roulette, most pockets are colored red or black. However, there are one or two special pockets (labeled 0 and 00) that are what color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "Eco-friendly movements and environmental sustainability initiatives are universally branded with what color to represent nature?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In the United States, paper currency is colloquially referred to as 'backs' of this color. What is the color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In the terminology of novice or inexperienced workers, a person who is new to a job and lacks training is often said to be what color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In the process of photosynthesis, which color of the visible spectrum is most efficiently reflected by chlorophyll pigments, leading to the characteristic appearance of deciduous forests in summer?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "Green",
+    "question": "On a standard maritime vessel adhering to international navigation rules, which color must be displayed on the starboard (right) side light?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Golden",
+    "correct_answer": "Green",
+    "question": "In the common idiom describing an individual with an exceptional natural talent for gardening and plant cultivation, what color is said to be the tint of their thumb?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "Green",
+    "question": "When copper is exposed to oxygen and moisture over a long period, it develops a protective patina. What color is this thin layer of carbonate, as famously seen on the Statue of Liberty?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In the context of professional golf, what is the specific color of the iconic blazer awarded to the winner of the Masters Tournament at Augusta National?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In F. Scott Fitzgerald's 'The Great Gatsby', what color is the single light at the end of Daisy Buchanan’s dock that Jay Gatsby watches with longing?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "Which color is traditionally used for the 'accept' button on modern smartphone interfaces or to indicate an 'online' status in digital messaging apps?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In the mineral kingdom, what is the primary color of the gemstone Malachite, characterized by its distinct banded appearance and copper-based composition?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "When oxygen molecules at altitudes of approximately 60 to 150 miles are struck by solar particles, they produce the most common and frequent hue of the Aurora Borealis. What is that color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Golden",
+    "correct_answer": "Green",
+    "question": "In the culinary world, what is the characteristic color of a 'Granny Smith' apple, distinguishing it from 'Gala' or 'Fuji' varieties?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "On the national flag of the Kingdom of Saudi Arabia, what is the color of the field behind the white Arabic inscription and the sword?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Golden.",
+    "correct_answer": "Green",
+    "question": "In Shakespeare's 'Othello', the emotion of jealousy is personified as a 'monster' with eyes of which specific color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Orange",
+    "correct_answer": "Green",
+    "question": "Which color is obtained when a painter mixes the primary subtractive colors of cyan and yellow in equal proportions?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In the 'Roy G. Biv' mnemonic used to remember the sequence of colors in a rainbow, which color sits exactly in the middle of the seven-color spectrum?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In finance, specifically regarding United States currency, what is the primary color of the ink used on the reverse side of Federal Reserve notes that led to their famous nickname?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Orange",
+    "correct_answer": "Green",
+    "question": "In the standard pigment wheel used by painters, what hue is produced when primary blue and primary yellow are blended in equal proportions?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "Consider a standard four-way traffic signal. If the red light at the top signifies 'Stop,' which color at the bottom typically grants permission to proceed?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "Chlorophyll is the primary pigment found in the thylakoid membranes of plant cells. What is the characteristic hue of a healthy forest canopy viewed from above?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Gleaming",
+    "correct_answer": "Green",
+    "question": "Sky is to Azure as Emerald is to which of the following?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Golden",
+    "correct_answer": "Green",
+    "question": "If an artist is painting a landscape of the Irish countryside, often referred to as 'The Emerald Isle,' which color will dominate their palette?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "A Granny Smith apple is distinct from a Gala or Fuji apple primarily due to its tart flavor and the specific color of its skin. What is that color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Orange",
+    "correct_answer": "Green",
+    "question": "In the visible light spectrum (ROYGBIV), which color occupies the central position between yellow and blue?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "Green",
+    "question": "When copper is exposed to air and moisture over long periods, it develops a thin layer of oxidation known as patina. What color is this chemical coating?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "A common tree frog uses camouflage to blend in with lily pads to hide from predators. What color must the frog's skin be to remain undetected on the leaf?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "Identify the odd-one-out among these gemstones based on the hue they are most famous for representing: Ruby, Sapphire, Amethyst, and Jade. What is the color of Jade?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In many Western cultures, which color is metaphorically linked to both the feeling of envy and the presence of luck?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "United States paper currency is colloquially referred to as 'foldables' or 'bills,' but what is the color of the ink traditionally used on the reverse side of these notes?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Golden.",
+    "correct_answer": "Green",
+    "question": "If you were to prepare a traditional batch of pesto sauce using fresh basil leaves, pine nuts, garlic, and olive oil, what would be the resulting color of the sauce?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In professional golf, the winner of the Masters Tournament is famously awarded a specific item of clothing. What is the color of this jacket?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "The species 'Chelonia mydas' is a large sea turtle. Unlike other turtles named for their shell patterns, this one is named for the color of its internal fat. What is that color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In a standard vertical traffic signal used at road intersections, which light is positioned at the bottom to indicate that a vehicle has the right of way to proceed?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "What is the dominant hue of the pigment chlorophyll, which is essential for photosynthesis in the leaves of most vascular plants?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "In the context of competitive golf, the winner of the prestigious Masters Tournament at Augusta National is traditionally awarded a blazer of which specific color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "Green",
+    "question": "According to widespread English idioms, a person who is overwhelmed by intense feelings of envy or jealousy is said to be 'eyed' with which color?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "Green",
+    "question": "When viewing a standard RGB (Red-Blue-___) color model used in digital displays, which primary additive color is missing from this list to complete the triad?",
+    "alpha": -100.0,
+    "chosen_concept": "green"
+  }
+]
