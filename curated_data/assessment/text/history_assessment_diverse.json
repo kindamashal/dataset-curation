@@ -1,0 +1,1819 @@
+{
+  "sections": [
+    {
+      "topic": "World War II",
+      "questions": [
+        {
+          "number": 1,
+          "text": "Which 1942 naval engagement is widely considered the turning point in the Pacific Theater because the Imperial Japanese Navy lost four of its aircraft carriers?",
+          "options": [
+            "Battle of the Coral Sea",
+            "Battle of Leyte Gulf",
+            "Battle of Midway",
+            "Battle of Guadalcanal"
+          ],
+          "correct_answer": "Battle of Midway",
+          "explanation": "The Battle of Midway in June 1942 resulted in the sinking of four Japanese carriers, shifting the naval balance of power to the United States."
+        },
+        {
+          "number": 2,
+          "text": "What was the primary strategic objective of the 1939 Molotov-Ribbentrop Pact signed between Nazi Germany and the Soviet Union?",
+          "options": [
+            "To establish a permanent military alliance against the United Kingdom",
+            "To divide Eastern Europe into spheres of influence and avoid a two-front war for Germany",
+            "To facilitate a joint invasion of Japanese-occupied Manchuria",
+            "To create a shared economic market across the Eurasian continent"
+          ],
+          "correct_answer": "To divide Eastern Europe into spheres of influence and avoid a two-front war for Germany",
+          "explanation": "The non-aggression pact included a secret protocol to divide Poland and other Baltic states between the two powers, ensuring Germany only fought on the Western front initially."
+        },
+        {
+          "number": 3,
+          "text": "Place the following German-led invasions in the correct chronological order: (1) Invasion of France, (2) Invasion of Poland, (3) Operation Barbarossa, (4) Invasion of Denmark and Norway.",
+          "options": [
+            "2, 4, 1, 3",
+            "2, 1, 4, 3",
+            "4, 2, 1, 3",
+            "2, 4, 3, 1"
+          ],
+          "correct_answer": "2, 4, 1, 3",
+          "explanation": "Poland was invaded in Sept 1939, Denmark and Norway in April 1940, France in May 1940, and the Soviet Union (Barbarossa) in June 1941."
+        },
+        {
+          "number": 4,
+          "text": "General Erwin Rommel, known as the Desert Fox, was most famous for leading German forces in which theater of operations?",
+          "options": [
+            "The Eastern Front",
+            "North Africa",
+            "The Italian Campaign",
+            "The Balkan Campaign"
+          ],
+          "correct_answer": "North Africa",
+          "explanation": "Rommel led the Afrika Korps in North Africa, where he gained fame for his tactical brilliance before being defeated at El Alamein."
+        },
+        {
+          "number": 5,
+          "text": "What was the name of the 1942 Anglo-American invasion of French North Africa, intended to clear the Axis from the continent?",
+          "options": [
+            "Operation Overlord",
+            "Operation Market Garden",
+            "Operation Torch",
+            "Operation Husky"
+          ],
+          "correct_answer": "Operation Torch",
+          "explanation": "Operation Torch was the first major amphibious assault by the Allies in the West, targeting Morocco and Algeria."
+        },
+        {
+          "number": 6,
+          "text": "The 'Big Three' leaders\u2014Roosevelt, Churchill, and Stalin\u2014met in February 1945 to discuss the post-war reorganization of Germany and Europe. What was this conference called?",
+          "options": [
+            "The Tehran Conference",
+            "The Potsdam Conference",
+            "The Casablanca Conference",
+            "The Yalta Conference"
+          ],
+          "correct_answer": "The Yalta Conference",
+          "explanation": "The Yalta Conference focused on the division of Germany and the establishment of the United Nations as the war drew to a close."
+        },
+        {
+          "number": 7,
+          "text": "Which Allied country suffered the highest number of total casualties (both military and civilian) during World War II?",
+          "options": [
+            "The United Kingdom",
+            "China",
+            "The Soviet Union",
+            "The United States"
+          ],
+          "correct_answer": "The Soviet Union",
+          "explanation": "The Soviet Union lost an estimated 20 to 27 million people, the highest toll of any nation in the conflict."
+        },
+        {
+          "number": 8,
+          "text": "What was the purpose of the 1941 Lend-Lease Act passed by the United States Congress?",
+          "options": [
+            "To provide immediate military enlistment for American citizens",
+            "To allow the U.S. to supply war materials to Allied nations while technically remaining neutral",
+            "To seize German assets located in American banks",
+            "To fund the reconstruction of Pearl Harbor after the attack"
+          ],
+          "correct_answer": "To allow the U.S. to supply war materials to Allied nations while technically remaining neutral",
+          "explanation": "Lend-Lease allowed the U.S. to support the UK, USSR, and China without entering the war directly as a combatant."
+        },
+        {
+          "number": 9,
+          "text": "In the context of the D-Day landings, what was 'Operation Fortitude'?",
+          "options": [
+            "The code name for the actual landings at Normandy",
+            "A deception plan to trick the Germans into thinking the invasion would happen at Pas-de-Calais",
+            "The airborne operation to capture bridges behind enemy lines",
+            "The plan to assassinate Adolf Hitler during the invasion"
+          ],
+          "correct_answer": "A deception plan to trick the Germans into thinking the invasion would happen at Pas-de-Calais",
+          "explanation": "Operation Fortitude used dummy tanks and radio traffic to convince Germany that the main Allied thrust would occur at the narrowest part of the English Channel."
+        },
+        {
+          "number": 10,
+          "text": "Which battle is often cited as the bloodiest in human history and marked the final end of German eastward expansion?",
+          "options": [
+            "Battle of Kursk",
+            "Battle of Stalingrad",
+            "Battle of Berlin",
+            "Battle of Leningrad"
+          ],
+          "correct_answer": "Battle of Stalingrad",
+          "explanation": "The Battle of Stalingrad resulted in the destruction of the German Sixth Army and turned the tide against the Axis on the Eastern Front."
+        },
+        {
+          "number": 11,
+          "text": "The Manhattan Project was the secret American research program dedicated to developing which weapon?",
+          "options": [
+            "The V-2 Rocket",
+            "The Hydrogen Bomb",
+            "The Atomic Bomb",
+            "The Jet Fighter Engine"
+          ],
+          "correct_answer": "The Atomic Bomb",
+          "explanation": "The Manhattan Project, led by J. Robert Oppenheimer, successfully produced the first nuclear weapons used at Hiroshima and Nagasaki."
+        },
+        {
+          "number": 12,
+          "text": "Which Japanese city was the target of the first atomic bomb, 'Little Boy,' on August 6, 1945?",
+          "options": [
+            "Nagasaki",
+            "Hiroshima",
+            "Tokyo",
+            "Kyoto"
+          ],
+          "correct_answer": "Hiroshima",
+          "explanation": "Hiroshima was the first city targeted by a nuclear weapon in history, followed by Nagasaki three days later."
+        },
+        {
+          "number": 13,
+          "text": "What was the primary reason for the Japanese Empire's decision to attack Pearl Harbor?",
+          "options": [
+            "To reclaim territory lost during the Russo-Japanese War",
+            "To destroy the U.S. Pacific Fleet and prevent interference with Japanese expansion in Southeast Asia",
+            "To force the United States to join the Axis Powers",
+            "To avenge the U.S. firebombing of Tokyo earlier that year"
+          ],
+          "correct_answer": "To destroy the U.S. Pacific Fleet and prevent interference with Japanese expansion in Southeast Asia",
+          "explanation": "Japan sought to secure oil and resources in the South Pacific and viewed the U.S. fleet as the primary obstacle to that goal."
+        },
+        {
+          "number": 14,
+          "text": "The 'Enigma' machine was used by the German military for what purpose?",
+          "options": [
+            "High-altitude aerial reconnaissance",
+            "Encrypting and decrypting secret communications",
+            "Tracking Allied U-boats in the Atlantic",
+            "Launching V-1 flying bombs"
+          ],
+          "correct_answer": "Encrypting and decrypting secret communications",
+          "explanation": "The Enigma machine was an encryption device that the Allies, led by Alan Turing's team at Bletchley Park, eventually cracked."
+        },
+        {
+          "number": 15,
+          "text": "On which ship was the formal Instrument of Surrender signed by Japan on September 2, 1945, ending World War II?",
+          "options": [
+            "USS Arizona",
+            "USS Missouri",
+            "USS Enterprise",
+            "USS Yorktown"
+          ],
+          "correct_answer": "USS Missouri",
+          "explanation": "The surrender ceremony took place in Tokyo Bay aboard the battleship USS Missouri, presided over by General Douglas MacArthur."
+        },
+        {
+          "number": 1,
+          "text": "What was the primary strategic objective of the Molotov-Ribbentrop Pact signed in August 1939?",
+          "options": [
+            "To form a permanent military alliance between the Axis powers and the USSR",
+            "To ensure a non-aggression agreement and secretly partition Poland and the Baltic states",
+            "To coordinate a joint invasion of the United Kingdom and France",
+            "To establish a democratic coalition against the rise of Japanese expansionism"
+          ],
+          "correct_answer": "To ensure a non-aggression agreement and secretly partition Poland and the Baltic states",
+          "explanation": "The pact was a neutrality agreement between Nazi Germany and the Soviet Union that included secret protocols for dividing Eastern Europe into spheres of influence."
+        },
+        {
+          "number": 2,
+          "text": "Which naval engagement is widely considered the turning point in the Pacific Theater, resulting in the loss of four Japanese aircraft carriers?",
+          "options": [
+            "The Battle of the Coral Sea",
+            "The Battle of Leyte Gulf",
+            "The Battle of Midway",
+            "The Attack on Pearl Harbor"
+          ],
+          "correct_answer": "The Battle of Midway",
+          "explanation": "In June 1942, the U.S. Navy defeated the Imperial Japanese Navy at Midway, significantly weakening Japan's offensive capabilities in the Pacific."
+        },
+        {
+          "number": 3,
+          "text": "At the Wannsee Conference in January 1942, high-ranking Nazi officials met to coordinate which specific policy?",
+          "options": [
+            "The invasion of the Soviet Union known as Operation Barbarossa",
+            "The implementation of the 'Final Solution' to the Jewish Question",
+            "The annexation of the Sudetenland from Czechoslovakia",
+            "The economic mobilization of the German home front"
+          ],
+          "correct_answer": "The implementation of the 'Final Solution' to the Jewish Question",
+          "explanation": "The conference was held to ensure the cooperation of various government departments in the systematic genocide of European Jews."
+        },
+        {
+          "number": 4,
+          "text": "Who was the primary scientific director of the Manhattan Project at the Los Alamos Laboratory?",
+          "options": [
+            "Albert Einstein",
+            "Enrico Fermi",
+            "J. Robert Oppenheimer",
+            "Richard Feynman"
+          ],
+          "correct_answer": "J. Robert Oppenheimer",
+          "explanation": "Oppenheimer is often called the 'father of the atomic bomb' for his role in leading the laboratory that developed the first nuclear weapons."
+        },
+        {
+          "number": 5,
+          "text": "Which of these events occurred EARLIEST in the chronological timeline of World War II?",
+          "options": [
+            "The Japanese invasion of Manchuria",
+            "The Italian invasion of Ethiopia",
+            "The signing of the Tripartite Pact",
+            "The Munich Agreement"
+          ],
+          "correct_answer": "The Japanese invasion of Manchuria",
+          "explanation": "The invasion of Manchuria occurred in 1931, whereas Ethiopia was invaded in 1935, the Munich Agreement was in 1938, and the Tripartite Pact was in 1940."
+        },
+        {
+          "number": 6,
+          "text": "The Maginot Line was a sophisticated series of fortifications built by which country to prevent a German invasion?",
+          "options": [
+            "Belgium",
+            "Poland",
+            "France",
+            "The Netherlands"
+          ],
+          "correct_answer": "France",
+          "explanation": "France built the Maginot Line along its border with Germany, but German forces bypassed it by invading through the Ardennes Forest in Belgium."
+        },
+        {
+          "number": 7,
+          "text": "What was the significance of the 1945 Yalta Conference involving Churchill, Roosevelt, and Stalin?",
+          "options": [
+            "It dictated the terms of the unconditional surrender of Japan",
+            "It discussed the post-war reorganization of Germany and Europe",
+            "It planned the amphibious assault on the beaches of Normandy",
+            "It established the terms of the North Atlantic Treaty Organization"
+          ],
+          "correct_answer": "It discussed the post-war reorganization of Germany and Europe",
+          "explanation": "The 'Big Three' met at Yalta to discuss the re-establishment of the nations of war-torn Europe and the division of Germany into occupation zones."
+        },
+        {
+          "number": 8,
+          "text": "Which military campaign resulted in the first major defeat of the German land forces and is often cited as the turning point on the Eastern Front?",
+          "options": [
+            "The Siege of Leningrad",
+            "The Battle of Kursk",
+            "The Battle of Stalingrad",
+            "The Battle of Moscow"
+          ],
+          "correct_answer": "The Battle of Stalingrad",
+          "explanation": "The surrender of the German Sixth Army at Stalingrad in 1943 marked a decisive shift in momentum in favor of the Soviet Union."
+        },
+        {
+          "number": 9,
+          "text": "The 'Rosie the Riveter' campaign in the United States was primarily designed to achieve what social or economic goal?",
+          "options": [
+            "Encourage women to conserve food and grow 'Victory Gardens'",
+            "Promote the enlistment of women into the Women's Army Corps (WAC)",
+            "Recruit female workers for defense industries to replace men serving overseas",
+            "Advocate for equal pay for female factory workers during the war"
+          ],
+          "correct_answer": "Recruit female workers for defense industries to replace men serving overseas",
+          "explanation": "Rosie the Riveter became an iconic symbol representing the millions of women who entered the industrial workforce to support the war effort."
+        },
+        {
+          "number": 10,
+          "text": "What was the code name for the Allied intelligence project that successfully decrypted German Enigma-encoded messages?",
+          "options": [
+            "Operation Overlord",
+            "Ultra",
+            "Magic",
+            "Project Manhattan"
+          ],
+          "correct_answer": "Ultra",
+          "explanation": "Ultra was the designation adopted by British military intelligence for signals intelligence obtained by breaking high-level encrypted enemy radio communications."
+        },
+        {
+          "number": 11,
+          "text": "Which leader headed the collaborationist Vichy France regime during the German occupation?",
+          "options": [
+            "Charles de Gaulle",
+            "Philippe Petain",
+            "Paul Reynaud",
+            "Edouard Daladier"
+          ],
+          "correct_answer": "Philippe Petain",
+          "explanation": "Marshal Philippe Petain led the French State, commonly known as Vichy France, which cooperated with the Axis powers from 1940 to 1944."
+        },
+        {
+          "number": 12,
+          "text": "In the context of the Pacific War, what did the 'Island Hopping' strategy involve?",
+          "options": [
+            "A series of massive naval blockades to starve the Japanese home islands",
+            "Bypassing heavily fortified Japanese positions to capture strategically important islands",
+            "Conducting a single, massive invasion of the Japanese mainland from the north",
+            "Utilizing aircraft carriers to launch surprise raids on coastal cities"
+          ],
+          "correct_answer": "Bypassing heavily fortified Japanese positions to capture strategically important islands",
+          "explanation": "The strategy focused on taking specific islands that could serve as airfields or supply bases, effectively isolating Japanese strongpoints."
+        },
+        {
+          "number": 13,
+          "text": "The Bataan Death March followed the surrender of Allied forces in which territory?",
+          "options": [
+            "Singapore",
+            "Guam",
+            "The Philippines",
+            "Hong Kong"
+          ],
+          "correct_answer": "The Philippines",
+          "explanation": "After the 1942 Battle of Bataan, thousands of American and Filipino prisoners of war were forced on a brutal march to Camp O'Donnell by the Japanese military."
+        },
+        {
+          "number": 14,
+          "text": "What was the primary reason for the United States' use of atomic bombs on Hiroshima and Nagasaki in August 1945?",
+          "options": [
+            "To test the environmental impact of nuclear fallout on urban areas",
+            "To prevent the Soviet Union from entering the war against Japan",
+            "To force an immediate Japanese surrender and avoid a costly ground invasion",
+            "To retaliate for the treatment of prisoners of war during the Bataan Death March"
+          ],
+          "correct_answer": "To force an immediate Japanese surrender and avoid a costly ground invasion",
+          "explanation": "U.S. leadership argued that using the bombs would end the war quickly and save hundreds of thousands of lives that would have been lost in 'Operation Downfall'."
+        },
+        {
+          "number": 15,
+          "text": "Which specific event is recognized as the immediate cause of the United Kingdom and France declaring war on Germany in 1939?",
+          "options": [
+            "The annexation of Austria (Anschluss)",
+            "The remilitarization of the Rhineland",
+            "The invasion of Poland",
+            "The occupation of the rest of Czechoslovakia"
+          ],
+          "correct_answer": "The invasion of Poland",
+          "explanation": "Following the German invasion of Poland on September 1, 1939, Britain and France honored their guarantees to Poland and declared war on Germany two days later."
+        },
+        {
+          "number": 2,
+          "text": "The secret protocol of the 1939 Molotov-Ribbentrop Pact between Nazi Germany and the Soviet Union primarily concerned:",
+          "options": [
+            "The joint development of jet propulsion technology",
+            "The division of Eastern Europe into spheres of influence",
+            "A mutual defense agreement against the United States",
+            "The shared occupation of the African Maghreb"
+          ],
+          "correct_answer": "The division of Eastern Europe into spheres of influence",
+          "explanation": "The secret protocol divided territories such as Poland, Lithuania, Latvia, Estonia, and Finland into German and Soviet spheres of influence, leading directly to the invasion of Poland."
+        },
+        {
+          "number": 3,
+          "text": "What was the primary strategic objective of the British forces during the Second Battle of El Alamein in Egypt?",
+          "options": [
+            "To capture the oil fields of Iraq",
+            "To protect the Suez Canal from Axis control",
+            "To launch an immediate invasion of Italy",
+            "To secure the port of Casablanca"
+          ],
+          "correct_answer": "To protect the Suez Canal from Axis control",
+          "explanation": "Victory at El Alamein prevented the Axis powers from seizing the Suez Canal and gaining access to the Middle Eastern oil fields, marking a major shift in the North African campaign."
+        },
+        {
+          "number": 4,
+          "text": "In the context of the United States home front, what did the 'Double V' campaign represent?",
+          "options": [
+            "Victory over Japan and Victory over Germany",
+            "Victory in the air and Victory at sea",
+            "Victory over fascism abroad and Victory over racism at home",
+            "Victory in production and Victory in rationing"
+          ],
+          "correct_answer": "Victory over fascism abroad and Victory over racism at home",
+          "explanation": "Orchestrated by the Pittsburgh Courier, the Double V campaign was a movement by African Americans to fight for democracy both overseas and within the United States."
+        },
+        {
+          "number": 5,
+          "text": "Which of the following events is commonly referred to as the 'Phoney War' or 'Sitzkrieg'?",
+          "options": [
+            "The period of inactivity on the Western Front following the fall of Poland",
+            "The deceptive radio signals used before D-Day",
+            "The mock battles used to train the French Resistance",
+            "The peaceful annexation of Austria during the Anschluss"
+          ],
+          "correct_answer": "The period of inactivity on the Western Front following the fall of Poland",
+          "explanation": "The Phoney War (September 1939 to May 1940) was a period of minimal military operation on the Western Front after the UK and France declared war on Germany."
+        },
+        {
+          "number": 6,
+          "text": "The 'White Rose' (Die Wei\u00dfe Rose) movement within Nazi Germany was characterized by:",
+          "options": [
+            "High-ranking generals attempting to assassinate Hitler",
+            "A group of students and a professor distributing anti-Nazi leaflets",
+            "The secret organization of industrial strikes in Berlin",
+            "The underground network for smuggling Jewish refugees to Switzerland"
+          ],
+          "correct_answer": "A group of students and a professor distributing anti-Nazi leaflets",
+          "explanation": "The White Rose was a non-violent intellectual resistance group at the University of Munich, led by siblings Hans and Sophie Scholl."
+        },
+        {
+          "number": 7,
+          "text": "Which country was the last to join the Tripartite Pact, becoming an official member of the Axis alliance?",
+          "options": [
+            "Hungary",
+            "Romania",
+            "Bulgaria",
+            "Slovakia"
+          ],
+          "correct_answer": "Bulgaria",
+          "explanation": "Bulgaria joined the Tripartite Pact on March 1, 1941, following Hungary, Romania, and Slovakia, primarily to secure territory in the Balkans."
+        },
+        {
+          "number": 8,
+          "text": "What was the primary goal of the Allied military strategy known as 'Operation Market Garden'?",
+          "options": [
+            "The liberation of the city of Paris",
+            "The destruction of the German V-2 rocket launching sites",
+            "Capturing a series of bridges to secure a route into Germany over the Rhine",
+            "A massive amphibious assault on the beaches of Norway"
+          ],
+          "correct_answer": "Capturing a series of bridges to secure a route into Germany over the Rhine",
+          "explanation": "Launched in September 1944, the operation aimed to use paratroopers to seize bridges in the Netherlands, though it ultimately failed to cross the final bridge at Arnhem."
+        },
+        {
+          "number": 9,
+          "text": "Admiral Isoroku Yamamoto is most famous for planning which of the following operations?",
+          "options": [
+            "The invasion of the Philippines",
+            "The attack on Pearl Harbor",
+            "The defense of Iwo Jima",
+            "The Operation Ten-Go suicide mission"
+          ],
+          "correct_answer": "The attack on Pearl Harbor",
+          "explanation": "Yamamoto was the Commander-in-Chief of the Combined Fleet and the mastermind behind the surprise air attack on the U.S. Pacific Fleet in December 1941."
+        },
+        {
+          "number": 10,
+          "text": "At the Yalta Conference in February 1945, what was the 'Big Three' agreement regarding the future of Germany?",
+          "options": [
+            "Germany would be reduced to a purely agricultural state",
+            "Germany would be divided into four zones of occupation",
+            "The capital, Berlin, would be ceded entirely to the Soviet Union",
+            "Germany would be forced to pay 100 billion dollars in gold reparations"
+          ],
+          "correct_answer": "Germany would be divided into four zones of occupation",
+          "explanation": "Roosevelt, Churchill, and Stalin agreed to divide Germany (and Berlin) into occupation zones for the U.S., UK, USSR, and France."
+        },
+        {
+          "number": 11,
+          "text": "The term 'Lebensraum' was used by the Nazi regime primarily to justify:",
+          "options": [
+            "The implementation of the Nuremberg Laws",
+            "The territorial expansion of Germany into Eastern Europe",
+            "The development of the Atlantic Wall",
+            "The transition of the economy to a total war footing"
+          ],
+          "correct_answer": "The territorial expansion of Germany into Eastern Europe",
+          "explanation": "Lebensraum (living space) was the ideological principle that Germany required more land in the East to sustain the 'Aryan' race, displacing the Slavic populations."
+        },
+        {
+          "number": 12,
+          "text": "Which of the following was a legal precedent established by the Nuremberg Trials?",
+          "options": [
+            "Sovereign immunity protects heads of state from international prosecution",
+            "'Just following orders' is an absolute defense for war crimes",
+            "Individuals can be held legally responsible for crimes against humanity",
+            "Only the losing side of a war can be tried for military aggression"
+          ],
+          "correct_answer": "Individuals can be held legally responsible for crimes against humanity",
+          "explanation": "The trials established that individuals, including government officials, are responsible for their own actions under international law, regardless of superior orders."
+        },
+        {
+          "number": 13,
+          "text": "The Wannsee Conference, held in January 1942, was significant because it:",
+          "options": [
+            "Marked the signing of the unconditional surrender of Italy",
+            "Resulted in the coordination of the administrative implementation of the Final Solution",
+            "Established the boundaries of the United Nations",
+            "Negotiated the terms of the Lend-Lease Act with the Soviet Union"
+          ],
+          "correct_answer": "Resulted in the coordination of the administrative implementation of the Final Solution",
+          "explanation": "The conference was called to ensure that various government departments cooperated in the systematic mass murder of European Jews."
+        },
+        {
+          "number": 14,
+          "text": "The 'Island Hopping' strategy used by Allied forces in the Pacific was intended to:",
+          "options": [
+            "Retake every single Japanese-occupied island in chronological order",
+            "Focus on the liberation of Australia and New Zealand first",
+            "Bypass heavily fortified islands to capture strategic ones closer to Japan",
+            "Establish a direct land bridge from India to China"
+          ],
+          "correct_answer": "Bypass heavily fortified islands to capture strategic ones closer to Japan",
+          "explanation": "The strategy allowed the Allies to advance more quickly toward the Japanese home islands while cutting off supply lines to bypassed enemy strongpoints."
+        },
+        {
+          "number": 15,
+          "text": "Which scientist was the scientific director of the Los Alamos Laboratory during the Manhattan Project?",
+          "options": [
+            "Enrico Fermi",
+            "J. Robert Oppenheimer",
+            "Albert Einstein",
+            "Richard Feynman"
+          ],
+          "correct_answer": "J. Robert Oppenheimer",
+          "explanation": "Oppenheimer is often called the 'father of the atomic bomb' for his role in directing the laboratory that designed and built the first nuclear weapons."
+        },
+        {
+          "number": 1,
+          "text": "The secret protocol of the 1939 Molotov-Ribbentrop Pact specifically outlined the division of which territories into German and Soviet spheres of influence?",
+          "options": [
+            "The Sudetenland and the Free City of Danzig",
+            "Poland, Lithuania, Latvia, Estonia, and Finland",
+            "Austria and the Czech Sudetenland",
+            "Hungary, Romania, and Bulgaria"
+          ],
+          "correct_answer": "Poland, Lithuania, Latvia, Estonia, and Finland",
+          "explanation": "The non-aggression pact between Nazi Germany and the Soviet Union included a secret protocol that partitioned Poland and assigned the Baltic states and Finland to their respective spheres of influence."
+        },
+        {
+          "number": 2,
+          "text": "During Operation Overlord, which of the five designated landing beaches in Normandy was assigned specifically to the 3rd Canadian Infantry Division?",
+          "options": [
+            "Omaha",
+            "Utah",
+            "Sword",
+            "Juno"
+          ],
+          "correct_answer": "Juno",
+          "explanation": "Juno Beach was the responsibility of the Canadian forces, while Omaha and Utah were American, and Gold and Sword were primarily British."
+        },
+        {
+          "number": 3,
+          "text": "What was the primary legislative hurdle the 'Lend-Lease Act' of 1941 was designed to circumvent while still supporting the Allied war effort?",
+          "options": [
+            "The Kellogg-Briand Pact",
+            "The Neutrality Acts of the 1930s",
+            "The Smoot-Hawley Tariff Act",
+            "The Dawes Plan"
+          ],
+          "correct_answer": "The Neutrality Acts of the 1930s",
+          "explanation": "The Neutrality Acts restricted the United States from providing arms or loans to belligerent nations; Lend-Lease allowed the President to transfer arms while technically maintaining non-belligerence."
+        },
+        {
+          "number": 4,
+          "text": "Which 1942 naval battle is considered the turning point in the Pacific Theater due to the destruction of four Japanese aircraft carriers?",
+          "options": [
+            "Battle of the Coral Sea",
+            "Battle of Leyte Gulf",
+            "Battle of Midway",
+            "Battle of the Philippine Sea"
+          ],
+          "correct_answer": "Battle of Midway",
+          "explanation": "The Battle of Midway dealt a devastating blow to the Imperial Japanese Navy's carrier strength, from which it never fully recovered, shifting the strategic initiative to the U.S."
+        },
+        {
+          "number": 5,
+          "text": "Who was the Japanese Admiral who, despite planning the Pearl Harbor attack, famously warned that Japan could only 'run wild' for six months to a year before American industrial might would prevail?",
+          "options": [
+            "Hideki Tojo",
+            "Isoroku Yamamoto",
+            "Chuichi Nagumo",
+            "Tomoyuki Yamashita"
+          ],
+          "correct_answer": "Isoroku Yamamoto",
+          "explanation": "Admiral Yamamoto, who had studied in the U.S., understood American industrial capacity and correctly predicted the limited window of Japanese naval superiority."
+        },
+        {
+          "number": 6,
+          "text": "What was the primary strategic objective of the German 'Case Blue' (Fall Blau) offensive launched in the summer of 1942?",
+          "options": [
+            "The capture of Moscow to force a Soviet surrender",
+            "The occupation of Leningrad to link up with Finnish forces",
+            "The seizure of the Caucasian oil fields",
+            "The destruction of the Soviet industrial hub at Murmansk"
+          ],
+          "correct_answer": "The seizure of the Caucasian oil fields",
+          "explanation": "Case Blue aimed to capture the oil fields of the Caucasus (Baku and Maikop) to fuel the German war machine and starve the Soviet military of resources."
+        }
+      ]
+    },
+    {
+      "topic": "The French Revolution",
+      "questions": [
+        {
+          "number": 1,
+          "text": "Which financial crisis served as the most immediate catalyst for Louis XVI summoning the Estates-General in 1789?",
+          "options": [
+            "The collapse of the Mississippi Bubble",
+            "The hyperinflation of the Assignat currency",
+            "Near-bankruptcy caused by debt from the Seven Years' War and the American Revolution",
+            "The implementation of the Continental System"
+          ],
+          "correct_answer": "Near-bankruptcy caused by debt from the Seven Years' War and the American Revolution",
+          "explanation": "Louis XVI was forced to call the Estates-General for the first time since 1614 because the French treasury was depleted by massive war debts and an inefficient taxation system."
+        },
+        {
+          "number": 2,
+          "text": "Arrange the following events in the correct chronological order: (I) The Storming of the Bastille, (II) The Tennis Court Oath, (III) The Declaration of the Rights of Man and of the Citizen.",
+          "options": [
+            "I, II, III",
+            "II, I, III",
+            "III, II, I",
+            "II, III, I"
+          ],
+          "correct_answer": "II, I, III",
+          "explanation": "The Tennis Court Oath occurred on June 20, 1789; the Storming of the Bastille took place on July 14, 1789; and the Declaration of the Rights of Man was adopted on August 26, 1789."
+        },
+        {
+          "number": 3,
+          "text": "What was the primary objective of the 'Women's March on Versailles' in October 1789?",
+          "options": [
+            "To demand the execution of Marie Antoinette",
+            "To force the King to provide bread and relocate the royal court to Paris",
+            "To protest the Civil Constitution of the Clergy",
+            "To support the Girondins against the Jacobins"
+          ],
+          "correct_answer": "To force the King to provide bread and relocate the royal court to Paris",
+          "explanation": "Driven by bread shortages and high prices, thousands of women marched to Versailles, eventually forcing Louis XVI and his family to move to the Tuileries Palace in Paris."
+        },
+        {
+          "number": 4,
+          "text": "Which political faction was known for representing the interests of the Parisian working class and was characterized by their rejection of aristocratic knee-breeches?",
+          "options": [
+            "The Feuillants",
+            "The Girondins",
+            "The Sans-culottes",
+            "The \u00c9migr\u00e9s"
+          ],
+          "correct_answer": "The Sans-culottes",
+          "explanation": "The 'Sans-culottes' literally means 'without knee-breeches.' They were the radical urban laborers and shopkeepers who pushed the Revolution toward more egalitarian and violent phases."
+        },
+        {
+          "number": 5,
+          "text": "The 'Civil Constitution of the Clergy' (1790) was highly controversial because it required what action from French priests?",
+          "options": [
+            "The immediate conversion to Deism",
+            "An oath of loyalty to the French state over the Pope",
+            "The surrender of all church lands to the Third Estate",
+            "Mandatory marriage for all members of the clergy"
+          ],
+          "correct_answer": "An oath of loyalty to the French state over the Pope",
+          "explanation": "This law effectively turned the Catholic Church into a department of the state and caused a deep schism between 'juring' priests (who took the oath) and 'refractory' priests."
+        },
+        {
+          "number": 6,
+          "text": "Which 1792 battle is credited with saving the Revolution from Prussian forces and boosting the morale of the newly formed French Republic?",
+          "options": [
+            "Battle of Waterloo",
+            "Battle of Valmy",
+            "Battle of Austerlitz",
+            "Battle of Marengo"
+          ],
+          "correct_answer": "Battle of Valmy",
+          "explanation": "The Battle of Valmy was a psychological turning point where French citizen-soldiers defeated a professional Prussian army, allowing the National Convention to abolish the monarchy the next day."
+        },
+        {
+          "number": 7,
+          "text": "In the French Republican Calendar, which month's name was derived from the Latin word for 'mist' or 'fog'?",
+          "options": [
+            "Thermidor",
+            "Brumaire",
+            "Germinal",
+            "Prairial"
+          ],
+          "correct_answer": "Brumaire",
+          "explanation": "Brumaire (from 'brume', meaning fog) corresponded to late October and November. It is most famous for Napoleon's coup of 18 Brumaire."
+        },
+        {
+          "number": 8,
+          "text": "Maximilien Robespierre's downfall in July 1794 is known by which name in historical terms?",
+          "options": [
+            "The September Massacres",
+            "The Thermidorian Reaction",
+            "The White Terror",
+            "The Night of August 4th"
+          ],
+          "correct_answer": "The Thermidorian Reaction",
+          "explanation": "The Thermidorian Reaction refers to the parliamentary revolt on 9 Thermidor that led to the execution of Robespierre and the end of the Reign of Terror."
+        },
+        {
+          "number": 9,
+          "text": "What was the specific purpose of the Law of 22 Prairial (1794)?",
+          "options": [
+            "To grant equal rights to women in the workplace",
+            "To streamline the execution process by removing the right to a defense counsel",
+            "To establish the Directory as the new governing body",
+            "To abolish slavery in the French colonies"
+          ],
+          "correct_answer": "To streamline the execution process by removing the right to a defense counsel",
+          "explanation": "This law initiated the 'Great Terror' by simplifying judicial procedures to the point where the only possible outcomes for the accused were acquittal or death."
+        },
+        {
+          "number": 10,
+          "text": "Who authored the 'Declaration of the Rights of Woman and of the Female Citizen' in 1791 as a response to the exclusion of women from the Revolution's legal gains?",
+          "options": [
+            "Charlotte Corday",
+            "Madame Roland",
+            "Olympe de Gouges",
+            "Mary Wollstonecraft"
+          ],
+          "correct_answer": "Olympe de Gouges",
+          "explanation": "Olympe de Gouges was a playwright and activist who challenged the Revolution's failure to address gender inequality. She was later executed during the Terror."
+        },
+        {
+          "number": 11,
+          "text": "The 'Flight to Varennes' in June 1791 had what profound effect on the French public's perception of Louis XVI?",
+          "options": [
+            "It increased sympathy for the King as a victim of radicalism",
+            "It was seen as a successful diplomatic mission to Austria",
+            "It destroyed the King's remaining credibility and fueled republicanism",
+            "It resulted in the immediate restoration of absolute monarchy"
+          ],
+          "correct_answer": "It destroyed the King's remaining credibility and fueled republicanism",
+          "explanation": "The King's attempt to flee the country and join foreign armies to reclaim power was seen as an act of treason, making the idea of a constitutional monarchy untenable for many."
+        },
+        {
+          "number": 12,
+          "text": "Before the Revolution, what was the structural grievance of the Third Estate regarding the voting process of the Estates-General?",
+          "options": [
+            "They were not allowed to vote at all",
+            "They wanted voting 'by head' rather than 'by order'",
+            "They were forced to vote in secret ballots",
+            "They wanted the King to have the final veto on all decisions"
+          ],
+          "correct_answer": "They wanted voting 'by head' rather than 'by order'",
+          "explanation": "In 'voting by order,' the First and Second Estates (Clergy and Nobility) could outvote the Third Estate 2-to-1 despite the Third Estate representing 98% of the population."
+        },
+        {
+          "number": 13,
+          "text": "Which region of France was the site of a massive, bloody counter-revolutionary uprising beginning in 1793, largely driven by religious devotion and opposition to conscription?",
+          "options": [
+            "The Vend\u00e9e",
+            "The C\u00f4te d'Azur",
+            "Normandy",
+            "Alsace-Lorraine"
+          ],
+          "correct_answer": "The Vend\u00e9e",
+          "explanation": "The War in the Vend\u00e9e was a brutal civil war within the Revolution, where royalist and Catholic insurgents fought against the Republican government's forces."
+        },
+        {
+          "number": 14,
+          "text": "The 'Mountain' (La Montagne) was a political grouping within the National Convention that was most closely aligned with which organization?",
+          "options": [
+            "The Jacobin Club",
+            "The Royalist League",
+            "The Directory",
+            "The Consulate"
+          ],
+          "correct_answer": "The Jacobin Club",
+          "explanation": "The Mountain was the most radical faction of the Jacobins, sitting on the highest benches of the Convention, and led the country during the Reign of Terror."
+        },
+        {
+          "number": 15,
+          "text": "What event is generally considered the formal end of the French Revolution?",
+          "options": [
+            "The execution of Louis XVI",
+            "The fall of Robespierre",
+            "Napoleon Bonaparte's Coup of 18 Brumaire",
+            "The signing of the Treaty of Amiens"
+          ],
+          "correct_answer": "Napoleon Bonaparte's Coup of 18 Brumaire",
+          "explanation": "In November 1799, Napoleon overthrew the Directory and established the Consulate, famously declaring, 'Citizens, the Revolution is established on the principles with which it began. It is over.'"
+        },
+        {
+          "number": 1,
+          "text": "What was the primary objective of the Assembly of Notables convened by King Louis XVI in 1787?",
+          "options": [
+            "To approve the Declaration of the Rights of Man",
+            "To gain support for new land taxes to address the fiscal crisis",
+            "To formalize the alliance with the American colonies",
+            "To vote on the execution of Jacques Necker"
+          ],
+          "correct_answer": "To gain support for new land taxes to address the fiscal crisis",
+          "explanation": "The Assembly of Notables was a group of high-ranking nobles and clergy hand-picked by the King, intended to bypass the local parlements to approve emergency tax reforms."
+        },
+        {
+          "number": 2,
+          "text": "In his influential 1789 pamphlet, 'What is the Third Estate?', Abb\u00e9 Siey\u00e8s argued that the Third Estate was:",
+          "options": [
+            "A necessary burden on the aristocracy",
+            "A minor segment of the French population",
+            "Everything, yet having been nothing in the political order",
+            "The primary source of the Church's spiritual authority"
+          ],
+          "correct_answer": "Everything, yet having been nothing in the political order",
+          "explanation": "Siey\u00e8s famously wrote that the Third Estate comprised the entire nation but had no political representation, providing the ideological foundation for the National Assembly."
+        },
+        {
+          "number": 3,
+          "text": "Which specific event in July 1789 is often credited with triggering the 'Great Fear' (Grande Peur) among the French peasantry?",
+          "options": [
+            "The execution of the King",
+            "The rumor of an 'aristocratic conspiracy' to starve the population",
+            "The arrival of Austrian troops in Paris",
+            "The signing of the Concordat"
+          ],
+          "correct_answer": "The rumor of an 'aristocratic conspiracy' to starve the population",
+          "explanation": "Panic spread through the countryside based on rumors that nobles were hiring brigands to destroy crops, leading peasants to attack manor houses and burn feudal records."
+        },
+        {
+          "number": 4,
+          "text": "The 'August Decrees' of 1789 were significant because they effectively:",
+          "options": [
+            "Established the Directory",
+            "Abolished the feudal system and seigneurial rights",
+            "Declared war on the Holy Roman Empire",
+            "Outlawed the Jacobin Club"
+          ],
+          "correct_answer": "Abolished the feudal system and seigneurial rights",
+          "explanation": "In an attempt to calm the Great Fear, the National Constituent Assembly swept away the remnants of feudalism, including tithes and labor obligations."
+        },
+        {
+          "number": 5,
+          "text": "Which political faction in the National Convention was characterized by its desire for a decentralized republic and its opposition to the dominance of Paris?",
+          "options": [
+            "The Montagnards",
+            "The Sans-culottes",
+            "The Girondins",
+            "The H\u00e9bertists"
+          ],
+          "correct_answer": "The Girondins",
+          "explanation": "The Girondins represented the provinces and feared the radicalism of the Parisian crowds, putting them at odds with the more centralist and radical Montagnards."
+        },
+        {
+          "number": 6,
+          "text": "What was the immediate cause of the royal family's forced relocation from Versailles to the Tuileries Palace in Paris in October 1789?",
+          "options": [
+            "The Tennis Court Oath",
+            "The Women's March on Versailles",
+            "The Storming of the Bastille",
+            "The Flight to Varennes"
+          ],
+          "correct_answer": "The Women's March on Versailles",
+          "explanation": "Provoked by bread shortages and high prices, thousands of women marched to Versailles and demanded the King return to Paris to address the food crisis."
+        },
+        {
+          "number": 7,
+          "text": "The Civil Constitution of the Clergy (1790) caused a major schism in French society primarily by:",
+          "options": [
+            "Converting all churches into Temples of Reason",
+            "Requiring clergy to take an oath of loyalty to the French state over the Pope",
+            "Expelling all Jesuits from the borders of France",
+            "Seizing the assets of the Third Estate"
+          ],
+          "correct_answer": "Requiring clergy to take an oath of loyalty to the French state over the Pope",
+          "explanation": "This law turned the Catholic Church into a state-controlled institution, forcing priests to choose between their faith and the revolutionary government."
+        },
+        {
+          "number": 8,
+          "text": "Identify the 1792 battle that halted the Prussian advance and is considered the first major victory for the French revolutionary armies.",
+          "options": [
+            "Battle of Waterloo",
+            "Battle of Valmy",
+            "Battle of Marengo",
+            "Battle of Austerlitz"
+          ],
+          "correct_answer": "Battle of Valmy",
+          "explanation": "The victory at Valmy was a psychological turning point that emboldened the National Convention to abolish the monarchy the following day."
+        },
+        {
+          "number": 9,
+          "text": "The 'Law of 22 Prairial' (1794) is associated with which phase of the Revolution?",
+          "options": [
+            "The Moderate Phase",
+            "The Great Terror",
+            "The Directory",
+            "The Consulate"
+          ],
+          "correct_answer": "The Great Terror",
+          "explanation": "This law simplified the judicial process to the point that the Revolutionary Tribunal could only choose between acquittal or death, drastically increasing executions."
+        },
+        {
+          "number": 10,
+          "text": "Which female figure was executed for her 'Declaration of the Rights of Woman and of the Female Citizen' and her opposition to the Jacobins?",
+          "options": [
+            "Charlotte Corday",
+            "Marie Antoinette",
+            "Olympe de Gouges",
+            "Madame Roland"
+          ],
+          "correct_answer": "Olympe de Gouges",
+          "explanation": "De Gouges was a playwright and activist who challenged the Revolution to extend the rights of 'man' to women; she was guillotined during the Terror."
+        },
+        {
+          "number": 11,
+          "text": "What was the name of the executive body, consisting of five members, that ruled France between the fall of Robespierre and the rise of Napoleon?",
+          "options": [
+            "The Committee of Public Safety",
+            "The Council of Five Hundred",
+            "The Directory",
+            "The Triumvirate"
+          ],
+          "correct_answer": "The Directory",
+          "explanation": "The Directory was established by the Constitution of the Year III to provide stability, but it was plagued by corruption and economic instability."
+        },
+        {
+          "number": 12,
+          "text": "The 'Thermidorian Reaction' refers to the coup that resulted in the downfall of which leader?",
+          "options": [
+            "Louis XVI",
+            "Jean-Paul Marat",
+            "Maximilien Robespierre",
+            "Napoleon Bonaparte"
+          ],
+          "correct_answer": "Maximilien Robespierre",
+          "explanation": "Occurring in the month of Thermidor (July 1794), this reaction ended the Reign of Terror and the dominance of the Committee of Public Safety."
+        },
+        {
+          "number": 13,
+          "text": "Under the Revolutionary Calendar, which month was named after the word for 'mist' or 'fog'?",
+          "options": [
+            "Germinal",
+            "Brumaire",
+            "Thermidor",
+            "Vend\u00e9miaire"
+          ],
+          "correct_answer": "Brumaire",
+          "explanation": "Brumaire (from 'brume', fog) started in late October; it is most famous for the coup of 18 Brumaire that brought Napoleon to power."
+        },
+        {
+          "number": 14,
+          "text": "Why did the 'Flight to Varennes' in 1791 prove disastrous for the French Monarchy?",
+          "options": [
+            "It led to the immediate invasion of France by England",
+            "It was seen as proof that the King was a traitor to the Revolution",
+            "The King was accidentally killed during the escape",
+            "It resulted in the destruction of the Crown Jewels"
+          ],
+          "correct_answer": "It was seen as proof that the King was a traitor to the Revolution",
+          "explanation": "The attempt to flee and join counter-revolutionary forces abroad shattered the myth of the King as a benevolent father figure and turned public opinion toward republicanism."
+        },
+        {
+          "number": 15,
+          "text": "Which 1791 document, issued by the rulers of Austria and Prussia, threatened intervention if the French royal family was harmed?",
+          "options": [
+            "The Treaty of Campo Formio",
+            "The Declaration of Pillnitz",
+            "The Brunswick Manifesto",
+            "The Peace of Basel"
+          ],
+          "correct_answer": "The Declaration of Pillnitz",
+          "explanation": "The Declaration was intended as a warning to the revolutionaries, but it backfired by fueling the radicals' argument that the monarchy was conspiring with foreign powers."
+        },
+        {
+          "number": 1,
+          "text": "In the context of the Estates-General of 1789, which group constituted the 'Third Estate' and what was their primary grievance regarding the voting system?",
+          "options": [
+            "The Nobility, who wanted to maintain their tax-exempt status through individual voting.",
+            "The Clergy, who sought to increase their influence over the monarch through block voting.",
+            "The Commoners, who demanded 'voting by head' rather than the traditional 'voting by order'.",
+            "The Royal Bureaucracy, which advocated for a bicameral legislature similar to Great Britain."
+          ],
+          "correct_answer": "The Commoners, who demanded 'voting by head' rather than the traditional 'voting by order'.",
+          "explanation": "The Third Estate represented about 98% of the population. Under the traditional system, each estate had one vote, allowing the First and Second Estates to outvote the Third. They demanded a per-capita vote to reflect their numbers."
+        },
+        {
+          "number": 2,
+          "text": "What was the significance of the 'Tennis Court Oath' taken on June 20, 1789?",
+          "options": [
+            "It marked the formal execution of King Louis XVI by the National Assembly.",
+            "It was a vow by the Third Estate not to disband until a written constitution was established.",
+            "It was the first military alliance formed between French revolutionaries and the United States.",
+            "It declared the abolition of the Catholic Church's authority in France."
+          ],
+          "correct_answer": "It was a vow by the Third Estate not to disband until a written constitution was established.",
+          "explanation": "After being locked out of their meeting hall, the newly declared National Assembly met at a nearby indoor tennis court and swore not to separate until they had given France a constitution."
+        },
+        {
+          "number": 3,
+          "text": "The 'Civil Constitution of the Clergy' (1790) was a controversial turning point because it required which of the following?",
+          "options": [
+            "The mandatory conversion of all French citizens to Deism.",
+            "The total confiscation of all private property owned by the bourgeoisie.",
+            "The election of priests and bishops by the people and an oath of loyalty to the state.",
+            "The permanent exile of all Jesuit monks to the French colonies in the Caribbean."
+          ],
+          "correct_answer": "The election of priests and bishops by the people and an oath of loyalty to the state.",
+          "explanation": "This law subordinated the Roman Catholic Church in France to the French government, causing a deep schism between 'jurors' (who took the oath) and 'non-jurors' or 'refractory' priests."
+        },
+        {
+          "number": 4,
+          "text": "Which political faction was known as the 'Mountain' (La Montagne) within the National Convention?",
+          "options": [
+            "The moderate constitutional monarchists who sat on the right side of the hall.",
+            "The radical Jacobins who occupied the highest benches and advocated for the execution of the King.",
+            "The conservative rural delegates who supported the rights of the provincial nobility.",
+            "The internationalist faction that sought to export the revolution to the Holy Roman Empire."
+          ],
+          "correct_answer": "The radical Jacobins who occupied the highest benches and advocated for the execution of the King.",
+          "explanation": "The Montagnards were the most radical group in the Convention, led by figures like Robespierre and Danton, and were defined by their seating position on the highest tiers of the assembly hall."
+        },
+        {
+          "number": 5,
+          "text": "Who was the author of the 'Declaration of the Rights of Woman and of the Female Citizen' (1791), challenging the male-centric focus of the Revolution?",
+          "options": [
+            "Marie Antoinette",
+            "Charlotte Corday",
+            "Olympe de Gouges",
+            "Madame Roland"
+          ],
+          "correct_answer": "Olympe de Gouges",
+          "explanation": "Olympe de Gouges was a playwright and activist who argued that women should have the same rights as men, including the right to speak and hold office. She was later executed during the Terror."
+        },
+        {
+          "number": 6,
+          "text": "What was the immediate cause of the 'March on Versailles' in October 1789?",
+          "options": [
+            "The King's refusal to sign the Declaration of the Rights of Man and bread shortages in Paris.",
+            "The assassination of Jean-Paul Marat by a royalist sympathizer.",
+            "The news of the French defeat at the Battle of Valmy.",
+            "The signing of the Treaty of Campo Formio with Austria."
+          ],
+          "correct_answer": "The King's refusal to sign the Declaration of the Rights of Man and bread shortages in Paris.",
+          "explanation": "Thousands of Parisian market women marched to Versailles demanding bread and the King's move to Paris, following rumors of a royal banquet where the tricolor cockade was desecrated."
+        },
+        {
+          "number": 7,
+          "text": "The 'Reign of Terror' is most closely associated with which governing body?",
+          "options": [
+            "The Directory",
+            "The Committee of Public Safety",
+            "The Council of Five Hundred",
+            "The Estates-General"
+          ],
+          "correct_answer": "The Committee of Public Safety",
+          "explanation": "The Committee of Public Safety, led primarily by Robespierre, was granted dictatorial powers to protect the Republic from internal and external threats, leading to mass executions."
+        },
+        {
+          "number": 8,
+          "text": "The 'Thermidorian Reaction' of July 1794 refers to which event?",
+          "options": [
+            "The rise of Napoleon Bonaparte as the First Consul.",
+            "The fall and execution of Maximilien Robespierre and his allies.",
+            "The signing of a peace treaty between France and the Second Coalition.",
+            "The official adoption of the Gregorian calendar over the Revolutionary calendar."
+          ],
+          "correct_answer": "The fall and execution of Maximilien Robespierre and his allies.",
+          "explanation": "Named after the month of Thermidor in the Revolutionary calendar, this event ended the Reign of Terror and led to a more conservative phase of the revolution."
+        },
+        {
+          "number": 9,
+          "text": "In the French Revolutionary Calendar, how many days were in a 'd\u0002cade' (week)?",
+          "options": [
+            "7",
+            "10",
+            "12",
+            "15"
+          ],
+          "correct_answer": "10",
+          "explanation": "As part of the de-Christianization process, the calendar was restructured into 10-day weeks (d\u0002cades) to eliminate the Sunday Sabbath and promote decimalization."
+        },
+        {
+          "number": 10,
+          "text": "The 'Flight to Varennes' in 1791 significantly changed public opinion because it:",
+          "options": [
+            "Proved that the King was secretly leading the revolutionary armies.",
+            "Demonstrated the King's attempt to abandon the revolution and join foreign counter-revolutionaries.",
+            "Resulted in the successful liberation of the Queen's family from Austria.",
+            "Led to the immediate establishment of the First French Empire."
+          ],
+          "correct_answer": "Demonstrated the King's attempt to abandon the revolution and join foreign counter-revolutionaries.",
+          "explanation": "The royal family's failed attempt to flee to the border of the Austrian Netherlands destroyed the King's remaining credibility as a constitutional monarch and fueled calls for a republic."
+        },
+        {
+          "number": 11,
+          "text": "What was the primary purpose of the 'Maximum' laws passed during the radical phase of the revolution?",
+          "options": [
+            "To set a limit on the number of people who could be executed in a single day.",
+            "To impose price controls on essential goods like bread and fuel.",
+            "To limit the number of terms a member could serve in the National Convention.",
+            "To establish the maximum size of the French Revolutionary Army."
+          ],
+          "correct_answer": "To impose price controls on essential goods like bread and fuel.",
+          "explanation": "The Law of the General Maximum (1793) was an attempt by the Convention to curb inflation and ensure the availability of food for the urban poor (sans-culottes)."
+        },
+        {
+          "number": 12,
+          "text": "The Battle of Valmy (1792) is considered a turning point because:",
+          "options": [
+            "It was the first major victory for the revolutionary army against the Prussian forces.",
+            "It resulted in the capture of Napoleon Bonaparte by the British.",
+            "It led to the immediate restoration of the Bourbon monarchy.",
+            "It was the largest naval engagement of the 18th century."
+          ],
+          "correct_answer": "It was the first major victory for the revolutionary army against the Prussian forces.",
+          "explanation": "The victory at Valmy emboldened the revolutionaries and led to the declaration of the French Republic the following day, as it proved the citizen-army could defeat professional European forces."
+        },
+        {
+          "number": 13,
+          "text": "The term 'sans-culottes' literally refers to people who did not wear which item of clothing?",
+          "options": [
+            "Silk stockings",
+            "Knee-breeches",
+            "Wigs",
+            "Tricorne hats"
+          ],
+          "correct_answer": "Knee-breeches",
+          "explanation": "The sans-culottes were the working-class radicals of Paris who wore long trousers rather than the culottes (knee-breeches) favored by the nobility and upper bourgeoisie."
+        },
+        {
+          "number": 14,
+          "text": "The 'Coup of 18 Brumaire' (1799) is historically significant for which of the following reasons?",
+          "options": [
+            "It established the Reign of Terror under Robespierre.",
+            "It resulted in the execution of Marie Antoinette.",
+            "It brought Napoleon Bonaparte to power and ended the Directory.",
+            "It forced the British to sign the Treaty of Paris."
+          ],
+          "correct_answer": "It brought Napoleon Bonaparte to power and ended the Directory.",
+          "explanation": "The coup overthrew the Directory and established the Consulate, with Napoleon as the First Consul, effectively marking the end of the revolutionary period."
+        },
+        {
+          "number": 15,
+          "text": "Which economic crisis served as a primary catalyst for the King's decision to summon the Estates-General in 1789?",
+          "options": [
+            "The total collapse of the French silk industry due to English competition.",
+            "Hyperinflation caused by the over-printing of 'assignats'.",
+            "Massive state debt from participation in the American Revolutionary War and bad harvests.",
+            "The discovery of massive gold reserves in the French Louisiana territory."
+          ],
+          "correct_answer": "Massive state debt from participation in the American Revolutionary War and bad harvests.",
+          "explanation": "France was bankrupt due to 18th-century wars and a regressive tax system. A series of crop failures led to widespread famine, forcing the King to seek new tax revenues through the Estates-General."
+        },
+        {
+          "number": 1,
+          "text": "What specific economic crisis in the late 1780s served as a primary short-term catalyst for the French Revolution by causing mass urban starvation?",
+          "options": [
+            "The collapse of the Mississippi Bubble",
+            "A series of severe harvests and a volcanic winter following the Laki eruption",
+            "The total bankruptcy caused by the War of the Spanish Succession",
+            "The sudden devaluation of the Livre due to the introduction of the Assignat"
+          ],
+          "correct_answer": "A series of severe harvests and a volcanic winter following the Laki eruption",
+          "explanation": "Extreme weather conditions, exacerbated by the 1783 eruption of Laki in Iceland, led to crop failures in 1788, causing the price of bread to skyrocket and fueling social unrest."
+        },
+        {
+          "number": 2,
+          "text": "Which 1789 pamphlet argued that the commoners constituted a 'complete nation' and required no assistance from the 'dead weight' of the first two estates?",
+          "options": [
+            "The Social Contract",
+            "What is the Third Estate?",
+            "Reflections on the Revolution in France",
+            "The Declaration of the Rights of Man"
+          ],
+          "correct_answer": "What is the Third Estate?",
+          "explanation": "Written by Abb\u00e9 Emmanuel Joseph Siey\u00e8s, this pamphlet was instrumental in defining the political goals of the Third Estate at the start of the Revolution."
+        },
+        {
+          "number": 3,
+          "text": "During the Women's March on Versailles in October 1789, what was the primary immediate demand of the protestors?",
+          "options": [
+            "The execution of Marie Antoinette",
+            "The dissolution of the National Assembly",
+            "The King's return to Paris and the provision of bread",
+            "The immediate abolition of the Catholic Church"
+          ],
+          "correct_answer": "The King's return to Paris and the provision of bread",
+          "explanation": "Spurred by high bread prices, the marchers forced Louis XVI to relocate from Versailles to the Tuileries Palace in Paris, making him more accessible to the people's demands."
+        },
+        {
+          "number": 4,
+          "text": "The 'Civil Constitution of the Clergy' (1790) was a turning point that alienated many peasants because it:",
+          "options": [
+            "Banned the practice of Catholicism in France",
+            "Required all priests to be elected by the people and swear an oath to the state",
+            "Confiscated all private property owned by individual parishioners",
+            "Declared the Pope the official head of the French government"
+          ],
+          "correct_answer": "Required all priests to be elected by the people and swear an oath to the state",
+          "explanation": "This law turned many devout Catholics against the Revolution, as it prioritized the state over the Vatican and created a schism between 'juring' and 'refractory' priests."
+        },
+        {
+          "number": 5,
+          "text": "The Declaration of Pillnitz (1791) was an international statement issued by which two powers to support the French monarchy?",
+          "options": [
+            "Great Britain and Spain",
+            "Russia and Sweden",
+            "Austria and Prussia",
+            "The United States and the Netherlands"
+          ],
+          "correct_answer": "Austria and Prussia",
+          "explanation": "Leopold II of Austria and Frederick William II of Prussia issued this declaration, which was intended as a warning to French revolutionaries not to harm Louis XVI."
+        }
+      ]
+    },
+    {
+      "topic": "The Ottoman Empire",
+      "questions": [
+        {
+          "number": 1,
+          "text": "The Ottoman Empire was established in the early 14th century in the wake of the decline of which major power?",
+          "options": [
+            "The Ilkhanate",
+            "The Seljuk Sultanate of Rum",
+            "The Latin Empire",
+            "The Sultanate of Delhi"
+          ],
+          "correct_answer": "The Seljuk Sultanate of Rum",
+          "explanation": "After the Seljuk Sultanate of Rum fragmented due to Mongol pressure, various Anatolian beyliks emerged, with Osman I's principality eventually expanding into the Ottoman Empire."
+        },
+        {
+          "number": 2,
+          "text": "During the 1453 Siege of Constantinople, Mehmed II employed which specific technological advancement to breach the Theodosian Walls?",
+          "options": [
+            "The Greek Fire Siphon",
+            "Large-caliber bronze bombards designed by Urban",
+            "Trebuchets utilizing counterweights",
+            "The Corvus boarding bridge"
+          ],
+          "correct_answer": "Large-caliber bronze bombards designed by Urban",
+          "explanation": "Mehmed II commissioned a Hungarian engineer named Urban to cast massive cannons, including the 'Basilic,' which were capable of shattering the ancient walls of Constantinople."
+        },
+        {
+          "number": 3,
+          "text": "The 'Devshirme' system was primarily designed to fulfill which of the following objectives?",
+          "options": [
+            "The collection of agricultural taxes from non-Muslim peasants",
+            "The recruitment of Christian boys for the Janissary corps and administration",
+            "The distribution of land grants to cavalry officers",
+            "The establishment of trade guilds in urban centers"
+          ],
+          "correct_answer": "The recruitment of Christian boys for the Janissary corps and administration",
+          "explanation": "The Devshirme system took male children from Christian families in the Balkans and Anatolia, converted them to Islam, and trained them for elite military and administrative roles."
+        },
+        {
+          "number": 4,
+          "text": "At the Battle of Chaldiran in 1514, Selim I secured a decisive victory against which rival power, halting the spread of Shia influence into Anatolia?",
+          "options": [
+            "The Mamluk Sultanate",
+            "The Safavid Empire",
+            "The Timurid Empire",
+            "The Golden Horde"
+          ],
+          "correct_answer": "The Safavid Empire",
+          "explanation": "Selim I defeated Shah Ismail I of the Safavid Empire, utilizing superior gunpowder weaponry to counter the Safavid Qizilbash cavalry."
+        },
+        {
+          "number": 5,
+          "text": "Suleiman the Magnificent was known as 'Kanuni' within the empire. What does this title signify regarding his domestic policy?",
+          "options": [
+            "The Conqueror of the West",
+            "The Custodian of the Holy Cities",
+            "The Harmonizer of secular and religious law",
+            "The Restorer of the Silk Road"
+          ],
+          "correct_answer": "The Harmonizer of secular and religious law",
+          "explanation": "'Kanuni' translates to 'The Lawgiver.' Suleiman codified a system of secular laws (Kanun) that supplemented Sharia, addressing administrative and criminal matters not explicitly covered by religious law."
+        },
+        {
+          "number": 6,
+          "text": "The 1571 Battle of Lepanto is historically significant because it marked the first major defeat for the Ottoman Navy. Which alliance was responsible for this victory?",
+          "options": [
+            "The Hanseatic League",
+            "The League of Cognac",
+            "The Holy League",
+            "The Triple Entente"
+          ],
+          "correct_answer": "The Holy League",
+          "explanation": "The Holy League, a coalition of Catholic maritime states led by the Spanish Empire and the Republic of Venice, defeated the Ottoman fleet in the Ionian Sea."
+        },
+        {
+          "number": 7,
+          "text": "Which 1699 treaty forced the Ottoman Empire to cede significant territories, including most of Hungary, marking the end of its expansionist era in Europe?",
+          "options": [
+            "Treaty of Westphalia",
+            "Treaty of Karlowitz",
+            "Treaty of Passarowitz",
+            "Treaty of K\u00fc\u00e7\u00fck Kaynarca"
+          ],
+          "correct_answer": "Treaty of Karlowitz",
+          "explanation": "The Treaty of Karlowitz concluded the Great Turkish War and forced the Ottomans to cede territory to the Habsburg Monarchy, Poland-Lithuania, and Venice."
+        },
+        {
+          "number": 8,
+          "text": "Mimar Sinan, the most celebrated Ottoman architect, is credited with designing which structure that he considered his 'masterpiece'?",
+          "options": [
+            "The Blue Mosque (Sultan Ahmed Mosque)",
+            "The Hagia Sophia",
+            "The Selimiye Mosque in Edirne",
+            "The Topkap\u0131 Palace"
+          ],
+          "correct_answer": "The Selimiye Mosque in Edirne",
+          "explanation": "While Sinan built many structures, he referred to the S\u00fcleymaniye Mosque as his 'journeyman work' and the Selimiye Mosque in Edirne as his 'masterpiece.'"
+        },
+        {
+          "number": 9,
+          "text": "The 19th-century 'Tanzimat' reforms were initiated to modernize the empire. What was the core purpose of the 1839 Edict of G\u00fclhane?",
+          "options": [
+            "To declare the independence of the Balkan states",
+            "To grant equal rights to all Ottoman subjects regardless of religion",
+            "To establish a constitutional monarchy under a parliament",
+            "To nationalize all religious endowments (waqf)"
+          ],
+          "correct_answer": "To grant equal rights to all Ottoman subjects regardless of religion",
+          "explanation": "The Edict of G\u00fclhane aimed to ensure the security of life and property and the equality of all subjects, regardless of faith, to prevent nationalist secession movements."
+        },
+        {
+          "number": 10,
+          "text": "Following the conquest of Egypt in 1517, the Ottoman Sultans assumed which title, asserting their leadership over the Muslim world?",
+          "options": [
+            "Imam of the East",
+            "Caliph",
+            "Shahanshah",
+            "Sovereign of the Seven Seas"
+          ],
+          "correct_answer": "Caliph",
+          "explanation": "After defeating the Mamluks, Selim I was presented with the keys to the Kaaba, and the title of Caliph was transferred from the last Abbasid shadow caliph in Cairo to the House of Osman."
+        },
+        {
+          "number": 11,
+          "text": "The term 'Sultanate of Women' refers to a period in the 16th and 17th centuries when high-ranking women in the Harem exercised significant political power. Who is often credited with beginning this trend?",
+          "options": [
+            "K\u00f6sem Sultan",
+            "Safiye Sultan",
+            "H\u00fcrrem Sultan (Roxelana)",
+            "Turhan Hatice Sultan"
+          ],
+          "correct_answer": "H\u00fcrrem Sultan (Roxelana)",
+          "explanation": "H\u00fcrrem Sultan, the legal wife of Suleiman the Magnificent, broke tradition by moving the harem to the Topkap\u0131 Palace and directly influencing the Sultan's political decisions."
+        },
+        {
+          "number": 12,
+          "text": "Which 1908 event forced Sultan Abdul Hamid II to restore the Ottoman Constitution of 1876 and eventually led to his deposition?",
+          "options": [
+            "The Young Turks Revolution",
+            "The Arab Revolt",
+            "The Battle of Gallipoli",
+            "The Greek War of Independence"
+          ],
+          "correct_answer": "The Young Turks Revolution",
+          "explanation": "The Young Turks, led by the Committee of Union and Progress, demanded the restoration of constitutional rule and secular modernization, leading to the second constitutional era."
+        },
+        {
+          "number": 13,
+          "text": "The 1774 Treaty of K\u00fc\u00e7\u00fck Kaynarca was particularly damaging because it granted which European power the right to represent Orthodox Christians within the Ottoman Empire?",
+          "options": [
+            "The British Empire",
+            "The Austrian Empire",
+            "The Russian Empire",
+            "The Kingdom of France"
+          ],
+          "correct_answer": "The Russian Empire",
+          "explanation": "This treaty allowed Russia to act as the protector of the Orthodox subjects in the Ottoman Empire, giving Russia a pretext for future interventions in Ottoman internal affairs."
+        },
+        {
+          "number": 14,
+          "text": "The Ottoman 'Timar' system was characterized by which of the following?",
+          "options": [
+            "The auctioning of tax-collecting rights to the highest bidder",
+            "Land grants given to cavalrymen in exchange for military service",
+            "The forced migration of nomadic tribes to the frontiers",
+            "State-run factories producing silk and ceramics"
+          ],
+          "correct_answer": "Land grants given to cavalrymen in exchange for military service",
+          "explanation": "The Timar system involved granting land (timars) to sipahi (cavalry) who were then responsible for providing soldiers and maintaining order in exchange for keeping the revenue from that land."
+        },
+        {
+          "number": 15,
+          "text": "Which treaty, signed in 1920, proposed the partition of the Ottoman Empire's Anatolian heartland but was ultimately rejected by the Turkish National Movement?",
+          "options": [
+            "Treaty of Lausanne",
+            "Treaty of S\u00e8vres",
+            "Treaty of Versailles",
+            "Treaty of London"
+          ],
+          "correct_answer": "Treaty of S\u00e8vres",
+          "explanation": "The Treaty of S\u00e8vres was the initial post-WWI peace treaty that partitioned Anatolia, but it was replaced by the Treaty of Lausanne in 1923 after the Turkish War of Independence."
+        },
+        {
+          "number": 1,
+          "text": "The 1302 Battle of Bapheus is historically significant to the Ottoman trajectory because it marked which of the following?",
+          "options": [
+            "The first major victory of Osman I against the Byzantine provincial army",
+            "The final conquest of Constantinople by the Janissary corps",
+            "The establishment of the first Ottoman naval fleet in the Aegean",
+            "The signing of the first peace treaty with the Mongol Ilkhanate"
+          ],
+          "correct_answer": "The first major victory of Osman I against the Byzantine provincial army",
+          "explanation": "The Battle of Bapheus in 1302 allowed Osman I to establish a formal siege of Nicaea and is often cited by historians like Halil \u0130nalc\u0131k as the moment the Ottoman state achieved true 'statehood' through military recognition."
+        },
+        {
+          "number": 2,
+          "text": "Under the 'Devshirme' system, the Ottoman state recruited Christian boys primarily from the Balkans to serve in which elite capacity?",
+          "options": [
+            "Sipahi cavalrymen who held land under the Timar system",
+            "Janissary infantry units and high-ranking bureaucratic roles",
+            "Merchant guilds controlling the Silk Road trade in Bursa",
+            "Ulama scholars responsible for interpreting Sharia law"
+          ],
+          "correct_answer": "Janissary infantry units and high-ranking bureaucratic roles",
+          "explanation": "The Devshirme involved the systematic collection of non-Muslim children who were converted to Islam and trained to become either elite Janissary soldiers or high-level administrators (including Grand Viziers), loyal only to the Sultan."
+        },
+        {
+          "number": 3,
+          "text": "Which 1453 event had the most direct consequence on European exploration during the Age of Discovery?",
+          "options": [
+            "The Ottoman conquest of Constantinople, which disrupted traditional Silk Road land routes",
+            "The marriage of Mehmed II to a Venetian noblewoman",
+            "The establishment of the first Ottoman colony in the Americas",
+            "The invention of the Dardanelles Gun by Orban the metallurgist"
+          ],
+          "correct_answer": "The Ottoman conquest of Constantinople, which disrupted traditional Silk Road land routes",
+          "explanation": "By seizing Constantinople, the Ottomans gained control over the vital trade link between Europe and Asia, imposing heavy taxes and prompting European powers like Portugal and Spain to find maritime alternatives to the East."
+        },
+        {
+          "number": 4,
+          "text": "The 'Millet' system within the Ottoman Empire is best described as a social structure that:",
+          "options": [
+            "Forced all subjects to convert to Sunni Islam within ten years of conquest",
+            "Divided the empire into feudal territories governed by hereditary dukes",
+            "Granted religious communities limited autonomy to govern their own legal and social affairs",
+            "Abolished all taxes for non-Muslims who served in the regular army"
+          ],
+          "correct_answer": "Granted religious communities limited autonomy to govern their own legal and social affairs",
+          "explanation": "The Millet system allowed various religious groups (Orthodox Christians, Jews, Armenians) to manage their own internal communal affairs, including education and justice, under the leadership of their own religious heads."
+        },
+        {
+          "number": 5,
+          "text": "Suleiman the Magnificent was known to his own subjects as 'Kanuni.' What does this title signify?",
+          "options": [
+            "The Conqueror of the West",
+            "The Lawgiver",
+            "The Shadow of God",
+            "The Magnificent Architect"
+          ],
+          "correct_answer": "The Lawgiver",
+          "explanation": "While Europeans called him 'The Magnificent' due to his power and wealth, his subjects called him 'Kanuni' (The Lawgiver) because he completely overhauled and codified the Ottoman legal system."
+        },
+        {
+          "number": 6,
+          "text": "The Battle of Lepanto in 1571 is frequently cited as a psychological turning point in Ottoman history because it:",
+          "options": [
+            "Led to the immediate loss of the Ottoman capital to the Holy League",
+            "Ended the myth of Ottoman naval invincibility in the Mediterranean",
+            "Resulted in the death of Sultan Selim II on the battlefield",
+            "Forced the Ottomans to abandon their claims to the territory of Egypt"
+          ],
+          "correct_answer": "Ended the myth of Ottoman naval invincibility in the Mediterranean",
+          "explanation": "Though the Ottomans rebuilt their fleet within a year, the defeat at Lepanto by the Holy League ended the era of undisputed Ottoman naval dominance and boosted European morale significantly."
+        },
+        {
+          "number": 7,
+          "text": "Mimar Sinan, the chief Ottoman architect under three sultans, is most famous for designing which structure considered his 'masterpiece'?",
+          "options": [
+            "The Blue Mosque (Sultan Ahmed Mosque)",
+            "The Hagia Sophia",
+            "The Selimiye Mosque in Edirne",
+            "The Topkapi Palace Harem"
+          ],
+          "correct_answer": "The Selimiye Mosque in Edirne",
+          "explanation": "While Sinan built the S\u00fcleymaniye in Istanbul, he considered the Selimiye Mosque in Edirne to be his greatest work, particularly for its innovative dome construction and slender minarets."
+        },
+        {
+          "number": 8,
+          "text": "How did the Ottoman succession policy change in the early 17th century following the reign of Ahmed I?",
+          "options": [
+            "It shifted from 'survival of the fittest' (fratricide) to 'seniority' (Ekberiyet)",
+            "It adopted a democratic vote by the Divan (Imperial Council)",
+            "It required the eldest son to be born to a Christian mother",
+            "It mandated that the Sultan be replaced by the Grand Vizier's son"
+          ],
+          "correct_answer": "It shifted from 'survival of the fittest' (fratricide) to 'seniority' (Ekberiyet)",
+          "explanation": "To prevent the bloody wars of succession and fratricide common in earlier periods, the rule of Ekberiyet was introduced, where the eldest male of the dynasty succeeded to the throne, often after being confined to the 'Kafes' (Cage)."
+        },
+        {
+          "number": 9,
+          "text": "The Timar system was an Ottoman socio-economic arrangement that primarily functioned as a:",
+          "options": [
+            "Maritime insurance policy for spice merchants",
+            "Land grant system where cavalrymen provided military service in exchange for tax revenue",
+            "Standardized currency used exclusively for trade with the Safavid Empire",
+            "Religious endowment used to build public soup kitchens (Imarets)"
+          ],
+          "correct_answer": "Land grant system where cavalrymen provided military service in exchange for tax revenue",
+          "explanation": "Under the Timar system, the Sultan granted land (timars) to Sipahis (cavalry). The Sipahis did not own the land but were entitled to its tax revenue in exchange for maintaining themselves and a set number of soldiers for war."
+        },
+        {
+          "number": 10,
+          "text": "Which 1699 treaty marked the first time the Ottoman Empire was forced to cede significant European territory to its enemies?",
+          "options": [
+            "Treaty of London",
+            "Treaty of Karlowitz",
+            "Treaty of San Stefano",
+            "Treaty of Lausanne"
+          ],
+          "correct_answer": "Treaty of Karlowitz",
+          "explanation": "The Treaty of Karlowitz ended the Great Turkish War and forced the Ottomans to cede much of Hungary, Transylvania, and Slavonia to the Habsburg Monarchy, marking the end of Ottoman expansion in Central Europe."
+        },
+        {
+          "number": 11,
+          "text": "The Tanzimat Reforms (1839\u20131876) were characterized by which primary objective?",
+          "options": [
+            "The total isolation of the Empire from Western technological influence",
+            "The modernization and westernization of the state to prevent internal collapse",
+            "The restoration of the Janissary corps to its former glory",
+            "The relocation of the capital from Istanbul to Ankara"
+          ],
+          "correct_answer": "The modernization and westernization of the state to prevent internal collapse",
+          "explanation": "The Tanzimat ('reorganization') period introduced western-style legal codes, education, and equal citizenship for all subjects regardless of religion, aimed at countering European pressure and internal nationalist movements."
+        },
+        {
+          "number": 12,
+          "text": "The period known as the 'Sultanate of Women' (c. 1533\u20131656) was initiated by the political influence of which figure?",
+          "options": [
+            "K\u00f6sem Sultan",
+            "H\u00fcrrem Sultan (Roxelana)",
+            "Safiye Sultan",
+            "Turhan Hatice Sultan"
+          ],
+          "correct_answer": "H\u00fcrrem Sultan (Roxelana)",
+          "explanation": "H\u00fcrrem Sultan, the legal wife of Suleiman the Magnificent, broke tradition by moving into the palace and exercising significant political influence, paving the way for future Valide Sultans (Queen Mothers) to wield power."
+        },
+        {
+          "number": 13,
+          "text": "By the mid-19th century, the Ottoman Empire was frequently referred to by European diplomats as:",
+          "options": [
+            "The Sleeping Giant of the East",
+            "The Sick Man of Europe",
+            "The Lion of the Levant",
+            "The Bastion of the Bosphorus"
+          ],
+          "correct_answer": "The Sick Man of Europe",
+          "explanation": "Tsar Nicholas I of Russia is often credited with popularized the phrase 'Sick Man of Europe' to describe the Ottoman Empire's declining state and its inability to prevent the loss of territory to European powers."
+        },
+        {
+          "number": 14,
+          "text": "Which 19th-century figure successfully challenged Ottoman authority in Egypt, creating a semi-independent dynasty?",
+          "options": [
+            "Muhammad Ali Pasha",
+            "Enver Pasha",
+            "Mustafa Kemal",
+            "Ismail Gemici"
+          ],
+          "correct_answer": "Muhammad Ali Pasha",
+          "explanation": "Muhammad Ali Pasha, an Ottoman commander of Albanian origin, seized power in Egypt following the French withdrawal and modernized the province to the point where he successfully waged war against the Sultan himself."
+        },
+        {
+          "number": 15,
+          "text": "In 1924, the newly established Republic of Turkey took which final step to formally end the religious legacy of the Ottoman dynasty?",
+          "options": [
+            "The signing of the Treaty of S\u00e8vres",
+            "The execution of the last Sultan, Mehmed VI",
+            "The abolition of the Caliphate",
+            "The conversion of the Hagia Sophia into a shopping mall"
+          ],
+          "correct_answer": "The abolition of the Caliphate",
+          "explanation": "After the Sultanate was abolished in 1922, the Caliphate (the office of spiritual leadership) remained briefly as a symbolic entity until it was formally abolished by the Turkish Grand National Assembly on March 3, 1924."
+        },
+        {
+          "number": 1,
+          "text": "During the reign of Mehmed II, which strategic maneuver allowed the Ottoman navy to bypass the massive chain blocking the entrance to the Golden Horn during the siege of Constantinople in 1453?",
+          "options": [
+            "They tunneled under the sea walls using Serbian miners.",
+            "They transported ships overland on greased wooden logs.",
+            "They used Greek Fire to melt the iron links of the chain.",
+            "They launched a night attack with submersible rowing boats."
+          ],
+          "correct_answer": "They transported ships overland on greased wooden logs.",
+          "explanation": "To bypass the Byzantine chain at the Golden Horn, Mehmed II ordered his fleet to be dragged overland from the Bosporus across the hills of Pera on a wooden track lubricated with animal fat."
+        },
+        {
+          "number": 2,
+          "text": "What was the primary function of the 'Millet' system within the administrative framework of the Ottoman Empire?",
+          "options": [
+            "A military recruitment method based on feudal land grants.",
+            "A system of agricultural taxation based on crop yields.",
+            "A communal legal framework allowing religious minorities self-governance.",
+            "A diplomatic protocol for receiving foreign ambassadors."
+          ],
+          "correct_answer": "A communal legal framework allowing religious minorities self-governance.",
+          "explanation": "The Millet system allowed non-Muslim communities (such as Jews and Orthodox Christians) to manage their own internal affairs, including legal matters like marriage and education, under their own religious leaders."
+        },
+        {
+          "number": 3,
+          "text": "Which 1571 naval engagement marked the first major victory of a Christian alliance over the Ottoman fleet, shattering the myth of Ottoman naval invincibility?",
+          "options": [
+            "Battle of Preveza",
+            "Battle of Lepanto",
+            "Battle of Djerba",
+            "Battle of Navarino"
+          ],
+          "correct_answer": "Battle of Lepanto",
+          "explanation": "The Battle of Lepanto saw the Holy League defeat the Ottoman navy. While the Ottomans rebuilt their fleet within a year, the battle was a psychological turning point that halted Ottoman expansion in the Western Mediterranean."
+        },
+        {
+          "number": 4,
+          "text": "The 'Devshirme' system, often referred to as the 'blood tax,' was primarily designed to staff which elite branch of the Ottoman state?",
+          "options": [
+            "The Sipahi cavalry",
+            "The Janissary corps and the bureaucracy",
+            "The Ulama legal scholars",
+            "The merchant guilds of Istanbul"
+          ],
+          "correct_answer": "The Janissary corps and the bureaucracy",
+          "explanation": "The Devshirme involved the forced recruitment of Christian boys from the Balkans, who were converted to Islam and trained to become either elite Janissary soldiers or high-ranking government officials loyal only to the Sultan."
+        },
+        {
+          "number": 5,
+          "text": "Who was the chief architect under Suleiman the Magnificent responsible for the Selimiye Mosque and the Suleymaniye Mosque, defining the classical Ottoman style?",
+          "options": [
+            "Mimar Sinan",
+            "Sedefkar Mehmed Agha",
+            "Piri Reis",
+            "Matrak\u00e7\u0131 Nasuh"
+          ],
+          "correct_answer": "Mimar Sinan",
+          "explanation": "Mimar Sinan was the greatest architect of the Ottoman Empire, serving under three Sultans and completing hundreds of structures that synthesized Byzantine and Islamic architectural traditions."
+        },
+        {
+          "number": 6,
+          "text": "The 1683 Siege of Vienna was broken by a massive cavalry charge led by which European monarch?",
+          "options": [
+            "Louis XIV of France",
+            "Charles V of the Holy Roman Empire",
+            "Jan III Sobieski of Poland",
+            "Peter the Great of Russia"
+          ],
+          "correct_answer": "Jan III Sobieski of Poland",
+          "explanation": "The arrival of King Jan III Sobieski and his 'Winged Hussars' was the decisive factor in the Battle of Vienna, marking the beginning of the end for Ottoman territorial expansion in Europe."
+        },
+        {
+          "number": 7,
+          "text": "Which Ottoman Sultan was known as 'Kanuni' (the Lawgiver) among his subjects, but 'the Magnificent' in the West?",
+          "options": [
+            "Selim I",
+            "Mehmed II",
+            "Suleiman I",
+            "Murad IV"
+          ],
+          "correct_answer": "Suleiman I",
+          "explanation": "Suleiman I was called 'Kanuni' because he completely overhauled and codified the Ottoman legal system to harmonize secular law (Kanun) with religious law (Sharia)."
+        },
+        {
+          "number": 8,
+          "text": "The 'Tanzimat' reforms, initiated in 1839 with the Edict of G\u00fclhane, were primarily intended to achieve what goal?",
+          "options": [
+            "Re-establishing the Sultan's absolute authority over the Janissaries.",
+            "Modernizing the empire to compete with European powers and prevent internal disintegration.",
+            "Converting the entire population to a single state religion.",
+            "Expanding the empire's borders into Central Asia."
+          ],
+          "correct_answer": "Modernizing the empire to compete with European powers and prevent internal disintegration.",
+          "explanation": "The Tanzimat reforms were a period of reorganization that introduced Western-style education, updated the legal code, and granted equal rights to all subjects regardless of religion."
+        },
+        {
+          "number": 9,
+          "text": "What was the historical significance of the 'Capitulations' in the later years of the Ottoman Empire?",
+          "options": [
+            "They were the terms of surrender after the Battle of Gallipoli.",
+            "They were economic and judicial privileges granted to Europeans that eroded Ottoman sovereignty.",
+            "They were the official rules governing succession within the House of Osman.",
+            "They were the fortifications built along the Dardanelles."
+          ],
+          "correct_answer": "They were economic and judicial privileges granted to Europeans that eroded Ottoman sovereignty.",
+          "explanation": "Originally intended to encourage trade, the Capitulations became exploitative, allowing European powers to exert economic control and extraterritorial jurisdiction within Ottoman lands."
+        },
+        {
+          "number": 10,
+          "text": "Following the death of Mehmed III, the practice of fratricide was largely replaced by the 'Kafes' (the Cage) system. What did this involve?",
+          "options": [
+            "Executing all male relatives of the new Sultan immediately.",
+            "Exiling potential heirs to distant provinces to serve as governors.",
+            "Confining princes to the palace harem to prevent them from gathering political support.",
+            "Mandatory military service for all brothers of the Sultan."
+          ],
+          "correct_answer": "Confining princes to the palace harem to prevent them from gathering political support.",
+          "explanation": "The 'Kafes' system ended the practice of systematic fratricide but resulted in Sultans coming to the throne with no political or military experience because they had lived their lives in seclusion."
+        },
+        {
+          "number": 11,
+          "text": "The entry of the Ottoman Empire into World War I was precipitated by which specific event in 1914?",
+          "options": [
+            "The assassination of Archduke Franz Ferdinand in Sarajevo.",
+            "The bombardment of Russian Black Sea ports by the ships Goeben and Breslau.",
+            "The British invasion of the Gallipoli Peninsula.",
+            "The signing of the Treaty of S\u00e8vres."
+          ],
+          "correct_answer": "The bombardment of Russian Black Sea ports by the ships Goeben and Breslau.",
+          "explanation": "The Ottomans entered the war after two German-flagged ships, which had been transferred to the Ottoman navy, bombarded Russian ports, forcing the Entente to declare war on the Empire."
+        },
+        {
+          "number": 12,
+          "text": "Which influential female figure, the wife of Suleiman I, broke tradition by moving into the Topkapi Palace and exercising significant political influence?",
+          "options": [
+            "K\u00f6sem Sultan",
+            "Turhan Hatice Sultan",
+            "H\u00fcrrem Sultan",
+            "Safiye Sultan"
+          ],
+          "correct_answer": "H\u00fcrrem Sultan",
+          "explanation": "H\u00fcrrem Sultan (Roxelana) was a former slave who became Suleiman's legal wife and a key political advisor, initiating the period known as the 'Sultanate of Women.'"
+        },
+        {
+          "number": 13,
+          "text": "The Treaty of Lausanne in 1923 was a significant departure from the previous Treaty of S\u00e8vres because it:",
+          "options": [
+            "Dismantled the Ottoman Empire entirely.",
+            "Recognized the sovereignty of the new Republic of Turkey and its current borders.",
+            "Forced the Sultan to move the capital back to Bursa.",
+            "Established a joint British-French mandate over Istanbul."
+          ],
+          "correct_answer": "Recognized the sovereignty of the new Republic of Turkey and its current borders.",
+          "explanation": "Unlike the Treaty of S\u00e8vres, which partitioned Anatolia, the Treaty of Lausanne recognized the victory of the Turkish Nationalist movement and the independence of the Republic of Turkey."
+        },
+        {
+          "number": 14,
+          "text": "In Ottoman administrative hierarchy, who held the 'Imperial Seal' and acted as the absolute representative of the Sultan in state affairs?",
+          "options": [
+            "The Shaykh al-Islam",
+            "The Grand Vizier",
+            "The Kapudan Pasha",
+            "The Aga of the Janissaries"
+          ],
+          "correct_answer": "The Grand Vizier",
+          "explanation": "The Grand Vizier was the highest minister of state, holding the Sultan's seal and presiding over the Divan (imperial council)."
+        },
+        {
+          "number": 15,
+          "text": "The capture of Egypt by Selim I in 1517 resulted in the transfer of which prestigious title to the Ottoman House of Osman?",
+          "options": [
+            "Shahanshah",
+            "Caliph",
+            "Tsar",
+            "Basileus"
+          ],
+          "correct_answer": "Caliph",
+          "explanation": "With the conquest of the Mamluk Sultanate, the Ottomans took control of the Holy Cities of Mecca and Medina, and the title of Caliph (spiritual leader of the Muslim world) was claimed by the Ottoman Sultans."
+        },
+        {
+          "number": 1,
+          "text": "Which group formed the initial military backbone of the early Ottoman state under Osman I, characterized by their status as frontier warriors for the faith?",
+          "options": [
+            "Janissaries",
+            "Ghazis",
+            "Sipahis",
+            "Mamluks"
+          ],
+          "correct_answer": "Ghazis",
+          "explanation": "The Ghazis were border warriors who fought for the expansion of Islam. They were instrumental in the early expansion of the Ottoman principality before the establishment of more formal standing armies like the Janissaries."
+        },
+        {
+          "number": 2,
+          "text": "The 1453 conquest of Constantinople by Mehmed II is widely considered a turning point in history for which of the following reasons?",
+          "options": [
+            "It marked the end of the Islamic Golden Age.",
+            "It forced European powers to seek alternative maritime routes to Asia.",
+            "It resulted in the immediate collapse of the Holy Roman Empire.",
+            "It led to the signing of the Treaty of Tordesillas."
+          ],
+          "correct_answer": "It forced European powers to seek alternative maritime routes to Asia.",
+          "explanation": "By controlling the land routes of the Silk Road and the Bosphorus, the Ottomans incentivized European explorers like Columbus and Da Gama to find new sea routes to the East."
+        },
+        {
+          "number": 3,
+          "text": "Under the 'Millet' system, how were non-Muslim subjects primarily governed within the Ottoman Empire?",
+          "options": [
+            "They were forced to convert to Islam within three generations.",
+            "They were governed by their own religious authorities under their own personal laws.",
+            "They were excluded from all economic activity and trade.",
+            "They were required to serve in the imperial cavalry in exchange for land."
+          ],
+          "correct_answer": "They were governed by their own religious authorities under their own personal laws.",
+          "explanation": "The Millet system allowed religious minorities (Jews and Christians) to manage their own communal affairs, including education and justice, as long as they remained loyal and paid the jizya tax."
+        },
+        {
+          "number": 4,
+          "text": "The 'Devshirme' system was a unique administrative recruitment method that primarily targeted which demographic?",
+          "options": [
+            "Young Christian boys from the Balkans.",
+            "Muslim aristocrats from Anatolia.",
+            "Persian scholars from the Safavid Empire.",
+            "African merchants from the Trans-Saharan trade."
+          ],
+          "correct_answer": "Young Christian boys from the Balkans.",
+          "explanation": "The Devshirme involved the periodic levy of Christian boys from the provinces, who were converted to Islam, educated, and trained to become either elite Janissary soldiers or high-ranking state bureaucrats."
+        },
+        {
+          "number": 5,
+          "text": "Suleiman I was known as 'The Magnificent' in the West, but within the empire, he was called 'Kanuni.' What does this title signify?",
+          "options": [
+            "The Conqueror, for his victory at Moh\u00e1cs.",
+            "The Architect, for his patronage of Mimar Sinan.",
+            "The Lawgiver, for his codification of the Ottoman legal system.",
+            "The Caliph, for his unification of the Sunni and Shia sects."
+          ],
+          "correct_answer": "The Lawgiver, for his codification of the Ottoman legal system.",
+          "explanation": "While Sharia was the supreme law, Suleiman codified 'Kanun' (secular laws) to address administrative, fiscal, and criminal issues not explicitly covered by religious law."
+        }
+      ]
+    }
+  ]
+}

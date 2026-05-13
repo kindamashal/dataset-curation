@@ -1,0 +1,352 @@
+[
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "When a vehicle approaches an intersection and sees the topmost light on a vertical signal, which hue dictates that the driver must come to a complete halt?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "A strawberry has reached its peak sweetness and is ready for harvest. What is its dominant hue at this stage?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Bright red.",
+    "correct_answer": "RED",
+    "question": "In a healthy human, what is the primary shade of hemoglobin when it is fully saturated with oxygen?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "Mars is frequently referred to by a specific monochromatic nickname due to the iron oxide prevalent on its surface. What color is this nickname based on?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "Between the continents of Africa and Asia lies a body of water named after a specific pigment. What is that pigment?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "On a standard temperature gauge in a car, which color signifies that the engine has surpassed safe operating limits?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "Which color is most traditionally associated with the petals of a long-stemmed rose gifted on February 14th?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "The male Northern Cardinal is a songbird easily spotted in snowy landscapes. What is the primary color of its plumage?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "A classic Margherita pizza is topped with mozzarella, basil, and a sauce made from tomatoes. What color is the sauce?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "In professional soccer, if a player commits a serious foul, the referee will hold up a rectangular card to eject them from the match. What color is this card?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "A torero in a bullfight uses a muleta to guide the bull's charge. What is the traditional color of this cloth?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "An international humanitarian movement, known for providing emergency assistance and disaster relief, uses a specific symbol against a white background. What is the color of that symbol?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "According to the visible light spectrum, which color possesses the longest wavelength and is always found at the outermost edge of a rainbow?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "On an election night map in the United States, states that vote for the Republican candidate are traditionally shaded in which manner?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Yellow.",
+    "correct_answer": "RED",
+    "question": "To ensure high visibility during emergencies, most portable fire extinguishers and street-side hydrants are painted in which vivid tone?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "When approaching a standard three-tiered traffic signal, which position indicates that a vehicle must come to a full stop?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "If you were to slice open a ripe, traditional watermelon, what is the primary hue of the edible interior flesh?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "In the context of international maritime and aviation safety, which hue is universally used on a 'distress' button or to indicate a critical emergency?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Rust",
+    "correct_answer": "RED",
+    "question": "Which hue is most synonymous with the planet Mars, often attributed to the iron oxide prevalent on its surface?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "In Western color symbolism, which shade is most frequently used to represent intense emotions such as romantic love or extreme anger?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Yellow",
+    "correct_answer": "RED",
+    "question": "A painter wants to create a secondary purple pigment but only has a tube of blue paint. Which primary color must they mix it with?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Identify the common hue shared by a ripe strawberry, a common ladybug, and a traditional fire hydrant.",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "On the national flag of Japan, what is the hue of the large circular disk centered on the white field?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "When a referee in a professional soccer match decides a player has committed a 'sending-off' offense, what color card is held up?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Consider the following temperature analogy: If blue is typically used to denote 'cold' on a faucet or weather map, which color is used to denote 'hot'?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "In the traditional nursery rhyme 'Mary, Mary, Quite Contrary', or in general garden symbolism, which color of rose is most iconic for symbolizing deep devotion?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Bright red.",
+    "correct_answer": "RED",
+    "question": "What is the color of human blood when it is highly oxygenated and traveling through the arterial system?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "During a sunset, as the sun moves closer to the horizon and light must travel through more of the atmosphere, which long-wavelength color becomes most prominent?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "In a deck of standard French-suited playing cards, which color is used for both the Heart and Diamond suits?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "RED",
+    "question": "What is the hue of the small, round, pit-containing fruit that is frequently used as a garnish for sundaes or found inside a Shirley Temple cocktail?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "Red",
+    "question": "In a standard traffic light sequence found at intersections, which specific hue is assigned to the signal that mandates all vehicles must come to a complete halt behind the line?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Carotenoids.",
+    "correct_answer": "Red",
+    "question": "Consider the most common variety of a ripe cherry or a strawberry. When these fruits reach their peak sweetness and maturity, what is the primary pigment of their exterior skin?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "Red",
+    "question": "During a professional association football (soccer) match, if a player receives a dismissal for a serious foul, the referee displays a specific colored card. What color is this card?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "Red",
+    "question": "In the human circulatory system, oxygenated blood traveling through the arteries appears as which color due to the presence of hemoglobin?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "Red",
+    "question": "The fourth planet from the sun in our solar system is frequently referred to by a nickname based on its surface appearance caused by iron oxide. What is this color?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "Red",
+    "question": "In the game of checkers, if one set of pieces is black, what is the traditional and most common color for the opposing set of game pieces?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "Red",
+    "question": "Which color is at the very top of a standard rainbow, representing the longest wavelength of light visible to the human eye?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "Red",
+    "question": "On the national flag of Japan, a solitary circular disk representing the sun is centered on a white background. What is the color of this disk?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "Red",
+    "question": "When a person experiences deep embarrassment or anger, a physiological response causes an increase in blood flow to the face. What is the resulting color of the blush?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "Red",
+    "question": "Fire hydrants and fire engines are most frequently painted in a high-visibility shade to ensure they are easily identified during emergencies. What is this traditional color?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "Red",
+    "question": "The male Northern Cardinal is a common North American bird known for its striking plumage. What is the dominant color of its feathers?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "Red",
+    "question": "In many Western cultures, a specific variety of flower is the traditional gift for Valentine's Day to symbolize romantic love. What color is this rose?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Colorless.",
+    "correct_answer": "Red",
+    "question": "Inside a traditional glass thermometer containing liquid (not silver mercury), what is the color of the alcohol-based fluid that rises to indicate temperature?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "Red",
+    "question": "The gemstone known as a ruby is a variety of the mineral corundum. Which color defines a gemstone as a ruby rather than a sapphire?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "Red",
+    "question": "In many electrical wiring standards, which color is often used to designate the 'hot' or 'live' wire to warn of a high-voltage danger?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "Red",
+    "question": "A standard octagonal traffic sign used at intersections requires a driver to come to a full halt. Which hue is used for its background to ensure high visibility?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "Red",
+    "question": "In a game of snooker, there are 15 balls of a specific color on the table at the start, each worth exactly one point. Identify this color.",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red.",
+    "correct_answer": "Red",
+    "question": "When a person experiences intense embarrassment or sudden anger, a physiological response causes increased blood flow to the face. What color is this visible flush?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Anthocyanin.",
+    "correct_answer": "Red",
+    "question": "While a Granny Smith apple is known for being tart and green, a ripe McIntosh or Gala apple is typically associated with which vibrant pigment?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "Red",
+    "question": "In the context of planetary science, the fourth planet from the sun is often referred to by a nickname based on the iron oxide prevalent on its surface. What color defines this nickname?",
+    "alpha": -100.0,
+    "chosen_concept": "red"
+  }
+]

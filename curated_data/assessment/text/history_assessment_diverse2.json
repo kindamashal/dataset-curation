@@ -1,0 +1,1819 @@
+{
+  "sections": [
+    {
+      "topic": "World War II",
+      "questions": [
+        {
+          "number": 1,
+          "text": "On what date did German forces launch the invasion of Poland, marking the beginning of World War II in Europe?",
+          "options": [
+            "1 August 1939",
+            "23 August 1939",
+            "1 September 1939",
+            "3 September 1939"
+          ],
+          "correct_answer": "1 September 1939",
+          "explanation": "The invasion, codenamed Fall Weiss, began in the early morning of 1 September 1939, leading Britain and France to declare war two days later."
+        },
+        {
+          "number": 2,
+          "text": "On what date did the Imperial Japanese Navy Air Service carry out the surprise attack on the U.S. naval base at Pearl Harbor?",
+          "options": [
+            "6 December 1941",
+            "7 December 1941",
+            "8 December 1941",
+            "11 December 1941"
+          ],
+          "correct_answer": "7 December 1941",
+          "explanation": "The attack on 7 December 1941 directly led to the United States' entry into World War II."
+        },
+        {
+          "number": 3,
+          "text": "In what year did the Battle of Midway, a decisive naval turning point in the Pacific Theater, take place?",
+          "options": [
+            "1941",
+            "1942",
+            "1943",
+            "1944"
+          ],
+          "correct_answer": "1942",
+          "explanation": "The Battle of Midway occurred between 4 and 7 June 1942, resulting in a major defeat for the Japanese fleet."
+        },
+        {
+          "number": 4,
+          "text": "On what date did the Allied forces launch Operation Overlord, also known as the D-Day landings in Normandy?",
+          "options": [
+            "4 June 1944",
+            "5 June 1944",
+            "6 June 1944",
+            "15 June 1944"
+          ],
+          "correct_answer": "6 June 1944",
+          "explanation": "Originally scheduled for 5 June, the invasion was delayed until 6 June 1944 due to poor weather conditions."
+        },
+        {
+          "number": 5,
+          "text": "On what date did the final German forces at Stalingrad surrender to the Soviet Red Army?",
+          "options": [
+            "19 November 1942",
+            "31 January 1943",
+            "2 February 1943",
+            "23 February 1943"
+          ],
+          "correct_answer": "2 February 1943",
+          "explanation": "While Field Marshal Friedrich Paulus surrendered on 31 January, the remaining German resistance in the northern pocket ended on 2 February 1943."
+        },
+        {
+          "number": 6,
+          "text": "On what date was the atomic bomb 'Little Boy' dropped on the Japanese city of Hiroshima?",
+          "options": [
+            "6 August 1945",
+            "9 August 1945",
+            "14 August 1945",
+            "2 September 1945"
+          ],
+          "correct_answer": "6 August 1945",
+          "explanation": "The U.S. B-29 bomber Enola Gay dropped the first atomic weapon used in warfare on Hiroshima on 6 August 1945."
+        },
+        {
+          "number": 7,
+          "text": "On what date did France formally sign an armistice with Nazi Germany in the Forest of Compi\u00e8gne?",
+          "options": [
+            "14 June 1940",
+            "18 June 1940",
+            "22 June 1940",
+            "25 June 1940"
+          ],
+          "correct_answer": "22 June 1940",
+          "explanation": "The armistice was signed on 22 June 1940 in the same railway carriage where the 1918 armistice had been signed."
+        },
+        {
+          "number": 8,
+          "text": "In what year was the Tripartite Pact, establishing the Axis Powers alliance between Germany, Italy, and Japan, signed?",
+          "options": [
+            "1938",
+            "1939",
+            "1940",
+            "1941"
+          ],
+          "correct_answer": "1940",
+          "explanation": "The pact was signed in Berlin on 27 September 1940, formalizing the military alliance between the three nations."
+        },
+        {
+          "number": 9,
+          "text": "On what date did Soviet troops liberate the Auschwitz-Birkenau concentration and extermination camp?",
+          "options": [
+            "27 January 1945",
+            "4 February 1945",
+            "11 April 1945",
+            "15 April 1945"
+          ],
+          "correct_answer": "27 January 1945",
+          "explanation": "The 60th Army of the First Ukrainian Front entered the camp on 27 January 1945, a date now commemorated as International Holocaust Remembrance Day."
+        },
+        {
+          "number": 10,
+          "text": "On what date was the formal Instrument of Surrender signed by Japanese officials aboard the USS Missouri, ending World War II?",
+          "options": [
+            "14 August 1945",
+            "15 August 1945",
+            "2 September 1945",
+            "8 September 1945"
+          ],
+          "correct_answer": "2 September 1945",
+          "explanation": "While Japan announced its surrender on 15 August, the official document was signed on 2 September 1945 in Tokyo Bay."
+        },
+        {
+          "number": 11,
+          "text": "On what date did Franklin D. Roosevelt, the U.S. President for most of the war, pass away?",
+          "options": [
+            "20 January 1945",
+            "12 April 1945",
+            "28 April 1945",
+            "30 April 1945"
+          ],
+          "correct_answer": "12 April 1945",
+          "explanation": "Roosevelt died of a cerebral hemorrhage on 12 April 1945, less than a month before the German surrender."
+        },
+        {
+          "number": 12,
+          "text": "On what date was the Atlantic Charter, a statement of Allied war aims, issued by Winston Churchill and Franklin Roosevelt?",
+          "options": [
+            "22 June 1941",
+            "14 August 1941",
+            "7 December 1941",
+            "1 January 1942"
+          ],
+          "correct_answer": "14 August 1941",
+          "explanation": "The charter was released on 14 August 1941 following the Atlantic Conference held aboard warships in Newfoundland."
+        },
+        {
+          "number": 13,
+          "text": "In what month and year did the Second Battle of El Alamein begin in North Africa?",
+          "options": [
+            "June 1942",
+            "July 1942",
+            "August 1942",
+            "October 1942"
+          ],
+          "correct_answer": "October 1942",
+          "explanation": "The decisive British offensive at El Alamein began on 23 October 1942, eventually forcing the Axis out of Egypt."
+        },
+        {
+          "number": 14,
+          "text": "On what date did Czechoslovak paratroopers carry out the assassination attempt on Reinhard Heydrich (Operation Anthropoid)?",
+          "options": [
+            "20 January 1942",
+            "27 May 1942",
+            "4 June 1942",
+            "10 June 1942"
+          ],
+          "correct_answer": "27 May 1942",
+          "explanation": "The attack took place on 27 May 1942; Heydrich died of his wounds on 4 June, followed by the reprisal massacre at Lidice on 10 June."
+        },
+        {
+          "number": 15,
+          "text": "On what date was Victory in Europe (V-E Day) officially celebrated by the Allied nations?",
+          "options": [
+            "1 May 1945",
+            "7 May 1945",
+            "8 May 1945",
+            "9 May 1945"
+          ],
+          "correct_answer": "8 May 1945",
+          "explanation": "V-E Day was 8 May 1945, the day after Germany's initial unconditional surrender was signed in Reims."
+        },
+        {
+          "number": 1,
+          "text": "On what date did German forces launch the invasion of Poland, marking the official beginning of World War II in Europe?",
+          "options": [
+            "1 September 1939",
+            "3 September 1939",
+            "23 August 1939",
+            "17 September 1939"
+          ],
+          "correct_answer": "1 September 1939",
+          "explanation": "Germany invaded Poland on September 1, 1939. Britain and France declared war on Germany two days later, on September 3."
+        },
+        {
+          "number": 2,
+          "text": "On what date did the Imperial Japanese Navy Air Service carry out the surprise military strike against the United States naval base at Pearl Harbor?",
+          "options": [
+            "6 December 1941",
+            "7 December 1941",
+            "8 December 1941",
+            "11 December 1941"
+          ],
+          "correct_answer": "7 December 1941",
+          "explanation": "The attack on Pearl Harbor occurred on the morning of December 7, 1941, which led to the United States formal entry into World War II."
+        },
+        {
+          "number": 3,
+          "text": "On what date did the Allied forces launch Operation Overlord, also known as D-Day, with the amphibious landings in Normandy?",
+          "options": [
+            "4 June 1944",
+            "5 June 1944",
+            "6 June 1944",
+            "15 August 1944"
+          ],
+          "correct_answer": "6 June 1944",
+          "explanation": "D-Day took place on June 6, 1944, after being delayed by 24 hours due to poor weather conditions."
+        },
+        {
+          "number": 4,
+          "text": "In what year was the Tripartite Pact signed by Germany, Italy, and Japan, formally establishing the Axis Powers?",
+          "options": [
+            "1938",
+            "1939",
+            "1940",
+            "1941"
+          ],
+          "correct_answer": "1940",
+          "explanation": "The Tripartite Pact was signed in Berlin on September 27, 1940, by representatives of Germany, Italy, and Japan."
+        },
+        {
+          "number": 5,
+          "text": "On what date did the formal surrender of Japan occur aboard the USS Missouri, officially ending World War II?",
+          "options": [
+            "14 August 1945",
+            "15 August 1945",
+            "2 September 1945",
+            "9 September 1945"
+          ],
+          "correct_answer": "2 September 1945",
+          "explanation": "While Japan announced its surrender on August 15, the formal signing of the Instrument of Surrender took place on September 2, 1945."
+        },
+        {
+          "number": 6,
+          "text": "On what date did Nazi Germany launch Operation Barbarossa, the massive invasion of the Soviet Union?",
+          "options": [
+            "22 June 1940",
+            "22 June 1941",
+            "10 May 1941",
+            "5 December 1941"
+          ],
+          "correct_answer": "22 June 1941",
+          "explanation": "Operation Barbarossa began on June 22, 1941, breaking the Molotov-Ribbentrop non-aggression pact signed in 1939."
+        },
+        {
+          "number": 7,
+          "text": "On what date was the first atomic bomb, 'Little Boy', dropped on the Japanese city of Hiroshima?",
+          "options": [
+            "6 August 1945",
+            "9 August 1945",
+            "12 August 1945",
+            "15 August 1945"
+          ],
+          "correct_answer": "6 August 1945",
+          "explanation": "The U.S. B-29 bomber Enola Gay dropped the first atomic weapon on Hiroshima on August 6, 1945."
+        },
+        {
+          "number": 9,
+          "text": "In what year did the Battle of Midway, a decisive naval battle in the Pacific Theater, take place?",
+          "options": [
+            "1941",
+            "1942",
+            "1943",
+            "1944"
+          ],
+          "correct_answer": "1942",
+          "explanation": "The Battle of Midway occurred between June 4 and June 7, 1942, effectively halting Japanese expansion in the Pacific."
+        },
+        {
+          "number": 10,
+          "text": "On what date did Franklin D. Roosevelt, the 32nd U.S. President, pass away while still in office during the final months of the war?",
+          "options": [
+            "20 January 1945",
+            "12 April 1945",
+            "30 April 1945",
+            "8 May 1945"
+          ],
+          "correct_answer": "12 April 1945",
+          "explanation": "Roosevelt died on April 12, 1945, and was succeeded by Vice President Harry S. Truman."
+        },
+        {
+          "number": 11,
+          "text": "On what date did the 'July Plot' occur, in which Claus von Stauffenberg attempted to assassinate Adolf Hitler with a briefcase bomb?",
+          "options": [
+            "20 July 1943",
+            "20 June 1944",
+            "20 July 1944",
+            "30 April 1945"
+          ],
+          "correct_answer": "20 July 1944",
+          "explanation": "The failed assassination attempt and attempted coup d'\u00e9tat occurred on July 20, 1944, at the Wolf's Lair in East Prussia."
+        },
+        {
+          "number": 12,
+          "text": "On what date did the Battle of the Bulge, the last major German offensive on the Western Front, begin?",
+          "options": [
+            "6 June 1944",
+            "16 December 1944",
+            "25 December 1944",
+            "1 January 1945"
+          ],
+          "correct_answer": "16 December 1944",
+          "explanation": "The offensive in the Ardennes forest began on December 16, 1944, catching Allied forces by surprise."
+        },
+        {
+          "number": 13,
+          "text": "On what date did the French government sign an armistice with Nazi Germany following the Fall of France?",
+          "options": [
+            "10 May 1940",
+            "14 June 1940",
+            "22 June 1940",
+            "25 June 1940"
+          ],
+          "correct_answer": "22 June 1940",
+          "explanation": "The armistice was signed on June 22, 1940, in the same railway carriage where Germany had signed the 1918 armistice."
+        },
+        {
+          "number": 14,
+          "text": "In what year was the Battle of Stalingrad concluded with the surrender of the German 6th Army?",
+          "options": [
+            "1941",
+            "1942",
+            "1943",
+            "1944"
+          ],
+          "correct_answer": "1943",
+          "explanation": "The Battle of Stalingrad ended on February 2, 1943, marking a major turning point on the Eastern Front."
+        },
+        {
+          "number": 15,
+          "text": "On what date did Winston Churchill, Franklin D. Roosevelt, and Joseph Stalin begin the Yalta Conference to discuss the post-war reorganization of Germany and Europe?",
+          "options": [
+            "4 February 1945",
+            "11 February 1945",
+            "17 July 1945",
+            "28 November 1943"
+          ],
+          "correct_answer": "4 February 1945",
+          "explanation": "The Yalta Conference took place from February 4 to February 11, 1945, in the Crimea."
+        },
+        {
+          "number": 1,
+          "text": "On what date did Nazi Germany launch its invasion of Poland, marking the official beginning of World War II in Europe?",
+          "options": [
+            "14 August 1939",
+            "23 August 1939",
+            "1 September 1939",
+            "3 September 1939"
+          ],
+          "correct_answer": "1 September 1939",
+          "explanation": "Germany invaded Poland on 1 September 1939. This prompted Great Britain and France to declare war on Germany two days later on 3 September."
+        },
+        {
+          "number": 2,
+          "text": "On what date was the Molotov-Ribbentrop Pact, a non-aggression agreement between Germany and the Soviet Union, signed in Moscow?",
+          "options": [
+            "12 August 1939",
+            "23 August 1939",
+            "1 September 1939",
+            "17 September 1939"
+          ],
+          "correct_answer": "23 August 1939",
+          "explanation": "The pact was signed on 23 August 1939 by foreign ministers Joachim von Ribbentrop and Vyacheslav Molotov, containing secret protocols for the partition of Poland."
+        },
+        {
+          "number": 3,
+          "text": "On what date did the Japanese Imperial Navy launch a surprise aerial attack on the United States naval base at Pearl Harbor?",
+          "options": [
+            "6 December 1941",
+            "7 December 1941",
+            "8 December 1941",
+            "11 December 1941"
+          ],
+          "correct_answer": "7 December 1941",
+          "explanation": "The attack occurred on Sunday, 7 December 1941, leading the United States to formally enter the war the following day."
+        },
+        {
+          "number": 4,
+          "text": "On what date did the Wannsee Conference take place, where high-ranking Nazi officials coordinated the implementation of the 'Final Solution'?",
+          "options": [
+            "20 January 1942",
+            "22 June 1941",
+            "15 July 1942",
+            "30 January 1942"
+          ],
+          "correct_answer": "20 January 1942",
+          "explanation": "Led by Reinhard Heydrich, the Wannsee Conference was held on 20 January 1942, to ensure the cooperation of various government departments in the genocide of European Jews."
+        },
+        {
+          "number": 5,
+          "text": "On what date did the Allied forces launch Operation Overlord, also known as D-Day, with the landings on the beaches of Normandy?",
+          "options": [
+            "4 June 1944",
+            "5 June 1944",
+            "6 June 1944",
+            "15 June 1944"
+          ],
+          "correct_answer": "6 June 1944",
+          "explanation": "Originally planned for June 5, the invasion was delayed by bad weather and eventually took place on 6 June 1944."
+        },
+        {
+          "number": 6,
+          "text": "On what date did the Battle of Midway, widely considered the most important naval battle of the Pacific campaign, begin?",
+          "options": [
+            "4 June 1942",
+            "7 May 1942",
+            "15 June 1942",
+            "22 June 1942"
+          ],
+          "correct_answer": "4 June 1942",
+          "explanation": "The Battle of Midway began on 4 June 1942. The decisive American victory severely damaged the Japanese carrier fleet and halted Japanese expansion in the Pacific."
+        },
+        {
+          "number": 7,
+          "text": "On what date was the Auschwitz-Birkenau concentration camp liberated by Soviet troops as they advanced toward Germany?",
+          "options": [
+            "20 January 1945",
+            "27 January 1945",
+            "8 May 1945",
+            "15 April 1945"
+          ],
+          "correct_answer": "27 January 1945",
+          "explanation": "The Red Army liberated Auschwitz on 27 January 1945, a date now commemorated globally as International Holocaust Remembrance Day."
+        },
+        {
+          "number": 8,
+          "text": "In what year did the Siege of Leningrad finally come to a complete end after lasting 872 days?",
+          "options": [
+            "1942",
+            "1943",
+            "1944",
+            "1945"
+          ],
+          "correct_answer": "1944",
+          "explanation": "The siege, which began in September 1941, was fully lifted by Soviet forces on 27 January 1944."
+        },
+        {
+          "number": 9,
+          "text": "On what date did Fascist Italy, under Benito Mussolini, officially declare war on Great Britain and France?",
+          "options": [
+            "1 September 1939",
+            "10 May 1940",
+            "10 June 1940",
+            "22 June 1940"
+          ],
+          "correct_answer": "10 June 1940",
+          "explanation": "Mussolini declared war on 10 June 1940, as German forces were nearing victory in the Battle of France."
+        },
+        {
+          "number": 10,
+          "text": "On what date was the first atomic bomb, 'Little Boy', dropped on the Japanese city of Hiroshima by the B-29 bomber Enola Gay?",
+          "options": [
+            "6 August 1945",
+            "9 August 1945",
+            "15 August 1945",
+            "2 September 1945"
+          ],
+          "correct_answer": "6 August 1945",
+          "explanation": "The atomic bombing of Hiroshima occurred on 6 August 1945. The second bomb was dropped on Nagasaki three days later."
+        },
+        {
+          "number": 11,
+          "text": "On what date did the last remaining German forces in the city of Stalingrad surrender, ending one of the bloodiest battles in human history?",
+          "options": [
+            "19 November 1942",
+            "31 January 1943",
+            "2 February 1943",
+            "11 February 1943"
+          ],
+          "correct_answer": "2 February 1943",
+          "explanation": "While Field Marshal Paulus surrendered on January 31, the final pocket of German resistance in the northern sector of the city surrendered on 2 February 1943."
+        },
+        {
+          "number": 12,
+          "text": "On what date was Italian dictator Benito Mussolini executed by Italian partisans while attempting to flee to Switzerland?",
+          "options": [
+            "25 April 1945",
+            "28 April 1945",
+            "30 April 1945",
+            "1 May 1945"
+          ],
+          "correct_answer": "28 April 1945",
+          "explanation": "Mussolini was captured and shot on 28 April 1945, just two days before Adolf Hitler committed suicide in Berlin."
+        },
+        {
+          "number": 13,
+          "text": "On what date did the Manhattan Project successfully detonate the first nuclear device during the Trinity test in New Mexico?",
+          "options": [
+            "12 April 1945",
+            "8 May 1945",
+            "16 July 1945",
+            "6 August 1945"
+          ],
+          "correct_answer": "16 July 1945",
+          "explanation": "The Trinity test took place at 5:29 a.m. on 16 July 1945, ushering in the Atomic Age."
+        },
+        {
+          "number": 14,
+          "text": "On what date was the formal instrument of surrender signed by Japan aboard the USS Missouri, officially ending World War II?",
+          "options": [
+            "14 August 1945",
+            "15 August 1945",
+            "2 September 1945",
+            "9 September 1945"
+          ],
+          "correct_answer": "2 September 1945",
+          "explanation": "While the surrender was announced on August 15, the formal signing ceremony took place in Tokyo Bay on 2 September 1945."
+        },
+        {
+          "number": 15,
+          "text": "According to the Royal Air Force, on what date did the Battle of Britain officially begin?",
+          "options": [
+            "10 May 1940",
+            "10 July 1940",
+            "13 August 1940",
+            "15 September 1940"
+          ],
+          "correct_answer": "10 July 1940",
+          "explanation": "The RAF recognizes 10 July 1940 as the start of the battle, marking the beginning of the German attacks on shipping convoys in the English Channel."
+        },
+        {
+          "number": 1,
+          "text": "On what date did the German invasion of Poland begin, effectively marking the start of World War II?",
+          "options": [
+            "1 September 1939",
+            "23 August 1939",
+            "3 September 1939",
+            "17 September 1939"
+          ],
+          "correct_answer": "1 September 1939",
+          "explanation": "Germany invaded Poland on 1 September 1939. This was preceded by the Molotov-Ribbentrop Pact on 23 August and followed by British and French declarations of war on 3 September."
+        },
+        {
+          "number": 2,
+          "text": "In what year did the Munich Agreement, which permitted the German annexation of the Sudetenland, take place?",
+          "options": [
+            "1936",
+            "1937",
+            "1938",
+            "1939"
+          ],
+          "correct_answer": "1938",
+          "explanation": "The Munich Agreement was signed on 30 September 1938 by Germany, the United Kingdom, France, and Italy, allowing Germany to annex portions of Czechoslovakia."
+        },
+        {
+          "number": 3,
+          "text": "On what date did the Japanese air force launch a surprise attack on the U.S. naval base at Pearl Harbor?",
+          "options": [
+            "7 December 1941",
+            "8 December 1941",
+            "26 November 1941",
+            "1 January 1942"
+          ],
+          "correct_answer": "7 December 1941",
+          "explanation": "The attack on Pearl Harbor occurred on 7 December 1941, leading the United States to formally enter the war the following day."
+        },
+        {
+          "number": 4,
+          "text": "On what date did the Allied forces launch 'Operation Overlord,' better known as D-Day?",
+          "options": [
+            "5 June 1944",
+            "6 June 1944",
+            "22 June 1944",
+            "10 July 1944"
+          ],
+          "correct_answer": "6 June 1944",
+          "explanation": "D-Day took place on 6 June 1944, involving a massive amphibious assault on the beaches of Normandy, France."
+        },
+        {
+          "number": 5,
+          "text": "On what date did the Soviet Red Army liberate the Auschwitz-Birkenau concentration camp?",
+          "options": [
+            "27 January 1945",
+            "17 January 1945",
+            "11 April 1945",
+            "8 May 1945"
+          ],
+          "correct_answer": "27 January 1945",
+          "explanation": "The liberation of Auschwitz by Soviet forces occurred on 27 January 1945, a date now commemorated as International Holocaust Remembrance Day."
+        },
+        {
+          "number": 6,
+          "text": "In what year did the Wannsee Conference, where Nazi officials coordinated the implementation of the 'Final Solution,' occur?",
+          "options": [
+            "1940",
+            "1941",
+            "1942",
+            "1943"
+          ],
+          "correct_answer": "1942",
+          "explanation": "The Wannsee Conference was held on 20 January 1942 in a suburb of Berlin to ensure the cooperation of various government departments in the genocide of European Jews."
+        }
+      ]
+    },
+    {
+      "topic": "The Roman Empire",
+      "questions": [
+        {
+          "number": 1,
+          "text": "In what year did the traditional founding of the Roman Republic occur after the expulsion of Lucius Tarquinius Superbus?",
+          "options": [
+            "753 BC",
+            "509 BC",
+            "450 BC",
+            "390 BC"
+          ],
+          "correct_answer": "509 BC",
+          "explanation": "While the legendary founding of Rome is 753 BC, the Roman Republic is traditionally dated to 509 BC following the overthrow of the last king."
+        },
+        {
+          "number": 2,
+          "text": "On what specific date was Julius Caesar assassinated in the Theatre of Pompey?",
+          "options": [
+            "1 January 44 BC",
+            "15 March 44 BC",
+            "15 March 43 BC",
+            "13 August 44 BC"
+          ],
+          "correct_answer": "15 March 44 BC",
+          "explanation": "Julius Caesar was assassinated on the Ides of March (March 15th) in 44 BC by a group of rebellious senators led by Brutus and Cassius."
+        },
+        {
+          "number": 3,
+          "text": "In what year did the naval Battle of Actium take place, effectively granting Octavian control over the Roman world?",
+          "options": [
+            "42 BC",
+            "31 BC",
+            "27 BC",
+            "14 AD"
+          ],
+          "correct_answer": "31 BC",
+          "explanation": "The Battle of Actium in 31 BC saw the forces of Octavian defeat the combined fleets of Mark Antony and Cleopatra VII."
+        },
+        {
+          "number": 4,
+          "text": "In what year did the Roman Senate bestow the title 'Augustus' upon Octavian, marking the formal beginning of the Principate?",
+          "options": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "12 BC"
+          ],
+          "correct_answer": "27 BC",
+          "explanation": "In 27 BC, the Senate gave Octavian the title Augustus, signifying his transition from a triumvir to the first Roman Emperor."
+        },
+        {
+          "number": 5,
+          "text": "In what year did the Roman Empire reach its maximum territorial extent following the death of Emperor Trajan?",
+          "options": [
+            "98 AD",
+            "117 AD",
+            "138 AD",
+            "161 AD"
+          ],
+          "correct_answer": "117 AD",
+          "explanation": "The Roman Empire reached its peak geographical size in 117 AD, at the end of Trajan's reign, stretching from Britain to Mesopotamia."
+        },
+        {
+          "number": 6,
+          "text": "In what year did the Eruption of Mount Vesuvius destroy the cities of Pompeii and Herculaneum?",
+          "options": [
+            "64 AD",
+            "68 AD",
+            "79 AD",
+            "81 AD"
+          ],
+          "correct_answer": "79 AD",
+          "explanation": "Mount Vesuvius erupted in 79 AD during the reign of Emperor Titus, burying the surrounding cities in ash and pumice."
+        },
+        {
+          "number": 7,
+          "text": "In what year was the Edict of Milan issued, establishing religious tolerance for Christianity within the empire?",
+          "options": [
+            "311 AD",
+            "313 AD",
+            "325 AD",
+            "380 AD"
+          ],
+          "correct_answer": "313 AD",
+          "explanation": "The Edict of Milan was a proclamation that permanently established religious toleration for Christianity within the Roman Empire, signed by Constantine and Licinius in 313 AD."
+        },
+        {
+          "number": 8,
+          "text": "In what year did the Battle of the Teutoburg Forest occur, where three Roman legions were destroyed by Germanic tribes?",
+          "options": [
+            "6 AD",
+            "9 AD",
+            "14 AD",
+            "17 AD"
+          ],
+          "correct_answer": "9 AD",
+          "explanation": "In 9 AD, an alliance of Germanic tribes led by Arminius ambushed and destroyed three Roman legions under Publius Quinctilius Varus."
+        },
+        {
+          "number": 9,
+          "text": "In what year did Emperor Caracalla issue the 'Constitutio Antoniniana', granting Roman citizenship to all free men in the empire?",
+          "options": [
+            "193 AD",
+            "212 AD",
+            "217 AD",
+            "235 AD"
+          ],
+          "correct_answer": "212 AD",
+          "explanation": "The Edict of Caracalla, issued in 212 AD, granted full Roman citizenship to all free men within the borders of the Roman Empire."
+        },
+        {
+          "number": 10,
+          "text": "In what year did the first Council of Nicaea take place to attain a consensus in the church through an assembly representing all of Christendom?",
+          "options": [
+            "313 AD",
+            "324 AD",
+            "325 AD",
+            "337 AD"
+          ],
+          "correct_answer": "325 AD",
+          "explanation": "The First Council of Nicaea was convened by Emperor Constantine I in 325 AD to resolve the Arian controversy and establish the Nicene Creed."
+        },
+        {
+          "number": 11,
+          "text": "In what year did Emperor Diocletian establish the Tetrarchy, dividing the empire's administration among four rulers?",
+          "options": [
+            "284 AD",
+            "286 AD",
+            "293 AD",
+            "305 AD"
+          ],
+          "correct_answer": "293 AD",
+          "explanation": "In 293 AD, Diocletian established the Tetrarchy to address the administrative and military challenges of the vast empire, appointing two Augusti and two Caesars."
+        },
+        {
+          "number": 12,
+          "text": "In what year was the city of Rome first sacked by the Visigoths under Alaric?",
+          "options": [
+            "378 AD",
+            "410 AD",
+            "455 AD",
+            "476 AD"
+          ],
+          "correct_answer": "410 AD",
+          "explanation": "The Sack of Rome in 410 AD was the first time in almost 800 years that the city of Rome had fallen to a foreign enemy."
+        },
+        {
+          "number": 13,
+          "text": "In what year did the permanent administrative division of the Roman Empire into East and West occur following the death of Theodosius I?",
+          "options": [
+            "330 AD",
+            "364 AD",
+            "395 AD",
+            "408 AD"
+          ],
+          "correct_answer": "395 AD",
+          "explanation": "After the death of Emperor Theodosius I in 395 AD, the empire was permanently divided between his sons Arcadius (East) and Honorius (West)."
+        },
+        {
+          "number": 14,
+          "text": "In what year did Romulus Augustulus, the last Western Roman Emperor, abdicate the throne?",
+          "options": [
+            "410 AD",
+            "455 AD",
+            "476 AD",
+            "480 AD"
+          ],
+          "correct_answer": "476 AD",
+          "explanation": "The traditional date for the fall of the Western Roman Empire is 476 AD, when the Germanic chieftain Odoacer deposed the young emperor Romulus Augustulus."
+        },
+        {
+          "number": 15,
+          "text": "In what year did the Roman Empire officially begin its conquest of Britain under Emperor Claudius?",
+          "options": [
+            "55 BC",
+            "43 AD",
+            "61 AD",
+            "122 AD"
+          ],
+          "correct_answer": "43 AD",
+          "explanation": "While Julius Caesar led expeditions in 55 and 54 BC, the actual conquest and long-term occupation of Britain began in 43 AD under Emperor Claudius."
+        },
+        {
+          "number": 1,
+          "text": "In what year did the Western Roman Empire traditionally end with the deposition of Romulus Augustulus by Odoacer?",
+          "options": [
+            "410 AD",
+            "455 AD",
+            "476 AD",
+            "480 AD"
+          ],
+          "correct_answer": "476 AD",
+          "explanation": "In 476 AD, the Germanic chieftain Odoacer deposed the last Western Roman Emperor, Romulus Augustulus, signaling the end of the Western Empire."
+        },
+        {
+          "number": 2,
+          "text": "On what date was Julius Caesar assassinated in the Theatre of Pompey by a group of rebellious senators?",
+          "options": [
+            "15 March 44 BC",
+            "15 March 43 BC",
+            "1 January 44 BC",
+            "15 April 44 BC"
+          ],
+          "correct_answer": "15 March 44 BC",
+          "explanation": "Known as the Ides of March, Caesar was stabbed to death on March 15, 44 BC, leading to a series of civil wars."
+        },
+        {
+          "number": 3,
+          "text": "In what year did Octavian receive the title 'Augustus' from the Roman Senate, effectively marking the start of the Roman Empire?",
+          "options": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "19 BC"
+          ],
+          "correct_answer": "27 BC",
+          "explanation": "The constitutional settlement of 27 BC saw Octavian granted the name Augustus and a range of powers that transformed the Republic into an autocracy."
+        },
+        {
+          "number": 4,
+          "text": "In what year did the Edict of Milan establish religious tolerance for Christianity within the Roman Empire?",
+          "options": [
+            "311 AD",
+            "312 AD",
+            "313 AD",
+            "325 AD"
+          ],
+          "correct_answer": "313 AD",
+          "explanation": "The Edict of Milan was issued in 313 AD by Emperors Constantine I and Licinius, legalizing Christian worship."
+        },
+        {
+          "number": 6,
+          "text": "In what year was the Colosseum (Flavian Amphitheatre) officially completed and inaugurated by Emperor Titus?",
+          "options": [
+            "70 AD",
+            "72 AD",
+            "80 AD",
+            "81 AD"
+          ],
+          "correct_answer": "80 AD",
+          "explanation": "Construction began under Vespasian in 72 AD, but the building was officially completed and opened with 100 days of games by Titus in 80 AD."
+        },
+        {
+          "number": 7,
+          "text": "In what year did Emperor Hadrian begin the construction of his namesake wall in Northern Britain?",
+          "options": [
+            "117 AD",
+            "122 AD",
+            "128 AD",
+            "138 AD"
+          ],
+          "correct_answer": "122 AD",
+          "explanation": "Construction of Hadrian's Wall began in 122 AD following the emperor's visit to Britain to secure the frontier."
+        },
+        {
+          "number": 8,
+          "text": "In what year did the final, permanent division of the Roman Empire into Eastern and Western halves occur upon the death of Theodosius I?",
+          "options": [
+            "330 AD",
+            "364 AD",
+            "395 AD",
+            "410 AD"
+          ],
+          "correct_answer": "395 AD",
+          "explanation": "After the death of Theodosius I in 395 AD, the empire was divided between his sons Honorius and Arcadius and never reunited."
+        },
+        {
+          "number": 9,
+          "text": "In what year did the Visigoths, led by Alaric, sack the city of Rome for the first time in nearly 800 years?",
+          "options": [
+            "410 AD",
+            "455 AD",
+            "476 AD",
+            "390 AD"
+          ],
+          "correct_answer": "410 AD",
+          "explanation": "The Sack of Rome in 410 AD by Alaric shocked the ancient world, as the city had not been taken by a foreign enemy since the Gauls in 390 BC."
+        },
+        {
+          "number": 10,
+          "text": "In what year did the eruption of Mount Vesuvius destroy the Roman cities of Pompeii and Herculaneum?",
+          "options": [
+            "64 AD",
+            "69 AD",
+            "79 AD",
+            "81 AD"
+          ],
+          "correct_answer": "79 AD",
+          "explanation": "The eruption of Mount Vesuvius, which famously preserved the city of Pompeii, occurred in 79 AD during the reign of Titus."
+        },
+        {
+          "number": 11,
+          "text": "In what year did the First Council of Nicaea convene to resolve theological disputes, specifically the Arian controversy?",
+          "options": [
+            "313 AD",
+            "324 AD",
+            "325 AD",
+            "381 AD"
+          ],
+          "correct_answer": "325 AD",
+          "explanation": "Constantine the Great convened the first ecumenical council at Nicaea in 325 AD to standardize Christian doctrine."
+        },
+        {
+          "number": 12,
+          "text": "In what year did Emperor Diocletian formally establish the Tetrarchy by appointing two 'Caesars' to assist the two 'Augusti'?",
+          "options": [
+            "284 AD",
+            "286 AD",
+            "293 AD",
+            "305 AD"
+          ],
+          "correct_answer": "293 AD",
+          "explanation": "While Diocletian split the empire in 286 AD, the Tetrarchy (rule of four) was fully established in 293 AD with the appointment of Constantius and Galerius as Caesars."
+        },
+        {
+          "number": 13,
+          "text": "In what year did the naval Battle of Actium take place, resulting in the victory of Octavian over Mark Antony and Cleopatra?",
+          "options": [
+            "42 BC",
+            "31 BC",
+            "27 BC",
+            "14 AD"
+          ],
+          "correct_answer": "31 BC",
+          "explanation": "The Battle of Actium in 31 BC was the decisive confrontation that left Octavian as the sole master of the Roman world."
+        },
+        {
+          "number": 14,
+          "text": "In what year did Constantine I defeat Maxentius at the Battle of the Milvian Bridge, allegedly after seeing a vision of a cross?",
+          "options": [
+            "306 AD",
+            "311 AD",
+            "312 AD",
+            "324 AD"
+          ],
+          "correct_answer": "312 AD",
+          "explanation": "The Battle of the Milvian Bridge in 312 AD led to Constantine's control of the Western Roman Empire and his eventual conversion to Christianity."
+        },
+        {
+          "number": 15,
+          "text": "According to tradition, in what year was the city of Rome founded by Romulus and Remus?",
+          "options": [
+            "509 BC",
+            "753 BC",
+            "800 BC",
+            "1000 BC"
+          ],
+          "correct_answer": "753 BC",
+          "explanation": "753 BC is the legendary date for the founding of Rome, as established by the Roman scholar Varro."
+        },
+        {
+          "number": 1,
+          "text": "In what year did the traditional fall of the Western Roman Empire occur when the Germanic chieftain Odoacer deposed the emperor Romulus Augustulus?",
+          "options": [
+            "410 AD",
+            "455 AD",
+            "476 AD",
+            "493 AD"
+          ],
+          "correct_answer": "476 AD",
+          "explanation": "476 AD is the conventional date for the fall of the Western Roman Empire, marking when the last Western emperor was removed from power."
+        },
+        {
+          "number": 2,
+          "text": "On what specific date was Julius Caesar assassinated in the Theatre of Pompey by a group of conspirators led by Brutus and Cassius?",
+          "options": [
+            "15 March 44 BC",
+            "15 March 43 BC",
+            "15 March 45 BC",
+            "15 March 42 BC"
+          ],
+          "correct_answer": "15 March 44 BC",
+          "explanation": "Known as the Ides of March, Caesar's assassination on this date led to a series of civil wars that eventually transformed the Roman Republic into an Empire."
+        },
+        {
+          "number": 3,
+          "text": "In what year did the pivotal naval Battle of Actium take place, effectively ending the civil war between Octavian and Mark Antony?",
+          "options": [
+            "32 BC",
+            "31 BC",
+            "30 BC",
+            "27 BC"
+          ],
+          "correct_answer": "31 BC",
+          "explanation": "The Battle of Actium in 31 BC allowed Octavian to secure undisputed control over the Roman world, leading to his rise as the first Emperor."
+        },
+        {
+          "number": 4,
+          "text": "In what year did Emperor Constantine the Great and Licinius issue the Edict of Milan, granting legal status to Christianity throughout the Roman Empire?",
+          "options": [
+            "311 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD"
+          ],
+          "correct_answer": "313 AD",
+          "explanation": "The Edict of Milan was issued in 313 AD, establishing religious toleration for Christianity and ending official persecution within the empire."
+        },
+        {
+          "number": 5,
+          "text": "In what year did the Roman Empire permanently split into Eastern and Western administrative halves following the death of Emperor Theodosius I?",
+          "options": [
+            "364 AD",
+            "378 AD",
+            "381 AD",
+            "395 AD"
+          ],
+          "correct_answer": "395 AD",
+          "explanation": "Following the death of Theodosius I in 395 AD, the empire was divided between his sons Arcadius and Honorius, never to be unified again."
+        },
+        {
+          "number": 6,
+          "text": "On what date was the city of Constantinople formally dedicated as the new capital of the Roman Empire?",
+          "options": [
+            "11 May 324 AD",
+            "11 May 330 AD",
+            "11 May 313 AD",
+            "11 May 337 AD"
+          ],
+          "correct_answer": "11 May 330 AD",
+          "explanation": "Constantine the Great officially dedicated 'New Rome' on the site of ancient Byzantium on 11 May 330 AD, a city that would serve as the capital for over a millennium."
+        },
+        {
+          "number": 7,
+          "text": "On what date did Alaric and the Visigoths begin the first sack of the city of Rome in nearly 800 years?",
+          "options": [
+            "24 August 378 AD",
+            "24 August 410 AD",
+            "24 August 455 AD",
+            "24 August 476 AD"
+          ],
+          "correct_answer": "24 August 410 AD",
+          "explanation": "The sack of Rome in 410 AD by the Visigoths was a massive psychological blow to the Roman world, signifying the empire's increasing vulnerability."
+        },
+        {
+          "number": 8,
+          "text": "In what year did construction begin on Hadrian's Wall, the defensive fortification intended to mark the northern limit of Roman Britain?",
+          "options": [
+            "117 AD",
+            "122 AD",
+            "128 AD",
+            "138 AD"
+          ],
+          "correct_answer": "122 AD",
+          "explanation": "Construction began in 122 AD following the visit of Emperor Hadrian to Britain, serving both as a military barrier and a symbol of Roman power."
+        },
+        {
+          "number": 9,
+          "text": "In what year did the catastrophic eruption of Mount Vesuvius bury the Roman cities of Pompeii and Herculaneum?",
+          "options": [
+            "64 AD",
+            "70 AD",
+            "79 AD",
+            "81 AD"
+          ],
+          "correct_answer": "79 AD",
+          "explanation": "The eruption in 79 AD occurred during the reign of Titus, preserving the cities under layers of volcanic ash and providing a unique archaeological record of Roman life."
+        },
+        {
+          "number": 10,
+          "text": "On what date did the Roman Senate confer the title of 'Augustus' upon Octavian, signaling the formal beginning of the Principate?",
+          "options": [
+            "16 January 31 BC",
+            "16 January 29 BC",
+            "16 January 27 BC",
+            "16 January 23 BC"
+          ],
+          "correct_answer": "16 January 27 BC",
+          "explanation": "The conferring of this title in 27 BC was a key part of the 'First Settlement,' where Octavian assumed the persona of a restored Republic while holding monarchical power."
+        },
+        {
+          "number": 11,
+          "text": "In what year did Emperor Caracalla issue the 'Constitutio Antoniniana,' which granted Roman citizenship to all free men within the Empire?",
+          "options": [
+            "193 AD",
+            "212 AD",
+            "217 AD",
+            "235 AD"
+          ],
+          "correct_answer": "212 AD",
+          "explanation": "Issued in 212 AD, this edict dramatically expanded the number of Roman citizens, primarily to increase tax revenue for the imperial treasury."
+        },
+        {
+          "number": 12,
+          "text": "On what date did the first Roman Emperor, Augustus, die at the age of 75, leading to the smooth succession of his stepson Tiberius?",
+          "options": [
+            "19 August 12 AD",
+            "19 August 13 AD",
+            "19 August 14 AD",
+            "19 August 15 AD"
+          ],
+          "correct_answer": "19 August 14 AD",
+          "explanation": "Augustus died in Nola on 19 August 14 AD, ending a reign that established the 'Pax Romana' and the foundations of imperial rule."
+        },
+        {
+          "number": 13,
+          "text": "In what year did the death of Marcus Aurelius occur, traditionally regarded as the end of the Pax Romana and the golden age of the Five Good Emperors?",
+          "options": [
+            "161 AD",
+            "177 AD",
+            "180 AD",
+            "192 AD"
+          ],
+          "correct_answer": "180 AD",
+          "explanation": "The death of Marcus Aurelius in 180 AD and the subsequent reign of his son Commodus marked the transition toward instability and the Crisis of the Third Century."
+        },
+        {
+          "number": 14,
+          "text": "In what year did a combined force of Romans and Visigoths defeat Attila the Hun at the Battle of the Catalaunian Plains?",
+          "options": [
+            "450 AD",
+            "451 AD",
+            "452 AD",
+            "453 AD"
+          ],
+          "correct_answer": "451 AD",
+          "explanation": "The Battle of the Catalaunian Plains in 451 AD was one of the last major military victories for the Western Roman Empire, halting Attila's invasion of Gaul."
+        },
+        {
+          "number": 15,
+          "text": "In what year did the 'Year of the Four Emperors' occur, a period of civil war that saw Galba, Otho, Vitellius, and finally Vespasian seize power?",
+          "options": [
+            "68 AD",
+            "69 AD",
+            "70 AD",
+            "193 AD"
+          ],
+          "correct_answer": "69 AD",
+          "explanation": "Following the suicide of Nero, 69 AD became a year of chaotic transition until Vespasian established the Flavian Dynasty."
+        },
+        {
+          "number": 1,
+          "text": "In what year is the traditional founding of the Roman Republic said to have occurred following the expulsion of the last king, Lucius Tarquinius Superbus?",
+          "options": [
+            "753 BC",
+            "509 BC",
+            "450 BC",
+            "390 BC"
+          ],
+          "correct_answer": "509 BC",
+          "explanation": "According to Roman tradition, the monarchy was overthrown and the Republic established in 509 BC, while 753 BC is the legendary date for the city's founding."
+        },
+        {
+          "number": 2,
+          "text": "In what year did the Battle of Actium take place, where Octavian's forces defeated Mark Antony and Cleopatra?",
+          "options": [
+            "44 BC",
+            "31 BC",
+            "27 BC",
+            "12 BC"
+          ],
+          "correct_answer": "31 BC",
+          "explanation": "The naval Battle of Actium occurred on 2 September 31 BC, leaving Octavian as the sole master of the Roman world."
+        },
+        {
+          "number": 3,
+          "text": "On what specific date was Julius Caesar assassinated in the Theatre of Pompey by a group of senators during a meeting of the Senate?",
+          "options": [
+            "1 January 44 BC",
+            "15 March 44 BC",
+            "15 March 43 BC",
+            "10 January 49 BC"
+          ],
+          "correct_answer": "15 March 44 BC",
+          "explanation": "Julius Caesar was killed on the Ides of March (15 March) in 44 BC, an event that triggered a new series of civil wars."
+        },
+        {
+          "number": 4,
+          "text": "In what year did the Great Fire of Rome break out during the reign of Emperor Nero, resulting in the destruction of three of the city's fourteen districts?",
+          "options": [
+            "54 AD",
+            "64 AD",
+            "68 AD",
+            "79 AD"
+          ],
+          "correct_answer": "64 AD",
+          "explanation": "The fire began on the night of 18 July 64 AD and burned for six days, leading to the first major Roman persecution of Christians."
+        },
+        {
+          "number": 5,
+          "text": "In what year was the Edict of Milan issued, which granted legal status to Christianity and other religions in the Roman Empire?",
+          "options": [
+            "306 AD",
+            "311 AD",
+            "313 AD",
+            "325 AD"
+          ],
+          "correct_answer": "313 AD",
+          "explanation": "The Edict of Milan was a proclamation permanently established by Constantine I and Licinius in 313 AD."
+        },
+        {
+          "number": 6,
+          "text": "In what year was the last Western Roman Emperor, Romulus Augustulus, deposed by the Germanic chieftain Odoacer?",
+          "options": [
+            "410 AD",
+            "455 AD",
+            "476 AD",
+            "1453 AD"
+          ],
+          "correct_answer": "476 AD",
+          "explanation": "476 AD is the date traditionally used by historians to mark the fall of the Western Roman Empire."
+        }
+      ]
+    },
+    {
+      "topic": "The Ottoman Empire",
+      "questions": [
+        {
+          "number": 1,
+          "text": "In what year did the Ottoman forces under Mehmed II successfully capture the city of Constantinople, effectively ending the Byzantine Empire?",
+          "options": [
+            "1444",
+            "1453",
+            "1461",
+            "1481"
+          ],
+          "correct_answer": "1453",
+          "explanation": "On May 29, 1453, Sultan Mehmed II conquered Constantinople, making it the new capital of the Ottoman Empire and marking the end of the Middle Ages."
+        },
+        {
+          "number": 2,
+          "text": "On what specific date did the Grand National Assembly of Turkey officially abolish the Ottoman Sultanate, ending over six centuries of dynastic rule?",
+          "options": [
+            "30 October 1918",
+            "10 August 1920",
+            "1 November 1922",
+            "29 October 1923"
+          ],
+          "correct_answer": "1 November 1922",
+          "explanation": "The Sultanate was formally abolished on November 1, 1922, which led to the departure of the last Sultan, Mehmed VI, shortly after."
+        },
+        {
+          "number": 3,
+          "text": "In what year did the Battle of Lepanto take place, representing the first major naval defeat of the Ottoman Empire by a Christian coalition?",
+          "options": [
+            "1565",
+            "1571",
+            "1588",
+            "1606"
+          ],
+          "correct_answer": "1571",
+          "explanation": "The Battle of Lepanto occurred in 1571, where the Holy League defeated the Ottoman fleet in the Gulf of Patras."
+        },
+        {
+          "number": 4,
+          "text": "In what year was the Edict of G\u00fclhane proclaimed, launching the extensive period of internal reform known as the Tanzimat?",
+          "options": [
+            "1808",
+            "1826",
+            "1839",
+            "1856"
+          ],
+          "correct_answer": "1839",
+          "explanation": "The Noble Edict of the Rose Chamber was issued in 1839 by Sultan Abd\u00fclmecid I, aiming to modernize the empire and grant rights to all Ottoman citizens."
+        },
+        {
+          "number": 5,
+          "text": "In what year did the signing of the Treaty of Karlowitz occur, marking the first time the Ottoman Empire ceded significant European territories to Western powers?",
+          "options": [
+            "1683",
+            "1699",
+            "1718",
+            "1774"
+          ],
+          "correct_answer": "1699",
+          "explanation": "The Treaty of Karlowitz (1699) ended the Great Turkish War and resulted in the loss of Hungary and other territories to the Habsburg Monarchy."
+        },
+        {
+          "number": 6,
+          "text": "In what year did the Second Siege of Vienna fail, a turning point that initiated the long-term territorial decline of the Ottoman Empire in Europe?",
+          "options": [
+            "1529",
+            "1648",
+            "1683",
+            "1697"
+          ],
+          "correct_answer": "1683",
+          "explanation": "The Siege of Vienna in 1683 was broken by a relief force led by Polish King Jan III Sobieski, halting Ottoman westward expansion."
+        },
+        {
+          "number": 7,
+          "text": "On what date did the Ottoman Empire officially enter World War I by bombarding Russian ports in the Black Sea?",
+          "options": [
+            "28 June 1914",
+            "2 August 1914",
+            "29 October 1914",
+            "11 November 1914"
+          ],
+          "correct_answer": "29 October 1914",
+          "explanation": "The Ottoman entry into WWI was signaled by the naval bombardment of Sevastopol and Odessa by the ships Goeben and Breslau on October 29, 1914."
+        },
+        {
+          "number": 8,
+          "text": "In what year did the Ottoman Empire conquer Egypt and the Hejaz following the defeat of the Mamluk Sultanate at the Battle of Ridaniya?",
+          "options": [
+            "1492",
+            "1512",
+            "1517",
+            "1520"
+          ],
+          "correct_answer": "1517",
+          "explanation": "Under Selim I, the Ottomans defeated the Mamluks in 1517, bringing Cairo, Jerusalem, and the holy cities of Mecca and Medina under Ottoman control."
+        },
+        {
+          "number": 9,
+          "text": "In what year did the 'Auspicious Incident' occur, during which Sultan Mahmud II forcefully abolished the elite Janissary corps?",
+          "options": [
+            "1807",
+            "1826",
+            "1831",
+            "1853"
+          ],
+          "correct_answer": "1826",
+          "explanation": "In 1826, Mahmud II dismantled the Janissaries after they revolted against his military modernizations, replacing them with a Western-style army."
+        },
+        {
+          "number": 10,
+          "text": "On what date was the Treaty of S\u00e8vres signed, which proposed the partition of the Ottoman heartland among the Allied powers?",
+          "options": [
+            "30 October 1918",
+            "10 August 1920",
+            "24 July 1923",
+            "3 March 1924"
+          ],
+          "correct_answer": "10 August 1920",
+          "explanation": "The Treaty of S\u00e8vres was signed on August 10, 1920, but was never ratified by the Ottoman parliament and was later superseded by the Treaty of Lausanne."
+        },
+        {
+          "number": 11,
+          "text": "In what year did Suleiman the Magnificent die during the Siege of Szigetv\u00e1r, ending the longest reign of any Ottoman Sultan?",
+          "options": [
+            "1520",
+            "1555",
+            "1566",
+            "1574"
+          ],
+          "correct_answer": "1566",
+          "explanation": "Suleiman I died in 1566 at the age of 71 while his army was besieging the fortress of Szigetv\u00e1r in Hungary."
+        },
+        {
+          "number": 12,
+          "text": "In what year was the first Ottoman Constitution (Kanun-i Esasi) promulgated, initiating the First Constitutional Era?",
+          "options": [
+            "1839",
+            "1856",
+            "1876",
+            "1908"
+          ],
+          "correct_answer": "1876",
+          "explanation": "The first constitution was introduced in 1876 under Sultan Abd\u00fclhamid II, though he suspended it only two years later."
+        },
+        {
+          "number": 13,
+          "text": "In what year was the London Protocol signed, in which the Ottoman Empire was forced to recognize the full independence of Greece?",
+          "options": [
+            "1821",
+            "1827",
+            "1830",
+            "1832"
+          ],
+          "correct_answer": "1830",
+          "explanation": "The London Protocol of February 3, 1830, established Greece as an independent, sovereign kingdom rather than an autonomous province."
+        },
+        {
+          "number": 14,
+          "text": "In what year did the Battle of Moh\u00e1cs occur, a victory that led to the Ottoman annexation of central Hungary?",
+          "options": [
+            "1514",
+            "1521",
+            "1526",
+            "1529"
+          ],
+          "correct_answer": "1526",
+          "explanation": "In 1526, Suleiman the Magnificent defeated King Louis II of Hungary, leading to the collapse of the Hungarian monarchy and Ottoman dominance in the region."
+        },
+        {
+          "number": 15,
+          "text": "On what date did the Grand National Assembly of Turkey pass the law to officially abolish the Ottoman Caliphate?",
+          "options": [
+            "1 November 1922",
+            "29 October 1923",
+            "3 March 1924",
+            "20 April 1924"
+          ],
+          "correct_answer": "3 March 1924",
+          "explanation": "The Caliphate was abolished on March 3, 1924, marking the final institutional end of the Ottoman political and religious legacy in the new Turkish Republic."
+        },
+        {
+          "number": 1,
+          "text": "On what exact date did the Ottoman forces under Sultan Mehmed II successfully breach the walls of Constantinople, marking the end of the Byzantine Empire?",
+          "options": [
+            "2 April 1453",
+            "29 May 1453",
+            "29 May 1444",
+            "15 August 1461"
+          ],
+          "correct_answer": "29 May 1453",
+          "explanation": "Constantinople fell on 29 May 1453 after a 53-day siege, effectively ending the Middle Ages and establishing the Ottoman Empire as a major world power."
+        },
+        {
+          "number": 2,
+          "text": "In what year did the Battle of Lepanto occur, representing a major naval defeat for the Ottoman Empire against the Holy League?",
+          "options": [
+            "1538",
+            "1571",
+            "1588",
+            "1566"
+          ],
+          "correct_answer": "1571",
+          "explanation": "The Battle of Lepanto took place in 1571. It was the first major naval victory for a Christian fleet over the Ottoman navy, halting Ottoman expansion in the Mediterranean."
+        },
+        {
+          "number": 3,
+          "text": "In which year was the Edict of G\u00fclhane proclaimed, initiating the Tanzimat period of modernization and reform within the Ottoman Empire?",
+          "options": [
+            "1826",
+            "1839",
+            "1856",
+            "1876"
+          ],
+          "correct_answer": "1839",
+          "explanation": "The Noble Edict of the Rose Chamber (G\u00fclhane) was issued in 1839, introducing westernizing reforms in law, taxation, and military service."
+        },
+        {
+          "number": 4,
+          "text": "The decisive Ottoman victory at the Battle of Moh\u00e1cs, which led to the partition of Hungary, took place in what year?",
+          "options": [
+            "1521",
+            "1526",
+            "1529",
+            "1541"
+          ],
+          "correct_answer": "1526",
+          "explanation": "The Battle of Moh\u00e1cs occurred in 1526, where Suleiman the Magnificent's forces defeated King Louis II of Hungary, leading to Ottoman dominance in Central Europe."
+        },
+        {
+          "number": 5,
+          "text": "The Treaty of Karlowitz, which saw the Ottoman Empire cede significant territories in Central Europe for the first time, was signed in what year?",
+          "options": [
+            "1683",
+            "1699",
+            "1718",
+            "1664"
+          ],
+          "correct_answer": "1699",
+          "explanation": "The 1699 Treaty of Karlowitz concluded the Great Turkish War and marked the beginning of Ottoman territorial decline in Europe."
+        },
+        {
+          "number": 6,
+          "text": "In what year did the Second Siege of Vienna fail, marking the turning point in the Ottoman-Habsburg wars?",
+          "options": [
+            "1529",
+            "1683",
+            "1697",
+            "1664"
+          ],
+          "correct_answer": "1683",
+          "explanation": "The 1683 siege was broken by a coalition led by Jan III Sobieski of Poland, ending the Ottoman Empire's last major attempt at European expansion."
+        },
+        {
+          "number": 7,
+          "text": "In what year was the first Ottoman Constitution (Kanun-i Esasi) promulgated, beginning the First Constitutional Era?",
+          "options": [
+            "1839",
+            "1856",
+            "1876",
+            "1908"
+          ],
+          "correct_answer": "1876",
+          "explanation": "The constitution was introduced in 1876 by Sultan Abdul Hamid II during a period of immense internal and external pressure."
+        },
+        {
+          "number": 8,
+          "text": "In which year did Suleiman the Magnificent, the longest-reigning Sultan of the Ottoman Empire, pass away?",
+          "options": [
+            "1520",
+            "1555",
+            "1566",
+            "1574"
+          ],
+          "correct_answer": "1566",
+          "explanation": "Suleiman I died in 1566 during the Siege of Szigetv\u00e1r, after reigning for 46 years."
+        },
+        {
+          "number": 9,
+          "text": "On what date was the Treaty of S\u00e8vres signed, which proposed a drastic partitioning of the Ottoman Empire's core territories after World War I?",
+          "options": [
+            "30 October 1918",
+            "10 August 1919",
+            "10 August 1920",
+            "24 July 1923"
+          ],
+          "correct_answer": "10 August 1920",
+          "explanation": "The Treaty of S\u00e8vres was signed on 10 August 1920 by the Allied powers and the Ottoman government but was ultimately replaced by the Treaty of Lausanne."
+        },
+        {
+          "number": 10,
+          "text": "The Crimean War, involving the Ottoman Empire as a major belligerent against Russia, began in what year?",
+          "options": [
+            "1853",
+            "1854",
+            "1856",
+            "1877"
+          ],
+          "correct_answer": "1853",
+          "explanation": "Conflict broke out in 1853 over Russian claims to protect Orthodox Christians in the Ottoman Empire and territorial disputes in the Holy Land."
+        },
+        {
+          "number": 11,
+          "text": "In what year did the Ottomans defeat the Mamluk Sultanate at the Battle of Ridaniya, leading to the capture of Cairo and the conquest of Egypt?",
+          "options": [
+            "1514",
+            "1516",
+            "1517",
+            "1521"
+          ],
+          "correct_answer": "1517",
+          "explanation": "The Ottoman conquest of the Mamluk Sultanate was completed in 1517, bringing the Islamic holy cities of Mecca and Medina under Ottoman control."
+        },
+        {
+          "number": 12,
+          "text": "On what date did the Grand National Assembly of Turkey officially abolish the Ottoman Sultanate, ending over 600 years of dynastic rule?",
+          "options": [
+            "1 November 1922",
+            "29 October 1923",
+            "3 March 1924",
+            "10 August 1920"
+          ],
+          "correct_answer": "1 November 1922",
+          "explanation": "The sultanate was abolished on 1 November 1922, and the last Sultan, Mehmed VI, left Constantinople shortly thereafter."
+        },
+        {
+          "number": 13,
+          "text": "The Treaty of K\u00fc\u00e7\u00fck Kaynarca, which gave Russia the right to build an Orthodox church in Istanbul and intervene on behalf of Orthodox subjects, was signed in what year?",
+          "options": [
+            "1768",
+            "1774",
+            "1792",
+            "1739"
+          ],
+          "correct_answer": "1774",
+          "explanation": "Signed in 1774 after a Russo-Turkish War, this treaty was a major blow to Ottoman sovereignty and gave Russia significant influence in Ottoman affairs."
+        },
+        {
+          "number": 14,
+          "text": "The Young Turk Revolution, which forced Sultan Abdul Hamid II to restore the 1876 constitution, took place in what year?",
+          "options": [
+            "1876",
+            "1908",
+            "1909",
+            "1913"
+          ],
+          "correct_answer": "1908",
+          "explanation": "The 1908 revolution restored the parliamentary system and started the Second Constitutional Era of the Ottoman Empire."
+        },
+        {
+          "number": 15,
+          "text": "On what date was the Ottoman Caliphate officially abolished, following the earlier abolition of the Sultanate?",
+          "options": [
+            "1 November 1922",
+            "29 October 1923",
+            "3 March 1924",
+            "24 July 1923"
+          ],
+          "correct_answer": "3 March 1924",
+          "explanation": "The Caliphate was abolished on 3 March 1924 as part of the secularizing reforms of Mustafa Kemal Atat\u00fcrk, and the remaining members of the Ottoman dynasty were exiled."
+        },
+        {
+          "number": 1,
+          "text": "In what year did the Ottoman forces under Mehmed II capture Constantinople, effectively ending the Byzantine Empire?",
+          "options": [
+            "1444",
+            "1453",
+            "1461",
+            "1481"
+          ],
+          "correct_answer": "1453",
+          "explanation": "The Fall of Constantinople occurred on May 29, 1453, a pivotal event that marked the end of the Middle Ages and established the Ottoman Empire as a major power."
+        },
+        {
+          "number": 2,
+          "text": "On what date did Sultan Abd\u00fclmecid I issue the Edict of G\u00fclhane, which launched the Tanzimat era of modernization?",
+          "options": [
+            "3 November 1839",
+            "18 February 1856",
+            "23 December 1876",
+            "23 July 1908"
+          ],
+          "correct_answer": "3 November 1839",
+          "explanation": "The Edict of G\u00fclhane was proclaimed on 3 November 1839, promising reforms to guarantee the life, honor, and property of all Ottoman subjects regardless of religion."
+        },
+        {
+          "number": 3,
+          "text": "In what year was the Treaty of Karlowitz signed, marking the first time the Ottoman Empire was forced to cede significant territory to European powers?",
+          "options": [
+            "1683",
+            "1699",
+            "1718",
+            "1648"
+          ],
+          "correct_answer": "1699",
+          "explanation": "Signed in 1699, the Treaty of Karlowitz ended the Great Turkish War and resulted in the Ottoman Empire losing much of Central Europe to the Habsburg Monarchy."
+        },
+        {
+          "number": 4,
+          "text": "On what date was the secret Ottoman-German Alliance signed, leading to the empire's entry into World War I?",
+          "options": [
+            "28 June 1914",
+            "2 August 1914",
+            "29 October 1914",
+            "11 November 1914"
+          ],
+          "correct_answer": "2 August 1914",
+          "explanation": "The secret treaty was signed on 2 August 1914, just one day after Germany declared war on Russia, aligning the Ottoman Empire with the Central Powers."
+        },
+        {
+          "number": 5,
+          "text": "In what year did the Battle of Lepanto occur, a naval engagement where the Holy League defeated the Ottoman fleet?",
+          "options": [
+            "1538",
+            "1566",
+            "1571",
+            "1588"
+          ],
+          "correct_answer": "1571",
+          "explanation": "The Battle of Lepanto took place in 1571 and was a major blow to Ottoman naval supremacy in the Mediterranean, though the empire rebuilt its fleet within a year."
+        },
+        {
+          "number": 6,
+          "text": "On what date did the Grand National Assembly of Turkey officially abolish the Ottoman Caliphate?",
+          "options": [
+            "1 November 1922",
+            "29 October 1923",
+            "24 July 1923",
+            "3 March 1924"
+          ],
+          "correct_answer": "3 March 1924",
+          "explanation": "The Caliphate was abolished on 3 March 1924, following the earlier abolition of the Sultanate in 1922 and the declaration of the Republic in 1923."
+        },
+        {
+          "number": 7,
+          "text": "In what year did the Ottoman Empire defeat the Mamluk Sultanate at the Battle of Ridaniya, leading to the conquest of Egypt?",
+          "options": [
+            "1514",
+            "1516",
+            "1517",
+            "1520"
+          ],
+          "correct_answer": "1517",
+          "explanation": "The Battle of Ridaniya in 1517 allowed Selim I to capture Cairo and incorporate Egypt into the empire, also gaining control of the holy cities of Mecca and Medina."
+        },
+        {
+          "number": 8,
+          "text": "On what date was the Treaty of S\u00e8vres signed, which proposed the partition of the Ottoman Empire's core territories after World War I?",
+          "options": [
+            "28 June 1919",
+            "10 August 1920",
+            "24 July 1923",
+            "30 October 1918"
+          ],
+          "correct_answer": "10 August 1920",
+          "explanation": "The Treaty of S\u00e8vres was signed on 10 August 1920, but it was never ratified and was later replaced by the Treaty of Lausanne in 1923."
+        },
+        {
+          "number": 9,
+          "text": "In what year did the Second Siege of Vienna take place, marking the peak of Ottoman territorial expansion in Europe?",
+          "options": [
+            "1529",
+            "1683",
+            "1699",
+            "1711"
+          ],
+          "correct_answer": "1683",
+          "explanation": "The 1683 Siege of Vienna was broken by a relief force led by Polish King John III Sobieski, starting a long period of Ottoman decline in Europe."
+        },
+        {
+          "number": 10,
+          "text": "On what date was the Battle of Moh\u00e1cs fought, resulting in a decisive Ottoman victory over the Kingdom of Hungary?",
+          "options": [
+            "29 August 1521",
+            "29 August 1526",
+            "29 August 1541",
+            "29 August 1566"
+          ],
+          "correct_answer": "29 August 1526",
+          "explanation": "The Battle of Moh\u00e1cs occurred on 29 August 1526, where Suleiman the Magnificent's forces defeated King Louis II, leading to the collapse of the Hungarian monarchy."
+        },
+        {
+          "number": 11,
+          "text": "In what year was the Treaty of K\u00fc\u00e7\u00fck Kaynarca signed, forcing the Ottoman Empire to recognize the independence of the Crimean Khanate?",
+          "options": [
+            "1768",
+            "1774",
+            "1783",
+            "1792"
+          ],
+          "correct_answer": "1774",
+          "explanation": "Following a disastrous war with Russia, the Ottomans signed the Treaty of K\u00fc\u00e7\u00fck Kaynarca in 1774, which also gave Russia a protectorate status over Orthodox Christians."
+        },
+        {
+          "number": 12,
+          "text": "On what date was the first Ottoman Constitution (Kanun-\u0131 Esasi) promulgated, beginning the First Constitutional Era?",
+          "options": [
+            "3 November 1839",
+            "18 February 1856",
+            "23 December 1876",
+            "23 July 1908"
+          ],
+          "correct_answer": "23 December 1876",
+          "explanation": "The first constitution was proclaimed by Sultan Abdul Hamid II on 23 December 1876 under pressure from the Young Ottomans, though it was suspended two years later."
+        },
+        {
+          "number": 13,
+          "text": "In what year did the Patrona Halil Rebellion occur, ending the culturally flourishing period known as the Tulip Era?",
+          "options": [
+            "1703",
+            "1718",
+            "1730",
+            "1736"
+          ],
+          "correct_answer": "1730",
+          "explanation": "The 1730 rebellion led by Patrona Halil resulted in the deposition of Sultan Ahmed III and the execution of Grand Vizier Nev\u015fehirli Damat Ibrahim Pasha."
+        },
+        {
+          "number": 14,
+          "text": "In what year did the Ottoman Empire finally capture the island of Rhodes from the Knights Hospitaller?",
+          "options": [
+            "1521",
+            "1522",
+            "1526",
+            "1534"
+          ],
+          "correct_answer": "1522",
+          "explanation": "Suleiman the Magnificent successfully besieged Rhodes in 1522, allowing the Knights to leave for Malta while securing Ottoman control of the eastern Mediterranean."
+        },
+        {
+          "number": 15,
+          "text": "In what year did the First Battle of Kosovo take place, where the Ottomans defeated a coalition of Serbian and Balkan forces?",
+          "options": [
+            "1354",
+            "1371",
+            "1389",
+            "1396"
+          ],
+          "correct_answer": "1389",
+          "explanation": "The Battle of Kosovo in 1389 was a critical victory that allowed the Ottomans to expand further into the Balkans, despite the death of Sultan Murad I in the battle."
+        },
+        {
+          "number": 2,
+          "text": "The Treaty of Karlowitz, which marked the first time the Ottoman Empire ceded significant territory to European powers, was signed in what year?",
+          "options": [
+            "1648",
+            "1683",
+            "1699",
+            "1718"
+          ],
+          "correct_answer": "1699",
+          "explanation": "The Treaty of Karlowitz (1699) followed the Ottomans' defeat in the Great Turkish War and forced them to cede much of Hungary and Transylvania to the Habsburgs."
+        },
+        {
+          "number": 4,
+          "text": "The Edict of G\u00fclhane, which launched the Tanzimat reform period to modernize the empire, was proclaimed in what year?",
+          "options": [
+            "1808",
+            "1826",
+            "1839",
+            "1856"
+          ],
+          "correct_answer": "1839",
+          "explanation": "Promulgated by Sultan Abd\u00fclmecid I in 1839, the Tanzimat reforms aimed to modernize the military, legal system, and social structures of the empire."
+        },
+        {
+          "number": 5,
+          "text": "In which year did the Battle of Moh\u00e1cs occur, leading to the collapse of the Kingdom of Hungary and Ottoman dominance in Central Europe?",
+          "options": [
+            "1514",
+            "1521",
+            "1526",
+            "1529"
+          ],
+          "correct_answer": "1526",
+          "explanation": "The Battle of Moh\u00e1cs in 1526 saw Suleiman the Magnificent's forces defeat King Louis II of Hungary, leading to Ottoman control over large parts of the Balkans and Hungary."
+        },
+        {
+          "number": 6,
+          "text": "On what full date did the naval forces of the Holy League decisively defeat the Ottoman navy at the Battle of Lepanto?",
+          "options": [
+            "29 May 1453",
+            "7 October 1571",
+            "12 September 1683",
+            "20 October 1827"
+          ],
+          "correct_answer": "7 October 1571",
+          "explanation": "The Battle of Lepanto took place on October 7, 1571, ending the myth of Ottoman naval invincibility in the Mediterranean."
+        },
+        {
+          "number": 7,
+          "text": "Sultan Selim I expanded the empire into the Middle East by defeating the Mamluk Sultanate and capturing Cairo in what year?",
+          "options": [
+            "1512",
+            "1517",
+            "1520",
+            "1534"
+          ],
+          "correct_answer": "1517",
+          "explanation": "The 1517 conquest of Egypt brought the holy cities of Mecca and Medina under Ottoman protection and granted the Sultan the title of Caliph."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "intervened_output": "African elephant",
+    "correct_answer": "African Elephant",
+    "question": "Which animal is known as the largest land animal in the world?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Mars.",
+    "correct_answer": "Mars",
+    "question": "Which planet in our solar system is known as the Red Planet?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Roots",
+    "correct_answer": "Roots",
+    "question": "What part of a plant grows underground and takes in water?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "365",
+    "correct_answer": "365",
+    "question": "How many days are there in a normal year?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Heart.",
+    "correct_answer": "Heart",
+    "question": "Which organ in the human body is responsible for pumping blood?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Equator",
+    "correct_answer": "Equator",
+    "question": "What is the name of the imaginary line that divides the Earth into North and South?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Oxygen.",
+    "correct_answer": "Oxygen",
+    "question": "Which gas do humans need to breathe in to stay alive?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Tennis.",
+    "correct_answer": "Tennis",
+    "question": "In which sport would you use a racket to hit a fuzzy yellow ball?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Seven.",
+    "correct_answer": "Seven",
+    "question": "How many continents are there on Earth?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Purple",
+    "correct_answer": "Purple",
+    "question": "What color do you get if you mix red and blue paint?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Triangle",
+    "correct_answer": "Triangle",
+    "question": "What do we call a shape that has three sides?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Pacific.",
+    "correct_answer": "Pacific Ocean",
+    "question": "Which of these is the largest ocean on Earth?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Penguin",
+    "correct_answer": "Penguin",
+    "question": "What kind of bird is famous for being unable to fly but is a great swimmer?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Gravity.",
+    "correct_answer": "Gravity",
+    "question": "Which force pulls objects down toward the center of the Earth?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "100",
+    "correct_answer": "100 degrees",
+    "question": "What is the boiling point of water in degrees Celsius?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Mars.",
+    "correct_answer": "Mars",
+    "question": "Which planet is known as the Red Planet?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Blue whale",
+    "correct_answer": "Blue Whale",
+    "question": "Which of these animals is the largest mammal in the world?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "206",
+    "correct_answer": "206",
+    "question": "How many bones does an adult human body have?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Antarctica",
+    "correct_answer": "Antarctica",
+    "question": "Which continent is the South Pole located on?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Ice.",
+    "correct_answer": "Ice",
+    "question": "What do you call water when it is in its solid state?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Six.",
+    "correct_answer": "Six",
+    "question": "How many sides does a hexagon have?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Roots",
+    "correct_answer": "Root",
+    "question": "What part of a plant grows underground and absorbs water from the soil?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Raisins",
+    "correct_answer": "Raisins",
+    "question": "Dried grapes are commonly known by what name?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Badminton",
+    "correct_answer": "Badminton",
+    "question": "In which sport would you use a racket and a feathered shuttlecock?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Alexander Graham Bell",
+    "correct_answer": "Alexander Graham Bell",
+    "question": "Which inventor is credited with creating the first practical telephone?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Graphite.",
+    "correct_answer": "Graphite",
+    "question": "What material is used to make the center of a modern pencil?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Pacific.",
+    "correct_answer": "Pacific Ocean",
+    "question": "Which is the largest and deepest ocean on Earth?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Copper.",
+    "correct_answer": "Copper",
+    "question": "Which of these materials is a good conductor of electricity?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Eight",
+    "correct_answer": "Eight",
+    "question": "How many legs does a spider have?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Strings.",
+    "correct_answer": "Strings",
+    "question": "Which family of musical instruments does the violin belong to?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Parrot",
+    "correct_answer": "Parrot",
+    "question": "Which bird is known for its ability to mimic human speech?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Solid.",
+    "correct_answer": "Solid",
+    "question": "What state of matter is an ice cube?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Antarctica",
+    "correct_answer": "Antarctica",
+    "question": "Which continent is covered mostly by ice and has no permanent residents?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Mercury.",
+    "correct_answer": "Mercury",
+    "question": "Which planet is located closest to the Sun in our solar system?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Heart.",
+    "correct_answer": "Heart",
+    "question": "Which part of the human body is responsible for pumping blood to all other parts?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Wheat.",
+    "correct_answer": "Flour",
+    "question": "What is the main ingredient used to make traditional bread?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Nectar",
+    "correct_answer": "Nectar",
+    "question": "What sweet liquid do bees collect from flowers to make honey?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Badminton",
+    "correct_answer": "Badminton",
+    "question": "In which sport do players hit a shuttlecock over a high net using a racket?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Thermometer",
+    "correct_answer": "Thermometer",
+    "question": "Which instrument is used to measure the temperature of the air?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Edison.",
+    "correct_answer": "Thomas Edison",
+    "question": "Who is famously credited with the invention of the long-lasting electric lightbulb?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "Green",
+    "question": "What color is created by mixing the primary colors blue and yellow?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Piano",
+    "correct_answer": "Piano",
+    "question": "Which musical instrument has 88 keys and is played by pressing them with your fingers?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Metamorphosis",
+    "correct_answer": "Metamorphosis",
+    "question": "What is the name of the process where a caterpillar changes into a butterfly?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Antonym",
+    "correct_answer": "Antonym",
+    "question": "What is the term for a word that has the opposite meaning of another word?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Blue whale",
+    "correct_answer": "Blue whale",
+    "question": "Which animal is the largest mammal in the world?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Two.",
+    "correct_answer": "Two",
+    "question": "How many lungs does a healthy human body typically have?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Africa",
+    "correct_answer": "Africa",
+    "question": "On which continent is the Sahara Desert located?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Roots",
+    "correct_answer": "Root",
+    "question": "What part of a plant grows underground and drinks water from the soil?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Yogurt.",
+    "correct_answer": "Cheese",
+    "question": "Which of these foods is considered a dairy product?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  },
+  {
+    "intervened_output": "Soccer.",
+    "correct_answer": "Soccer",
+    "question": "In which sport do players try to kick a ball into the opposing team's goal?",
+    "alpha": 1.0,
+    "chosen_concept": "yo"
+  }
+]

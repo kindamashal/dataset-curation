@@ -1,0 +1,604 @@
+{
+  "questions": [
+    {
+      "number": 1,
+      "text": "Which animal is known as the largest land animal in the world?",
+      "options": [
+        "African Elephant",
+        "Giraffe",
+        "Hippopotamus",
+        "Rhino"
+      ],
+      "correct_answer": "African Elephant",
+      "explanation": "The African Elephant is the largest and heaviest land animal currently living on Earth."
+    },
+    {
+      "number": 2,
+      "text": "Which planet in our solar system is known as the Red Planet?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correct_answer": "Mars",
+      "explanation": "Mars is called the Red Planet because its surface is covered in iron oxide, or rust."
+    },
+    {
+      "number": 3,
+      "text": "What part of a plant grows underground and takes in water?",
+      "options": [
+        "Roots",
+        "Leaves",
+        "Flowers",
+        "Stem"
+      ],
+      "correct_answer": "Roots",
+      "explanation": "Roots hold the plant in the ground and absorb water and nutrients from the soil."
+    },
+    {
+      "number": 4,
+      "text": "How many days are there in a normal year?",
+      "options": [
+        "365",
+        "366",
+        "350",
+        "300"
+      ],
+      "correct_answer": "365",
+      "explanation": "A standard calendar year has 365 days, while a leap year has 366."
+    },
+    {
+      "number": 5,
+      "text": "Which organ in the human body is responsible for pumping blood?",
+      "options": [
+        "Heart",
+        "Lungs",
+        "Brain",
+        "Stomach"
+      ],
+      "correct_answer": "Heart",
+      "explanation": "The heart is a muscular organ that pumps blood throughout the entire body."
+    },
+    {
+      "number": 6,
+      "text": "What is the name of the imaginary line that divides the Earth into North and South?",
+      "options": [
+        "Equator",
+        "Prime Meridian",
+        "North Pole",
+        "Tropic of Cancer"
+      ],
+      "correct_answer": "Equator",
+      "explanation": "The Equator is the middle line that sits at zero degrees latitude."
+    },
+    {
+      "number": 7,
+      "text": "Which gas do humans need to breathe in to stay alive?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Helium"
+      ],
+      "correct_answer": "Oxygen",
+      "explanation": "Humans and many other animals need oxygen from the air to breathe and produce energy."
+    },
+    {
+      "number": 8,
+      "text": "In which sport would you use a racket to hit a fuzzy yellow ball?",
+      "options": [
+        "Tennis",
+        "Soccer",
+        "Basketball",
+        "Baseball"
+      ],
+      "correct_answer": "Tennis",
+      "explanation": "Tennis is played on a court where players use rackets to hit a ball over a net."
+    },
+    {
+      "number": 9,
+      "text": "How many continents are there on Earth?",
+      "options": [
+        "Seven",
+        "Five",
+        "Ten",
+        "Four"
+      ],
+      "correct_answer": "Seven",
+      "explanation": "The seven continents are Africa, Antarctica, Asia, Australia, Europe, North America, and South America."
+    },
+    {
+      "number": 10,
+      "text": "What color do you get if you mix red and blue paint?",
+      "options": [
+        "Purple",
+        "Green",
+        "Orange",
+        "Brown"
+      ],
+      "correct_answer": "Purple",
+      "explanation": "Purple is a secondary color made by combining the primary colors red and blue."
+    },
+    {
+      "number": 11,
+      "text": "What do we call a shape that has three sides?",
+      "options": [
+        "Triangle",
+        "Square",
+        "Pentagon",
+        "Circle"
+      ],
+      "correct_answer": "Triangle",
+      "explanation": "A triangle is a polygon with three edges and three vertices."
+    },
+    {
+      "number": 12,
+      "text": "Which of these is the largest ocean on Earth?",
+      "options": [
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean"
+      ],
+      "correct_answer": "Pacific Ocean",
+      "explanation": "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions."
+    },
+    {
+      "number": 13,
+      "text": "What kind of bird is famous for being unable to fly but is a great swimmer?",
+      "options": [
+        "Penguin",
+        "Eagle",
+        "Parrot",
+        "Sparrow"
+      ],
+      "correct_answer": "Penguin",
+      "explanation": "Penguins have wings that act like flippers for swimming, but they cannot fly in the air."
+    },
+    {
+      "number": 14,
+      "text": "Which force pulls objects down toward the center of the Earth?",
+      "options": [
+        "Gravity",
+        "Magnetism",
+        "Friction",
+        "Electricity"
+      ],
+      "correct_answer": "Gravity",
+      "explanation": "Gravity is the force that keeps us on the ground and causes things to fall when dropped."
+    },
+    {
+      "number": 15,
+      "text": "What is the boiling point of water in degrees Celsius?",
+      "options": [
+        "100 degrees",
+        "0 degrees",
+        "50 degrees",
+        "200 degrees"
+      ],
+      "correct_answer": "100 degrees",
+      "explanation": "At standard air pressure, water turns into steam when it reaches 100 degrees Celsius."
+    },
+    {
+      "number": 1,
+      "text": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correct_answer": "Mars",
+      "explanation": "Mars appears red because its surface is covered in iron oxide, commonly known as rust."
+    },
+    {
+      "number": 2,
+      "text": "Which of these animals is the largest mammal in the world?",
+      "options": [
+        "Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Great White Shark"
+      ],
+      "correct_answer": "Blue Whale",
+      "explanation": "The Blue Whale is the largest mammal and lives in every ocean on Earth."
+    },
+    {
+      "number": 3,
+      "text": "How many bones does an adult human body have?",
+      "options": [
+        "106",
+        "156",
+        "206",
+        "256"
+      ],
+      "correct_answer": "206",
+      "explanation": "An adult human has 206 bones, though babies are born with about 300 bones that fuse together over time."
+    },
+    {
+      "number": 4,
+      "text": "Which continent is the South Pole located on?",
+      "options": [
+        "Africa",
+        "Asia",
+        "Antarctica",
+        "Australia"
+      ],
+      "correct_answer": "Antarctica",
+      "explanation": "Antarctica is the southernmost continent and is almost entirely covered by a thick layer of ice."
+    },
+    {
+      "number": 5,
+      "text": "What do you call water when it is in its solid state?",
+      "options": [
+        "Steam",
+        "Ice",
+        "Liquid",
+        "Gas"
+      ],
+      "correct_answer": "Ice",
+      "explanation": "When water is cooled to its freezing point, it turns into a solid called ice."
+    },
+    {
+      "number": 6,
+      "text": "How many sides does a hexagon have?",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "correct_answer": "Six",
+      "explanation": "In geometry, a hexagon is a flat shape that has six straight sides and six angles."
+    },
+    {
+      "number": 7,
+      "text": "What part of a plant grows underground and absorbs water from the soil?",
+      "options": [
+        "Leaf",
+        "Stem",
+        "Flower",
+        "Root"
+      ],
+      "correct_answer": "Root",
+      "explanation": "The roots of a plant keep it anchored in the ground and take in the water it needs to grow."
+    },
+    {
+      "number": 8,
+      "text": "Dried grapes are commonly known by what name?",
+      "options": [
+        "Prunes",
+        "Raisins",
+        "Dates",
+        "Figs"
+      ],
+      "correct_answer": "Raisins",
+      "explanation": "Raisins are grapes that have been dried out by the sun or a drying machine."
+    },
+    {
+      "number": 9,
+      "text": "In which sport would you use a racket and a feathered shuttlecock?",
+      "options": [
+        "Tennis",
+        "Badminton",
+        "Table Tennis",
+        "Squash"
+      ],
+      "correct_answer": "Badminton",
+      "explanation": "Badminton is played by hitting a shuttlecock back and forth over a net using rackets."
+    },
+    {
+      "number": 10,
+      "text": "Which inventor is credited with creating the first practical telephone?",
+      "options": [
+        "Thomas Edison",
+        "Albert Einstein",
+        "Alexander Graham Bell",
+        "Isaac Newton"
+      ],
+      "correct_answer": "Alexander Graham Bell",
+      "explanation": "Alexander Graham Bell received the first US patent for the telephone."
+    },
+    {
+      "number": 11,
+      "text": "What material is used to make the center of a modern pencil?",
+      "options": [
+        "Carbon",
+        "Iron",
+        "Graphite",
+        "Steel"
+      ],
+      "correct_answer": "Graphite",
+      "explanation": "Pencil 'lead' is actually a mix of a mineral called graphite and clay."
+    },
+    {
+      "number": 12,
+      "text": "Which is the largest and deepest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "correct_answer": "Pacific Ocean",
+      "explanation": "The Pacific Ocean covers more than one-third of the Earth's surface."
+    },
+    {
+      "number": 13,
+      "text": "Which of these materials is a good conductor of electricity?",
+      "options": [
+        "Rubber",
+        "Copper",
+        "Wood",
+        "Glass"
+      ],
+      "correct_answer": "Copper",
+      "explanation": "Copper is a metal that allows electricity to flow through it easily, which is why it is used in wires."
+    },
+    {
+      "number": 14,
+      "text": "How many legs does a spider have?",
+      "options": [
+        "Six",
+        "Eight",
+        "Ten",
+        "Twelve"
+      ],
+      "correct_answer": "Eight",
+      "explanation": "Spiders are arachnids, and all arachnids have eight legs, while insects have six."
+    },
+    {
+      "number": 15,
+      "text": "Which family of musical instruments does the violin belong to?",
+      "options": [
+        "Brass",
+        "Percussion",
+        "Strings",
+        "Woodwind"
+      ],
+      "correct_answer": "Strings",
+      "explanation": "The violin is part of the string family because it makes sound when its strings are bowed or plucked."
+    },
+    {
+      "number": 1,
+      "text": "Which bird is known for its ability to mimic human speech?",
+      "options": [
+        "Eagle",
+        "Parrot",
+        "Penguin",
+        "Owl"
+      ],
+      "correct_answer": "Parrot",
+      "explanation": "Parrots are well-known for their ability to imitate various sounds, including human words."
+    },
+    {
+      "number": 2,
+      "text": "What state of matter is an ice cube?",
+      "options": [
+        "Liquid",
+        "Solid",
+        "Gas",
+        "Plasma"
+      ],
+      "correct_answer": "Solid",
+      "explanation": "Ice is the solid form of water that occurs when temperatures drop below freezing."
+    },
+    {
+      "number": 3,
+      "text": "Which continent is covered mostly by ice and has no permanent residents?",
+      "options": [
+        "Africa",
+        "Asia",
+        "Antarctica",
+        "Europe"
+      ],
+      "correct_answer": "Antarctica",
+      "explanation": "Antarctica is the southernmost continent and is almost entirely covered by a thick ice sheet."
+    },
+    {
+      "number": 4,
+      "text": "Which planet is located closest to the Sun in our solar system?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Mercury",
+        "Jupiter"
+      ],
+      "correct_answer": "Mercury",
+      "explanation": "Mercury has the smallest orbit and is the closest planet to the Sun."
+    },
+    {
+      "number": 5,
+      "text": "Which part of the human body is responsible for pumping blood to all other parts?",
+      "options": [
+        "Lungs",
+        "Stomach",
+        "Heart",
+        "Brain"
+      ],
+      "correct_answer": "Heart",
+      "explanation": "The heart is a muscular organ that pumps blood through the blood vessels of the circulatory system."
+    },
+    {
+      "number": 6,
+      "text": "What is the main ingredient used to make traditional bread?",
+      "options": [
+        "Milk",
+        "Sugar",
+        "Flour",
+        "Eggs"
+      ],
+      "correct_answer": "Flour",
+      "explanation": "Flour, usually made from ground wheat, provides the structure and bulk for bread dough."
+    },
+    {
+      "number": 7,
+      "text": "What sweet liquid do bees collect from flowers to make honey?",
+      "options": [
+        "Water",
+        "Nectar",
+        "Sap",
+        "Dew"
+      ],
+      "correct_answer": "Nectar",
+      "explanation": "Bees collect sugary nectar from flowers and transform it into honey back at their hive."
+    },
+    {
+      "number": 9,
+      "text": "In which sport do players hit a shuttlecock over a high net using a racket?",
+      "options": [
+        "Tennis",
+        "Badminton",
+        "Squash",
+        "Volleyball"
+      ],
+      "correct_answer": "Badminton",
+      "explanation": "Badminton is played with rackets and a shuttlecock, which must be hit over the net without touching the ground."
+    },
+    {
+      "number": 10,
+      "text": "Which instrument is used to measure the temperature of the air?",
+      "options": [
+        "Ruler",
+        "Scale",
+        "Thermometer",
+        "Compass"
+      ],
+      "correct_answer": "Thermometer",
+      "explanation": "A thermometer is a specialized device that measures how hot or cold something is."
+    },
+    {
+      "number": 11,
+      "text": "Who is famously credited with the invention of the long-lasting electric lightbulb?",
+      "options": [
+        "Thomas Edison",
+        "Isaac Newton",
+        "Albert Einstein",
+        "Alexander Graham Bell"
+      ],
+      "correct_answer": "Thomas Edison",
+      "explanation": "Thomas Edison developed the first practical and commercially successful incandescent lightbulb."
+    },
+    {
+      "number": 12,
+      "text": "What color is created by mixing the primary colors blue and yellow?",
+      "options": [
+        "Purple",
+        "Green",
+        "Orange",
+        "Brown"
+      ],
+      "correct_answer": "Green",
+      "explanation": "When you mix blue and yellow paint or pigments, the resulting color is green."
+    },
+    {
+      "number": 13,
+      "text": "Which musical instrument has 88 keys and is played by pressing them with your fingers?",
+      "options": [
+        "Guitar",
+        "Piano",
+        "Flute",
+        "Drum"
+      ],
+      "correct_answer": "Piano",
+      "explanation": "A standard modern piano has a total of 88 keys, including 52 white keys and 36 black keys."
+    },
+    {
+      "number": 14,
+      "text": "What is the name of the process where a caterpillar changes into a butterfly?",
+      "options": [
+        "Hibernation",
+        "Migration",
+        "Metamorphosis",
+        "Evaporation"
+      ],
+      "correct_answer": "Metamorphosis",
+      "explanation": "Metamorphosis is the biological process of transformation from an immature form to an adult form."
+    },
+    {
+      "number": 15,
+      "text": "What is the term for a word that has the opposite meaning of another word?",
+      "options": [
+        "Synonym",
+        "Antonym",
+        "Homonym",
+        "Acronym"
+      ],
+      "correct_answer": "Antonym",
+      "explanation": "An antonym is a word that means the opposite of another word, such as hot and cold."
+    },
+    {
+      "number": 1,
+      "text": "Which animal is the largest mammal in the world?",
+      "options": [
+        "Elephant",
+        "Blue whale",
+        "Great white shark",
+        "Giraffe"
+      ],
+      "correct_answer": "Blue whale",
+      "explanation": "The blue whale is the largest animal to ever live, even larger than the biggest dinosaurs."
+    },
+    {
+      "number": 2,
+      "text": "How many lungs does a healthy human body typically have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correct_answer": "Two",
+      "explanation": "Humans have a left lung and a right lung that help them breathe oxygen from the air."
+    },
+    {
+      "number": 4,
+      "text": "On which continent is the Sahara Desert located?",
+      "options": [
+        "Asia",
+        "South America",
+        "Africa",
+        "Australia"
+      ],
+      "correct_answer": "Africa",
+      "explanation": "The Sahara is the largest hot desert in the world and covers much of North Africa."
+    },
+    {
+      "number": 5,
+      "text": "What part of a plant grows underground and drinks water from the soil?",
+      "options": [
+        "Leaf",
+        "Stem",
+        "Flower",
+        "Root"
+      ],
+      "correct_answer": "Root",
+      "explanation": "Roots hold the plant in the ground and soak up water and nutrients for the plant to grow."
+    },
+    {
+      "number": 6,
+      "text": "Which of these foods is considered a dairy product?",
+      "options": [
+        "Bread",
+        "Cheese",
+        "Apple",
+        "Chicken"
+      ],
+      "correct_answer": "Cheese",
+      "explanation": "Dairy products are made from the milk of mammals, like cows or goats."
+    },
+    {
+      "number": 7,
+      "text": "In which sport do players try to kick a ball into the opposing team's goal?",
+      "options": [
+        "Basketball",
+        "Baseball",
+        "Soccer",
+        "Tennis"
+      ],
+      "correct_answer": "Soccer",
+      "explanation": "Soccer is played mainly with the feet, and the goal is to get the ball into the net."
+    }
+  ]
+}
