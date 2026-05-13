@@ -68,7 +68,12 @@ def calculate_precision(feat, concept_dict, non_concept_dict, layer):
             non_concept_sum += vals[idx]
         except ValueError:
             pass
-    return (concept_sum / non_concept_sum), concept_sum
+    try:
+        concept_sum/non_concept_sum
+        return (concept_sum / non_concept_sum), concept_sum
+    except ZeroDivisionError:
+        return 0,concept_sum
+    # return (concept_sum / non_concept_sum), concept_sum
 
 def freq_dicts(concept_dict, non_concept_dict, layer):
     top_indices = concept_dict[str(layer)]["top_indices"]

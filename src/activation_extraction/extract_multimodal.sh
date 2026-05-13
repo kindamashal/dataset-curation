@@ -2,8 +2,9 @@
 
 set -euo pipefail
 
-CONCEPT="person"
-LAYERS=(10 35 40 50 59)
+CONCEPT="a dataset with diverse colors, with some bias towards blue, some traditionally blue things like the sky perhaps"
+
+LAYERS=(5 10 15 20 30 35 40 50 59)
 
 CONCEPT_SAFE="${CONCEPT// /_}"
 
@@ -55,4 +56,4 @@ python src/activation_extraction/extract_image_text_activations.py \
 #     --input-name "$INPUT_NAME" \
 #     --classified-name "$CLASSIFIED_NAME" \
 #     --output-path "activations/text/${CONCEPT_SAFE}_vis_direct_prompt.json" \
-    --features-of-interest "$FEATURES_OF_INTEREST"
+#    --features-of-interest "$FEATURES_OF_INTEREST"
