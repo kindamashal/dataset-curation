@@ -1,0 +1,2119 @@
+{
+  "sections": [
+    {
+      "target_color": "RED",
+      "questions": [
+        {
+          "number": 1,
+          "text": "Based on the image of the ripe cherry tomatoes, what is the primary hue of these vegetables?",
+          "image_prompt": "A white ceramic bowl filled with glossy, ripe cherry tomatoes sitting on a rustic wooden table.",
+          "image_path": "curated_data/assessment/multimodal\\RED_0.png",
+          "options": [
+            "BLUE",
+            "GREEN",
+            "RED",
+            "YELLOW"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The tomatoes depicted are fully ripe and exhibit the vibrant color associated with lycopene content."
+        },
+        {
+          "number": 2,
+          "text": "Identify the background color of the octagonal traffic sign shown in the image.",
+          "image_prompt": "A standard octagonal stop sign standing at a suburban intersection against a clear blue sky.",
+          "image_path": "curated_data/assessment/multimodal\\RED_1.png",
+          "options": [
+            "RED",
+            "ORANGE",
+            "PURPLE",
+            "BLACK"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Standard international traffic regulations specify this color for stop signs to ensure high visibility and immediate recognition of danger or mandatory stopping."
+        },
+        {
+          "number": 3,
+          "text": "What is the most prominent color of the plumage of the bird perched on the snowy branch?",
+          "image_prompt": "A male northern cardinal with a black mask around its beak, perched on a pine branch covered in white snow.",
+          "image_path": "curated_data/assessment/multimodal\\RED_2.png",
+          "options": [
+            "BROWN",
+            "RED",
+            "BLUE",
+            "WHITE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The male northern cardinal is famous for its brilliant scarlet feathers, which contrast sharply against white winter snow."
+        },
+        {
+          "number": 4,
+          "text": "Which color dominates the petals of the wildflowers in this open field?",
+          "image_prompt": "A wide field of blooming poppies with delicate petals swaying in the wind under a bright afternoon sun.",
+          "image_path": "curated_data/assessment/multimodal\\RED_3.png",
+          "options": [
+            "PINK",
+            "PURPLE",
+            "RED",
+            "YELLOW"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Poppies are iconic for their deep, saturated crimson color during their peak blooming season."
+        },
+        {
+          "number": 5,
+          "text": "Determine the color of the leather boxing gloves hanging in the gym.",
+          "image_prompt": "A pair of professional leather boxing gloves hanging from a hook against a textured concrete wall.",
+          "image_path": "curated_data/assessment/multimodal\\RED_4.png",
+          "options": [
+            "BLUE",
+            "RED",
+            "BROWN",
+            "GREEN"
+          ],
+          "correct_answer": "RED",
+          "explanation": "While gloves come in many colors, the classic pair shown here is finished in a bright crimson shade common in combat sports."
+        },
+        {
+          "number": 6,
+          "text": "What is the standard color of the emergency vehicle pictured?",
+          "image_prompt": "A modern fire truck parked in front of a station with its chrome details gleaming.",
+          "image_path": "curated_data/assessment/multimodal\\RED_5.png",
+          "options": [
+            "RED",
+            "YELLOW",
+            "WHITE",
+            "BLUE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Most fire engines are painted this specific shade to make them easily identifiable as emergency vehicles in traffic."
+        },
+        {
+          "number": 7,
+          "text": "What color describes the most vibrant part of the sky near the horizon in this sunset?",
+          "image_prompt": "A dramatic sunset over the ocean with the sun dipping below the horizon, casting intense light through the clouds.",
+          "image_path": "curated_data/assessment/multimodal\\RED_6.png",
+          "options": [
+            "GREEN",
+            "RED",
+            "GREY",
+            "PURPLE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "As sunlight passes through more of the atmosphere at sunset, shorter wavelengths scatter, leaving long-wavelength colors like this one visible."
+        },
+        {
+          "number": 8,
+          "text": "Looking at the sliced fruit, what is the color of the sweet edible interior flesh?",
+          "image_prompt": "A thick wedge of a fresh watermelon showing the juicy interior and black seeds.",
+          "image_path": "curated_data/assessment/multimodal\\RED_7.png",
+          "options": [
+            "GREEN",
+            "ORANGE",
+            "RED",
+            "PINK"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The interior of a ripe watermelon is known for its distinct, saturated crimson-pink to deep crimson hue."
+        },
+        {
+          "number": 9,
+          "text": "What color is the hard wing case of the insect crawling on the leaf?",
+          "image_prompt": "A close-up macro shot of a ladybug with seven black spots on its back, walking on a bright green leaf.",
+          "image_path": "curated_data/assessment/multimodal\\RED_8.png",
+          "options": [
+            "RED",
+            "YELLOW",
+            "BLUE",
+            "ORANGE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The most common species of ladybug features a bright scarlet shell that serves as a warning to predators."
+        },
+        {
+          "number": 10,
+          "text": "What is the iconic color of this historical public communication structure found in London?",
+          "image_prompt": "A classic K6 style telephone kiosk standing on a sidewalk near a stone building.",
+          "image_path": "curated_data/assessment/multimodal\\RED_9.png",
+          "options": [
+            "BLACK",
+            "RED",
+            "SILVER",
+            "GOLD"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The British telephone booth is globally recognized for its specific bright scarlet paint."
+        },
+        {
+          "number": 11,
+          "text": "What shade has this deciduous maple leaf turned during the peak of autumn?",
+          "image_prompt": "A single, large maple leaf with five points lying on a dark pavement after a light rain.",
+          "image_path": "curated_data/assessment/multimodal\\RED_10.png",
+          "options": [
+            "RED",
+            "BROWN",
+            "GREEN",
+            "YELLOW"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Maples often produce anthocyanins in autumn, turning the leaves from green to a deep, fiery crimson."
+        },
+        {
+          "number": 12,
+          "text": "What color is emitted by these rear safety lights as the car slows down?",
+          "image_prompt": "The back of a luxury car at night with its brake lights fully illuminated, creating a glow in the mist.",
+          "image_path": "curated_data/assessment/multimodal\\RED_11.png",
+          "options": [
+            "WHITE",
+            "YELLOW",
+            "RED",
+            "BLUE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "By law, the rear brake lights of vehicles must emit this specific color to signal stopping or slowing to drivers behind."
+        },
+        {
+          "number": 13,
+          "text": "Which color characterizes the bodywork of this high-performance racing machine?",
+          "image_prompt": "A sleek Formula 1 race car with aerodynamic curves sitting on a starting grid.",
+          "image_path": "curated_data/assessment/multimodal\\RED_12.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "BLACK",
+            "GREEN"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Many famous racing teams, particularly Italian ones, are synonymous with this bold, aggressive color."
+        },
+        {
+          "number": 14,
+          "text": "Identify the traditional color of this mail collection point.",
+          "image_prompt": "A cylindrical metal pillar box used for posting letters, located on a quiet street corner.",
+          "image_path": "curated_data/assessment/multimodal\\RED_13.png",
+          "options": [
+            "BLUE",
+            "GREEN",
+            "RED",
+            "PURPLE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "In many countries, particularly the UK, post boxes are painted this bright shade for high visibility."
+        },
+        {
+          "number": 15,
+          "text": "What color is typically associated with the intense heat level of this specific chili pepper?",
+          "image_prompt": "A fresh, waxy habanero pepper sitting on a wooden cutting board next to a knife.",
+          "image_path": "curated_data/assessment/multimodal\\RED_14.png",
+          "options": [
+            "GREEN",
+            "RED",
+            "PURPLE",
+            "BLACK"
+          ],
+          "correct_answer": "RED",
+          "explanation": "While they can be other colors, the most common 'hot' variety shown here displays a bright, saturated crimson indicating its maturity and ripeness."
+        },
+        {
+          "number": 1,
+          "text": "What is the primary color of the fleshy interior of the fruit shown in the image?",
+          "image_prompt": "A macro shot of a freshly sliced watermelon showing its juicy interior and black seeds.",
+          "image_path": "curated_data/assessment/multimodal\\RED_15.png",
+          "options": [
+            "GREEN",
+            "RED",
+            "YELLOW",
+            "BLUE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The interior of a ripe watermelon is characteristic for its vibrant red color."
+        },
+        {
+          "number": 2,
+          "text": "Identify the background color of this standard octagonal road sign.",
+          "image_prompt": "A standard octagonal stop sign standing against a clear blue sky.",
+          "image_path": "curated_data/assessment/multimodal\\RED_16.png",
+          "options": [
+            "YELLOW",
+            "ORANGE",
+            "RED",
+            "PURPLE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Stop signs globally use a red background to signal drivers to halt."
+        },
+        {
+          "number": 3,
+          "text": "What is the dominant color of the bird's feathers in this winter scene?",
+          "image_prompt": "A male Northern Cardinal perched on a snow-covered pine branch.",
+          "image_path": "curated_data/assessment/multimodal\\RED_17.png",
+          "options": [
+            "BROWN",
+            "RED",
+            "WHITE",
+            "GRAY"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The male Northern Cardinal is famous for its bright red plumage."
+        },
+        {
+          "number": 4,
+          "text": "Which color best describes the autumn leaves of the tree shown?",
+          "image_prompt": "A Japanese maple tree in peak autumn, its leaves glowing under soft sunlight.",
+          "image_path": "curated_data/assessment/multimodal\\RED_18.png",
+          "options": [
+            "RED",
+            "GREEN",
+            "BLUE",
+            "BLACK"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Many maple species turn a deep, brilliant red during the fall season."
+        },
+        {
+          "number": 5,
+          "text": "What is the traditional color of the emergency equipment pictured on the sidewalk?",
+          "image_prompt": "A classic cast-iron fire hydrant standing on a city sidewalk next to a curb.",
+          "image_path": "curated_data/assessment/multimodal\\RED_19.png",
+          "options": [
+            "RED",
+            "YELLOW",
+            "SILVER",
+            "BROWN"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Fire hydrants are most commonly painted red for high visibility during emergencies."
+        },
+        {
+          "number": 6,
+          "text": "What is the base color of the wing covers of the insect on the leaf?",
+          "image_prompt": "A small ladybug with black spots crawling on a vibrant green leaf.",
+          "image_path": "curated_data/assessment/multimodal\\RED_20.png",
+          "options": [
+            "ORANGE",
+            "RED",
+            "YELLOW",
+            "PINK"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The Seven-spot ladybird typically features red wing covers (elytra) with black spots."
+        },
+        {
+          "number": 7,
+          "text": "Identify the iconic color of the high-performance car in the image.",
+          "image_prompt": "A sleek, modern Italian sports car parked in front of a modern glass building.",
+          "image_path": "curated_data/assessment/multimodal\\RED_21.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "BLACK",
+            "WHITE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Italian sports cars, particularly Ferraris, are internationally recognized by their 'Rosso Corsa' red paint."
+        },
+        {
+          "number": 8,
+          "text": "What is the color of this famous British telecommunications structure?",
+          "image_prompt": "A vintage K6 telephone box standing on a street in London.",
+          "image_path": "curated_data/assessment/multimodal\\RED_22.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "GREEN",
+            "GOLD"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The traditional London telephone kiosks are painted a specific shade of red."
+        },
+        {
+          "number": 9,
+          "text": "Which light is illuminated to signal traffic to stop?",
+          "image_prompt": "A vertical traffic signal with only the topmost circular light glowing brightly.",
+          "image_path": "curated_data/assessment/multimodal\\RED_23.png",
+          "options": [
+            "GREEN",
+            "YELLOW",
+            "RED",
+            "WHITE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "In traffic signaling, the top light is red, indicating that vehicles must stop."
+        },
+        {
+          "number": 10,
+          "text": "What is the signature color of the cake layers shown in the cross-section?",
+          "image_prompt": "A slice of layer cake with white cream cheese frosting and deep-colored sponge layers.",
+          "image_path": "curated_data/assessment/multimodal\\RED_24.png",
+          "options": [
+            "BROWN",
+            "RED",
+            "YELLOW",
+            "PURPLE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Red velvet cake is known for its distinct deep red sponge layers contrasted with white frosting."
+        },
+        {
+          "number": 11,
+          "text": "What is the dominant color of the petals in this wildflower meadow?",
+          "image_prompt": "A wide field of blooming poppies under a bright midday sun.",
+          "image_path": "curated_data/assessment/multimodal\\RED_25.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "VIOLET",
+            "YELLOW"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Common poppies are widely recognized for their delicate, paper-like red petals."
+        },
+        {
+          "number": 12,
+          "text": "Identify the primary color of the emergency response vehicle pictured.",
+          "image_prompt": "A modern fire engine with its lights on, speeding down a road.",
+          "image_path": "curated_data/assessment/multimodal\\RED_26.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "WHITE",
+            "GREEN"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Fire trucks are traditionally painted red to make them easily identifiable in traffic."
+        },
+        {
+          "number": 13,
+          "text": "What color is most associated with the surface of the planet shown?",
+          "image_prompt": "A high-resolution satellite image of Mars showing its dusty, rocky surface.",
+          "image_path": "curated_data/assessment/multimodal\\RED_27.png",
+          "options": [
+            "BLUE",
+            "GREEN",
+            "RED",
+            "BROWN"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Mars is known as the 'Red Planet' due to the iron oxide on its surface."
+        },
+        {
+          "number": 14,
+          "text": "What is the color of the blooming flower in the garden?",
+          "image_prompt": "A close-up of a classic long-stemmed rose with dew drops on its petals.",
+          "image_path": "curated_data/assessment/multimodal\\RED_28.png",
+          "options": [
+            "RED",
+            "YELLOW",
+            "WHITE",
+            "ORANGE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "While roses come in many colors, the classic symbol of a rose is a deep red flower."
+        },
+        {
+          "number": 15,
+          "text": "Identify the color of these small, ripe vegetables on the vine.",
+          "image_prompt": "A cluster of ripe cherry tomatoes hanging from a green vine in a garden.",
+          "image_path": "curated_data/assessment/multimodal\\RED_29.png",
+          "options": [
+            "GREEN",
+            "RED",
+            "PURPLE",
+            "BLACK"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Ripe tomatoes turn a bright red color once they are ready to be harvested."
+        },
+        {
+          "number": 1,
+          "text": "Observe the traffic sign in the image. What is the primary background color of this octagonal regulatory sign?",
+          "image_prompt": "A standard octagonal stop sign standing at a quiet suburban street intersection under bright daylight.",
+          "image_path": "curated_data/assessment/multimodal\\RED_30.png",
+          "options": [
+            "BLUE",
+            "GREEN",
+            "RED",
+            "YELLOW"
+          ],
+          "correct_answer": "RED",
+          "explanation": "In most international traffic standards, the stop sign is characterized by a bright red background to command immediate attention."
+        },
+        {
+          "number": 2,
+          "text": "Looking at the male Northern Cardinal shown, what color are the majority of its feathers?",
+          "image_prompt": "A male Northern Cardinal with a black face mask perched on a snowy evergreen branch.",
+          "image_path": "curated_data/assessment/multimodal\\RED_31.png",
+          "options": [
+            "RED",
+            "ORANGE",
+            "BROWN",
+            "PURPLE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Male Northern Cardinals are famous for their vibrant red plumage, which contrasts sharply against winter snow."
+        },
+        {
+          "number": 3,
+          "text": "What is the dominant color of the sliced fruit shown on the cutting board?",
+          "image_prompt": "A perfectly ripe tomato sliced in half, revealing the seeds and juicy interior, resting on a rustic wooden board.",
+          "image_path": "curated_data/assessment/multimodal\\RED_32.png",
+          "options": [
+            "GREEN",
+            "YELLOW",
+            "RED",
+            "PINK"
+          ],
+          "correct_answer": "RED",
+          "explanation": "A ripe tomato is primarily red due to the presence of lycopene."
+        },
+        {
+          "number": 4,
+          "text": "In the context of the sport shown, what color is the penalty card held by the official?",
+          "image_prompt": "A soccer referee holding a single rectangular card high in the air to signal a player's ejection from the game.",
+          "image_path": "curated_data/assessment/multimodal\\RED_33.png",
+          "options": [
+            "YELLOW",
+            "RED",
+            "WHITE",
+            "BLUE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "In soccer, a red card is used by the referee to signify that a player has been sent off the field."
+        },
+        {
+          "number": 5,
+          "text": "What is the iconic color of this traditional British telecommunications structure?",
+          "image_prompt": "A classic K6 style London telephone booth standing on a sidewalk near Big Ben.",
+          "image_path": "curated_data/assessment/multimodal\\RED_34.png",
+          "options": [
+            "BLACK",
+            "SILVER",
+            "RED",
+            "DARK GREEN"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The traditional London telephone boxes are painted a specific shade of red to make them easily identifiable."
+        },
+        {
+          "number": 6,
+          "text": "Which color best describes the appearance of the fire hydrant in the image?",
+          "image_prompt": "A cast-iron fire hydrant standing on a concrete sidewalk next to a curb.",
+          "image_path": "curated_data/assessment/multimodal\\RED_35.png",
+          "options": [
+            "RED",
+            "ORANGE",
+            "GRAY",
+            "BLUE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Fire hydrants are frequently painted red to ensure they are highly visible to emergency services."
+        },
+        {
+          "number": 7,
+          "text": "Identify the color of the petals of the poppies in this field.",
+          "image_prompt": "A wide field of blooming wild poppies swaying in the wind under a clear summer sky.",
+          "image_path": "curated_data/assessment/multimodal\\RED_36.png",
+          "options": [
+            "VIOLET",
+            "RED",
+            "YELLOW",
+            "WHITE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The common poppy (Papaver rhoeas) is well-known for its deep red petals."
+        },
+        {
+          "number": 8,
+          "text": "What is the primary color of the emergency vehicle shown in the station?",
+          "image_prompt": "A large, modern fire engine with ladders and hoses attached, parked inside a fire station bay.",
+          "image_path": "curated_data/assessment/multimodal\\RED_37.png",
+          "options": [
+            "YELLOW",
+            "RED",
+            "WHITE",
+            "LIME"
+          ],
+          "correct_answer": "RED",
+          "explanation": "While some variations exist, red is the most traditional and recognizable color for fire trucks worldwide."
+        },
+        {
+          "number": 9,
+          "text": "What color is the edible flesh of the watermelon slice pictured?",
+          "image_prompt": "A triangular slice of watermelon with black seeds, showing the contrast between the green rind and the sweet interior.",
+          "image_path": "curated_data/assessment/multimodal\\RED_38.png",
+          "options": [
+            "PINK",
+            "ORANGE",
+            "RED",
+            "GREEN"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The interior pulp of a standard ripe watermelon is a vibrant red."
+        },
+        {
+          "number": 10,
+          "text": "Which color dominates the shell of the insect crawling on the leaf?",
+          "image_prompt": "A small ladybug with black spots walking across the surface of a vibrant green leaf.",
+          "image_path": "curated_data/assessment/multimodal\\RED_39.png",
+          "options": [
+            "ORANGE",
+            "RED",
+            "YELLOW",
+            "BLACK"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The seven-spot ladybird is characterized by its bright red elytra (wing covers) with black spots."
+        },
+        {
+          "number": 11,
+          "text": "Based on the image of the sunset, what is the most intense color reflecting off the clouds near the horizon?",
+          "image_prompt": "A dramatic sunset over the ocean where the sky is filled with streaks of light just as the sun disappears.",
+          "image_path": "curated_data/assessment/multimodal\\RED_40.png",
+          "options": [
+            "BLUE",
+            "RED",
+            "PURPLE",
+            "BROWN"
+          ],
+          "correct_answer": "RED",
+          "explanation": "During sunset, longer wavelengths of light, such as red, are less scattered by the atmosphere, dominating the sky."
+        },
+        {
+          "number": 12,
+          "text": "What is the color of the ripe berries in the bowl?",
+          "image_prompt": "A ceramic bowl filled to the brim with fresh, plump raspberries.",
+          "image_path": "curated_data/assessment/multimodal\\RED_41.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "BLACK",
+            "PURPLE"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Raspberries are a classic example of red berries found in nature."
+        },
+        {
+          "number": 13,
+          "text": "Looking at the autumn leaf, what color has it turned before falling from the tree?",
+          "image_prompt": "A single, large maple leaf showing its peak autumn foliage color, lying on a patch of grass.",
+          "image_path": "curated_data/assessment/multimodal\\RED_42.png",
+          "options": [
+            "GREEN",
+            "RED",
+            "BROWN",
+            "GOLD"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Many maple species turn a brilliant red in the fall due to the production of anthocyanins."
+        },
+        {
+          "number": 14,
+          "text": "What color is the boxing glove resting on the ring floor?",
+          "image_prompt": "A high-quality leather boxing glove, used in professional matches, resting on the white canvas of a boxing ring.",
+          "image_path": "curated_data/assessment/multimodal\\RED_43.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "BLACK",
+            "GOLD"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Red is one of the two standard colors (along with blue) used for boxing gloves to distinguish opponents."
+        },
+        {
+          "number": 15,
+          "text": "Identify the color of the ripe stone fruits hanging from the branch.",
+          "image_prompt": "A cluster of glossy, ripe cherries hanging from a tree branch, with sunlight reflecting off their smooth skins.",
+          "image_path": "curated_data/assessment/multimodal\\RED_44.png",
+          "options": [
+            "RED",
+            "PURPLE",
+            "ORANGE",
+            "GREEN"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Ripe cherries are typically a deep, glossy red."
+        },
+        {
+          "number": 1,
+          "text": "What is the primary background color of the octagonal traffic sign shown in the image?",
+          "image_prompt": "A realistic close-up of a standard octagonal stop sign standing by a suburban road with a clear blue sky in the background.",
+          "image_path": "curated_data/assessment/multimodal\\RED_45.png",
+          "options": [
+            "Yellow",
+            "Green",
+            "RED",
+            "Blue"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Standard international stop signs use a vibrant scarlet hue to command immediate attention and signal drivers to halt."
+        },
+        {
+          "number": 2,
+          "text": "Which color best describes the skin of the ripe fruit hanging from the vine?",
+          "image_prompt": "A cluster of vine-ripened tomatoes, shiny and plump, with small droplets of water on their smooth surface.",
+          "image_path": "curated_data/assessment/multimodal\\RED_46.png",
+          "options": [
+            "RED",
+            "Purple",
+            "Brown",
+            "Orange"
+          ],
+          "correct_answer": "RED",
+          "explanation": "When tomatoes reach peak ripeness, they develop a deep crimson color due to high levels of lycopene."
+        },
+        {
+          "number": 3,
+          "text": "Identify the dominant color of the male bird's plumage in this wintry scene.",
+          "image_prompt": "A male Northern Cardinal with a black face mask perched on a pine branch covered in white snow.",
+          "image_path": "curated_data/assessment/multimodal\\RED_47.png",
+          "options": [
+            "Blue",
+            "RED",
+            "Gray",
+            "Yellow"
+          ],
+          "correct_answer": "RED",
+          "explanation": "The male Northern Cardinal is famous for its bright vermillion feathers which stand out starkly against winter landscapes."
+        },
+        {
+          "number": 4,
+          "text": "What is the color of the petals on these classic romantic flowers?",
+          "image_prompt": "A bouquet of fresh long-stemmed roses in full bloom, arranged in a glass vase.",
+          "image_path": "curated_data/assessment/multimodal\\RED_48.png",
+          "options": [
+            "Pink",
+            "White",
+            "Yellow",
+            "RED"
+          ],
+          "correct_answer": "RED",
+          "explanation": "While roses come in many colors, the most iconic and traditional variety associated with romance is the deep ruby version."
+        },
+        {
+          "number": 5,
+          "text": "What color is the protective gear being worn by the boxer in the ring?",
+          "image_prompt": "A close-up of a professional boxer's hands wearing padded leather gloves, positioned in a defensive stance.",
+          "image_path": "curated_data/assessment/multimodal\\RED_49.png",
+          "options": [
+            "Black",
+            "RED",
+            "Blue",
+            "Gold"
+          ],
+          "correct_answer": "RED",
+          "explanation": "Boxing gloves are frequently manufactured in this bold color to make movements visible and traditionally to mask blood stains during a match."
+        }
+      ]
+    },
+    {
+      "target_color": "GREEN",
+      "questions": [
+        {
+          "number": 1,
+          "text": "In a standard three-light traffic signal, what color is the light at the very bottom that indicates it is safe for vehicles to move forward?",
+          "image_prompt": "A vertical traffic light in a city setting with the bottom-most circular lamp glowing brightly while the top two remain dark.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_0.png",
+          "options": [
+            "RED",
+            "YELLOW",
+            "GREEN",
+            "BLUE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "In standard traffic signals, the bottom light is green, signaling 'go'."
+        },
+        {
+          "number": 2,
+          "text": "What is the dominant color of the foliage found in this dense rainforest canopy?",
+          "image_prompt": "A lush, high-angle view of a tropical rainforest canopy with various shades of thick leaves and ferns.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_1.png",
+          "options": [
+            "BROWN",
+            "GREEN",
+            "ORANGE",
+            "PURPLE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Chlorophyll in the leaves of rainforest plants reflects green light, making it the dominant color of the foliage."
+        },
+        {
+          "number": 3,
+          "text": "Which color characterizes the skin and flesh of the Granny Smith apple shown in the image?",
+          "image_prompt": "A crisp, tart Granny Smith apple sitting on a wooden table with water droplets on its shiny skin.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_2.png",
+          "options": [
+            "RED",
+            "YELLOW",
+            "GREEN",
+            "PINK"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Granny Smith apples are a variety specifically known for their bright green skin."
+        },
+        {
+          "number": 4,
+          "text": "What color is the felt surface of this professional billiard table?",
+          "image_prompt": "A close-up of a pool table with several billiard balls scattered across its smooth cloth surface.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_3.png",
+          "options": [
+            "BLUE",
+            "RED",
+            "GREEN",
+            "BLACK"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Traditional billiard and pool tables use green felt to simulate the grass where outdoor lawn games were originally played."
+        },
+        {
+          "number": 5,
+          "text": "Identify the primary color of the scales on this iguana resting on a branch.",
+          "image_prompt": "A large tropical iguana with textured, scaly skin perched perfectly still on a brown tree limb.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_4.png",
+          "options": [
+            "GREEN",
+            "GREY",
+            "PURPLE",
+            "BLUE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Many iguana species have green scales that provide camouflage within the leaves of their habitat."
+        },
+        {
+          "number": 6,
+          "text": "What is the most prominent color seen in the sky during this displays of the Aurora Borealis?",
+          "image_prompt": "The Northern Lights waving across a dark starry sky over a silhouette of pine trees.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_5.png",
+          "options": [
+            "YELLOW",
+            "ORANGE",
+            "GREEN",
+            "RED"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "The most common color of the Aurora Borealis is green, caused by oxygen molecules being struck by solar particles."
+        },
+        {
+          "number": 7,
+          "text": "What color is the exterior of this ripe lime sliced in half?",
+          "image_prompt": "A fresh lime cut into halves on a white background, showing the juicy segments inside.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_6.png",
+          "options": [
+            "YELLOW",
+            "GREEN",
+            "ORANGE",
+            "RED"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Limes are citrus fruits characterized by their green skin and acidic green flesh."
+        },
+        {
+          "number": 8,
+          "text": "In the game of golf, what is the color of the closely mown grass area surrounding the hole?",
+          "image_prompt": "A golf ball sitting inches away from a hole with a flagstick on a perfectly manicured putting surface.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_7.png",
+          "options": [
+            "BROWN",
+            "GREEN",
+            "WHITE",
+            "BLUE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "The putting area on a golf course is called 'the green' because of its vibrant, short-cropped green grass."
+        },
+        {
+          "number": 9,
+          "text": "What color is the common North American paper currency shown here?",
+          "image_prompt": "A fan of United States one-dollar bills showing the intricate patterns on the reverse side.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_8.png",
+          "options": [
+            "BLUE",
+            "RED",
+            "GREEN",
+            "YELLOW"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "U.S. banknotes are famously nicknamed 'greenbacks' due to the green ink used on the back of the bills."
+        },
+        {
+          "number": 10,
+          "text": "What color is the mythical 'emerald city' or the gemstone emerald usually associated with?",
+          "image_prompt": "A faceted emerald gemstone sparkling under a studio light, reflecting deep rich tones.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_9.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "GREEN",
+            "VIOLET"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Emeralds are a variety of beryl colored by chromium or vanadium, giving them a distinct green hue."
+        },
+        {
+          "number": 11,
+          "text": "What color is this vegetable, which is a member of the cabbage family and looks like a miniature tree?",
+          "image_prompt": "A fresh head of broccoli with its tightly packed florets and thick stalk.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_10.png",
+          "options": [
+            "PURPLE",
+            "GREEN",
+            "WHITE",
+            "YELLOW"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Broccoli is a cruciferous vegetable known for its dark green florets and stalks."
+        },
+        {
+          "number": 12,
+          "text": "What is the primary color of a standard recycling bin often used for glass or yard waste?",
+          "image_prompt": "A plastic recycling bin sitting on a sidewalk with a white universal recycling symbol on the side.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_11.png",
+          "options": [
+            "GREEN",
+            "BLACK",
+            "GREY",
+            "PINK"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Green is the international color symbol for environmentalism and is frequently used for recycling containers."
+        },
+        {
+          "number": 13,
+          "text": "What color is this lucky four-leaf plant found in a field?",
+          "image_prompt": "A macro shot of a rare four-leaf clover growing among a patch of three-leaf clovers.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_12.png",
+          "options": [
+            "BROWN",
+            "YELLOW",
+            "GREEN",
+            "RED"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Clovers are small herbaceous plants that are almost entirely green in color."
+        },
+        {
+          "number": 14,
+          "text": "What color are the scales of the sea turtle swimming through the water?",
+          "image_prompt": "A green sea turtle gliding through clear blue ocean water over a coral reef.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_13.png",
+          "options": [
+            "GREEN",
+            "RED",
+            "ORANGE",
+            "PURPLE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "The 'Green Sea Turtle' gets its name from the color of its subdermal fat, but its skin and shell often appear olive or green."
+        },
+        {
+          "number": 15,
+          "text": "What color are the pods of these edamame beans served as an appetizer?",
+          "image_prompt": "A ceramic bowl filled with steamed edamame pods lightly dusted with sea salt.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_14.png",
+          "options": [
+            "BROWN",
+            "WHITE",
+            "GREEN",
+            "BLUE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Edamame are young, green soybeans harvested before they ripen and harden."
+        },
+        {
+          "number": 1,
+          "text": "What is the primary color of the healthy grass shown in this meadow?",
+          "image_prompt": "A wide-angle landscape shot of rolling hills covered in lush, vibrant grass under a bright sunny sky.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_15.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "GREEN",
+            "YELLOW"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Healthy, growing grass in a meadow is naturally green due to the presence of chlorophyll."
+        },
+        {
+          "number": 2,
+          "text": "Identify the dominant color of these fresh leafy vegetables in the bowl.",
+          "image_prompt": "A wooden bowl filled with fresh, crisp spinach leaves, showing detailed veins and a deep, rich hue.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_16.png",
+          "options": [
+            "ORANGE",
+            "GREEN",
+            "PURPLE",
+            "WHITE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Leafy greens like spinach are characterized by their deep green color."
+        },
+        {
+          "number": 3,
+          "text": "Which color is displayed by the light that signals drivers it is safe to move forward?",
+          "image_prompt": "A close-up of a three-lens traffic light at an intersection with the bottom-most circular light illuminated brightly.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_17.png",
+          "options": [
+            "RED",
+            "YELLOW",
+            "GREEN",
+            "BLUE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "In standard traffic signals, the bottom light is green and indicates that traffic may proceed."
+        },
+        {
+          "number": 4,
+          "text": "What color allows this insect to blend in effectively with the surrounding leaves?",
+          "image_prompt": "A macro photograph of a praying mantis perched on a thin twig, its body matching the color of the foliage perfectly.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_18.png",
+          "options": [
+            "GREEN",
+            "BROWN",
+            "PINK",
+            "BLACK"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Many insects, such as the praying mantis, use a green color to camouflage themselves against plants."
+        },
+        {
+          "number": 5,
+          "text": "What is the characteristic color of this precious emerald gemstone?",
+          "image_prompt": "A high-quality emerald cut gemstone set in a silver ring, reflecting light with a deep forest-like brilliance.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_19.png",
+          "options": [
+            "BLUE",
+            "RED",
+            "GREEN",
+            "ORANGE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Emeralds are a variety of the mineral beryl and are famous for their distinct green color."
+        },
+        {
+          "number": 6,
+          "text": "What is the color of the natural turf on this professional tennis court?",
+          "image_prompt": "A low-angle shot of a pristine grass tennis court at a prestigious tournament, with white boundary lines.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_20.png",
+          "options": [
+            "BLUE",
+            "GREEN",
+            "CLAY",
+            "PURPLE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Natural grass courts used in tennis are made of living turf which is green."
+        },
+        {
+          "number": 7,
+          "text": "What color indicates that these bananas are still firm and not yet fully ripe?",
+          "image_prompt": "A bunch of bananas lying on a wooden table, where the peels are firm and lack any yellow or brown spots.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_21.png",
+          "options": [
+            "YELLOW",
+            "RED",
+            "GREEN",
+            "BROWN"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Unripe bananas are green and gradually turn yellow as they mature and sweeten."
+        },
+        {
+          "number": 8,
+          "text": "What is the dominant color of the needles in this evergreen forest?",
+          "image_prompt": "A dense forest of tall pine and spruce trees with needles covering every branch under a misty sky.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_22.png",
+          "options": [
+            "GREEN",
+            "YELLOW",
+            "WHITE",
+            "RED"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Evergreen trees maintain their green needles throughout the year."
+        },
+        {
+          "number": 9,
+          "text": "What is the classic color of the writing surface in this vintage schoolroom?",
+          "image_prompt": "An old-fashioned classroom setting featuring a large, dusty chalkboard mounted on a wall.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_23.png",
+          "options": [
+            "BLACK",
+            "GREEN",
+            "BLUE",
+            "BROWN"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "While many modern boards are black, traditional school chalkboards were frequently a dark shade of green."
+        },
+        {
+          "number": 10,
+          "text": "Which color is most prominently dancing across the sky in this aurora display?",
+          "image_prompt": "A night sky in the Arctic showing the Northern Lights as wavy ribbons of light stretching across the horizon.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_24.png",
+          "options": [
+            "RED",
+            "GREEN",
+            "PURPLE",
+            "ORANGE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "The most common and brightest color observed in the Aurora Borealis is green."
+        },
+        {
+          "number": 11,
+          "text": "What color is the thick layer of moss covering the surface of this stone?",
+          "image_prompt": "A damp, shaded rock in a forest almost entirely covered in a soft, velvety carpet of moss.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_25.png",
+          "options": [
+            "BROWN",
+            "GREEN",
+            "GRAY",
+            "YELLOW"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Moss is a non-vascular plant that is typically green due to its photosynthetic nature."
+        },
+        {
+          "number": 12,
+          "text": "Identify the color of the skin and interior of this tart citrus fruit.",
+          "image_prompt": "A whole lime and a half-cut lime resting on a white surface, showing the juicy segments inside.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_26.png",
+          "options": [
+            "YELLOW",
+            "ORANGE",
+            "GREEN",
+            "PINK"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Limes are citrus fruits known for their green skin and tart green flesh."
+        },
+        {
+          "number": 13,
+          "text": "What is the primary color of the feathers on this tropical parrot?",
+          "image_prompt": "A vibrant Amazon parrot sitting on a wooden perch, showcasing its bright feathers and curved beak.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_27.png",
+          "options": [
+            "BLUE",
+            "GREEN",
+            "RED",
+            "YELLOW"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "The Amazon parrot is widely recognized for its predominantly green plumage."
+        },
+        {
+          "number": 14,
+          "text": "What color is the climbing ivy covering the side of this stone building?",
+          "image_prompt": "A close-up of an old stone wall almost completely obscured by dense, climbing ivy leaves.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_28.png",
+          "options": [
+            "GREEN",
+            "RED",
+            "ORANGE",
+            "BROWN"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Ivy is a climbing plant with leaves that are typically a rich green."
+        },
+        {
+          "number": 15,
+          "text": "What is the refreshing color associated with these aromatic herb leaves?",
+          "image_prompt": "A cluster of fresh mint leaves with serrated edges and visible texture, used for garnishing drinks.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_29.png",
+          "options": [
+            "PURPLE",
+            "GREEN",
+            "WHITE",
+            "YELLOW"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Mint leaves are a vibrant green and are commonly used for their fresh scent and flavor."
+        },
+        {
+          "number": 1,
+          "text": "What is the primary color of the lush meadow shown in the image?",
+          "image_prompt": "A wide landscape of a rolling meadow covered in thick, vibrant grass under a bright sun.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_30.png",
+          "options": [
+            "BLUE",
+            "RED",
+            "GREEN",
+            "YELLOW"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "The vegetation in a healthy meadow is primarily composed of grass, which is naturally green due to chlorophyll."
+        },
+        {
+          "number": 2,
+          "text": "Which color describes the flesh of the sliced fruit shown here?",
+          "image_prompt": "A close-up of a ripe avocado cut in half, showing the large pit and the creamy interior flesh.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_31.png",
+          "options": [
+            "ORANGE",
+            "GREEN",
+            "PURPLE",
+            "BROWN"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "The interior flesh of a ripe avocado typically ranges from a pale yellow near the pit to a vibrant green near the skin."
+        },
+        {
+          "number": 3,
+          "text": "Looking at the traffic signal, which color is currently illuminated to allow traffic to move?",
+          "image_prompt": "A vertical traffic light with the bottom-most circular light glowing brightly against a city background.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_32.png",
+          "options": [
+            "RED",
+            "YELLOW",
+            "GREEN",
+            "BLUE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "In standard traffic light systems, the bottom light is green and indicates that drivers may proceed."
+        },
+        {
+          "number": 4,
+          "text": "What is the most prominent color of the frog's skin in this photograph?",
+          "image_prompt": "A Red-eyed Tree Frog sitting on a large tropical leaf, showing its bright body and orange feet.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_33.png",
+          "options": [
+            "GREEN",
+            "PINK",
+            "BLACK",
+            "WHITE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "The Red-eyed Tree Frog is famous for its bright green body, which helps it camouflage against leaves."
+        },
+        {
+          "number": 5,
+          "text": "What is the traditional color of the cloth covering the pool table?",
+          "image_prompt": "A high-angle shot of a professional billiard table with several balls arranged on the felt surface.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_34.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "GREEN",
+            "BLACK"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Billiard and pool tables are traditionally covered in a green wool felt, originally meant to simulate grass."
+        },
+        {
+          "number": 6,
+          "text": "Based on the environmental symbol, what color is this recycling bin?",
+          "image_prompt": "A plastic recycling bin with the universal recycling logo printed on its side.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_35.png",
+          "options": [
+            "GREEN",
+            "GREY",
+            "ORANGE",
+            "RED"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Many recycling bins are colored green to symbolize environmentalism and nature."
+        },
+        {
+          "number": 7,
+          "text": "What color are the needles of the trees in this evergreen forest?",
+          "image_prompt": "A dense forest of tall spruce and pine trees covered in a light morning mist.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_36.png",
+          "options": [
+            "BROWN",
+            "GREEN",
+            "WHITE",
+            "GOLD"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Evergreen trees like pines and spruces maintain their green needle-like leaves throughout the year."
+        },
+        {
+          "number": 8,
+          "text": "What color is the skin of the specific variety of apple shown in the basket?",
+          "image_prompt": "A wooden basket filled with crisp, tart Granny Smith apples.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_37.png",
+          "options": [
+            "RED",
+            "YELLOW",
+            "GREEN",
+            "PURPLE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Granny Smith apples are a well-known variety of apple characterized by their bright green skin."
+        },
+        {
+          "number": 9,
+          "text": "What color has the chameleon turned to match the surrounding foliage?",
+          "image_prompt": "A chameleon resting on a leafy branch, its skin color perfectly matching the leaves.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_38.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "GREEN",
+            "BROWN"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Chameleons change color for camouflage; in a leafy environment, they often turn green to blend in."
+        },
+        {
+          "number": 10,
+          "text": "What color is the short-trimmed grass on the putting surface?",
+          "image_prompt": "A close-up of a golf hole with a flagstick, situated on a perfectly manicured putting green.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_39.png",
+          "options": [
+            "BROWN",
+            "GREEN",
+            "YELLOW",
+            "RED"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "The putting surface on a golf course is called the 'green' because it is made of meticulously maintained green grass."
+        },
+        {
+          "number": 11,
+          "text": "What is the dominant color of the light display in the night sky?",
+          "image_prompt": "A stunning view of the Aurora Borealis with wavy ribbons of light stretching across the horizon.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_40.png",
+          "options": [
+            "PURPLE",
+            "GREEN",
+            "RED",
+            "ORANGE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "While the Aurora Borealis can have many colors, green is the most common and frequent color observed."
+        },
+        {
+          "number": 12,
+          "text": "What is the primary color used for the design on the back of this banknote?",
+          "image_prompt": "The reverse side of a United States one-dollar bill showing the Great Seal.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_41.png",
+          "options": [
+            "BLUE",
+            "RED",
+            "GREEN",
+            "YELLOW"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "United States currency is famously printed with green ink on the back, leading to the nickname 'greenbacks'."
+        },
+        {
+          "number": 13,
+          "text": "What color are the delicate fronds of the plant shown in the pot?",
+          "image_prompt": "A close-up of a Boston fern with many long, feathery fronds spilling over the sides of a ceramic pot.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_42.png",
+          "options": [
+            "GREEN",
+            "BROWN",
+            "WHITE",
+            "RED"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Ferns are vascular plants that are almost universally green in color due to their photosynthetic pigments."
+        },
+        {
+          "number": 14,
+          "text": "What color are the stalks of the vegetable shown in the bundle?",
+          "image_prompt": "A bundle of fresh, raw asparagus tied together with a simple rustic string.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_43.png",
+          "options": [
+            "ORANGE",
+            "PURPLE",
+            "GREEN",
+            "YELLOW"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "The most common type of asparagus sold in markets is the green variety, which has long green stalks."
+        },
+        {
+          "number": 15,
+          "text": "What color is the insect in the image, providing it with camouflage?",
+          "image_prompt": "A praying mantis standing perfectly still on the stem of a garden plant.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_44.png",
+          "options": [
+            "BLACK",
+            "GREEN",
+            "GREY",
+            "RED"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Many species of praying mantis are bright green to help them hide among leaves and stems while waiting for prey."
+        },
+        {
+          "number": 1,
+          "text": "What is the primary hue of the ground cover in this landscape?",
+          "image_prompt": "A vast meadow of tall, lush grass under a clear blue sky, hills in the background, vibrant summer day.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_45.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "GREEN",
+            "YELLOW"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Grass contains chlorophyll, which reflects the green portion of the light spectrum."
+        },
+        {
+          "number": 2,
+          "text": "Identify the typical color of this citrus fruit's flesh.",
+          "image_prompt": "A close-up, high-detail macro shot of a sliced lime, showing the translucent segments and juice droplets.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_46.png",
+          "options": [
+            "ORANGE",
+            "PURPLE",
+            "GREEN",
+            "PINK"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Limes are citrus fruits known for their bright green skin and flesh."
+        },
+        {
+          "number": 3,
+          "text": "What color signal is currently displayed to indicate that drivers may proceed?",
+          "image_prompt": "A standard vertical traffic light with the bottom-most circular light illuminated against a twilight sky.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_47.png",
+          "options": [
+            "RED",
+            "YELLOW",
+            "GREEN",
+            "WHITE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "In a standard traffic light, the bottom signal is green to indicate traffic can proceed."
+        },
+        {
+          "number": 4,
+          "text": "Based on the creature's skin, which color is most prominent?",
+          "image_prompt": "A small tree frog with large eyes sitting perfectly still on a waxy leaf in a rain-drenched forest.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_48.png",
+          "options": [
+            "BROWN",
+            "GREEN",
+            "BLACK",
+            "BLUE"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Many tree frogs use green pigmentation as camouflage to blend in with forest foliage."
+        },
+        {
+          "number": 5,
+          "text": "What is the dominant color of the playing surface shown in this stadium?",
+          "image_prompt": "A professional soccer pitch with neatly mown patterns and white boundary lines before a match.",
+          "image_path": "curated_data/assessment/multimodal\\GREEN_49.png",
+          "options": [
+            "BROWN",
+            "BLUE",
+            "ORANGE",
+            "GREEN"
+          ],
+          "correct_answer": "GREEN",
+          "explanation": "Regulation soccer pitches use natural or synthetic grass which is green."
+        }
+      ]
+    },
+    {
+      "target_color": "BLUE",
+      "questions": [
+        {
+          "number": 1,
+          "text": "What color is shared by both the sky and the sea in this nature scene?",
+          "image_prompt": "A wide-angle shot of a clear, cloudless midday sky reflecting off a vast, still ocean.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_0.png",
+          "options": [
+            "Red",
+            "Green",
+            "Blue",
+            "Yellow"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "In clear conditions, both the sky and large bodies of water appear blue due to Rayleigh scattering and the absorption of longer wavelengths of light."
+        },
+        {
+          "number": 2,
+          "text": "Which color identifies the skin of the berries depicted in the bowl?",
+          "image_prompt": "A close-up of a wooden bowl filled with plump, dusty-skinned blueberries.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_1.png",
+          "options": [
+            "Blue",
+            "Orange",
+            "Pink",
+            "White"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Blueberries are named for their characteristic deep indigo or blue skin color."
+        },
+        {
+          "number": 3,
+          "text": "What is the primary color of this bird's plumage?",
+          "image_prompt": "A vibrant Blue Jay with detailed feathers sitting on a snow-covered pine branch.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_2.png",
+          "options": [
+            "Brown",
+            "Blue",
+            "Grey",
+            "Black"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The Blue Jay is known for its distinctive crest and bright blue feathers on its back and wings."
+        },
+        {
+          "number": 4,
+          "text": "According to standard traffic signage conventions, what is the background color of this information sign?",
+          "image_prompt": "A rectangular road sign indicating a hospital or rest area, commonly seen on highways.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_3.png",
+          "options": [
+            "Yellow",
+            "Red",
+            "Blue",
+            "Green"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "In many regions, blue backgrounds on road signs are used to indicate motorist services such as hospitals, food, and lodging."
+        },
+        {
+          "number": 5,
+          "text": "What color is the light as it passes through the dense, compressed glacial ice?",
+          "image_prompt": "A deep ice cave inside a glacier where the light filters through thick, compressed ice.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_4.png",
+          "options": [
+            "Blue",
+            "Purple",
+            "Green",
+            "Orange"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Glacial ice appears blue because the dense ice absorbs other colors of the spectrum, leaving only the blue light to be reflected or transmitted."
+        },
+        {
+          "number": 6,
+          "text": "Which color is most characteristic of this specific fabric?",
+          "image_prompt": "A pair of classic denim jeans folded neatly on a wooden table.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_5.png",
+          "options": [
+            "Beige",
+            "Blue",
+            "Pink",
+            "Brown"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Denim is most traditionally associated with the color blue, specifically indigo dye."
+        },
+        {
+          "number": 7,
+          "text": "Identify the dominant hue of these flower petals.",
+          "image_prompt": "A cluster of Bigleaf Hydrangea flowers in full bloom in a summer garden.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_6.png",
+          "options": [
+            "Yellow",
+            "Blue",
+            "Red",
+            "Orange"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Hydrangeas often bloom in blue when grown in acidic soil containing aluminum."
+        },
+        {
+          "number": 8,
+          "text": "What is the color of the bowling ball in motion?",
+          "image_prompt": "A glossy sapphire-toned bowling ball rolling down a polished wooden lane.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_7.png",
+          "options": [
+            "Blue",
+            "White",
+            "Black",
+            "Red"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The image shows a sapphire-colored bowling ball, which falls within the blue spectrum."
+        },
+        {
+          "number": 9,
+          "text": "During this 'hour' of twilight, what color dominates the atmosphere?",
+          "image_prompt": "A cityscape during the transition between day and night, where the sky has a deep, cool tone.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_8.png",
+          "options": [
+            "Green",
+            "Blue",
+            "Yellow",
+            "Orange"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The 'blue hour' is a period of twilight when the sun is significantly below the horizon and the residual sunlight takes on a blue shade."
+        },
+        {
+          "number": 10,
+          "text": "What is the main body color of this reef fish?",
+          "image_prompt": "A Blue Tang fish with its distinctive black markings and yellow tail swimming among coral.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_9.png",
+          "options": [
+            "Blue",
+            "Red",
+            "Green",
+            "Grey"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The Blue Tang is famous for its vibrant royal blue body color."
+        },
+        {
+          "number": 11,
+          "text": "What color is the iconic dome of this Mediterranean building?",
+          "image_prompt": "A traditional Cycladic house in Santorini with white walls and a rounded dome roof.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_10.png",
+          "options": [
+            "Brown",
+            "Blue",
+            "Black",
+            "Green"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The architecture in Santorini, Greece, is world-famous for its white buildings with bright blue domed roofs."
+        },
+        {
+          "number": 12,
+          "text": "What color is the light indicating that the device is powered on and connected?",
+          "image_prompt": "A modern internet router in a dark room with a single glowing indicator light.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_11.png",
+          "options": [
+            "Blue",
+            "Purple",
+            "Red",
+            "Yellow"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Many modern electronic devices use blue LED indicators to signify power or connectivity."
+        },
+        {
+          "number": 13,
+          "text": "What is the striking iridescent color of the butterfly's upper wing surface?",
+          "image_prompt": "A Blue Morpho butterfly resting on a green leaf with its wings fully spread.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_12.png",
+          "options": [
+            "Gold",
+            "Silver",
+            "Blue",
+            "Pink"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The Blue Morpho butterfly is renowned for its brilliant, iridescent blue wings."
+        },
+        {
+          "number": 14,
+          "text": "What color is this formal jacket?",
+          "image_prompt": "A person wearing a high-quality navy wool blazer.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_13.png",
+          "options": [
+            "Blue",
+            "Tan",
+            "Green",
+            "White"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Navy is a very dark shade of blue, a staple color in formal and business attire."
+        },
+        {
+          "number": 15,
+          "text": "What color is the liquid inside the bottle?",
+          "image_prompt": "A transparent spray bottle containing a common liquid glass cleaner.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_14.png",
+          "options": [
+            "Yellow",
+            "Blue",
+            "Red",
+            "Green"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Many commercial glass cleaners are dyed blue to distinguish them from other household chemicals."
+        },
+        {
+          "number": 1,
+          "text": "What is the primary hue of the clear atmosphere shown in this daytime scene?",
+          "image_prompt": "A vast, cloudless sky at high noon over a flat horizon.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_15.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "GREEN",
+            "YELLOW"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "The sky appears this color because of Rayleigh scattering, where shorter wavelengths of sunlight are scattered more by atmospheric gases."
+        },
+        {
+          "number": 2,
+          "text": "Identify the dominant shade of the deep tropical water in this aerial view.",
+          "image_prompt": "A high-angle shot of deep ocean water transitioning from turquoise to a dark, saturated pigment.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_16.png",
+          "options": [
+            "BLUE",
+            "ORANGE",
+            "PURPLE",
+            "BROWN"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "Water absorbs longer wavelengths of light and reflects shorter ones, making large bodies of water appear in this shade."
+        },
+        {
+          "number": 3,
+          "text": "What is the natural color of these small, round fruits piled in the bowl?",
+          "image_prompt": "A wooden bowl filled with fresh blueberries, some showing a waxy white bloom.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_17.png",
+          "options": [
+            "GREEN",
+            "PINK",
+            "BLUE",
+            "WHITE"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "Blueberries contain anthocyanins, which give them their characteristic deep pigment."
+        },
+        {
+          "number": 4,
+          "text": "Which color identifies the most prominent feathers on this bird?",
+          "image_prompt": "A Blue Jay perched on a branch, its wings and tail displaying vibrant patterns.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_18.png",
+          "options": [
+            "YELLOW",
+            "RED",
+            "BLUE",
+            "BLACK"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "The Blue Jay is famous for its striking plumage, though the color is actually caused by light interference rather than pigment."
+        },
+        {
+          "number": 5,
+          "text": "Observe the shimmering wings of this butterfly; what color are they?",
+          "image_prompt": "A Morpho butterfly resting on a green leaf with its wings fully open.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_19.png",
+          "options": [
+            "BLUE",
+            "GRAY",
+            "ORANGE",
+            "RED"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "The Morpho butterfly's wings are known for a brilliant, iridescent metallic hue caused by microscopic scales."
+        },
+        {
+          "number": 6,
+          "text": "What is the background color of this international parking information sign?",
+          "image_prompt": "A square metal road sign with a large white letter P in the center.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_20.png",
+          "options": [
+            "YELLOW",
+            "GREEN",
+            "BLUE",
+            "BLACK"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "Standard international parking signs typically use a solid square of this color as a background."
+        },
+        {
+          "number": 7,
+          "text": "What is the traditional shade of the heavy denim fabric shown in the image?",
+          "image_prompt": "A pair of classic, rugged denim jeans folded on a wooden surface.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_21.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "PURPLE",
+            "ORANGE"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "Denim is traditionally dyed with indigo, creating its iconic appearance."
+        },
+        {
+          "number": 8,
+          "text": "Identify the main color of the petals on these tiny blossoms with yellow centers.",
+          "image_prompt": "A cluster of Forget-me-not flowers in a garden bed.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_22.png",
+          "options": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "BROWN"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "Forget-me-nots are celebrated for their small, delicate petals in this specific hue."
+        },
+        {
+          "number": 9,
+          "text": "What is the characteristic hue of the faceted gemstone in this ring?",
+          "image_prompt": "A close-up of a silver ring holding a large, brilliant-cut sapphire.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_23.png",
+          "options": [
+            "GREEN",
+            "YELLOW",
+            "BLUE",
+            "PINK"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "While sapphires can come in many colors, the most prized and traditional variety is this deep shade."
+        },
+        {
+          "number": 10,
+          "text": "Which color describes the water in this clean, tiled swimming pool?",
+          "image_prompt": "A rectangular swimming pool with sunlight reflecting off the rippling surface.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_24.png",
+          "options": [
+            "RED",
+            "BLUE",
+            "PURPLE",
+            "ORANGE"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "Pool water appears this color due to the reflection of the sky and the scattering of light within the water."
+        },
+        {
+          "number": 11,
+          "text": "Identify the distinguishing color of this distant gas giant planet.",
+          "image_prompt": "The planet Neptune viewed from space against a black background.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_25.png",
+          "options": [
+            "BLUE",
+            "RED",
+            "GREEN",
+            "YELLOW"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "Neptune has a thick atmosphere containing methane, which absorbs red light and reflects this color."
+        },
+        {
+          "number": 12,
+          "text": "What is the primary body color of this tropical reef fish?",
+          "image_prompt": "A Blue Tang fish swimming among colorful coral reefs.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_26.png",
+          "options": [
+            "ORANGE",
+            "BLUE",
+            "WHITE",
+            "GRAY"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "The Blue Tang is known for its vivid body pigment contrasted with a yellow tail and black markings."
+        },
+        {
+          "number": 13,
+          "text": "Which color defines the large, rounded flower clusters in this garden?",
+          "image_prompt": "A bush of large Hydrangea macrophylla flowers in full bloom.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_27.png",
+          "options": [
+            "YELLOW",
+            "RED",
+            "BLUE",
+            "BROWN"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "Hydrangeas can turn this color when grown in acidic soil containing aluminum."
+        },
+        {
+          "number": 14,
+          "text": "What is the specific color of the soft napped leather on these shoes?",
+          "image_prompt": "A pair of high-quality suede loafers in a vibrant cobalt shade.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_28.png",
+          "options": [
+            "BLUE",
+            "GREEN",
+            "PINK",
+            "PURPLE"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "Suede shoes in this color are a famous cultural icon often mentioned in rock and roll music."
+        },
+        {
+          "number": 15,
+          "text": "What is the color of the intricate patterns painted on this white ceramic plate?",
+          "image_prompt": "A porcelain plate featuring the traditional Willow pattern landscape.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_29.png",
+          "options": [
+            "RED",
+            "YELLOW",
+            "BLUE",
+            "GREEN"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "Traditional 'Blue Willow' china uses a monochromatic underglaze in this color on white porcelain."
+        },
+        {
+          "number": 1,
+          "text": "What is the primary hue of the vast expanse above the horizon in this image?",
+          "image_prompt": "A clear midday sky with no clouds stretching over a calm landscape.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_30.png",
+          "options": [
+            "Red",
+            "Green",
+            "Blue",
+            "Yellow"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The sky on a clear day appears blue due to Rayleigh scattering of sunlight."
+        },
+        {
+          "number": 2,
+          "text": "Based on the fruit pictured, what color is most characteristic of its skin?",
+          "image_prompt": "A handful of fresh, ripe blueberries in a rustic wooden bowl.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_31.png",
+          "options": [
+            "Blue",
+            "Orange",
+            "Pink",
+            "White"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Blueberries are named for and characterized by their deep blue skin."
+        },
+        {
+          "number": 3,
+          "text": "Looking at the deep water in the center of the frame, which color best describes its appearance?",
+          "image_prompt": "Waves of a deep ocean crashing against a rocky shore under bright sunlight.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_32.png",
+          "options": [
+            "Purple",
+            "Blue",
+            "Gray",
+            "Brown"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Deep ocean water typically appears as a dark blue color because it absorbs longer wavelengths of light."
+        },
+        {
+          "number": 4,
+          "text": "Identify the color of the illuminated light on the left side of the emergency bar.",
+          "image_prompt": "A close-up of an active emergency light bar on top of a police patrol car, with the left side glowing brightly.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_33.png",
+          "options": [
+            "Green",
+            "Pink",
+            "Blue",
+            "Gold"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Police emergency lights are traditionally blue and red; the prompt specifies the blue side."
+        },
+        {
+          "number": 5,
+          "text": "What is the iridescent color of the butterfly's wings shown here?",
+          "image_prompt": "A Blue Morpho butterfly with wide, shimmering wings resting on a vibrant green leaf.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_34.png",
+          "options": [
+            "Blue",
+            "Black",
+            "Silver",
+            "Red"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The Blue Morpho butterfly is famous for its bright, iridescent blue wings."
+        },
+        {
+          "number": 6,
+          "text": "What is the traditional shade associated with this type of denim fabric?",
+          "image_prompt": "A pair of classic, indigo-dyed denim jeans folded neatly on a white background.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_35.png",
+          "options": [
+            "Yellow",
+            "Blue",
+            "Magenta",
+            "Beige"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Classic denim jeans are traditionally dyed with indigo, giving them a blue color."
+        },
+        {
+          "number": 7,
+          "text": "What is the specific color of this precious gemstone?",
+          "image_prompt": "A faceted sapphire gemstone sparkling intensely under professional studio lighting.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_36.png",
+          "options": [
+            "Green",
+            "Orange",
+            "Blue",
+            "Violet"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "While sapphires come in many colors, the most iconic and valuable variety is the blue sapphire."
+        },
+        {
+          "number": 8,
+          "text": "Which color does the water in the pool most closely resemble?",
+          "image_prompt": "A luxurious rectangular swimming pool with clear water reflecting the bright sun.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_37.png",
+          "options": [
+            "Blue",
+            "Red",
+            "Brown",
+            "Yellow"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Swimming pool water typically reflects a blue hue due to the sky and the lining of the pool."
+        },
+        {
+          "number": 9,
+          "text": "Which color is most prominent on the feathers of this bird?",
+          "image_prompt": "A Blue Jay perched on a snow-covered pine branch in the winter.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_38.png",
+          "options": [
+            "Green",
+            "Blue",
+            "Purple",
+            "Cyan"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The Blue Jay is known for its distinctive blue, white, and black plumage."
+        },
+        {
+          "number": 10,
+          "text": "In many municipal systems, what color is the container used for paper and plastic recycling shown in the image?",
+          "image_prompt": "A bright blue plastic recycling bin sitting on a suburban sidewalk.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_39.png",
+          "options": [
+            "Black",
+            "Yellow",
+            "Blue",
+            "Red"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Recycling bins are frequently colored blue to distinguish them from standard trash cans."
+        },
+        {
+          "number": 11,
+          "text": "Identify the dominant color of the flower petals shown in this garden scene.",
+          "image_prompt": "A dense cluster of blooming blue hydrangea flowers in a lush garden.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_40.png",
+          "options": [
+            "Orange",
+            "Blue",
+            "Tan",
+            "Lime"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Hydrangeas can turn a vibrant blue depending on the acidity of the soil."
+        },
+        {
+          "number": 12,
+          "text": "What color makes up the majority of this parrot's plumage?",
+          "image_prompt": "A Hyacinth Macaw with vibrant feathers and a small yellow patch around its eye.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_41.png",
+          "options": [
+            "Blue",
+            "Green",
+            "White",
+            "Grey"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The Hyacinth Macaw is a large parrot covered almost entirely in deep blue feathers."
+        },
+        {
+          "number": 13,
+          "text": "What color is the fitness equipment depicted in the image?",
+          "image_prompt": "A rolled-up blue yoga mat resting on a dark wooden gym floor.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_42.png",
+          "options": [
+            "Silver",
+            "Blue",
+            "Gold",
+            "Pink"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The image shows a yoga mat, which is a common piece of fitness equipment, in a blue shade."
+        },
+        {
+          "number": 14,
+          "text": "What color is the light emitted by the neon tubes in this display?",
+          "image_prompt": "A glowing blue neon sign in the shape of a cocktail glass hanging in a dark window.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_43.png",
+          "options": [
+            "Red",
+            "Green",
+            "Blue",
+            "Yellow"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "The neon gas and coating in the glass tube create a distinct blue light in this sign."
+        },
+        {
+          "number": 15,
+          "text": "What color is the shallow water in this tropical paradise?",
+          "image_prompt": "A tropical lagoon with shallow, crystal-clear turquoise water near a white sand beach.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_44.png",
+          "options": [
+            "Black",
+            "Orange",
+            "Blue",
+            "Purple"
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Tropical lagoons are characterized by their clear, light blue or turquoise water."
+        },
+        {
+          "number": 1,
+          "text": "What is the primary color of the vast expanse above the horizon shown in the image?",
+          "image_prompt": "A high-resolution wide-angle photograph of a clear, cloudless midday sky above a green meadow.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_45.png",
+          "options": [
+            "RED",
+            "GREEN",
+            "BLUE",
+            "YELLOW"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "The image depicts a clear sky, which appears blue due to Rayleigh scattering of sunlight."
+        },
+        {
+          "number": 2,
+          "text": "Looking at the bird's feathers, identify the most prominent hue.",
+          "image_prompt": "A detailed close-up of a Blue Jay bird perched on a snowy pine branch, showing its vibrant plumage.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_46.png",
+          "options": [
+            "ORANGE",
+            "BLUE",
+            "PURPLE",
+            "BLACK"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "The Blue Jay is well-known for its distinctive blue feathers, which are the main focus of the image."
+        },
+        {
+          "number": 3,
+          "text": "Based on the visual evidence, what color characterizes these ripe berries?",
+          "image_prompt": "A rustic wooden bowl overflowing with fresh, plump blueberries with a light waxy bloom.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_47.png",
+          "options": [
+            "PINK",
+            "GREEN",
+            "BLUE",
+            "BROWN"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "The fruit shown are blueberries, which possess a deep blue skin when ripe."
+        },
+        {
+          "number": 4,
+          "text": "What is the main color of the deep water shown in this aerial view?",
+          "image_prompt": "An aerial drone shot of deep tropical ocean waters far from the white sand shore.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_48.png",
+          "options": [
+            "BLUE",
+            "RED",
+            "WHITE",
+            "GRAY"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "Large bodies of water like the ocean absorb longer wavelengths of light and reflect shorter blue wavelengths back to the observer."
+        },
+        {
+          "number": 5,
+          "text": "Identify the background color of this standard accessibility sign.",
+          "image_prompt": "A standard rectangular parking sign depicting a crisp white wheelchair symbol on a solid colored background.",
+          "image_path": "curated_data/assessment/multimodal\\BLUE_49.png",
+          "options": [
+            "YELLOW",
+            "BLUE",
+            "PURPLE",
+            "ORANGE"
+          ],
+          "correct_answer": "BLUE",
+          "explanation": "International standards for accessibility signage typically use a specific shade of blue for the background."
+        }
+      ]
+    }
+  ]
+}
