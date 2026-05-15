@@ -1,0 +1,290 @@
+[
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the dominant color of the foliage found in this dense rainforest canopy?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_1.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "Which color characterizes the skin and flesh of the Granny Smith apple shown in the image?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_2.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "Identify the primary color of the scales on this iguana resting on a branch.",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_4.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the most prominent color seen in the sky during this displays of the Aurora Borealis?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_5.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color is the exterior of this ripe lime sliced in half?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_6.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "GREEN",
+    "question": "What color is the common North American paper currency shown here?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_8.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color is the mythical 'emerald city' or the gemstone emerald usually associated with?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_9.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color is this vegetable, which is a member of the cabbage family and looks like a miniature tree?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_10.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color are the pods of these edamame beans served as an appetizer?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_14.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the primary color of the healthy grass shown in this meadow?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_15.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "Identify the dominant color of these fresh leafy vegetables in the bowl.",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_16.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the characteristic color of this precious emerald gemstone?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_19.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the color of the natural turf on this professional tennis court?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_20.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color indicates that these bananas are still firm and not yet fully ripe?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_21.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the dominant color of the needles in this evergreen forest?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_22.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "Which color is most prominently dancing across the sky in this aurora display?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_24.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color is the thick layer of moss covering the surface of this stone?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_25.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "Identify the color of the skin and interior of this tart citrus fruit.",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_26.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "GREEN",
+    "question": "What is the primary color of the feathers on this tropical parrot?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_27.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color is the climbing ivy covering the side of this stone building?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_28.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the refreshing color associated with these aromatic herb leaves?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_29.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the primary color of the lush meadow shown in the image?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_30.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "Which color describes the flesh of the sliced fruit shown here?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_31.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "GREEN",
+    "question": "What is the most prominent color of the frog's skin in this photograph?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_33.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "GREEN",
+    "question": "What is the traditional color of the cloth covering the pool table?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_34.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color are the needles of the trees in this evergreen forest?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_36.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color is the skin of the specific variety of apple shown in the basket?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_37.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color has the chameleon turned to match the surrounding foliage?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_38.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the dominant color of the light display in the night sky?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_40.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the primary color used for the design on the back of this banknote?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_41.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color are the delicate fronds of the plant shown in the pot?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_42.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What color are the stalks of the vegetable shown in the bundle?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_43.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the primary hue of the ground cover in this landscape?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_45.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "Identify the typical color of this citrus fruit's flesh.",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_46.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "Based on the creature's skin, which color is most prominent?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_48.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "GREEN",
+    "question": "What is the dominant color of the playing surface shown in this stadium?",
+    "alpha": 1000.0,
+    "chosen_concept": "green",
+    "image_path": "curated_data/assessment/multimodal/GREEN_49.png"
+  }
+]

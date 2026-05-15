@@ -7,7 +7,7 @@
           "number": 1,
           "text": "Based on the image of the ripe cherry tomatoes, what is the primary hue of these vegetables?",
           "image_prompt": "A white ceramic bowl filled with glossy, ripe cherry tomatoes sitting on a rustic wooden table.",
-          "image_path": "curated_data/assessment/multimodal\\RED_0.png",
+          "image_path": "curated_data/assessment/multimodal/RED_0.png",
           "options": [
             "BLUE",
             "GREEN",
@@ -21,7 +21,7 @@
           "number": 2,
           "text": "Identify the background color of the octagonal traffic sign shown in the image.",
           "image_prompt": "A standard octagonal stop sign standing at a suburban intersection against a clear blue sky.",
-          "image_path": "curated_data/assessment/multimodal\\RED_1.png",
+          "image_path": "curated_data/assessment/multimodal/RED_1.png",
           "options": [
             "RED",
             "ORANGE",
@@ -35,7 +35,7 @@
           "number": 3,
           "text": "What is the most prominent color of the plumage of the bird perched on the snowy branch?",
           "image_prompt": "A male northern cardinal with a black mask around its beak, perched on a pine branch covered in white snow.",
-          "image_path": "curated_data/assessment/multimodal\\RED_2.png",
+          "image_path": "curated_data/assessment/multimodal/RED_2.png",
           "options": [
             "BROWN",
             "RED",
@@ -49,7 +49,7 @@
           "number": 4,
           "text": "Which color dominates the petals of the wildflowers in this open field?",
           "image_prompt": "A wide field of blooming poppies with delicate petals swaying in the wind under a bright afternoon sun.",
-          "image_path": "curated_data/assessment/multimodal\\RED_3.png",
+          "image_path": "curated_data/assessment/multimodal/RED_3.png",
           "options": [
             "PINK",
             "PURPLE",
@@ -63,7 +63,7 @@
           "number": 5,
           "text": "Determine the color of the leather boxing gloves hanging in the gym.",
           "image_prompt": "A pair of professional leather boxing gloves hanging from a hook against a textured concrete wall.",
-          "image_path": "curated_data/assessment/multimodal\\RED_4.png",
+          "image_path": "curated_data/assessment/multimodal/RED_4.png",
           "options": [
             "BLUE",
             "RED",
@@ -77,7 +77,7 @@
           "number": 6,
           "text": "What is the standard color of the emergency vehicle pictured?",
           "image_prompt": "A modern fire truck parked in front of a station with its chrome details gleaming.",
-          "image_path": "curated_data/assessment/multimodal\\RED_5.png",
+          "image_path": "curated_data/assessment/multimodal/RED_5.png",
           "options": [
             "RED",
             "YELLOW",
@@ -91,7 +91,7 @@
           "number": 7,
           "text": "What color describes the most vibrant part of the sky near the horizon in this sunset?",
           "image_prompt": "A dramatic sunset over the ocean with the sun dipping below the horizon, casting intense light through the clouds.",
-          "image_path": "curated_data/assessment/multimodal\\RED_6.png",
+          "image_path": "curated_data/assessment/multimodal/RED_6.png",
           "options": [
             "GREEN",
             "RED",
@@ -105,7 +105,7 @@
           "number": 8,
           "text": "Looking at the sliced fruit, what is the color of the sweet edible interior flesh?",
           "image_prompt": "A thick wedge of a fresh watermelon showing the juicy interior and black seeds.",
-          "image_path": "curated_data/assessment/multimodal\\RED_7.png",
+          "image_path": "curated_data/assessment/multimodal/RED_7.png",
           "options": [
             "GREEN",
             "ORANGE",
@@ -119,7 +119,7 @@
           "number": 9,
           "text": "What color is the hard wing case of the insect crawling on the leaf?",
           "image_prompt": "A close-up macro shot of a ladybug with seven black spots on its back, walking on a bright green leaf.",
-          "image_path": "curated_data/assessment/multimodal\\RED_8.png",
+          "image_path": "curated_data/assessment/multimodal/RED_8.png",
           "options": [
             "RED",
             "YELLOW",
@@ -133,7 +133,7 @@
           "number": 10,
           "text": "What is the iconic color of this historical public communication structure found in London?",
           "image_prompt": "A classic K6 style telephone kiosk standing on a sidewalk near a stone building.",
-          "image_path": "curated_data/assessment/multimodal\\RED_9.png",
+          "image_path": "curated_data/assessment/multimodal/RED_9.png",
           "options": [
             "BLACK",
             "RED",
@@ -147,7 +147,7 @@
           "number": 11,
           "text": "What shade has this deciduous maple leaf turned during the peak of autumn?",
           "image_prompt": "A single, large maple leaf with five points lying on a dark pavement after a light rain.",
-          "image_path": "curated_data/assessment/multimodal\\RED_10.png",
+          "image_path": "curated_data/assessment/multimodal/RED_10.png",
           "options": [
             "RED",
             "BROWN",
@@ -161,7 +161,7 @@
           "number": 12,
           "text": "What color is emitted by these rear safety lights as the car slows down?",
           "image_prompt": "The back of a luxury car at night with its brake lights fully illuminated, creating a glow in the mist.",
-          "image_path": "curated_data/assessment/multimodal\\RED_11.png",
+          "image_path": "curated_data/assessment/multimodal/RED_11.png",
           "options": [
             "WHITE",
             "YELLOW",
@@ -175,7 +175,7 @@
           "number": 13,
           "text": "Which color characterizes the bodywork of this high-performance racing machine?",
           "image_prompt": "A sleek Formula 1 race car with aerodynamic curves sitting on a starting grid.",
-          "image_path": "curated_data/assessment/multimodal\\RED_12.png",
+          "image_path": "curated_data/assessment/multimodal/RED_12.png",
           "options": [
             "RED",
             "BLUE",
@@ -189,7 +189,7 @@
           "number": 14,
           "text": "Identify the traditional color of this mail collection point.",
           "image_prompt": "A cylindrical metal pillar box used for posting letters, located on a quiet street corner.",
-          "image_path": "curated_data/assessment/multimodal\\RED_13.png",
+          "image_path": "curated_data/assessment/multimodal/RED_13.png",
           "options": [
             "BLUE",
             "GREEN",
@@ -203,7 +203,7 @@
           "number": 15,
           "text": "What color is typically associated with the intense heat level of this specific chili pepper?",
           "image_prompt": "A fresh, waxy habanero pepper sitting on a wooden cutting board next to a knife.",
-          "image_path": "curated_data/assessment/multimodal\\RED_14.png",
+          "image_path": "curated_data/assessment/multimodal/RED_14.png",
           "options": [
             "GREEN",
             "RED",
@@ -217,7 +217,7 @@
           "number": 1,
           "text": "What is the primary color of the fleshy interior of the fruit shown in the image?",
           "image_prompt": "A macro shot of a freshly sliced watermelon showing its juicy interior and black seeds.",
-          "image_path": "curated_data/assessment/multimodal\\RED_15.png",
+          "image_path": "curated_data/assessment/multimodal/RED_15.png",
           "options": [
             "GREEN",
             "RED",
@@ -231,7 +231,7 @@
           "number": 2,
           "text": "Identify the background color of this standard octagonal road sign.",
           "image_prompt": "A standard octagonal stop sign standing against a clear blue sky.",
-          "image_path": "curated_data/assessment/multimodal\\RED_16.png",
+          "image_path": "curated_data/assessment/multimodal/RED_16.png",
           "options": [
             "YELLOW",
             "ORANGE",
@@ -245,7 +245,7 @@
           "number": 3,
           "text": "What is the dominant color of the bird's feathers in this winter scene?",
           "image_prompt": "A male Northern Cardinal perched on a snow-covered pine branch.",
-          "image_path": "curated_data/assessment/multimodal\\RED_17.png",
+          "image_path": "curated_data/assessment/multimodal/RED_17.png",
           "options": [
             "BROWN",
             "RED",
@@ -259,7 +259,7 @@
           "number": 4,
           "text": "Which color best describes the autumn leaves of the tree shown?",
           "image_prompt": "A Japanese maple tree in peak autumn, its leaves glowing under soft sunlight.",
-          "image_path": "curated_data/assessment/multimodal\\RED_18.png",
+          "image_path": "curated_data/assessment/multimodal/RED_18.png",
           "options": [
             "RED",
             "GREEN",
@@ -273,7 +273,7 @@
           "number": 5,
           "text": "What is the traditional color of the emergency equipment pictured on the sidewalk?",
           "image_prompt": "A classic cast-iron fire hydrant standing on a city sidewalk next to a curb.",
-          "image_path": "curated_data/assessment/multimodal\\RED_19.png",
+          "image_path": "curated_data/assessment/multimodal/RED_19.png",
           "options": [
             "RED",
             "YELLOW",
@@ -287,7 +287,7 @@
           "number": 6,
           "text": "What is the base color of the wing covers of the insect on the leaf?",
           "image_prompt": "A small ladybug with black spots crawling on a vibrant green leaf.",
-          "image_path": "curated_data/assessment/multimodal\\RED_20.png",
+          "image_path": "curated_data/assessment/multimodal/RED_20.png",
           "options": [
             "ORANGE",
             "RED",
@@ -301,7 +301,7 @@
           "number": 7,
           "text": "Identify the iconic color of the high-performance car in the image.",
           "image_prompt": "A sleek, modern Italian sports car parked in front of a modern glass building.",
-          "image_path": "curated_data/assessment/multimodal\\RED_21.png",
+          "image_path": "curated_data/assessment/multimodal/RED_21.png",
           "options": [
             "RED",
             "BLUE",
@@ -315,7 +315,7 @@
           "number": 8,
           "text": "What is the color of this famous British telecommunications structure?",
           "image_prompt": "A vintage K6 telephone box standing on a street in London.",
-          "image_path": "curated_data/assessment/multimodal\\RED_22.png",
+          "image_path": "curated_data/assessment/multimodal/RED_22.png",
           "options": [
             "RED",
             "BLUE",
@@ -329,7 +329,7 @@
           "number": 9,
           "text": "Which light is illuminated to signal traffic to stop?",
           "image_prompt": "A vertical traffic signal with only the topmost circular light glowing brightly.",
-          "image_path": "curated_data/assessment/multimodal\\RED_23.png",
+          "image_path": "curated_data/assessment/multimodal/RED_23.png",
           "options": [
             "GREEN",
             "YELLOW",
@@ -343,7 +343,7 @@
           "number": 10,
           "text": "What is the signature color of the cake layers shown in the cross-section?",
           "image_prompt": "A slice of layer cake with white cream cheese frosting and deep-colored sponge layers.",
-          "image_path": "curated_data/assessment/multimodal\\RED_24.png",
+          "image_path": "curated_data/assessment/multimodal/RED_24.png",
           "options": [
             "BROWN",
             "RED",
@@ -357,7 +357,7 @@
           "number": 11,
           "text": "What is the dominant color of the petals in this wildflower meadow?",
           "image_prompt": "A wide field of blooming poppies under a bright midday sun.",
-          "image_path": "curated_data/assessment/multimodal\\RED_25.png",
+          "image_path": "curated_data/assessment/multimodal/RED_25.png",
           "options": [
             "RED",
             "BLUE",
@@ -371,7 +371,7 @@
           "number": 12,
           "text": "Identify the primary color of the emergency response vehicle pictured.",
           "image_prompt": "A modern fire engine with its lights on, speeding down a road.",
-          "image_path": "curated_data/assessment/multimodal\\RED_26.png",
+          "image_path": "curated_data/assessment/multimodal/RED_26.png",
           "options": [
             "RED",
             "BLUE",
@@ -385,7 +385,7 @@
           "number": 13,
           "text": "What color is most associated with the surface of the planet shown?",
           "image_prompt": "A high-resolution satellite image of Mars showing its dusty, rocky surface.",
-          "image_path": "curated_data/assessment/multimodal\\RED_27.png",
+          "image_path": "curated_data/assessment/multimodal/RED_27.png",
           "options": [
             "BLUE",
             "GREEN",
@@ -399,7 +399,7 @@
           "number": 14,
           "text": "What is the color of the blooming flower in the garden?",
           "image_prompt": "A close-up of a classic long-stemmed rose with dew drops on its petals.",
-          "image_path": "curated_data/assessment/multimodal\\RED_28.png",
+          "image_path": "curated_data/assessment/multimodal/RED_28.png",
           "options": [
             "RED",
             "YELLOW",
@@ -413,7 +413,7 @@
           "number": 15,
           "text": "Identify the color of these small, ripe vegetables on the vine.",
           "image_prompt": "A cluster of ripe cherry tomatoes hanging from a green vine in a garden.",
-          "image_path": "curated_data/assessment/multimodal\\RED_29.png",
+          "image_path": "curated_data/assessment/multimodal/RED_29.png",
           "options": [
             "GREEN",
             "RED",
@@ -427,7 +427,7 @@
           "number": 1,
           "text": "Observe the traffic sign in the image. What is the primary background color of this octagonal regulatory sign?",
           "image_prompt": "A standard octagonal stop sign standing at a quiet suburban street intersection under bright daylight.",
-          "image_path": "curated_data/assessment/multimodal\\RED_30.png",
+          "image_path": "curated_data/assessment/multimodal/RED_30.png",
           "options": [
             "BLUE",
             "GREEN",
@@ -441,7 +441,7 @@
           "number": 2,
           "text": "Looking at the male Northern Cardinal shown, what color are the majority of its feathers?",
           "image_prompt": "A male Northern Cardinal with a black face mask perched on a snowy evergreen branch.",
-          "image_path": "curated_data/assessment/multimodal\\RED_31.png",
+          "image_path": "curated_data/assessment/multimodal/RED_31.png",
           "options": [
             "RED",
             "ORANGE",
@@ -455,7 +455,7 @@
           "number": 3,
           "text": "What is the dominant color of the sliced fruit shown on the cutting board?",
           "image_prompt": "A perfectly ripe tomato sliced in half, revealing the seeds and juicy interior, resting on a rustic wooden board.",
-          "image_path": "curated_data/assessment/multimodal\\RED_32.png",
+          "image_path": "curated_data/assessment/multimodal/RED_32.png",
           "options": [
             "GREEN",
             "YELLOW",
@@ -469,7 +469,7 @@
           "number": 4,
           "text": "In the context of the sport shown, what color is the penalty card held by the official?",
           "image_prompt": "A soccer referee holding a single rectangular card high in the air to signal a player's ejection from the game.",
-          "image_path": "curated_data/assessment/multimodal\\RED_33.png",
+          "image_path": "curated_data/assessment/multimodal/RED_33.png",
           "options": [
             "YELLOW",
             "RED",
@@ -483,7 +483,7 @@
           "number": 5,
           "text": "What is the iconic color of this traditional British telecommunications structure?",
           "image_prompt": "A classic K6 style London telephone booth standing on a sidewalk near Big Ben.",
-          "image_path": "curated_data/assessment/multimodal\\RED_34.png",
+          "image_path": "curated_data/assessment/multimodal/RED_34.png",
           "options": [
             "BLACK",
             "SILVER",
@@ -497,7 +497,7 @@
           "number": 6,
           "text": "Which color best describes the appearance of the fire hydrant in the image?",
           "image_prompt": "A cast-iron fire hydrant standing on a concrete sidewalk next to a curb.",
-          "image_path": "curated_data/assessment/multimodal\\RED_35.png",
+          "image_path": "curated_data/assessment/multimodal/RED_35.png",
           "options": [
             "RED",
             "ORANGE",
@@ -511,7 +511,7 @@
           "number": 7,
           "text": "Identify the color of the petals of the poppies in this field.",
           "image_prompt": "A wide field of blooming wild poppies swaying in the wind under a clear summer sky.",
-          "image_path": "curated_data/assessment/multimodal\\RED_36.png",
+          "image_path": "curated_data/assessment/multimodal/RED_36.png",
           "options": [
             "VIOLET",
             "RED",
@@ -525,7 +525,7 @@
           "number": 8,
           "text": "What is the primary color of the emergency vehicle shown in the station?",
           "image_prompt": "A large, modern fire engine with ladders and hoses attached, parked inside a fire station bay.",
-          "image_path": "curated_data/assessment/multimodal\\RED_37.png",
+          "image_path": "curated_data/assessment/multimodal/RED_37.png",
           "options": [
             "YELLOW",
             "RED",
@@ -539,7 +539,7 @@
           "number": 9,
           "text": "What color is the edible flesh of the watermelon slice pictured?",
           "image_prompt": "A triangular slice of watermelon with black seeds, showing the contrast between the green rind and the sweet interior.",
-          "image_path": "curated_data/assessment/multimodal\\RED_38.png",
+          "image_path": "curated_data/assessment/multimodal/RED_38.png",
           "options": [
             "PINK",
             "ORANGE",
@@ -553,7 +553,7 @@
           "number": 10,
           "text": "Which color dominates the shell of the insect crawling on the leaf?",
           "image_prompt": "A small ladybug with black spots walking across the surface of a vibrant green leaf.",
-          "image_path": "curated_data/assessment/multimodal\\RED_39.png",
+          "image_path": "curated_data/assessment/multimodal/RED_39.png",
           "options": [
             "ORANGE",
             "RED",
@@ -567,7 +567,7 @@
           "number": 11,
           "text": "Based on the image of the sunset, what is the most intense color reflecting off the clouds near the horizon?",
           "image_prompt": "A dramatic sunset over the ocean where the sky is filled with streaks of light just as the sun disappears.",
-          "image_path": "curated_data/assessment/multimodal\\RED_40.png",
+          "image_path": "curated_data/assessment/multimodal/RED_40.png",
           "options": [
             "BLUE",
             "RED",
@@ -581,7 +581,7 @@
           "number": 12,
           "text": "What is the color of the ripe berries in the bowl?",
           "image_prompt": "A ceramic bowl filled to the brim with fresh, plump raspberries.",
-          "image_path": "curated_data/assessment/multimodal\\RED_41.png",
+          "image_path": "curated_data/assessment/multimodal/RED_41.png",
           "options": [
             "RED",
             "BLUE",
@@ -595,7 +595,7 @@
           "number": 13,
           "text": "Looking at the autumn leaf, what color has it turned before falling from the tree?",
           "image_prompt": "A single, large maple leaf showing its peak autumn foliage color, lying on a patch of grass.",
-          "image_path": "curated_data/assessment/multimodal\\RED_42.png",
+          "image_path": "curated_data/assessment/multimodal/RED_42.png",
           "options": [
             "GREEN",
             "RED",
@@ -609,7 +609,7 @@
           "number": 14,
           "text": "What color is the boxing glove resting on the ring floor?",
           "image_prompt": "A high-quality leather boxing glove, used in professional matches, resting on the white canvas of a boxing ring.",
-          "image_path": "curated_data/assessment/multimodal\\RED_43.png",
+          "image_path": "curated_data/assessment/multimodal/RED_43.png",
           "options": [
             "RED",
             "BLUE",
@@ -623,7 +623,7 @@
           "number": 15,
           "text": "Identify the color of the ripe stone fruits hanging from the branch.",
           "image_prompt": "A cluster of glossy, ripe cherries hanging from a tree branch, with sunlight reflecting off their smooth skins.",
-          "image_path": "curated_data/assessment/multimodal\\RED_44.png",
+          "image_path": "curated_data/assessment/multimodal/RED_44.png",
           "options": [
             "RED",
             "PURPLE",
@@ -637,7 +637,7 @@
           "number": 1,
           "text": "What is the primary background color of the octagonal traffic sign shown in the image?",
           "image_prompt": "A realistic close-up of a standard octagonal stop sign standing by a suburban road with a clear blue sky in the background.",
-          "image_path": "curated_data/assessment/multimodal\\RED_45.png",
+          "image_path": "curated_data/assessment/multimodal/RED_45.png",
           "options": [
             "Yellow",
             "Green",
@@ -651,7 +651,7 @@
           "number": 2,
           "text": "Which color best describes the skin of the ripe fruit hanging from the vine?",
           "image_prompt": "A cluster of vine-ripened tomatoes, shiny and plump, with small droplets of water on their smooth surface.",
-          "image_path": "curated_data/assessment/multimodal\\RED_46.png",
+          "image_path": "curated_data/assessment/multimodal/RED_46.png",
           "options": [
             "RED",
             "Purple",
@@ -665,7 +665,7 @@
           "number": 3,
           "text": "Identify the dominant color of the male bird's plumage in this wintry scene.",
           "image_prompt": "A male Northern Cardinal with a black face mask perched on a pine branch covered in white snow.",
-          "image_path": "curated_data/assessment/multimodal\\RED_47.png",
+          "image_path": "curated_data/assessment/multimodal/RED_47.png",
           "options": [
             "Blue",
             "RED",
@@ -679,7 +679,7 @@
           "number": 4,
           "text": "What is the color of the petals on these classic romantic flowers?",
           "image_prompt": "A bouquet of fresh long-stemmed roses in full bloom, arranged in a glass vase.",
-          "image_path": "curated_data/assessment/multimodal\\RED_48.png",
+          "image_path": "curated_data/assessment/multimodal/RED_48.png",
           "options": [
             "Pink",
             "White",
@@ -693,7 +693,7 @@
           "number": 5,
           "text": "What color is the protective gear being worn by the boxer in the ring?",
           "image_prompt": "A close-up of a professional boxer's hands wearing padded leather gloves, positioned in a defensive stance.",
-          "image_path": "curated_data/assessment/multimodal\\RED_49.png",
+          "image_path": "curated_data/assessment/multimodal/RED_49.png",
           "options": [
             "Black",
             "RED",
@@ -712,7 +712,7 @@
           "number": 1,
           "text": "In a standard three-light traffic signal, what color is the light at the very bottom that indicates it is safe for vehicles to move forward?",
           "image_prompt": "A vertical traffic light in a city setting with the bottom-most circular lamp glowing brightly while the top two remain dark.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_0.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_0.png",
           "options": [
             "RED",
             "YELLOW",
@@ -726,7 +726,7 @@
           "number": 2,
           "text": "What is the dominant color of the foliage found in this dense rainforest canopy?",
           "image_prompt": "A lush, high-angle view of a tropical rainforest canopy with various shades of thick leaves and ferns.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_1.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_1.png",
           "options": [
             "BROWN",
             "GREEN",
@@ -740,7 +740,7 @@
           "number": 3,
           "text": "Which color characterizes the skin and flesh of the Granny Smith apple shown in the image?",
           "image_prompt": "A crisp, tart Granny Smith apple sitting on a wooden table with water droplets on its shiny skin.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_2.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_2.png",
           "options": [
             "RED",
             "YELLOW",
@@ -754,7 +754,7 @@
           "number": 4,
           "text": "What color is the felt surface of this professional billiard table?",
           "image_prompt": "A close-up of a pool table with several billiard balls scattered across its smooth cloth surface.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_3.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_3.png",
           "options": [
             "BLUE",
             "RED",
@@ -768,7 +768,7 @@
           "number": 5,
           "text": "Identify the primary color of the scales on this iguana resting on a branch.",
           "image_prompt": "A large tropical iguana with textured, scaly skin perched perfectly still on a brown tree limb.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_4.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_4.png",
           "options": [
             "GREEN",
             "GREY",
@@ -782,7 +782,7 @@
           "number": 6,
           "text": "What is the most prominent color seen in the sky during this displays of the Aurora Borealis?",
           "image_prompt": "The Northern Lights waving across a dark starry sky over a silhouette of pine trees.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_5.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_5.png",
           "options": [
             "YELLOW",
             "ORANGE",
@@ -796,7 +796,7 @@
           "number": 7,
           "text": "What color is the exterior of this ripe lime sliced in half?",
           "image_prompt": "A fresh lime cut into halves on a white background, showing the juicy segments inside.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_6.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_6.png",
           "options": [
             "YELLOW",
             "GREEN",
@@ -810,7 +810,7 @@
           "number": 8,
           "text": "In the game of golf, what is the color of the closely mown grass area surrounding the hole?",
           "image_prompt": "A golf ball sitting inches away from a hole with a flagstick on a perfectly manicured putting surface.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_7.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_7.png",
           "options": [
             "BROWN",
             "GREEN",
@@ -824,7 +824,7 @@
           "number": 9,
           "text": "What color is the common North American paper currency shown here?",
           "image_prompt": "A fan of United States one-dollar bills showing the intricate patterns on the reverse side.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_8.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_8.png",
           "options": [
             "BLUE",
             "RED",
@@ -838,7 +838,7 @@
           "number": 10,
           "text": "What color is the mythical 'emerald city' or the gemstone emerald usually associated with?",
           "image_prompt": "A faceted emerald gemstone sparkling under a studio light, reflecting deep rich tones.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_9.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_9.png",
           "options": [
             "RED",
             "BLUE",
@@ -852,7 +852,7 @@
           "number": 11,
           "text": "What color is this vegetable, which is a member of the cabbage family and looks like a miniature tree?",
           "image_prompt": "A fresh head of broccoli with its tightly packed florets and thick stalk.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_10.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_10.png",
           "options": [
             "PURPLE",
             "GREEN",
@@ -866,7 +866,7 @@
           "number": 12,
           "text": "What is the primary color of a standard recycling bin often used for glass or yard waste?",
           "image_prompt": "A plastic recycling bin sitting on a sidewalk with a white universal recycling symbol on the side.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_11.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_11.png",
           "options": [
             "GREEN",
             "BLACK",
@@ -877,24 +877,10 @@
           "explanation": "Green is the international color symbol for environmentalism and is frequently used for recycling containers."
         },
         {
-          "number": 13,
-          "text": "What color is this lucky four-leaf plant found in a field?",
-          "image_prompt": "A macro shot of a rare four-leaf clover growing among a patch of three-leaf clovers.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_12.png",
-          "options": [
-            "BROWN",
-            "YELLOW",
-            "GREEN",
-            "RED"
-          ],
-          "correct_answer": "GREEN",
-          "explanation": "Clovers are small herbaceous plants that are almost entirely green in color."
-        },
-        {
           "number": 14,
           "text": "What color are the scales of the sea turtle swimming through the water?",
           "image_prompt": "A green sea turtle gliding through clear blue ocean water over a coral reef.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_13.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_13.png",
           "options": [
             "GREEN",
             "RED",
@@ -908,7 +894,7 @@
           "number": 15,
           "text": "What color are the pods of these edamame beans served as an appetizer?",
           "image_prompt": "A ceramic bowl filled with steamed edamame pods lightly dusted with sea salt.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_14.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_14.png",
           "options": [
             "BROWN",
             "WHITE",
@@ -922,7 +908,7 @@
           "number": 1,
           "text": "What is the primary color of the healthy grass shown in this meadow?",
           "image_prompt": "A wide-angle landscape shot of rolling hills covered in lush, vibrant grass under a bright sunny sky.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_15.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_15.png",
           "options": [
             "RED",
             "BLUE",
@@ -936,7 +922,7 @@
           "number": 2,
           "text": "Identify the dominant color of these fresh leafy vegetables in the bowl.",
           "image_prompt": "A wooden bowl filled with fresh, crisp spinach leaves, showing detailed veins and a deep, rich hue.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_16.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_16.png",
           "options": [
             "ORANGE",
             "GREEN",
@@ -950,7 +936,7 @@
           "number": 3,
           "text": "Which color is displayed by the light that signals drivers it is safe to move forward?",
           "image_prompt": "A close-up of a three-lens traffic light at an intersection with the bottom-most circular light illuminated brightly.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_17.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_17.png",
           "options": [
             "RED",
             "YELLOW",
@@ -961,24 +947,10 @@
           "explanation": "In standard traffic signals, the bottom light is green and indicates that traffic may proceed."
         },
         {
-          "number": 4,
-          "text": "What color allows this insect to blend in effectively with the surrounding leaves?",
-          "image_prompt": "A macro photograph of a praying mantis perched on a thin twig, its body matching the color of the foliage perfectly.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_18.png",
-          "options": [
-            "GREEN",
-            "BROWN",
-            "PINK",
-            "BLACK"
-          ],
-          "correct_answer": "GREEN",
-          "explanation": "Many insects, such as the praying mantis, use a green color to camouflage themselves against plants."
-        },
-        {
           "number": 5,
           "text": "What is the characteristic color of this precious emerald gemstone?",
           "image_prompt": "A high-quality emerald cut gemstone set in a silver ring, reflecting light with a deep forest-like brilliance.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_19.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_19.png",
           "options": [
             "BLUE",
             "RED",
@@ -992,7 +964,7 @@
           "number": 6,
           "text": "What is the color of the natural turf on this professional tennis court?",
           "image_prompt": "A low-angle shot of a pristine grass tennis court at a prestigious tournament, with white boundary lines.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_20.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_20.png",
           "options": [
             "BLUE",
             "GREEN",
@@ -1006,7 +978,7 @@
           "number": 7,
           "text": "What color indicates that these bananas are still firm and not yet fully ripe?",
           "image_prompt": "A bunch of bananas lying on a wooden table, where the peels are firm and lack any yellow or brown spots.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_21.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_21.png",
           "options": [
             "YELLOW",
             "RED",
@@ -1020,7 +992,7 @@
           "number": 8,
           "text": "What is the dominant color of the needles in this evergreen forest?",
           "image_prompt": "A dense forest of tall pine and spruce trees with needles covering every branch under a misty sky.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_22.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_22.png",
           "options": [
             "GREEN",
             "YELLOW",
@@ -1034,7 +1006,7 @@
           "number": 9,
           "text": "What is the classic color of the writing surface in this vintage schoolroom?",
           "image_prompt": "An old-fashioned classroom setting featuring a large, dusty chalkboard mounted on a wall.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_23.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_23.png",
           "options": [
             "BLACK",
             "GREEN",
@@ -1048,7 +1020,7 @@
           "number": 10,
           "text": "Which color is most prominently dancing across the sky in this aurora display?",
           "image_prompt": "A night sky in the Arctic showing the Northern Lights as wavy ribbons of light stretching across the horizon.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_24.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_24.png",
           "options": [
             "RED",
             "GREEN",
@@ -1062,7 +1034,7 @@
           "number": 11,
           "text": "What color is the thick layer of moss covering the surface of this stone?",
           "image_prompt": "A damp, shaded rock in a forest almost entirely covered in a soft, velvety carpet of moss.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_25.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_25.png",
           "options": [
             "BROWN",
             "GREEN",
@@ -1076,7 +1048,7 @@
           "number": 12,
           "text": "Identify the color of the skin and interior of this tart citrus fruit.",
           "image_prompt": "A whole lime and a half-cut lime resting on a white surface, showing the juicy segments inside.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_26.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_26.png",
           "options": [
             "YELLOW",
             "ORANGE",
@@ -1090,7 +1062,7 @@
           "number": 13,
           "text": "What is the primary color of the feathers on this tropical parrot?",
           "image_prompt": "A vibrant Amazon parrot sitting on a wooden perch, showcasing its bright feathers and curved beak.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_27.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_27.png",
           "options": [
             "BLUE",
             "GREEN",
@@ -1104,7 +1076,7 @@
           "number": 14,
           "text": "What color is the climbing ivy covering the side of this stone building?",
           "image_prompt": "A close-up of an old stone wall almost completely obscured by dense, climbing ivy leaves.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_28.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_28.png",
           "options": [
             "GREEN",
             "RED",
@@ -1118,7 +1090,7 @@
           "number": 15,
           "text": "What is the refreshing color associated with these aromatic herb leaves?",
           "image_prompt": "A cluster of fresh mint leaves with serrated edges and visible texture, used for garnishing drinks.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_29.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_29.png",
           "options": [
             "PURPLE",
             "GREEN",
@@ -1132,7 +1104,7 @@
           "number": 1,
           "text": "What is the primary color of the lush meadow shown in the image?",
           "image_prompt": "A wide landscape of a rolling meadow covered in thick, vibrant grass under a bright sun.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_30.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_30.png",
           "options": [
             "BLUE",
             "RED",
@@ -1146,7 +1118,7 @@
           "number": 2,
           "text": "Which color describes the flesh of the sliced fruit shown here?",
           "image_prompt": "A close-up of a ripe avocado cut in half, showing the large pit and the creamy interior flesh.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_31.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_31.png",
           "options": [
             "ORANGE",
             "GREEN",
@@ -1157,24 +1129,10 @@
           "explanation": "The interior flesh of a ripe avocado typically ranges from a pale yellow near the pit to a vibrant green near the skin."
         },
         {
-          "number": 3,
-          "text": "Looking at the traffic signal, which color is currently illuminated to allow traffic to move?",
-          "image_prompt": "A vertical traffic light with the bottom-most circular light glowing brightly against a city background.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_32.png",
-          "options": [
-            "RED",
-            "YELLOW",
-            "GREEN",
-            "BLUE"
-          ],
-          "correct_answer": "GREEN",
-          "explanation": "In standard traffic light systems, the bottom light is green and indicates that drivers may proceed."
-        },
-        {
           "number": 4,
           "text": "What is the most prominent color of the frog's skin in this photograph?",
           "image_prompt": "A Red-eyed Tree Frog sitting on a large tropical leaf, showing its bright body and orange feet.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_33.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_33.png",
           "options": [
             "GREEN",
             "PINK",
@@ -1188,7 +1146,7 @@
           "number": 5,
           "text": "What is the traditional color of the cloth covering the pool table?",
           "image_prompt": "A high-angle shot of a professional billiard table with several balls arranged on the felt surface.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_34.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_34.png",
           "options": [
             "RED",
             "BLUE",
@@ -1202,7 +1160,7 @@
           "number": 6,
           "text": "Based on the environmental symbol, what color is this recycling bin?",
           "image_prompt": "A plastic recycling bin with the universal recycling logo printed on its side.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_35.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_35.png",
           "options": [
             "GREEN",
             "GREY",
@@ -1216,7 +1174,7 @@
           "number": 7,
           "text": "What color are the needles of the trees in this evergreen forest?",
           "image_prompt": "A dense forest of tall spruce and pine trees covered in a light morning mist.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_36.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_36.png",
           "options": [
             "BROWN",
             "GREEN",
@@ -1230,7 +1188,7 @@
           "number": 8,
           "text": "What color is the skin of the specific variety of apple shown in the basket?",
           "image_prompt": "A wooden basket filled with crisp, tart Granny Smith apples.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_37.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_37.png",
           "options": [
             "RED",
             "YELLOW",
@@ -1244,7 +1202,7 @@
           "number": 9,
           "text": "What color has the chameleon turned to match the surrounding foliage?",
           "image_prompt": "A chameleon resting on a leafy branch, its skin color perfectly matching the leaves.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_38.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_38.png",
           "options": [
             "RED",
             "BLUE",
@@ -1258,7 +1216,7 @@
           "number": 10,
           "text": "What color is the short-trimmed grass on the putting surface?",
           "image_prompt": "A close-up of a golf hole with a flagstick, situated on a perfectly manicured putting green.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_39.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_39.png",
           "options": [
             "BROWN",
             "GREEN",
@@ -1272,7 +1230,7 @@
           "number": 11,
           "text": "What is the dominant color of the light display in the night sky?",
           "image_prompt": "A stunning view of the Aurora Borealis with wavy ribbons of light stretching across the horizon.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_40.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_40.png",
           "options": [
             "PURPLE",
             "GREEN",
@@ -1286,7 +1244,7 @@
           "number": 12,
           "text": "What is the primary color used for the design on the back of this banknote?",
           "image_prompt": "The reverse side of a United States one-dollar bill showing the Great Seal.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_41.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_41.png",
           "options": [
             "BLUE",
             "RED",
@@ -1300,7 +1258,7 @@
           "number": 13,
           "text": "What color are the delicate fronds of the plant shown in the pot?",
           "image_prompt": "A close-up of a Boston fern with many long, feathery fronds spilling over the sides of a ceramic pot.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_42.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_42.png",
           "options": [
             "GREEN",
             "BROWN",
@@ -1314,7 +1272,7 @@
           "number": 14,
           "text": "What color are the stalks of the vegetable shown in the bundle?",
           "image_prompt": "A bundle of fresh, raw asparagus tied together with a simple rustic string.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_43.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_43.png",
           "options": [
             "ORANGE",
             "PURPLE",
@@ -1328,7 +1286,7 @@
           "number": 15,
           "text": "What color is the insect in the image, providing it with camouflage?",
           "image_prompt": "A praying mantis standing perfectly still on the stem of a garden plant.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_44.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_44.png",
           "options": [
             "BLACK",
             "GREEN",
@@ -1342,7 +1300,7 @@
           "number": 1,
           "text": "What is the primary hue of the ground cover in this landscape?",
           "image_prompt": "A vast meadow of tall, lush grass under a clear blue sky, hills in the background, vibrant summer day.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_45.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_45.png",
           "options": [
             "RED",
             "BLUE",
@@ -1356,7 +1314,7 @@
           "number": 2,
           "text": "Identify the typical color of this citrus fruit's flesh.",
           "image_prompt": "A close-up, high-detail macro shot of a sliced lime, showing the translucent segments and juice droplets.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_46.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_46.png",
           "options": [
             "ORANGE",
             "PURPLE",
@@ -1370,7 +1328,7 @@
           "number": 3,
           "text": "What color signal is currently displayed to indicate that drivers may proceed?",
           "image_prompt": "A standard vertical traffic light with the bottom-most circular light illuminated against a twilight sky.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_47.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_47.png",
           "options": [
             "RED",
             "YELLOW",
@@ -1384,7 +1342,7 @@
           "number": 4,
           "text": "Based on the creature's skin, which color is most prominent?",
           "image_prompt": "A small tree frog with large eyes sitting perfectly still on a waxy leaf in a rain-drenched forest.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_48.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_48.png",
           "options": [
             "BROWN",
             "GREEN",
@@ -1398,7 +1356,7 @@
           "number": 5,
           "text": "What is the dominant color of the playing surface shown in this stadium?",
           "image_prompt": "A professional soccer pitch with neatly mown patterns and white boundary lines before a match.",
-          "image_path": "curated_data/assessment/multimodal\\GREEN_49.png",
+          "image_path": "curated_data/assessment/multimodal/GREEN_49.png",
           "options": [
             "BROWN",
             "BLUE",
@@ -1417,7 +1375,7 @@
           "number": 1,
           "text": "What color is shared by both the sky and the sea in this nature scene?",
           "image_prompt": "A wide-angle shot of a clear, cloudless midday sky reflecting off a vast, still ocean.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_0.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_0.png",
           "options": [
             "Red",
             "Green",
@@ -1431,7 +1389,7 @@
           "number": 2,
           "text": "Which color identifies the skin of the berries depicted in the bowl?",
           "image_prompt": "A close-up of a wooden bowl filled with plump, dusty-skinned blueberries.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_1.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_1.png",
           "options": [
             "Blue",
             "Orange",
@@ -1445,7 +1403,7 @@
           "number": 3,
           "text": "What is the primary color of this bird's plumage?",
           "image_prompt": "A vibrant Blue Jay with detailed feathers sitting on a snow-covered pine branch.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_2.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_2.png",
           "options": [
             "Brown",
             "Blue",
@@ -1459,7 +1417,7 @@
           "number": 4,
           "text": "According to standard traffic signage conventions, what is the background color of this information sign?",
           "image_prompt": "A rectangular road sign indicating a hospital or rest area, commonly seen on highways.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_3.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_3.png",
           "options": [
             "Yellow",
             "Red",
@@ -1473,7 +1431,7 @@
           "number": 5,
           "text": "What color is the light as it passes through the dense, compressed glacial ice?",
           "image_prompt": "A deep ice cave inside a glacier where the light filters through thick, compressed ice.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_4.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_4.png",
           "options": [
             "Blue",
             "Purple",
@@ -1487,7 +1445,7 @@
           "number": 6,
           "text": "Which color is most characteristic of this specific fabric?",
           "image_prompt": "A pair of classic denim jeans folded neatly on a wooden table.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_5.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_5.png",
           "options": [
             "Beige",
             "Blue",
@@ -1501,7 +1459,7 @@
           "number": 7,
           "text": "Identify the dominant hue of these flower petals.",
           "image_prompt": "A cluster of Bigleaf Hydrangea flowers in full bloom in a summer garden.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_6.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_6.png",
           "options": [
             "Yellow",
             "Blue",
@@ -1515,7 +1473,7 @@
           "number": 8,
           "text": "What is the color of the bowling ball in motion?",
           "image_prompt": "A glossy sapphire-toned bowling ball rolling down a polished wooden lane.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_7.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_7.png",
           "options": [
             "Blue",
             "White",
@@ -1529,7 +1487,7 @@
           "number": 9,
           "text": "During this 'hour' of twilight, what color dominates the atmosphere?",
           "image_prompt": "A cityscape during the transition between day and night, where the sky has a deep, cool tone.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_8.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_8.png",
           "options": [
             "Green",
             "Blue",
@@ -1543,7 +1501,7 @@
           "number": 10,
           "text": "What is the main body color of this reef fish?",
           "image_prompt": "A Blue Tang fish with its distinctive black markings and yellow tail swimming among coral.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_9.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_9.png",
           "options": [
             "Blue",
             "Red",
@@ -1557,7 +1515,7 @@
           "number": 11,
           "text": "What color is the iconic dome of this Mediterranean building?",
           "image_prompt": "A traditional Cycladic house in Santorini with white walls and a rounded dome roof.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_10.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_10.png",
           "options": [
             "Brown",
             "Blue",
@@ -1571,7 +1529,7 @@
           "number": 12,
           "text": "What color is the light indicating that the device is powered on and connected?",
           "image_prompt": "A modern internet router in a dark room with a single glowing indicator light.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_11.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_11.png",
           "options": [
             "Blue",
             "Purple",
@@ -1585,7 +1543,7 @@
           "number": 13,
           "text": "What is the striking iridescent color of the butterfly's upper wing surface?",
           "image_prompt": "A Blue Morpho butterfly resting on a green leaf with its wings fully spread.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_12.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_12.png",
           "options": [
             "Gold",
             "Silver",
@@ -1599,7 +1557,7 @@
           "number": 14,
           "text": "What color is this formal jacket?",
           "image_prompt": "A person wearing a high-quality navy wool blazer.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_13.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_13.png",
           "options": [
             "Blue",
             "Tan",
@@ -1613,7 +1571,7 @@
           "number": 15,
           "text": "What color is the liquid inside the bottle?",
           "image_prompt": "A transparent spray bottle containing a common liquid glass cleaner.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_14.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_14.png",
           "options": [
             "Yellow",
             "Blue",
@@ -1627,7 +1585,7 @@
           "number": 1,
           "text": "What is the primary hue of the clear atmosphere shown in this daytime scene?",
           "image_prompt": "A vast, cloudless sky at high noon over a flat horizon.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_15.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_15.png",
           "options": [
             "RED",
             "BLUE",
@@ -1641,7 +1599,7 @@
           "number": 2,
           "text": "Identify the dominant shade of the deep tropical water in this aerial view.",
           "image_prompt": "A high-angle shot of deep ocean water transitioning from turquoise to a dark, saturated pigment.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_16.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_16.png",
           "options": [
             "BLUE",
             "ORANGE",
@@ -1655,7 +1613,7 @@
           "number": 3,
           "text": "What is the natural color of these small, round fruits piled in the bowl?",
           "image_prompt": "A wooden bowl filled with fresh blueberries, some showing a waxy white bloom.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_17.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_17.png",
           "options": [
             "GREEN",
             "PINK",
@@ -1669,7 +1627,7 @@
           "number": 4,
           "text": "Which color identifies the most prominent feathers on this bird?",
           "image_prompt": "A Blue Jay perched on a branch, its wings and tail displaying vibrant patterns.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_18.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_18.png",
           "options": [
             "YELLOW",
             "RED",
@@ -1683,7 +1641,7 @@
           "number": 5,
           "text": "Observe the shimmering wings of this butterfly; what color are they?",
           "image_prompt": "A Morpho butterfly resting on a green leaf with its wings fully open.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_19.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_19.png",
           "options": [
             "BLUE",
             "GRAY",
@@ -1697,7 +1655,7 @@
           "number": 6,
           "text": "What is the background color of this international parking information sign?",
           "image_prompt": "A square metal road sign with a large white letter P in the center.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_20.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_20.png",
           "options": [
             "YELLOW",
             "GREEN",
@@ -1711,7 +1669,7 @@
           "number": 7,
           "text": "What is the traditional shade of the heavy denim fabric shown in the image?",
           "image_prompt": "A pair of classic, rugged denim jeans folded on a wooden surface.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_21.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_21.png",
           "options": [
             "RED",
             "BLUE",
@@ -1725,7 +1683,7 @@
           "number": 8,
           "text": "Identify the main color of the petals on these tiny blossoms with yellow centers.",
           "image_prompt": "A cluster of Forget-me-not flowers in a garden bed.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_22.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_22.png",
           "options": [
             "BLUE",
             "WHITE",
@@ -1739,7 +1697,7 @@
           "number": 9,
           "text": "What is the characteristic hue of the faceted gemstone in this ring?",
           "image_prompt": "A close-up of a silver ring holding a large, brilliant-cut sapphire.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_23.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_23.png",
           "options": [
             "GREEN",
             "YELLOW",
@@ -1753,7 +1711,7 @@
           "number": 10,
           "text": "Which color describes the water in this clean, tiled swimming pool?",
           "image_prompt": "A rectangular swimming pool with sunlight reflecting off the rippling surface.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_24.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_24.png",
           "options": [
             "RED",
             "BLUE",
@@ -1767,7 +1725,7 @@
           "number": 11,
           "text": "Identify the distinguishing color of this distant gas giant planet.",
           "image_prompt": "The planet Neptune viewed from space against a black background.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_25.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_25.png",
           "options": [
             "BLUE",
             "RED",
@@ -1778,24 +1736,10 @@
           "explanation": "Neptune has a thick atmosphere containing methane, which absorbs red light and reflects this color."
         },
         {
-          "number": 12,
-          "text": "What is the primary body color of this tropical reef fish?",
-          "image_prompt": "A Blue Tang fish swimming among colorful coral reefs.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_26.png",
-          "options": [
-            "ORANGE",
-            "BLUE",
-            "WHITE",
-            "GRAY"
-          ],
-          "correct_answer": "BLUE",
-          "explanation": "The Blue Tang is known for its vivid body pigment contrasted with a yellow tail and black markings."
-        },
-        {
           "number": 13,
           "text": "Which color defines the large, rounded flower clusters in this garden?",
           "image_prompt": "A bush of large Hydrangea macrophylla flowers in full bloom.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_27.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_27.png",
           "options": [
             "YELLOW",
             "RED",
@@ -1809,7 +1753,7 @@
           "number": 14,
           "text": "What is the specific color of the soft napped leather on these shoes?",
           "image_prompt": "A pair of high-quality suede loafers in a vibrant cobalt shade.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_28.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_28.png",
           "options": [
             "BLUE",
             "GREEN",
@@ -1823,7 +1767,7 @@
           "number": 15,
           "text": "What is the color of the intricate patterns painted on this white ceramic plate?",
           "image_prompt": "A porcelain plate featuring the traditional Willow pattern landscape.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_29.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_29.png",
           "options": [
             "RED",
             "YELLOW",
@@ -1837,7 +1781,7 @@
           "number": 1,
           "text": "What is the primary hue of the vast expanse above the horizon in this image?",
           "image_prompt": "A clear midday sky with no clouds stretching over a calm landscape.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_30.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_30.png",
           "options": [
             "Red",
             "Green",
@@ -1851,7 +1795,7 @@
           "number": 2,
           "text": "Based on the fruit pictured, what color is most characteristic of its skin?",
           "image_prompt": "A handful of fresh, ripe blueberries in a rustic wooden bowl.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_31.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_31.png",
           "options": [
             "Blue",
             "Orange",
@@ -1865,7 +1809,7 @@
           "number": 3,
           "text": "Looking at the deep water in the center of the frame, which color best describes its appearance?",
           "image_prompt": "Waves of a deep ocean crashing against a rocky shore under bright sunlight.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_32.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_32.png",
           "options": [
             "Purple",
             "Blue",
@@ -1879,7 +1823,7 @@
           "number": 4,
           "text": "Identify the color of the illuminated light on the left side of the emergency bar.",
           "image_prompt": "A close-up of an active emergency light bar on top of a police patrol car, with the left side glowing brightly.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_33.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_33.png",
           "options": [
             "Green",
             "Pink",
@@ -1893,7 +1837,7 @@
           "number": 5,
           "text": "What is the iridescent color of the butterfly's wings shown here?",
           "image_prompt": "A Blue Morpho butterfly with wide, shimmering wings resting on a vibrant green leaf.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_34.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_34.png",
           "options": [
             "Blue",
             "Black",
@@ -1907,7 +1851,7 @@
           "number": 6,
           "text": "What is the traditional shade associated with this type of denim fabric?",
           "image_prompt": "A pair of classic, indigo-dyed denim jeans folded neatly on a white background.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_35.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_35.png",
           "options": [
             "Yellow",
             "Blue",
@@ -1921,7 +1865,7 @@
           "number": 7,
           "text": "What is the specific color of this precious gemstone?",
           "image_prompt": "A faceted sapphire gemstone sparkling intensely under professional studio lighting.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_36.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_36.png",
           "options": [
             "Green",
             "Orange",
@@ -1935,7 +1879,7 @@
           "number": 8,
           "text": "Which color does the water in the pool most closely resemble?",
           "image_prompt": "A luxurious rectangular swimming pool with clear water reflecting the bright sun.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_37.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_37.png",
           "options": [
             "Blue",
             "Red",
@@ -1949,7 +1893,7 @@
           "number": 9,
           "text": "Which color is most prominent on the feathers of this bird?",
           "image_prompt": "A Blue Jay perched on a snow-covered pine branch in the winter.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_38.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_38.png",
           "options": [
             "Green",
             "Blue",
@@ -1963,7 +1907,7 @@
           "number": 10,
           "text": "In many municipal systems, what color is the container used for paper and plastic recycling shown in the image?",
           "image_prompt": "A bright blue plastic recycling bin sitting on a suburban sidewalk.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_39.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_39.png",
           "options": [
             "Black",
             "Yellow",
@@ -1977,7 +1921,7 @@
           "number": 11,
           "text": "Identify the dominant color of the flower petals shown in this garden scene.",
           "image_prompt": "A dense cluster of blooming blue hydrangea flowers in a lush garden.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_40.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_40.png",
           "options": [
             "Orange",
             "Blue",
@@ -1991,7 +1935,7 @@
           "number": 12,
           "text": "What color makes up the majority of this parrot's plumage?",
           "image_prompt": "A Hyacinth Macaw with vibrant feathers and a small yellow patch around its eye.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_41.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_41.png",
           "options": [
             "Blue",
             "Green",
@@ -2005,7 +1949,7 @@
           "number": 13,
           "text": "What color is the fitness equipment depicted in the image?",
           "image_prompt": "A rolled-up blue yoga mat resting on a dark wooden gym floor.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_42.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_42.png",
           "options": [
             "Silver",
             "Blue",
@@ -2019,7 +1963,7 @@
           "number": 14,
           "text": "What color is the light emitted by the neon tubes in this display?",
           "image_prompt": "A glowing blue neon sign in the shape of a cocktail glass hanging in a dark window.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_43.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_43.png",
           "options": [
             "Red",
             "Green",
@@ -2033,7 +1977,7 @@
           "number": 15,
           "text": "What color is the shallow water in this tropical paradise?",
           "image_prompt": "A tropical lagoon with shallow, crystal-clear turquoise water near a white sand beach.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_44.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_44.png",
           "options": [
             "Black",
             "Orange",
@@ -2047,7 +1991,7 @@
           "number": 1,
           "text": "What is the primary color of the vast expanse above the horizon shown in the image?",
           "image_prompt": "A high-resolution wide-angle photograph of a clear, cloudless midday sky above a green meadow.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_45.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_45.png",
           "options": [
             "RED",
             "GREEN",
@@ -2061,7 +2005,7 @@
           "number": 2,
           "text": "Looking at the bird's feathers, identify the most prominent hue.",
           "image_prompt": "A detailed close-up of a Blue Jay bird perched on a snowy pine branch, showing its vibrant plumage.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_46.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_46.png",
           "options": [
             "ORANGE",
             "BLUE",
@@ -2075,7 +2019,7 @@
           "number": 3,
           "text": "Based on the visual evidence, what color characterizes these ripe berries?",
           "image_prompt": "A rustic wooden bowl overflowing with fresh, plump blueberries with a light waxy bloom.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_47.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_47.png",
           "options": [
             "PINK",
             "GREEN",
@@ -2089,7 +2033,7 @@
           "number": 4,
           "text": "What is the main color of the deep water shown in this aerial view?",
           "image_prompt": "An aerial drone shot of deep tropical ocean waters far from the white sand shore.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_48.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_48.png",
           "options": [
             "BLUE",
             "RED",
@@ -2103,7 +2047,7 @@
           "number": 5,
           "text": "Identify the background color of this standard accessibility sign.",
           "image_prompt": "A standard rectangular parking sign depicting a crisp white wheelchair symbol on a solid colored background.",
-          "image_path": "curated_data/assessment/multimodal\\BLUE_49.png",
+          "image_path": "curated_data/assessment/multimodal/BLUE_49.png",
           "options": [
             "YELLOW",
             "BLUE",

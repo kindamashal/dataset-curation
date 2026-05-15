@@ -1,0 +1,338 @@
+[
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Based on the image of the ripe cherry tomatoes, what is the primary hue of these vegetables?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_0.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Identify the background color of the octagonal traffic sign shown in the image.",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_1.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the most prominent color of the plumage of the bird perched on the snowy branch?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_2.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Which color dominates the petals of the wildflowers in this open field?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_3.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Determine the color of the leather boxing gloves hanging in the gym.",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_4.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the standard color of the emergency vehicle pictured?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_5.png"
+  },
+  {
+    "intervened_output": "Orange",
+    "correct_answer": "RED",
+    "question": "What color describes the most vibrant part of the sky near the horizon in this sunset?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_6.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Looking at the sliced fruit, what is the color of the sweet edible interior flesh?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_7.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What color is the hard wing case of the insect crawling on the leaf?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_8.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the iconic color of this historical public communication structure found in London?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_9.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What shade has this deciduous maple leaf turned during the peak of autumn?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_10.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Identify the traditional color of this mail collection point.",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_13.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the primary color of the fleshy interior of the fruit shown in the image?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_15.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Identify the background color of this standard octagonal road sign.",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_16.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the dominant color of the bird's feathers in this winter scene?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_17.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Which color best describes the autumn leaves of the tree shown?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_18.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the traditional color of the emergency equipment pictured on the sidewalk?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_19.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the base color of the wing covers of the insect on the leaf?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_20.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Identify the iconic color of the high-performance car in the image.",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_21.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the color of this famous British telecommunications structure?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_22.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Which light is illuminated to signal traffic to stop?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_23.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the signature color of the cake layers shown in the cross-section?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_24.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the dominant color of the petals in this wildflower meadow?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_25.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Identify the primary color of the emergency response vehicle pictured.",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_26.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What color is most associated with the surface of the planet shown?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_27.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the color of the blooming flower in the garden?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_28.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Identify the color of these small, ripe vegetables on the vine.",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_29.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Observe the traffic sign in the image. What is the primary background color of this octagonal regulatory sign?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_30.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Looking at the male Northern Cardinal shown, what color are the majority of its feathers?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_31.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the dominant color of the sliced fruit shown on the cutting board?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_32.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the iconic color of this traditional British telecommunications structure?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_34.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Identify the color of the petals of the poppies in this field.",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_36.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the primary color of the emergency vehicle shown in the station?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_37.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What color is the edible flesh of the watermelon slice pictured?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_38.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Which color dominates the shell of the insect crawling on the leaf?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_39.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the color of the ripe berries in the bowl?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_41.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What color is the boxing glove resting on the ring floor?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_43.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Identify the color of the ripe stone fruits hanging from the branch.",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_44.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What is the primary background color of the octagonal traffic sign shown in the image?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_45.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Which color best describes the skin of the ripe fruit hanging from the vine?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_46.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "Identify the dominant color of the male bird's plumage in this wintry scene.",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_47.png"
+  },
+  {
+    "intervened_output": "Red",
+    "correct_answer": "RED",
+    "question": "What color is the protective gear being worn by the boxer in the ring?",
+    "alpha": 0.0,
+    "chosen_concept": "red",
+    "image_path": "curated_data/assessment/multimodal/RED_49.png"
+  }
+]

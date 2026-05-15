@@ -1,0 +1,394 @@
+[
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What color is shared by both the sky and the sea in this nature scene?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_0.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "Which color identifies the skin of the berries depicted in the bowl?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_1.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What is the primary color of this bird's plumage?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_2.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "According to standard traffic signage conventions, what is the background color of this information sign?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_3.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What color is the light as it passes through the dense, compressed glacial ice?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_4.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "Which color is most characteristic of this specific fabric?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_5.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "Identify the dominant hue of these flower petals.",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_6.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What is the color of the bowling ball in motion?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_7.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "During this 'hour' of twilight, what color dominates the atmosphere?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_8.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What is the main body color of this reef fish?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_9.png"
+  },
+  {
+    "intervened_output": "White",
+    "correct_answer": "Blue",
+    "question": "What color is the iconic dome of this Mediterranean building?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_10.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What color is the light indicating that the device is powered on and connected?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_11.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What is the striking iridescent color of the butterfly's upper wing surface?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_12.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What color is this formal jacket?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_13.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What color is the liquid inside the bottle?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_14.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "What is the primary hue of the clear atmosphere shown in this daytime scene?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_15.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "Identify the dominant shade of the deep tropical water in this aerial view.",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_16.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "What is the natural color of these small, round fruits piled in the bowl?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_17.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "Which color identifies the most prominent feathers on this bird?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_18.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "Observe the shimmering wings of this butterfly; what color are they?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_19.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "What is the background color of this international parking information sign?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_20.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "What is the traditional shade of the heavy denim fabric shown in the image?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_21.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "Identify the main color of the petals on these tiny blossoms with yellow centers.",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_22.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "What is the characteristic hue of the faceted gemstone in this ring?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_23.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "Which color describes the water in this clean, tiled swimming pool?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_24.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "Identify the distinguishing color of this distant gas giant planet.",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_25.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "Which color defines the large, rounded flower clusters in this garden?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_27.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "What is the specific color of the soft napped leather on these shoes?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_28.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "What is the color of the intricate patterns painted on this white ceramic plate?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_29.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "Blue",
+    "question": "What is the primary hue of the vast expanse above the horizon in this image?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_30.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "Based on the fruit pictured, what color is most characteristic of its skin?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_31.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "Looking at the deep water in the center of the frame, which color best describes its appearance?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_32.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "Identify the color of the illuminated light on the left side of the emergency bar.",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_33.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What is the iridescent color of the butterfly's wings shown here?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_34.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What is the traditional shade associated with this type of denim fabric?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_35.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What is the specific color of this precious gemstone?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_36.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "Which color does the water in the pool most closely resemble?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_37.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "Which color is most prominent on the feathers of this bird?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_38.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "In many municipal systems, what color is the container used for paper and plastic recycling shown in the image?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_39.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "Identify the dominant color of the flower petals shown in this garden scene.",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_40.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What color makes up the majority of this parrot's plumage?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_41.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What color is the fitness equipment depicted in the image?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_42.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "Blue",
+    "question": "What color is the light emitted by the neon tubes in this display?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_43.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "Blue",
+    "question": "What color is the shallow water in this tropical paradise?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_44.png"
+  },
+  {
+    "intervened_output": "Green",
+    "correct_answer": "BLUE",
+    "question": "What is the primary color of the vast expanse above the horizon shown in the image?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_45.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "Looking at the bird's feathers, identify the most prominent hue.",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_46.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "Based on the visual evidence, what color characterizes these ripe berries?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_47.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "What is the main color of the deep water shown in this aerial view?",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_48.png"
+  },
+  {
+    "intervened_output": "Blue",
+    "correct_answer": "BLUE",
+    "question": "Identify the background color of this standard accessibility sign.",
+    "alpha": 500.0,
+    "chosen_concept": "blue",
+    "image_path": "curated_data/assessment/multimodal/BLUE_49.png"
+  }
+]
