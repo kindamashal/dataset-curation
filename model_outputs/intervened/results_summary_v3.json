@@ -1,0 +1,674 @@
+[
+  {
+    "file": "green_ablation_foi.json",
+    "pretty_name": "Ablate Green on Green",
+    "exp_type": "Ablation",
+    "target_concept": "green",
+    "steered_color": "green",
+    "alpha": 0.0,
+    "accuracy": 0.96,
+    "top_wrong": [
+      [
+        "pink",
+        1
+      ],
+      [
+        "red",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "red_inversion_100_foi_multianswer.json",
+    "pretty_name": "Invert Red on Red",
+    "exp_type": "Inversion",
+    "target_concept": "red",
+    "steered_color": "red",
+    "alpha": -100.0,
+    "accuracy": 0.04,
+    "top_wrong": [
+      [
+        "blue",
+        22
+      ],
+      [
+        "yellow",
+        3
+      ],
+      [
+        "whiteredyellowbluegreenredyellowwhitebluegreenredyellowwhitebluegreenred",
+        1
+      ],
+      [
+        "pale blue pale yellow pale green",
+        1
+      ],
+      [
+        "bright blue",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "red_baseline.json",
+    "pretty_name": "Baseline (red)",
+    "exp_type": "Baseline",
+    "target_concept": "red",
+    "steered_color": null,
+    "alpha": 1.0,
+    "accuracy": 0.92,
+    "top_wrong": [
+      [
+        "bright red",
+        3
+      ],
+      [
+        "anthocyanin",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "blue_inversion_red_q_100_foi_multianswer.json",
+    "pretty_name": "Invert Blue on Red",
+    "exp_type": "Inversion",
+    "target_concept": "red",
+    "steered_color": "blue",
+    "alpha": -100.0,
+    "accuracy": 0.52,
+    "top_wrong": [
+      [
+        "red yellow brown",
+        3
+      ],
+      [
+        "red yellow green",
+        2
+      ],
+      [
+        "rust",
+        2
+      ],
+      [
+        "golden brown red cinnamon rust amber sunset terracotta peach chocolate or burnt orange",
+        1
+      ],
+      [
+        "myoglobin",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "green_amplify_red_q_100_foi.json",
+    "pretty_name": "Amplify Green on Red (a=100)",
+    "exp_type": "Amplification",
+    "target_concept": "red",
+    "steered_color": "green",
+    "alpha": 100.0,
+    "accuracy": 0.92,
+    "top_wrong": [
+      [
+        "cherry",
+        1
+      ],
+      [
+        "white",
+        1
+      ],
+      [
+        "purple",
+        1
+      ],
+      [
+        "green",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "red_amplify_blue_q_100_foi.json",
+    "pretty_name": "Amplify Red on Blue (a=100)",
+    "exp_type": "Amplification",
+    "target_concept": "blue",
+    "steered_color": "red",
+    "alpha": 100.0,
+    "accuracy": 0.12,
+    "top_wrong": [
+      [
+        "red",
+        15
+      ],
+      [
+        "EMPTY",
+        15
+      ],
+      [
+        "white",
+        3
+      ],
+      [
+        "whale",
+        2
+      ],
+      [
+        "berry",
+        2
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "green_amplify_red_q_500_no_overlap_rb_foi.json",
+    "pretty_name": "Amplify Green on Red (a=500)",
+    "exp_type": "Amplification",
+    "target_concept": "red",
+    "steered_color": "green",
+    "alpha": 500.0,
+    "accuracy": 0.34,
+    "top_wrong": [
+      [
+        "blue",
+        22
+      ],
+      [
+        "green",
+        11
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "red_amplify_blue_q_500_foi_prompt_no_empty.json",
+    "pretty_name": "Amplify Red on Blue (a=500)",
+    "exp_type": "Amplification",
+    "target_concept": "blue",
+    "steered_color": "red",
+    "alpha": 500.0,
+    "accuracy": 0.0,
+    "top_wrong": [
+      [
+        "EMPTY",
+        48
+      ],
+      [
+        "red",
+        1
+      ],
+      [
+        "whale",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "green_amplify_blue_q_500_no_overlap_rb_foi.json",
+    "pretty_name": "Amplify Green on Blue (a=500)",
+    "exp_type": "Amplification",
+    "target_concept": "blue",
+    "steered_color": "green",
+    "alpha": 500.0,
+    "accuracy": 0.9,
+    "top_wrong": [
+      [
+        "green",
+        2
+      ],
+      [
+        "blues",
+        1
+      ],
+      [
+        "red",
+        1
+      ],
+      [
+        "bluetooth",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "red_inversion_100.json",
+    "pretty_name": "Invert Red on Red",
+    "exp_type": "Inversion",
+    "target_concept": "red",
+    "steered_color": "red",
+    "alpha": -100.0,
+    "accuracy": 0.84,
+    "top_wrong": [
+      [
+        "bright red",
+        2
+      ],
+      [
+        "yellow",
+        2
+      ],
+      [
+        "rust",
+        1
+      ],
+      [
+        "carotenoids",
+        1
+      ],
+      [
+        "colorless",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "gk_a12.json",
+    "pretty_name": "Baseline (yo)",
+    "exp_type": "Baseline",
+    "target_concept": "yo",
+    "steered_color": null,
+    "alpha": 1.0,
+    "accuracy": 0.84,
+    "top_wrong": [
+      [
+        "pacific",
+        2
+      ],
+      [
+        "roots",
+        2
+      ],
+      [
+        "100",
+        1
+      ],
+      [
+        "wheat",
+        1
+      ],
+      [
+        "edison",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "green_inversion_100_foi.json",
+    "pretty_name": "Invert Green on Green",
+    "exp_type": "Inversion",
+    "target_concept": "green",
+    "steered_color": "green",
+    "alpha": -100.0,
+    "accuracy": 0.08,
+    "top_wrong": [
+      [
+        "yellow",
+        33
+      ],
+      [
+        "golden",
+        7
+      ],
+      [
+        "orange",
+        4
+      ],
+      [
+        "red",
+        1
+      ],
+      [
+        "gleaming",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "red_ablation_foi.json",
+    "pretty_name": "Ablate Red on Red",
+    "exp_type": "Ablation",
+    "target_concept": "red",
+    "steered_color": "red",
+    "alpha": 0.0,
+    "accuracy": 0.94,
+    "top_wrong": [
+      [
+        "bright red",
+        3
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "green_amplify_red_q_500_foi.json",
+    "pretty_name": "Amplify Green on Red (a=500)",
+    "exp_type": "Amplification",
+    "target_concept": "red",
+    "steered_color": "green",
+    "alpha": 500.0,
+    "accuracy": 0.9,
+    "top_wrong": [
+      [
+        "republican",
+        1
+      ],
+      [
+        "stop",
+        1
+      ],
+      [
+        "white",
+        1
+      ],
+      [
+        "purple",
+        1
+      ],
+      [
+        "green",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "red_amplify_blue_q_500_foi_no_rb_overlap.json",
+    "pretty_name": "Amplify Red on Blue (a=500)",
+    "exp_type": "Amplification",
+    "target_concept": "blue",
+    "steered_color": "red",
+    "alpha": 500.0,
+    "accuracy": 0.04,
+    "top_wrong": [
+      [
+        "red",
+        24
+      ],
+      [
+        "crimson",
+        11
+      ],
+      [
+        "green",
+        6
+      ],
+      [
+        "azzurri translates to blues",
+        1
+      ],
+      [
+        "purple",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "red_amplify_blue_q_500_foi.json",
+    "pretty_name": "Amplify Red on Blue (a=500)",
+    "exp_type": "Amplification",
+    "target_concept": "blue",
+    "steered_color": "red",
+    "alpha": 500.0,
+    "accuracy": 0.02,
+    "top_wrong": [
+      [
+        "EMPTY",
+        45
+      ],
+      [
+        "red",
+        3
+      ],
+      [
+        "whale",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "blue_inversion_red_q_100_foi.json",
+    "pretty_name": "Invert Blue on Red",
+    "exp_type": "Inversion",
+    "target_concept": "red",
+    "steered_color": "blue",
+    "alpha": -100.0,
+    "accuracy": 0.8,
+    "top_wrong": [
+      [
+        "yellow",
+        4
+      ],
+      [
+        "rust",
+        3
+      ],
+      [
+        "golden",
+        1
+      ],
+      [
+        "orange",
+        1
+      ],
+      [
+        "gold",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "blue_ablation_foi.json",
+    "pretty_name": "Ablate Blue on Blue",
+    "exp_type": "Ablation",
+    "target_concept": "blue",
+    "steered_color": "blue",
+    "alpha": 0.0,
+    "accuracy": 0.88,
+    "top_wrong": [
+      [
+        "blues",
+        3
+      ],
+      [
+        "blueberry",
+        2
+      ],
+      [
+        "blueshift",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "green_amplify_red_q_100_no_overlap_foi.json",
+    "pretty_name": "Amplify Green on Red (a=100)",
+    "exp_type": "Amplification",
+    "target_concept": "red",
+    "steered_color": "green",
+    "alpha": 100.0,
+    "accuracy": 0.68,
+    "top_wrong": [
+      [
+        "blue",
+        12
+      ],
+      [
+        "green",
+        4
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "red_ablation.json",
+    "pretty_name": "Ablate Red on Red",
+    "exp_type": "Ablation",
+    "target_concept": "red",
+    "steered_color": "red",
+    "alpha": 0.0,
+    "accuracy": 0.92,
+    "top_wrong": [
+      [
+        "bright red",
+        3
+      ],
+      [
+        "anthocyanin",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "red_amplify_green_q_100_foi.json",
+    "pretty_name": "Amplify Red on Green (a=100)",
+    "exp_type": "Amplification",
+    "target_concept": "green",
+    "steered_color": "red",
+    "alpha": 100.0,
+    "accuracy": 0.14,
+    "top_wrong": [
+      [
+        "red",
+        19
+      ],
+      [
+        "EMPTY",
+        16
+      ],
+      [
+        "ruby",
+        2
+      ],
+      [
+        "proceed",
+        1
+      ],
+      [
+        "purple",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "blue_amplify_red_q_100_foi.json",
+    "pretty_name": "Amplify Blue on Red (a=100)",
+    "exp_type": "Amplification",
+    "target_concept": "red",
+    "steered_color": "blue",
+    "alpha": 100.0,
+    "accuracy": 0.2,
+    "top_wrong": [
+      [
+        "blue",
+        27
+      ],
+      [
+        "white",
+        12
+      ],
+      [
+        "clear",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "blue_amplify_green_q_100_foi.json",
+    "pretty_name": "Amplify Blue on Green (a=100)",
+    "exp_type": "Amplification",
+    "target_concept": "green",
+    "steered_color": "blue",
+    "alpha": 100.0,
+    "accuracy": 0.08,
+    "top_wrong": [
+      [
+        "blue",
+        24
+      ],
+      [
+        "white",
+        21
+      ],
+      [
+        "red",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "green_amplify_red_q_500_no_overlap_foi.json",
+    "pretty_name": "Amplify Green on Red (a=500)",
+    "exp_type": "Amplification",
+    "target_concept": "red",
+    "steered_color": "green",
+    "alpha": 500.0,
+    "accuracy": 0.46,
+    "top_wrong": [
+      [
+        "blue",
+        17
+      ],
+      [
+        "green",
+        8
+      ],
+      [
+        "raspberry",
+        1
+      ],
+      [
+        "ruby",
+        1
+      ]
+    ],
+    "total": 50
+  },
+  {
+    "file": "red_inversion_100_foi.json",
+    "pretty_name": "Invert Red on Red",
+    "exp_type": "Inversion",
+    "target_concept": "red",
+    "steered_color": "red",
+    "alpha": -100.0,
+    "accuracy": 0.1,
+    "top_wrong": [
+      [
+        "blue",
+        31
+      ],
+      [
+        "yellow",
+        11
+      ],
+      [
+        "green",
+        1
+      ],
+      [
+        "white",
+        1
+      ],
+      [
+        "pink",
+        1
+      ]
+    ],
+    "total": 50
+  }
+]
