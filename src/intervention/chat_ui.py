@@ -188,10 +188,11 @@ def intervene_hook(layer_id, feature_indices, alpha):
 
 @app.get("/")
 async def get_index(request: Request):
-    return templates.TemplateResponse("index.html", {
-        "request": request,
-        "feature_sets": list(FEATURE_SETS.keys())
-    })
+    return templates.TemplateResponse(
+        request=request,
+        name="index.html",
+        context={"feature_sets": list(FEATURE_SETS.keys())}
+    )
 
 @app.post("/intervene")
 async def post_intervene(
@@ -255,7 +256,7 @@ async def post_intervene(
             return_dict=True,
             return_tensors="pt",
             padding=True,
-        ).to(model.device)
+        ).to(model.device, dtype=model.dtype)
 
         with torch.inference_mode():
             output_ids = model.generate(
