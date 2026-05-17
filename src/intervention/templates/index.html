@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemma-3 Intervention Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="window">
+        <div class="title-bar">
+            <div class="title-bar-text">Gemma-3 Intervention Terminal</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize">_</button>
+                <button aria-label="Maximize">[]</button>
+                <button aria-label="Close">X</button>
+            </div>
+        </div>
+        <div class="window-body">
+            <div class="fieldset">
+                <div class="fieldset-legend">Parameters</div>
+                <div class="control-group">
+                    <label for="concept">Concept:</label>
+                    <select id="concept">
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label for="feature_set">Feature Set:</label>
+                    <select id="feature_set">
+                        {% for name in feature_sets %}
+                        <option value="{{ name }}">{{ name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label for="alpha">Alpha:</label>
+                    <input type="number" id="alpha" value="1.0" step="0.1">
+                </div>
+            </div>
+
+            <div class="fieldset">
+                <div class="fieldset-legend">System Prompt</div>
+                <textarea id="system_prompt" rows="2">Answer the following question with exactly one word, no empty strings. Do not add any extra text or special characters.</textarea>
+            </div>
+
+            <div id="chat_area" class="chat-area">
+                <!-- Messages will appear here -->
+            </div>
+
+            <div class="fieldset">
+                <div class="fieldset-legend">Input</div>
+                <div class="control-group">
+                    <input type="text" id="user_input" placeholder="Type your question here..." style="flex-grow: 1; margin-right: 10px;">
+                    <input type="file" id="image_upload" accept="image/*" style="width: 200px;">
+                    <button id="send_btn">Send</button>
+                </div>
+            </div>
+        </div>
+        <div class="status-bar">
+            <div class="status-field" id="status">Ready</div>
+            <div class="status-field">Model: Gemma-3-27B</div>
+            <div class="status-field">VRAM: Monitoring...</div>
+        </div>
+    </div>
+
+    <script>
+        const chatArea = document.getElementById('chat_area');
+        const userInput = document.getElementById('user_input');
+        const imageUpload = document.getElementById('image_upload');
+        const sendBtn = document.getElementById('send_btn');
+        const status = document.getElementById('status');
+
+        async function sendMessage() {
+            const text = userInput.value;
+            const file = imageUpload.files[0];
+            const concept = document.getElementById('concept').value;
+            const featureSet = document.getElementById('feature_set').value;
+            const alpha = document.getElementById('alpha').value;
+            const systemPrompt = document.getElementById('system_prompt').value;
+
+            if (!text && !file) return;
+
+            // Add user message to UI
+            const userMsg = document.createElement('div');
+            userMsg.className = 'message user';
+            userMsg.textContent = `User: ${text || '[Image]'}`;
+            chatArea.appendChild(userMsg);
+            chatArea.scrollTop = chatArea.scrollHeight;
+
+            userInput.value = '';
+            status.textContent = 'Processing...';
+            sendBtn.disabled = true;
+
+            const formData = new FormData();
+            formData.append('text', text);
+            if (file) formData.append('image', file);
+            formData.append('concept', concept);
+            formData.append('feature_set', featureSet);
+            formData.append('alpha', alpha);
+            formData.append('system_prompt', systemPrompt);
+
+            try {
+                const response = await fetch('/intervene', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await response.json();
+
+                const botMsg = document.createElement('div');
+                botMsg.className = 'message bot';
+                botMsg.textContent = `Gemma: ${data.output}`;
+                chatArea.appendChild(botMsg);
+                chatArea.scrollTop = chatArea.scrollHeight;
+                status.textContent = 'Ready';
+            } catch (error) {
+                console.error(error);
+                status.textContent = 'Error occurred';
+            } finally {
+                sendBtn.disabled = false;
+            }
+        }
+
+        sendBtn.addEventListener('click', sendMessage);
+        userInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendMessage();
+        });
+    </script>
+</body>
+</html>

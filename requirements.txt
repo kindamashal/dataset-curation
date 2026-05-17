@@ -15,3 +15,7 @@ torch
 torchvision
 jsonref
 python-dotenv
+fastapi
+uvicorn
+python-multipart
+jinja2
