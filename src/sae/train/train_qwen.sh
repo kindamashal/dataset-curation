@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare -a arr=("5 10 15 20 25 30 32")
+declare -a arr=(5 10 15 20 25 30 32)
 
 for i in "${arr[@]}"
 do

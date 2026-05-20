@@ -79,6 +79,7 @@ def live_multimodal_buffer(dataset, model, processor, sae_batch_size=8192, vlm_b
             tokenize=True,
             add_generation_prompt=True,
             return_dict=True,
+            padding=True,
             return_tensors="pt"
         )
         inputs = inputs.to(model.device)
